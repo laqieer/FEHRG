@@ -50,14 +50,14 @@ LIBTONC	:= $(DEVKITPRO)/libtonc
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lmm -lgba -ltonc
+LIBS	:= -lgba -ltonc
 
 
 #---------------------------------------------------------------------------------
 # list of directories containing libraries, this must be the top level containing
 # include and lib
 #---------------------------------------------------------------------------------
-LIBDIRS	:=	$(LIBGBA) $(LIBTONC)
+LIBDIRS	:=	$(LIBGBA) $(LIBTONC) $(DEVKITARM)/arm-none-eabi
 
 #---------------------------------------------------------------------------------
 # no real need to edit anything past this point unless you need to add additional
