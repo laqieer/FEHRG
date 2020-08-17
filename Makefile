@@ -111,7 +111,7 @@ export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
 
 export LDSFILES	:=	$(foreach dir,$(LDSCRIPTS),$(notdir $(wildcard $(dir)/*.lds)))
 
-.PHONY: $(BUILD) clean
+.PHONY: $(BUILD) clean .FORCE
 
 #---------------------------------------------------------------------------------
 $(BUILD):
@@ -137,6 +137,10 @@ $(OUTPUT).elf	:	$(OFILES) $(LDSFILES)
 	$(SILENTMSG) linking cartridge
 	$(SILENTCMD)$(LD)  $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@ -T $(LDSCRIPTS)/main.lds
 	$(SILENTCMD)$(OBJCOPY) --set-section-flags .rom="r,c,a" $@
+
+version.o : .FORCE
+
+.FORCE:
 
 $(OFILES_SOURCES) : $(HFILES)
 
