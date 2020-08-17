@@ -10,8 +10,7 @@ A hack based on Fire Emblem 7 Japanese version.
 [devkitpro](https://devkitpro.org/)
 
 ## Baserom
-0979 - Fire Emblem - Rekka no Ken
-md5: 9485f273f4e97e9e8f21966407f2e782
+0979 - Fire Emblem - Rekka no Ken (md5: 9485f273f4e97e9e8f21966407f2e782)
 
 ## Build
 1. Put `baserom.gba` in project directory
