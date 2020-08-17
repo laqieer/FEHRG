@@ -1,0 +1,7 @@
+container:
+  image: devkitpro/devkitarm
+task:
+  baserom_script:
+    - head -c 16MB /dev/urandom > baserom.gba
+  make_script:
+    - make

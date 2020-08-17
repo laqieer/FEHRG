@@ -1,0 +1,23 @@
+version: 2.1
+executors:
+  my-executor:
+    docker:
+      - image: devkitpro/devkitarm
+jobs:
+  build:
+    executor: my-executor
+    working_directory: ~/FEHRG
+    steps:
+    - checkout
+    - run:
+        name: Baserom
+        command: |
+          head -c 16MB /dev/urandom > baserom.gba
+    - run:
+          name: Make
+          command: |
+            make
+workflows:
+  nightly:
+    jobs:
+    - build
