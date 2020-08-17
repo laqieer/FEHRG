@@ -93,3 +93,7 @@ tags
 *.sg?
 *.elf
 build/
+
+# YCM
+compile_commands.json
+.clangd/
