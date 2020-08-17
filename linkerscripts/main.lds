@@ -1,5 +1,7 @@
 ENTRY(_start)
 
+INCLUDE ../linkerscripts/functions.lds
+
 SECTIONS
 {
     . = 0x203F040;
