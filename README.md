@@ -1,5 +1,7 @@
 # Fire Emblem Heroes Remake Gaiden
 
+[![CircleCI](https://circleci.com/gh/laqieer/FEHRG.svg?style=svg)](https://app.circleci.com/pipelines/github/laqieer/FEHRG) [![CirrusCI](https://api.cirrus-ci.com/github/laqieer/FEHRG.svg)](https://cirrus-ci.com/github/laqieer/FEHRG)
+
 Fire Emblem Heroes Remake Gaiden (Paralogue Maps / Side Story) on Game Boy Advance.
 
 A hack based on Fire Emblem 7 Japanese version.
