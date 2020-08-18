@@ -25,7 +25,6 @@ BUILD		:= build
 SOURCES		:= source
 INCLUDES	:= include
 DATA		:=
-GRAPHICS	:= graphic
 LDSCRIPTS	:= ../linkerscript
 
 #---------------------------------------------------------------------------------
@@ -48,10 +47,12 @@ LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(notdir $*.map) -nostartfiles
 
 LIBTONC	:= $(DEVKITPRO)/libtonc
 
+GFXLIBS     ?= libgfx.a
+
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lgba -ltonc
+LIBS	:= -lgba -ltonc -lgfx
 
 
 #---------------------------------------------------------------------------------
@@ -108,7 +109,7 @@ export INCLUDE	:=	$(foreach dir,$(INCLUDES),-iquote $(CURDIR)/$(dir)) \
 					$(foreach dir,$(LIBDIRS),-I$(dir)/include) \
 					-I$(CURDIR)/$(BUILD)
 
-export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib)
+export LIBPATHS	:=	$(foreach dir,$(LIBDIRS),-L$(dir)/lib) -L$(DEPSDIR)
 
 export LDSFILES	:=	$(foreach dir,$(LDSCRIPTS),$(notdir $(wildcard $(dir)/*.lds)))
 
@@ -117,6 +118,7 @@ export LDSFILES	:=	$(foreach dir,$(LDSCRIPTS),$(notdir $(wildcard $(dir)/*.lds))
 #---------------------------------------------------------------------------------
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
+	@make --no-print-directory -f $(CURDIR)/make.d/gfxmake
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
 #---------------------------------------------------------------------------------
@@ -134,7 +136,7 @@ else
 
 $(OUTPUT).gba	:	$(OUTPUT).elf
 
-$(OUTPUT).elf	:	$(OFILES) $(LDSFILES)
+$(OUTPUT).elf	:	$(OFILES) $(LDSFILES) $(GFXLIBS)
 	$(SILENTMSG) linking cartridge
 	$(SILENTCMD)$(LD)  $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@ -T $(LDSCRIPTS)/main.lds
 	$(SILENTCMD)$(OBJCOPY) --set-section-flags .rom="r,c,a" $@

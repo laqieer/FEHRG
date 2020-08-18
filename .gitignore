@@ -97,3 +97,6 @@ build/
 # YCM
 compile_commands.json
 .clangd/
+
+# Makefile
+!make.d/
