@@ -1,6 +1,6 @@
 ENTRY(_start)
 
-INCLUDE ../linkerscripts/functions.lds
+INCLUDE ../linkerscript/functions.lds
 
 SECTIONS
 {

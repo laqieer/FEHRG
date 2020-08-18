@@ -25,7 +25,8 @@ BUILD		:= build
 SOURCES		:= source
 INCLUDES	:= include
 DATA		:=
-LDSCRIPTS	:= ../linkerscripts
+GRAPHICS	:= graphic
+LDSCRIPTS	:= ../linkerscript
 
 #---------------------------------------------------------------------------------
 # options for code generation
