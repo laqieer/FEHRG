@@ -4,6 +4,8 @@
 
 Fire Emblem Heroes Remake Gaiden (Paralogue Maps / Side Story) on Game Boy Advance.
 
+![title screen](graphic/title_screen_background.png)
+
 A hack based on Fire Emblem 7 Japanese version.
 
 ## Dependancy
