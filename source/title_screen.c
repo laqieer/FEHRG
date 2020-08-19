@@ -53,3 +53,6 @@ const struct ProcCmd titleScreenScriptPiece[] = {
         PROC_CALL(showTitleScreenBackground)
 };
 
+cu8 alwaysStayInTitleScreen = 0xe0;
+
+cu16 enterTitleScreenWithoutOP = 0;
