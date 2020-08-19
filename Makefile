@@ -43,7 +43,7 @@ CFLAGS	+=	$(INCLUDE) $(HACK)
 CXXFLAGS	:=	$(CFLAGS) -fno-rtti -fno-exceptions
 
 ASFLAGS	:=	-g $(ARCH)
-LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(notdir $*.map) -nostartfiles
+LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(notdir $(OUTPUT).map) -nostartfiles
 
 LIBTONC	:= $(DEVKITPRO)/libtonc
 
@@ -139,7 +139,7 @@ $(OUTPUT).gba	:	$(OUTPUT).elf
 $(OUTPUT).elf	:	$(OFILES) $(LDSFILES) $(GFXLIBS)
 	$(SILENTMSG) linking cartridge
 	$(SILENTCMD)$(LD)  $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@ -T $(LDSCRIPTS)/main.lds
-	$(SILENTCMD)$(OBJCOPY) --set-section-flags .rom="r,c,a" $@
+	$(SILENTCMD)$(OBJCOPY) --set-section-flags .baserom="r,c,a" $@
 
 version.o : .FORCE
 
