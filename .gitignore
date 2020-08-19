@@ -100,3 +100,6 @@ compile_commands.json
 
 # Makefile
 !make.d/
+
+# Screenshot
+FEHRG-*.png
