@@ -32,9 +32,15 @@ void ProcFindBegin(struct ProcFindIterator* it, const struct ProcCmd* script);
 ProcPtr ProcFindNext(struct ProcFindIterator* it);
 
 /* Title screen. */
+
 void ShowTitleScreenOBJ(struct Proc *proc, bool atLeftHalf); // OBJ's X position = atLeftHalf ? 0: 0x100
 void FUN_08014714(ProcPtr proc);
 void FUN_080bb29c(ProcPtr proc);
 void FUN_080ab5e0(ProcPtr proc);
 void FUN_080bb3ec(ProcPtr proc);
 void FUN_080bb46c(ProcPtr proc);
+
+/* BGM. */
+
+void SetBgmVolume(u16 volume);
+void ChangeBgm(u32 bgmId);

@@ -51,3 +51,8 @@ BG0MapAddr = 0x2024C60;
 BG1MapAddr = 0x2024C64;
 BG2MapAddr = 0x2024C68;
 BG3MapAddr = 0x2024C6C;
+
+/* Map BGM. */
+
+CurrentBgmId = 0x2024E14;
+DAT_0202bbb8 = 0x202bbb8;

@@ -57,3 +57,8 @@ extern vu8 BG3MapBuffer[0x800];
 /* Proc. */
 
 extern struct Proc* ProcTreeRoots[8];
+
+/* Map BGM. */
+
+extern u32 CurrentBgmId;
+extern u8 DAT_0202bbb8;
