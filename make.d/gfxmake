@@ -137,31 +137,39 @@ $(GFXHDR) : $(OFILES)
 # --- With separate .grit file ---
 
 %.s %.h : %.png %.grit
-	$(GRIT) $< -fts
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts
 
 %.s %.h : %.bmp %.grit
-	$(GRIT) $< -fts
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts
 
 %.s %.h : %.pcx %.grit
-	$(GRIT) $< -fts
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts
 
 %.s %.h : %.jpg %.grit
-	$(GRIT) $< -fts
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts
 
 
 # --- Without .grit file ; uses dirname/dirname.grit for options ---
 
 %.s %.h : %.png
-	$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
 
 %.s %.h : %.bmp
-	$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
 
 %.s %.h : %.pcx
-	$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
 
 %.s %.h : %.jpg
-	$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(GRIT) $< -fts -ff $(<D)/$(notdir $(<D)).grit
 
 
 # ---------------------------------------------------------------------
