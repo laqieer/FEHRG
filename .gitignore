@@ -103,3 +103,6 @@ compile_commands.json
 
 # Screenshot
 FEHRG-*.png
+
+# Log
+*.log

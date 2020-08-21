@@ -44,3 +44,7 @@ void FUN_080bb46c(ProcPtr proc);
 
 void SetBgmVolume(u16 volume);
 void ChangeBgm(u32 bgmId);
+
+/* Main. */
+
+void AgbMain();
