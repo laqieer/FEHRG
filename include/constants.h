@@ -1,3 +1,5 @@
 #pragma once
 
 #define BYTES_PER_WORD 4
+#define BYTES_PER_HWORD 2
+#define BYTES_PER_COLOR BYTES_PER_HWORD

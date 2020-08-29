@@ -59,6 +59,7 @@ struct ProcCmd
     u8 flags;                                                                         \
     u8 lockCnt; /* wait semaphore. Process execution */                               \
                      /* is blocked when this is nonzero. */                                \
+    u8 paddings[3];
 
 // general Proc struct for use in proc.c when initializing and using the proc.
 struct Proc

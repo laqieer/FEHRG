@@ -48,3 +48,11 @@ void ChangeBgm(u32 bgmId);
 /* Main. */
 
 void AgbMain();
+
+/* Graphic. */
+
+void CopyToPaletteBuffer(u16 *src,u32 offset,u32 size);
+void PutSpriteExt(int layer,u32 xOam1,u32 yOam0,u16 *object,u32 oam2);
+
+/* Portrait. */
+void SetPortraitSprite(struct Proc *proc);

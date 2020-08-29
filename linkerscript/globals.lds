@@ -56,3 +56,9 @@ BG3MapAddr = 0x2024C6C;
 
 CurrentBgmId = 0x2024E14;
 DAT_0202bbb8 = 0x202bbb8;
+
+/* Portrait. */
+
+PortraitSpaces = 0x202a580;
+Portraits = 0x8d5e23c;
+portraitTiles = 0x6013000;

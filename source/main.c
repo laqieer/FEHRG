@@ -2,6 +2,7 @@
 #include <tonc.h>
 #include "proc.h"
 #include "functions.h"
+#include "util.h"
 
 extern const char version[];
 
