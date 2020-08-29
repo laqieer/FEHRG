@@ -91,6 +91,7 @@ tags
 *.gba
 *.sa?
 *.sg?
+*.ss?
 *.elf
 build/
 
