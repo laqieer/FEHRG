@@ -4,3 +4,4 @@ INCLUDE ../linkerscript/bgm.lds
 INCLUDE ../linkerscript/game_mode_selection.lds
 INCLUDE ../linkerscript/game_start.lds
 INCLUDE ../linkerscript/portrait.lds
+INCLUDE ../linkerscript/event.lds
