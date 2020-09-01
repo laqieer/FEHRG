@@ -1,7 +1,6 @@
 #include <tonc.h>
-#include "proc.h"
-#include "globals.h"
-#include "functions.h"
+
+#include "common.h"
 
 void playBgmCore(u32 bgmId,u16 volume)
 {

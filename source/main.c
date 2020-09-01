@@ -1,8 +1,6 @@
-#include "AGBPrint.h"
 #include <tonc.h>
-#include "proc.h"
-#include "functions.h"
-#include "util.h"
+
+#include "common.h"
 
 extern const char version[];
 

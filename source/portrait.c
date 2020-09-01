@@ -1,12 +1,9 @@
 #include <tonc.h>
-#include "proc.h"
-#include "AGBPrint.h"
-#include "functions.h"
-#include "util.h"
-#include "portrait.h"
-#include "globals.h"
-#include "constants.h"
+
+#include "common.h"
 #include "all_gfx.h"
+
+#include "portrait.h"
 
 void allocatePortraitSpaceCore(struct PortraitSpace *portraitSpaces)
 {

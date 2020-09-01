@@ -1,9 +1,6 @@
 #include <tonc.h>
-#include "proc.h"
-#include "globals.h"
-#include "functions.h"
-#include "constants.h"
-#include "util.h"
+
+#include "common.h"
 
 void keepBitmapInBgMaps()
 {

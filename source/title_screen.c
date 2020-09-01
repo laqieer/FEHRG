@@ -1,11 +1,8 @@
 // Game title screen.
 
 #include <tonc.h>
-#include "proc.h"
-#include "functions.h"
-#include "globals.h"
-#include "constants.h"
-#include "util.h"
+
+#include "common.h"
 #include "all_gfx.h"
 
 void showTitleScreenBackground()
