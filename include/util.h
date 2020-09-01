@@ -16,3 +16,7 @@
 #endif
 
 void keepBitmapInBgMaps();
+void setBasePaletteSlotForTiles256(vu16 *tiles, u32 size, u8 basePaletteSlot);
+void putBgMap16BySize(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseTileNum, u8 basePaletteSlot);
+void putBgMap256BySize(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseTileNum);
+void syncBgById(u8 n);

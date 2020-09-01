@@ -61,4 +61,5 @@ DAT_0202bbb8 = 0x202bbb8;
 
 PortraitSpaces = 0x202a580;
 Portraits = 0x8d5e23c;
-portraitTiles = 0x6013000;
+portraitObjTiles = 0x6013000;
+SCRIPT_8bffa20 = 0x8bffa20;

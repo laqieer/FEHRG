@@ -11,8 +11,8 @@ struct Portrait {
 	const u32 *classCard;
 	s8 mouthX;
 	s8 mouthY;
-	s8 eyeX;
-	s8 eyeY;
+	s8 bgX;
+	s8 bgY;
     const u16 *palette16;
 };
 
@@ -50,16 +50,22 @@ struct PortraitSpace {
 
 extern struct PortraitSpace PortraitSpaces[MAX_PORTRAIT_AMOUNT];
 
-#define PORTRAIT_TILE_OFFSET 0x3000
-#define PORTRAIT_PALETTE_SLOT 6
+#define PORTRAIT_OBJ_TILE_OFFSET 0x3000
+#define PORTRAIT_OBJ_PALETTE_SLOT 6
+#define PORTRAIT_BG_PALETTE_SLOT 10
 
 extern const struct Portrait Portraits[];
 extern const struct Portrait newPortraits[];
 
-#define PORTRAIT_WIDTH 128
-#define PORTRAIT_HEIGHT 128
+#define PORTRAIT_OBJ_WIDTH 128
+#define PORTRAIT_OBJ_HEIGHT 128
+#define PORTRAIT_BG_WIDTH_BY_TILE 10
+#define PORTRAIT_BG_HEIGHT_BY_TILE 9
 
 void PlayMouthAnimation(struct MouthAnimationProc *proc);
 void DecompressPortraitTiles(struct PortraitProc *proc);
 
-extern vu16 portraitTiles[];
+extern vu16 portraitObjTiles[];
+
+extern const struct ProcCmd SCRIPT_8bffa20[];
+

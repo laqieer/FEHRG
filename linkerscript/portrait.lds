@@ -22,3 +22,11 @@
 .rodata.textBoxPalette1 : {*(.rodata.textBoxPalette1)}
 . = 0x8008444;
 .rodata.textBoxPalette2 : {*(.rodata.textBoxPalette2)}
+. = 0x8007354;
+.text.displayPortraitInStatScreen : {*(.text.displayPortraitInStatScreen)}
+. = 0x8080600;
+.text.removeStatBar : {*(.text.removeStatBar)}
+. = 0x8080e20;
+.rodata.removePage1BattleStatBg : {*(.rodata.removePage1BattleStatBg)}
+. = 0x8080ef0;
+.rodata.removePage1EquippedItemBg : {*(.rodata.removePage1EquippedItemBg)}

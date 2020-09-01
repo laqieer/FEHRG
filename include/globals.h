@@ -45,14 +45,14 @@ extern vu32 BG3YBuffer;
 
 /* Video. */
 
-extern vu8 *BG0MapAddr;
-extern vu8 *BG1MapAddr;
-extern vu8 *BG2MapAddr;
-extern vu8 *BG3MapAddr;
-extern vu8 BG0MapBuffer[0x800];
-extern vu8 BG1MapBuffer[0x800];
-extern vu8 BG2MapBuffer[0x800];
-extern vu8 BG3MapBuffer[0x800];
+extern vu16 *BG0MapAddr;
+extern vu16 *BG1MapAddr;
+extern vu16 *BG2MapAddr;
+extern vu16 *BG3MapAddr;
+extern vu16 BG0MapBuffer[0x400];
+extern vu16 BG1MapBuffer[0x400];
+extern vu16 BG2MapBuffer[0x400];
+extern vu16 BG3MapBuffer[0x400];
 
 /* Proc. */
 
