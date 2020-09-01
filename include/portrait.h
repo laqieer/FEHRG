@@ -4,16 +4,13 @@ struct Portrait {
 	const u32 *tiles;
 	const u32 *mini;
 	const u16 *palette;
-    union {
-	    const u16 *mouthFrames;
-        const u16 *palette64;
-    };
+	const u16 *mouthFrames;
 	const u32 *classCard;
 	s8 mouthX;
 	s8 mouthY;
 	s8 bgX;
 	s8 bgY;
-    const u16 *palette16;
+    const u16 *paletteForMini;
 };
 
 struct PortraitProc {
@@ -69,3 +66,4 @@ extern vu16 portraitObjTiles[];
 
 extern const struct ProcCmd SCRIPT_8bffa20[];
 
+extern const u8 MiniPortraitMap[];

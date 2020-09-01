@@ -30,3 +30,7 @@
 .rodata.removePage1BattleStatBg : {*(.rodata.removePage1BattleStatBg)}
 . = 0x8080ef0;
 .rodata.removePage1EquippedItemBg : {*(.rodata.removePage1EquippedItemBg)}
+. = 0x8006e10;
+.text.drawMiniPortraitInBg : {*(.text.drawMiniPortraitInBg)}
+. = 0x8006f3f;
+.rodata.fixPaletteForMiniPortraitInObj : {*(.rodata.fixPaletteForMiniPortraitInObj)}

@@ -59,3 +59,6 @@ void SyncBgByFlag(u8 flag);
 /* Portrait. */
 void SetPortraitSprite(struct Proc *proc);
 void DrawPortraitInBg(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot);
+void LoadMiniPortraitGfx(int portraitId, u32 baseTileNum, u8 basePaletteSlot);
+void LoadMiniPortraitMap(u16 *mapBuffer, const u8 *map, u16 baseVal, bool flag);
+void DrawMiniPortraitInObj(int portraitId, u32 baseTileNum, u8 basePaletteSlot);

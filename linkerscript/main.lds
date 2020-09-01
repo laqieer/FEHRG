@@ -2,6 +2,7 @@ ENTRY(_start)
 
 INCLUDE ../linkerscript/functions.lds
 INCLUDE ../linkerscript/globals.lds
+INCLUDE ../linkerscript/data.lds
 
 SECTIONS
 {

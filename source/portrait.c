@@ -58,7 +58,7 @@ void setPortraitTiles(struct PortraitProc *proc)
 
     if(isPortrait64(proc->portaritId))
     {
-        CopyToPaletteBuffer((u16 *)proc->portrait->palette64, PAL_BG_SIZE + BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * PORTRAIT_OBJ_PALETTE_SLOT, BYTES_PER_COLOR * 64);
+        CopyToPaletteBuffer((u16 *)proc->portrait->palette, PAL_BG_SIZE + BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * PORTRAIT_OBJ_PALETTE_SLOT, BYTES_PER_COLOR * 64);
         setBasePaletteSlotForTiles256(portraitObjTiles, PORTRAIT_OBJ_WIDTH * PORTRAIT_OBJ_HEIGHT, PORTRAIT_OBJ_PALETTE_SLOT);
     }
 }
@@ -124,7 +124,7 @@ void drawPortraitInBg64(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 base
     int x;
     const struct Portrait *portrait = getPortraitByIdCore(portraitId);
 
-    CopyToPaletteBuffer((u16 *)portrait->palette64, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * basePaletteSlot, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * 4);
+    CopyToPaletteBuffer((u16 *)portrait->palette, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * basePaletteSlot, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * 4);
     SmartDecompress((void *)portrait->tiles, &tile_mem[0][baseTileNum]);
     setBasePaletteSlotForTiles256((vu16 *)&tile_mem[0][baseTileNum], PORTRAIT_OBJ_WIDTH * PORTRAIT_OBJ_HEIGHT, PORTRAIT_BG_PALETTE_SLOT);
     x = portrait->bgX;
@@ -138,7 +138,7 @@ void drawPortraitInBg64(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 base
 
 void drawPortraitInBg(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot)
 {
-    if(isPortraitNew(portraitId))
+    if(isPortrait64(portraitId))
     {
         drawPortraitInBg64(mapBuffer, portraitId, baseTileNum, PORTRAIT_BG_PALETTE_SLOT);
     }
@@ -181,3 +181,29 @@ void removeStatBar()
 const u16 removePage1BattleStatBg[9] = {0};
 
 const u32 removePage1EquippedItemBg = 0;
+
+void fixPaletteForMiniPortrait(int portraitId, u8 basePaletteSlot)
+{
+    if(portraitId < 0x7f00 && isPortrait64(portraitId))
+    {
+        CopyToPaletteBuffer((u16 *)getPortraitByIdCore(portraitId)->paletteForMini, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * basePaletteSlot, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT);
+    }
+}
+
+void drawMiniPortraitInBgCore(int portraitId, u16 *mapBuffer, u32 baseTileNum, u8 basePaletteSlot, bool flag)
+{
+    LoadMiniPortraitGfx(portraitId, baseTileNum, basePaletteSlot);
+    fixPaletteForMiniPortrait(portraitId, basePaletteSlot);
+    LoadMiniPortraitMap(mapBuffer, MiniPortraitMap, SE_BUILD(baseTileNum, basePaletteSlot, 0, 0), flag);
+}
+
+void drawMiniPortraitInBg(int portraitId, u16 *mapBuffer, u32 baseTileNum, u8 basePaletteSlot, bool flag)
+{
+    drawMiniPortraitInBgCore(portraitId, mapBuffer, baseTileNum, basePaletteSlot, flag);
+}
+
+// Fix palette for mini portrait in DrawMiniPortraitInObj
+// a8 68: ldr r0, [r5, #8] @ portrait->palette
+// a8 69: ldr r0, [r5, #24] @ portrait->paletteForMini
+const u8 fixPaletteForMiniPortraitInObj = 0x69;
+
