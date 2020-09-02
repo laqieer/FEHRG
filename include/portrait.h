@@ -1,16 +1,16 @@
 #pragma once
 
 struct Portrait {
-	const u32 *tiles;
-	const u32 *mini;
-	const u16 *palette;
-	const u16 *mouthFrames;
-	const u32 *classCard;
+	cu32 *tiles;
+	cu32 *mini;
+	cu16 *palette;
+	cu16 *mouthFrames;
+	cu32 *classCard;
 	s8 mouthX;
 	s8 mouthY;
 	s8 bgX;
 	s8 bgY;
-    const u16 *paletteForMini;
+    cu16 *paletteForMini;
 };
 
 struct PortraitProc {
@@ -66,4 +66,4 @@ extern vu16 portraitObjTiles[];
 
 extern const struct ProcCmd SCRIPT_8bffa20[];
 
-extern const u8 MiniPortraitMap[];
+extern cu8 MiniPortraitMap[];

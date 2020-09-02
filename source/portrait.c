@@ -63,7 +63,7 @@ void setPortraitTiles(struct PortraitProc *proc)
 const struct ProcCmd setPortraitTilesCmd1 = PROC_CALL(setPortraitTiles);
 const struct ProcCmd setPortraitTilesCmd2 = PROC_CALL(setPortraitTiles);
 
-const u16 newPortraitObject[] = {
+cu16 newPortraitObject[] = {
     4,
     0 | ATTR0_SQUARE, ATTR1_BUILDR(-64, 3, 0, 0), 0,
     0 | ATTR0_SQUARE, 0 | ATTR1_SIZE_64, 16,
@@ -111,10 +111,10 @@ void playMouthAnimation(struct MouthAnimationProc *proc)
 const struct ProcCmd playMouthAnimationCmd = PROC_REPEAT(playMouthAnimation);
 
 // Remove sharp corner of text box.
-const u32 * const textBoxTiles1 = text_boxTiles;
-const u32 * const textBoxTiles2 = text_boxTiles;
-const u16 * const textBoxPalette1 = text_boxPal;
-const u16 * const textBoxPalette2 = text_boxPal;
+cu32 * const textBoxTiles1 = text_boxTiles;
+cu32 * const textBoxTiles2 = text_boxTiles;
+cu16 * const textBoxPalette1 = text_boxPal;
+cu16 * const textBoxPalette2 = text_boxPal;
 
 void drawPortraitInBg64(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot)
 {
@@ -175,9 +175,9 @@ void removeStatBar()
 
 }
 
-const u16 removePage1BattleStatBg[9] = {0};
+cu16 removePage1BattleStatBg[9] = {0};
 
-const u32 removePage1EquippedItemBg = 0;
+cu32 removePage1EquippedItemBg = 0;
 
 void fixPaletteForMiniPortrait(int portraitId, u8 basePaletteSlot)
 {
