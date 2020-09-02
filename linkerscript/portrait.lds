@@ -34,3 +34,10 @@
 .text.drawMiniPortraitInBg : {*(.text.drawMiniPortraitInBg)}
 . = 0x8006f3f;
 .rodata.fixPaletteForMiniPortraitInObj : {*(.rodata.fixPaletteForMiniPortraitInObj)}
+. = 0x802b596;
+.rodata.removeSelfPortraitInTradeMenuLowHword : {*(.rodata.removeSelfPortraitInTradeMenuLowHword)}
+.rodata.removeSelfPortraitInTradeMenuHighHword : {*(.rodata.removeSelfPortraitInTradeMenuHighHword)}
+. = 0x802b5ac;
+.rodata.removeTargetPortraitInTradeMenu : {*(.rodata.removeTargetPortraitInTradeMenu)}
+. = 0x8069b6c;
+.rodata.removePortraitInLevelUpAndClassChange : {*(.rodata.removePortraitInLevelUpAndClassChange)}

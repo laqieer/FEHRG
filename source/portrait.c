@@ -202,5 +202,10 @@ void drawMiniPortraitInBg(int portraitId, u16 *mapBuffer, u32 baseTileNum, u8 ba
 // Fix palette for mini portrait in DrawMiniPortraitInObj
 // a8 68: ldr r0, [r5, #8] @ portrait->palette
 // a8 69: ldr r0, [r5, #24] @ portrait->paletteForMini
-const u8 fixPaletteForMiniPortraitInObj = 0x69;
+cu8 fixPaletteForMiniPortraitInObj = 0x69;
 
+cu16 removeSelfPortraitInTradeMenuLowHword = 0;
+cu16 removeSelfPortraitInTradeMenuHighHword = 0;
+cu32 removeTargetPortraitInTradeMenu = 0;
+
+cu32 removePortraitInLevelUpAndClassChange = 0;
