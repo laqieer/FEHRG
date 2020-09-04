@@ -50,7 +50,8 @@ CREATE TABLE public.map_units (
     spawn_count smallint,
     spawn_turns smallint,
     spawn_target_remain smallint,
-    spawn_target_kills smallint
+    spawn_target_kills smallint,
+    map_config character varying(10) NOT NULL
 );
 
 
