@@ -49,10 +49,12 @@ LIBTONC	:= $(DEVKITPRO)/libtonc
 
 GFXLIBS     ?= libgfx.a
 
+SFXLIBS     ?= libsfx.a
+
 #---------------------------------------------------------------------------------
 # any extra libraries we wish to link with the project
 #---------------------------------------------------------------------------------
-LIBS	:= -lgba -ltonc -lgfx
+LIBS	:= -lgba -ltonc -lgfx -lsfx
 
 
 #---------------------------------------------------------------------------------
@@ -119,6 +121,7 @@ export LDSFILES	:=	$(foreach dir,$(LDSCRIPTS),$(notdir $(wildcard $(dir)/*.lds))
 $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
 	@make --no-print-directory -f $(CURDIR)/make.d/gfxmake
+	@make --no-print-directory -f $(CURDIR)/make.d/sfxmake
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
 #---------------------------------------------------------------------------------
@@ -136,7 +139,7 @@ else
 
 $(OUTPUT).gba	:	$(OUTPUT).elf
 
-$(OUTPUT).elf	:	$(OFILES) $(LDSFILES) $(GFXLIBS)
+$(OUTPUT).elf	:	$(OFILES) $(LDSFILES) $(GFXLIBS) $(SFXLIBS)
 	$(SILENTMSG) linking cartridge
 	$(SILENTCMD)$(LD)  $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@ -T $(LDSCRIPTS)/main.lds
 	$(SILENTCMD)$(OBJCOPY) --set-section-flags .baserom="r,c,a" $@

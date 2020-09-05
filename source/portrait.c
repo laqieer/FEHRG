@@ -1,6 +1,12 @@
 #include <tonc.h>
 
 #include "common.h"
+#include "sound.h"
+#include "unit.h"
+#include "font.h"
+#include "stat_screen.h"
+#include "voice.h"
+
 #include "all_gfx.h"
 
 #include "portrait.h"
@@ -158,8 +164,14 @@ void fixStatScreenScrollingBg3()
     }
 }
 
+void playStatusVoice()
+{
+    playVoice(voices[StatScreen.unit->pCharacter->number].status);
+}
+
 void displayPortraitInStatScreenCore(struct Proc *proc,u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot)
 {
+    playStatusVoice();
     ProcEndEach(SCRIPT_8bffa20);
     drawPortraitInBg(mapBuffer, portraitId, baseTileNum, basePaletteSlot);
     fixStatScreenScrollingBg3();

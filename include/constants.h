@@ -10,3 +10,8 @@
 #define TILES_PER_BLOCK_256_COLOR TILES_PER_BLOCK_16_COLOR / 2
 #define TILE_WIDTH 8
 #define TILE_HEIGHT 8
+
+enum AnimationSide {
+    LEFT_SIDE,
+    RIGHT_SIDE
+};

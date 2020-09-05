@@ -61,3 +61,35 @@ DAT_0202bbb8 = 0x202bbb8;
 
 PortraitSpaces = 0x202a580;
 portraitObjTiles = 0x6013000;
+
+/* Sound. */
+
+MusicPlayers = 0x86ea858;
+
+/* Battle. */
+
+BattleStats = 0x203a3d4;
+BattleActor = 0x203a3ec;
+BattleTarget = 0x203a46c;
+BattleHits = 0x203a4ec;
+BattleHitIterator = 0x203a508;
+BattleUnits = 0x203e06c;
+BattleCharacterIds = 0x203e074;
+
+/* Stat Screen. */
+
+StatScreen = 0x200310c;
+
+/* Animation. */
+
+SpellAnimationIds = 0x203dffc;
+
+/* Unknown. */
+
+DAT_0203a50c = 0x203a50c;
+DAT_0203a50d = 0x203a50d;
+DAT_0203a50e = 0x203a50e;
+
+/* Unit. */
+
+SelectedUnit = 0x30045b0;

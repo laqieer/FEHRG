@@ -62,3 +62,10 @@ extern struct Proc* ProcTreeRoots[8];
 
 extern u32 CurrentBgmId;
 extern u8 DAT_0202bbb8;
+
+/* Unknown. */
+
+extern u8 DAT_0203a50c;
+extern u8 DAT_0203a50d;
+extern u8 DAT_0203a50e;
+
