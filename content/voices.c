@@ -1,5 +1,6 @@
 #include <tonc.h>
 
+#include "common.h"
 #include "sound.h"
 
 #include "all_sfx.h"

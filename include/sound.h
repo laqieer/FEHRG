@@ -49,29 +49,40 @@ struct MusicPlayer {
     u32 tn;
 };
 
+struct MusicProc {
+    PROC_HEADER;
+    /*0x2A*/ s16 filler2A[16];
+    /*0x4A*/ s16 songId;
+    /*0x4C*/ s16 delayCounter; // 16
+    /*0x4E*/ s16 unk4E; // 17
+    /*0x50*/ s16 filler50[2];
+    /*0x54*/ void *musicPlayerArea;
+    /*0x58*/ s32 unk58; // 23
+    /*0x5C*/ s32 unk5C; // 25
+    /*0x60*/ s16 filler60[2];
+    /*0x64*/ s16 unk64;
+    /*0x66*/ s16 unk66;
+    /*0x68*/ s16 unk68;
+    /*0x6A*/ s16 unk6A;
+};
+
 extern const struct MusicPlayer MusicPlayers[];
 
-#define MUSIC_PLAYER(n) MusicPlayers[n].MusicPlayerArea
+#define MUSIC_PLAYER(priority) MusicPlayers[priority].MusicPlayerArea
 
-#define MUSIC_PLAYER_0 MUSIC_PLAYER(0)
-#define MUSIC_PLAYER_1 MUSIC_PLAYER(1)
-#define MUSIC_PLAYER_2 MUSIC_PLAYER(2)
-#define MUSIC_PLAYER_3 MUSIC_PLAYER(3)
-#define MUSIC_PLAYER_4 MUSIC_PLAYER(4)
-#define MUSIC_PLAYER_5 MUSIC_PLAYER(5)
-#define MUSIC_PLAYER_6 MUSIC_PLAYER(6)
-#define MUSIC_PLAYER_7 MUSIC_PLAYER(7)
-#define MUSIC_PLAYER_8 MUSIC_PLAYER(8)
-
-#define MUSIC_PLAYER_BGM MUSIC_PLAYER_0
-#define MUSIC_PLAYER_MAP MUSIC_PLAYER_1
-#define MUSIC_PLAYER_MID_HIGH MUSIC_PLAYER_2
-#define MUSIC_PLAYER_MID_1 MUSIC_PLAYER_3
-#define MUSIC_PLAYER_MID_2 MUSIC_PLAYER_4
-#define MUSIC_PLAYER_MID_LOW MUSIC_PLAYER_5
-#define MUSIC_PLAYER_SFX MUSIC_PLAYER_6
-#define MUSIC_PLAYER_SFX_LOW MUSIC_PLAYER_7
-#define MUSIC_PLAYER_VOICE MUSIC_PLAYER_8
+enum {
+    MUSIC_PRIORITY_BGM,
+    MUSIC_PRIORITY_MAP,
+    MUSIC_PRIORITY_MID_HIGH,
+    MUSIC_PRIORITY_MID_1,
+    MUSIC_PRIORITY_MID_2,
+    MUSIC_PRIORITY_MID_LOW,
+    MUSIC_PRIORITY_SFX,
+    MUSIC_PRIORITY_SFX_LOW,
+    MUSIC_PRIORITY_VOICE,
+};
 
 void MPlayStart(void *musicPlayerArea, const struct Sound *sound);
 void M4aSongNumStart(u16 songId);
+void DeleteWaitingMusicProcs();
+void M4aMPlayImmInit(void *musicPlayerArea);

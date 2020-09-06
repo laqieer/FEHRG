@@ -12,7 +12,8 @@ void playVoice(const struct Sound *voice)
 {
     if(voice)
     {
-        MPlayStart(MUSIC_PLAYER_VOICE, voice);
+        DeleteWaitingMusicProcs();
+        MPlayStart(MUSIC_PLAYER(MUSIC_PRIORITY_VOICE), voice);
     }
 }
 
