@@ -14,7 +14,7 @@ struct TextHandle
 
 struct Glyph
 {
-    struct Glyph *sjisNext;  // (only used in Shift-JIS fonts) next element in linked list
+    const struct Glyph *sjisNext;  // (only used in Shift-JIS fonts) next element in linked list
     u8 sjisByte1;            // (only used in Shift-JIS fonts) second byte of character
     u8 width;                // width of the glyph in pixels
     u32 bitmap[16];          // image data of the glyph (16x16 pixels, 2 bits per pixel)

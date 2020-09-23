@@ -6,3 +6,4 @@ INCLUDE ../linkerscript/game_start.lds
 INCLUDE ../linkerscript/portrait.lds
 INCLUDE ../linkerscript/event.lds
 INCLUDE ../linkerscript/voice.lds
+INCLUDE ../linkerscript/font.lds
