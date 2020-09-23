@@ -4,6 +4,8 @@
 
 #include "font.h"
 
+#include "font_cn_white.h"
+
 const struct Glyph whiteFontSjis4081 = { // 　
 	NULL,
 	0x81,
@@ -84005,7 +84007,7 @@ const struct Glyph whiteFontSjisA0EA = { // 槇
 };
 
 const struct Glyph whiteFontSjisA181 = { // ■
-	NULL,
+	&whiteFontGbA1F7,
 	0x81,
 	10,
 	{
@@ -84917,7 +84919,7 @@ const struct Glyph whiteFontSjisA1EA = { // 遙
 };
 
 const struct Glyph whiteFontSjisA281 = { // △
-	NULL,
+	&whiteFontGbA2F7,
 	0x81,
 	11,
 	{
@@ -85829,7 +85831,7 @@ const struct Glyph whiteFontSjisA2EA = { // 瑤
 };
 
 const struct Glyph whiteFontSjisA381 = { // ▲
-	NULL,
+	&whiteFontGbA3F7,
 	0x81,
 	11,
 	{
@@ -86717,7 +86719,7 @@ const struct Glyph whiteFontSjisA3E9 = { // 鬟
 };
 
 const struct Glyph whiteFontSjisA481 = { // ▽
-	NULL,
+	&whiteFontGbA4F7,
 	0x81,
 	11,
 	{
@@ -87605,7 +87607,7 @@ const struct Glyph whiteFontSjisA4E9 = { // 鬢
 };
 
 const struct Glyph whiteFontSjisA581 = { // ▼
-	NULL,
+	&whiteFontGbA5F7,
 	0x81,
 	11,
 	{
@@ -88493,7 +88495,7 @@ const struct Glyph whiteFontSjisA5E9 = { // 鬣
 };
 
 const struct Glyph whiteFontSjisA681 = { // ※
-	NULL,
+	&whiteFontGbA6F7,
 	0x81,
 	10,
 	{
@@ -89381,7 +89383,7 @@ const struct Glyph whiteFontSjisA6E9 = { // 鬥
 };
 
 const struct Glyph whiteFontSjisA781 = { // 〒
-	NULL,
+	&whiteFontGbA7F7,
 	0x81,
 	10,
 	{
@@ -90269,7 +90271,7 @@ const struct Glyph whiteFontSjisA7E9 = { // 鬧
 };
 
 const struct Glyph whiteFontSjisA881 = { // →
-	NULL,
+	&whiteFontGbA8F7,
 	0x81,
 	11,
 	{
@@ -91157,7 +91159,7 @@ const struct Glyph whiteFontSjisA8E9 = { // 鬨
 };
 
 const struct Glyph whiteFontSjisA981 = { // ←
-	NULL,
+	&whiteFontGbA9F7,
 	0x81,
 	11,
 	{
@@ -92045,7 +92047,7 @@ const struct Glyph whiteFontSjisA9E9 = { // 鬩
 };
 
 const struct Glyph whiteFontSjisAA81 = { // ↑
-	NULL,
+	&whiteFontGbAAF7,
 	0x81,
 	9,
 	{
@@ -92933,7 +92935,7 @@ const struct Glyph whiteFontSjisAAE9 = { // 鬪
 };
 
 const struct Glyph whiteFontSjisAB81 = { // ↓
-	NULL,
+	&whiteFontGbABF7,
 	0x81,
 	9,
 	{
@@ -93821,7 +93823,7 @@ const struct Glyph whiteFontSjisABE9 = { // 鬮
 };
 
 const struct Glyph whiteFontSjisAC81 = { // 〓
-	NULL,
+	&whiteFontGbACF7,
 	0x81,
 	10,
 	{
@@ -95573,7 +95575,7 @@ const struct Glyph whiteFontSjis9FEA = { // 堯
 };
 
 const struct Glyph whiteFontSjisAD82 = { // く
-	NULL,
+	&whiteFontGbADF7,
 	0x82,
 	8,
 	{
@@ -96437,7 +96439,7 @@ const struct Glyph whiteFontSjisADE9 = { // 鬲
 };
 
 const struct Glyph whiteFontSjisAE82 = { // ぐ
-	NULL,
+	&whiteFontGbAEF7,
 	0x82,
 	10,
 	{
@@ -97301,7 +97303,7 @@ const struct Glyph whiteFontSjisAEE9 = { // 魄
 };
 
 const struct Glyph whiteFontSjisAF82 = { // け
-	NULL,
+	&whiteFontGbAFF7,
 	0x82,
 	11,
 	{
@@ -98165,7 +98167,7 @@ const struct Glyph whiteFontSjisAFE9 = { // 魃
 };
 
 const struct Glyph whiteFontSjisB082 = { // げ
-	NULL,
+	&whiteFontGbB0F7,
 	0x82,
 	11,
 	{
@@ -99029,7 +99031,7 @@ const struct Glyph whiteFontSjisB0E9 = { // 魏
 };
 
 const struct Glyph whiteFontSjisB182 = { // こ
-	NULL,
+	&whiteFontGbB1F7,
 	0x82,
 	10,
 	{
@@ -99893,7 +99895,7 @@ const struct Glyph whiteFontSjisB1E9 = { // 魍
 };
 
 const struct Glyph whiteFontSjisB282 = { // ご
-	NULL,
+	&whiteFontGbB2F7,
 	0x82,
 	11,
 	{
@@ -100757,7 +100759,7 @@ const struct Glyph whiteFontSjisB2E9 = { // 魎
 };
 
 const struct Glyph whiteFontSjisB382 = { // さ
-	NULL,
+	&whiteFontGbB3F7,
 	0x82,
 	10,
 	{
@@ -101621,7 +101623,7 @@ const struct Glyph whiteFontSjisB3E9 = { // 魑
 };
 
 const struct Glyph whiteFontSjisB482 = { // ざ
-	NULL,
+	&whiteFontGbB4F7,
 	0x82,
 	11,
 	{
@@ -102485,7 +102487,7 @@ const struct Glyph whiteFontSjisB4E9 = { // 魘
 };
 
 const struct Glyph whiteFontSjisB582 = { // し
-	NULL,
+	&whiteFontGbB5F7,
 	0x82,
 	10,
 	{
@@ -103349,7 +103351,7 @@ const struct Glyph whiteFontSjisB5E9 = { // 魴
 };
 
 const struct Glyph whiteFontSjisB682 = { // じ
-	NULL,
+	&whiteFontGbB6F7,
 	0x82,
 	10,
 	{
@@ -104213,7 +104215,7 @@ const struct Glyph whiteFontSjisB6E9 = { // 鮓
 };
 
 const struct Glyph whiteFontSjisB782 = { // す
-	NULL,
+	&whiteFontGbB7F7,
 	0x82,
 	11,
 	{
@@ -105053,7 +105055,7 @@ const struct Glyph whiteFontSjisB7E9 = { // 鮃
 };
 
 const struct Glyph whiteFontSjisB882 = { // ず
-	NULL,
+	&whiteFontGbB8F7,
 	0x82,
 	11,
 	{
@@ -105893,7 +105895,7 @@ const struct Glyph whiteFontSjisB8E9 = { // 鮑
 };
 
 const struct Glyph whiteFontSjisB982 = { // せ
-	NULL,
+	&whiteFontGbB9F7,
 	0x82,
 	11,
 	{
@@ -106733,7 +106735,7 @@ const struct Glyph whiteFontSjisB9E9 = { // 鮖
 };
 
 const struct Glyph whiteFontSjisBA82 = { // ぜ
-	NULL,
+	&whiteFontGbBAF7,
 	0x82,
 	11,
 	{
@@ -107573,7 +107575,7 @@ const struct Glyph whiteFontSjisBAE9 = { // 鮗
 };
 
 const struct Glyph whiteFontSjisBB82 = { // そ
-	NULL,
+	&whiteFontGbBBF7,
 	0x82,
 	10,
 	{
@@ -108413,7 +108415,7 @@ const struct Glyph whiteFontSjisBBE9 = { // 鮟
 };
 
 const struct Glyph whiteFontSjisBC82 = { // ぞ
-	NULL,
+	&whiteFontGbBCF7,
 	0x82,
 	11,
 	{
@@ -109253,7 +109255,7 @@ const struct Glyph whiteFontSjisBCE9 = { // 鮠
 };
 
 const struct Glyph whiteFontSjisBD82 = { // た
-	NULL,
+	&whiteFontGbBDF7,
 	0x82,
 	10,
 	{
@@ -110093,7 +110095,7 @@ const struct Glyph whiteFontSjisBDE9 = { // 鮨
 };
 
 const struct Glyph whiteFontSjisBE82 = { // だ
-	NULL,
+	&whiteFontGbBEF7,
 	0x82,
 	11,
 	{
@@ -110933,7 +110935,7 @@ const struct Glyph whiteFontSjisBEE9 = { // 鮴
 };
 
 const struct Glyph whiteFontSjisBF82 = { // ち
-	NULL,
+	&whiteFontGbBFF7,
 	0x82,
 	10,
 	{
@@ -111797,7 +111799,7 @@ const struct Glyph whiteFontSjisBFE9 = { // 鯀
 };
 
 const struct Glyph whiteFontSjisC082 = { // ぢ
-	NULL,
+	&whiteFontGbC0F7,
 	0x82,
 	11,
 	{
@@ -112661,7 +112663,7 @@ const struct Glyph whiteFontSjisC0E9 = { // 鯊
 };
 
 const struct Glyph whiteFontSjisC182 = { // っ
-	NULL,
+	&whiteFontGbC1F7,
 	0x82,
 	10,
 	{
@@ -113525,7 +113527,7 @@ const struct Glyph whiteFontSjisC1E9 = { // 鮹
 };
 
 const struct Glyph whiteFontSjisC282 = { // つ
-	NULL,
+	&whiteFontGbC2F7,
 	0x82,
 	11,
 	{
@@ -114389,7 +114391,7 @@ const struct Glyph whiteFontSjisC2E9 = { // 鯆
 };
 
 const struct Glyph whiteFontSjisC382 = { // づ
-	NULL,
+	&whiteFontGbC3F7,
 	0x82,
 	11,
 	{
@@ -115253,7 +115255,7 @@ const struct Glyph whiteFontSjisC3E9 = { // 鯏
 };
 
 const struct Glyph whiteFontSjisC482 = { // て
-	NULL,
+	&whiteFontGbC4F7,
 	0x82,
 	10,
 	{
@@ -116117,7 +116119,7 @@ const struct Glyph whiteFontSjisC4E9 = { // 鯑
 };
 
 const struct Glyph whiteFontSjisC582 = { // で
-	NULL,
+	&whiteFontGbC5F7,
 	0x82,
 	11,
 	{
@@ -116981,7 +116983,7 @@ const struct Glyph whiteFontSjisC5E9 = { // 鯒
 };
 
 const struct Glyph whiteFontSjisC682 = { // と
-	NULL,
+	&whiteFontGbC6F7,
 	0x82,
 	10,
 	{
@@ -117845,7 +117847,7 @@ const struct Glyph whiteFontSjisC6E9 = { // 鯣
 };
 
 const struct Glyph whiteFontSjisC782 = { // ど
-	NULL,
+	&whiteFontGbC7F7,
 	0x82,
 	11,
 	{
@@ -118709,7 +118711,7 @@ const struct Glyph whiteFontSjisC7E9 = { // 鯢
 };
 
 const struct Glyph whiteFontSjisC882 = { // な
-	NULL,
+	&whiteFontGbC8F7,
 	0x82,
 	11,
 	{
@@ -119573,7 +119575,7 @@ const struct Glyph whiteFontSjisC8E9 = { // 鯤
 };
 
 const struct Glyph whiteFontSjisC982 = { // に
-	NULL,
+	&whiteFontGbC9F7,
 	0x82,
 	10,
 	{
@@ -120437,7 +120439,7 @@ const struct Glyph whiteFontSjisC9E9 = { // 鯔
 };
 
 const struct Glyph whiteFontSjisCA82 = { // ぬ
-	NULL,
+	&whiteFontGbCAF7,
 	0x82,
 	11,
 	{
@@ -121301,7 +121303,7 @@ const struct Glyph whiteFontSjisCAE9 = { // 鯡
 };
 
 const struct Glyph whiteFontSjisCB82 = { // ね
-	NULL,
+	&whiteFontGbCBF7,
 	0x82,
 	11,
 	{
@@ -122165,7 +122167,7 @@ const struct Glyph whiteFontSjisCBE9 = { // 鰺
 };
 
 const struct Glyph whiteFontSjisCC82 = { // の
-	NULL,
+	&whiteFontGbCCF7,
 	0x82,
 	11,
 	{
@@ -123029,7 +123031,7 @@ const struct Glyph whiteFontSjisCCE9 = { // 鯲
 };
 
 const struct Glyph whiteFontSjisCD82 = { // は
-	NULL,
+	&whiteFontGbCDF7,
 	0x82,
 	11,
 	{
@@ -123893,7 +123895,7 @@ const struct Glyph whiteFontSjisCDE9 = { // 鯱
 };
 
 const struct Glyph whiteFontSjisCE82 = { // ば
-	NULL,
+	&whiteFontGbCEF7,
 	0x82,
 	11,
 	{
@@ -124757,7 +124759,7 @@ const struct Glyph whiteFontSjisCEE9 = { // 鯰
 };
 
 const struct Glyph whiteFontSjisCF82 = { // ぱ
-	NULL,
+	&whiteFontGbCFF7,
 	0x82,
 	11,
 	{
@@ -125621,7 +125623,7 @@ const struct Glyph whiteFontSjisCFE9 = { // 鰕
 };
 
 const struct Glyph whiteFontSjisD082 = { // ひ
-	NULL,
+	&whiteFontGbD0F7,
 	0x82,
 	11,
 	{
@@ -126485,7 +126487,7 @@ const struct Glyph whiteFontSjisD0E9 = { // 鰔
 };
 
 const struct Glyph whiteFontSjisD182 = { // び
-	NULL,
+	&whiteFontGbD1F7,
 	0x82,
 	11,
 	{
@@ -127349,7 +127351,7 @@ const struct Glyph whiteFontSjisD1E9 = { // 鰉
 };
 
 const struct Glyph whiteFontSjisD282 = { // ぴ
-	NULL,
+	&whiteFontGbD2F7,
 	0x82,
 	11,
 	{
@@ -128213,7 +128215,7 @@ const struct Glyph whiteFontSjisD2E9 = { // 鰓
 };
 
 const struct Glyph whiteFontSjisD382 = { // ふ
-	NULL,
+	&whiteFontGbD3F7,
 	0x82,
 	11,
 	{
@@ -129077,7 +129079,7 @@ const struct Glyph whiteFontSjisD3E9 = { // 鰌
 };
 
 const struct Glyph whiteFontSjisD482 = { // ぶ
-	NULL,
+	&whiteFontGbD4F7,
 	0x82,
 	11,
 	{
@@ -129941,7 +129943,7 @@ const struct Glyph whiteFontSjisD4E9 = { // 鰆
 };
 
 const struct Glyph whiteFontSjisD582 = { // ぷ
-	NULL,
+	&whiteFontGbD5F7,
 	0x82,
 	11,
 	{
@@ -130805,7 +130807,7 @@ const struct Glyph whiteFontSjisD5E9 = { // 鰈
 };
 
 const struct Glyph whiteFontSjisD682 = { // へ
-	NULL,
+	&whiteFontGbD6F7,
 	0x82,
 	11,
 	{
@@ -131669,7 +131671,7 @@ const struct Glyph whiteFontSjisD6E9 = { // 鰒
 };
 
 const struct Glyph whiteFontSjisD782 = { // べ
-	NULL,
+	&whiteFontGbD7F7,
 	0x82,
 	11,
 	{
@@ -132509,7 +132511,7 @@ const struct Glyph whiteFontSjisD7E9 = { // 鰊
 };
 
 const struct Glyph whiteFontSjisD882 = { // ぺ
-	NULL,
+	&whiteFontGbD8F7,
 	0x82,
 	11,
 	{
@@ -133349,7 +133351,7 @@ const struct Glyph whiteFontSjisD8E9 = { // 鰄
 };
 
 const struct Glyph whiteFontSjisD982 = { // ほ
-	NULL,
+	&whiteFontGbD9F7,
 	0x82,
 	11,
 	{
@@ -134189,7 +134191,7 @@ const struct Glyph whiteFontSjisD9E9 = { // 鰮
 };
 
 const struct Glyph whiteFontSjisDA82 = { // ぼ
-	NULL,
+	&whiteFontGbDAF7,
 	0x82,
 	11,
 	{
@@ -135029,7 +135031,7 @@ const struct Glyph whiteFontSjisDAE9 = { // 鰛
 };
 
 const struct Glyph whiteFontSjisDB82 = { // ぽ
-	NULL,
+	&whiteFontGbDBF7,
 	0x82,
 	12,
 	{
@@ -135869,7 +135871,7 @@ const struct Glyph whiteFontSjisDBE9 = { // 鰥
 };
 
 const struct Glyph whiteFontSjisDC82 = { // ま
-	NULL,
+	&whiteFontGbDCF7,
 	0x82,
 	10,
 	{
@@ -136709,7 +136711,7 @@ const struct Glyph whiteFontSjisDCE9 = { // 鰤
 };
 
 const struct Glyph whiteFontSjisDD82 = { // み
-	NULL,
+	&whiteFontGbDDF7,
 	0x82,
 	11,
 	{
@@ -137549,7 +137551,7 @@ const struct Glyph whiteFontSjisDDE9 = { // 鰡
 };
 
 const struct Glyph whiteFontSjisDE82 = { // む
-	NULL,
+	&whiteFontGbDEF7,
 	0x82,
 	11,
 	{
@@ -138389,7 +138391,7 @@ const struct Glyph whiteFontSjisDEE9 = { // 鰰
 };
 
 const struct Glyph whiteFontSjisDF82 = { // め
-	NULL,
+	&whiteFontGbDFF7,
 	0x82,
 	11,
 	{
@@ -139229,7 +139231,7 @@ const struct Glyph whiteFontSjisDFE9 = { // 鱇
 };
 
 const struct Glyph whiteFontSjisE082 = { // も
-	NULL,
+	&whiteFontGbE0F7,
 	0x82,
 	10,
 	{
@@ -140069,7 +140071,7 @@ const struct Glyph whiteFontSjisE0E9 = { // 鰲
 };
 
 const struct Glyph whiteFontSjisE182 = { // ゃ
-	NULL,
+	&whiteFontGbE1F7,
 	0x82,
 	10,
 	{
@@ -140909,7 +140911,7 @@ const struct Glyph whiteFontSjisE1E9 = { // 鱆
 };
 
 const struct Glyph whiteFontSjisE282 = { // や
-	NULL,
+	&whiteFontGbE2F7,
 	0x82,
 	11,
 	{
@@ -141749,7 +141751,7 @@ const struct Glyph whiteFontSjisE2E9 = { // 鰾
 };
 
 const struct Glyph whiteFontSjisE382 = { // ゅ
-	NULL,
+	&whiteFontGbE3F7,
 	0x82,
 	10,
 	{
@@ -142589,7 +142591,7 @@ const struct Glyph whiteFontSjisE3E9 = { // 鱚
 };
 
 const struct Glyph whiteFontSjisE482 = { // ゆ
-	NULL,
+	&whiteFontGbE4F7,
 	0x82,
 	11,
 	{
@@ -143429,7 +143431,7 @@ const struct Glyph whiteFontSjisE4E9 = { // 鱠
 };
 
 const struct Glyph whiteFontSjisE582 = { // ょ
-	NULL,
+	&whiteFontGbE5F7,
 	0x82,
 	9,
 	{
@@ -144269,7 +144271,7 @@ const struct Glyph whiteFontSjisE5E9 = { // 鱧
 };
 
 const struct Glyph whiteFontSjisE682 = { // よ
-	NULL,
+	&whiteFontGbE6F7,
 	0x82,
 	10,
 	{
@@ -145109,7 +145111,7 @@ const struct Glyph whiteFontSjisE6E9 = { // 鱶
 };
 
 const struct Glyph whiteFontSjisE782 = { // ら
-	NULL,
+	&whiteFontGbE7F7,
 	0x82,
 	10,
 	{
@@ -145949,7 +145951,7 @@ const struct Glyph whiteFontSjisE7E9 = { // 鱸
 };
 
 const struct Glyph whiteFontSjisE882 = { // り
-	NULL,
+	&whiteFontGbE8F7,
 	0x82,
 	9,
 	{
@@ -146789,7 +146791,7 @@ const struct Glyph whiteFontSjisE8E9 = { // 鳧
 };
 
 const struct Glyph whiteFontSjisE982 = { // る
-	NULL,
+	&whiteFontGbE9F7,
 	0x82,
 	10,
 	{
@@ -147629,7 +147631,7 @@ const struct Glyph whiteFontSjisE9E9 = { // 鳬
 };
 
 const struct Glyph whiteFontSjisEA82 = { // れ
-	NULL,
+	&whiteFontGbEAF7,
 	0x82,
 	11,
 	{
@@ -148469,7 +148471,7 @@ const struct Glyph whiteFontSjisEAE9 = { // 鳰
 };
 
 const struct Glyph whiteFontSjisEB82 = { // ろ
-	NULL,
+	&whiteFontGbEBF7,
 	0x82,
 	10,
 	{
@@ -149309,7 +149311,7 @@ const struct Glyph whiteFontSjisEBE9 = { // 鴉
 };
 
 const struct Glyph whiteFontSjisEC82 = { // ゎ
-	NULL,
+	&whiteFontGbECF7,
 	0x82,
 	10,
 	{
@@ -150149,7 +150151,7 @@ const struct Glyph whiteFontSjisECE9 = { // 鴈
 };
 
 const struct Glyph whiteFontSjisED82 = { // わ
-	NULL,
+	&whiteFontGbEDF7,
 	0x82,
 	11,
 	{
@@ -150989,7 +150991,7 @@ const struct Glyph whiteFontSjisEDE9 = { // 鳫
 };
 
 const struct Glyph whiteFontSjisEE82 = { // ゐ
-	NULL,
+	&whiteFontGbEEF7,
 	0x82,
 	10,
 	{
@@ -151829,7 +151831,7 @@ const struct Glyph whiteFontSjisEEE9 = { // 鴃
 };
 
 const struct Glyph whiteFontSjisEF82 = { // ゑ
-	NULL,
+	&whiteFontGbEFF7,
 	0x82,
 	11,
 	{
@@ -152669,7 +152671,7 @@ const struct Glyph whiteFontSjisEFE9 = { // 鴆
 };
 
 const struct Glyph whiteFontSjisF082 = { // を
-	NULL,
+	&whiteFontGbF0F7,
 	0x82,
 	10,
 	{
@@ -153509,7 +153511,7 @@ const struct Glyph whiteFontSjisF0E9 = { // 鴪
 };
 
 const struct Glyph whiteFontSjisF182 = { // ん
-	NULL,
+	&whiteFontGbF1F7,
 	0x82,
 	11,
 	{
@@ -154349,7 +154351,7 @@ const struct Glyph whiteFontSjisF1E9 = { // 鴦
 };
 
 const struct Glyph whiteFontSjisF288 = { // 允
-	NULL,
+	&whiteFontGbF2F7,
 	0x88,
 	11,
 	{
@@ -155165,7 +155167,7 @@ const struct Glyph whiteFontSjisF2E9 = { // 鶯
 };
 
 const struct Glyph whiteFontSjisF388 = { // 印
-	NULL,
+	&whiteFontGbF3F7,
 	0x88,
 	11,
 	{
@@ -155981,7 +155983,7 @@ const struct Glyph whiteFontSjisF3E9 = { // 鴣
 };
 
 const struct Glyph whiteFontSjisF488 = { // 咽
-	NULL,
+	&whiteFontGbF4F7,
 	0x88,
 	11,
 	{
@@ -156797,7 +156799,7 @@ const struct Glyph whiteFontSjisF4E9 = { // 鴟
 };
 
 const struct Glyph whiteFontSjisF588 = { // 員
-	NULL,
+	&whiteFontGbF5F7,
 	0x88,
 	11,
 	{
@@ -157613,7 +157615,7 @@ const struct Glyph whiteFontSjisF5E9 = { // 鵄
 };
 
 const struct Glyph whiteFontSjisF688 = { // 因
-	NULL,
+	&whiteFontGbF6F7,
 	0x88,
 	11,
 	{
@@ -158429,7 +158431,7 @@ const struct Glyph whiteFontSjisF6E9 = { // 鴕
 };
 
 const struct Glyph whiteFontSjisF788 = { // 姻
-	NULL,
+	&whiteFontGbF7F7,
 	0x88,
 	11,
 	{
@@ -159245,7 +159247,7 @@ const struct Glyph whiteFontSjisF7E9 = { // 鴒
 };
 
 const struct Glyph whiteFontSjisF888 = { // 引
-	NULL,
+	&whiteFontGbF8F7,
 	0x88,
 	10,
 	{
@@ -160061,7 +160063,7 @@ const struct Glyph whiteFontSjisF8E9 = { // 鵁
 };
 
 const struct Glyph whiteFontSjisF988 = { // 飲
-	NULL,
+	&whiteFontGbF9F7,
 	0x88,
 	11,
 	{
@@ -160877,7 +160879,7 @@ const struct Glyph whiteFontSjisF9E9 = { // 鴿
 };
 
 const struct Glyph whiteFontSjisFA88 = { // 淫
-	NULL,
+	&whiteFontGbFAF7,
 	0x88,
 	11,
 	{
@@ -161693,7 +161695,7 @@ const struct Glyph whiteFontSjisFAE9 = { // 鴾
 };
 
 const struct Glyph whiteFontSjisFB88 = { // 胤
-	NULL,
+	&whiteFontGbFBF7,
 	0x88,
 	11,
 	{
@@ -162509,7 +162511,7 @@ const struct Glyph whiteFontSjisFBE9 = { // 鵆
 };
 
 const struct Glyph whiteFontSjisFC88 = { // 蔭
-	NULL,
+	&whiteFontGbFCF7,
 	0x88,
 	11,
 	{

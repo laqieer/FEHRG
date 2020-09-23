@@ -4,6 +4,8 @@
 
 #include "font.h"
 
+#include "font_cn_black.h"
+
 const struct Glyph blackFontSjis4081 = { // 　
 	NULL,
 	0x81,
@@ -84005,7 +84007,7 @@ const struct Glyph blackFontSjisA0EA = { // 槇
 };
 
 const struct Glyph blackFontSjisA181 = { // ■
-	NULL,
+	&blackFontGbA1F7,
 	0x81,
 	13,
 	{
@@ -84917,7 +84919,7 @@ const struct Glyph blackFontSjisA1EA = { // 遙
 };
 
 const struct Glyph blackFontSjisA281 = { // △
-	NULL,
+	&blackFontGbA2F7,
 	0x81,
 	14,
 	{
@@ -85829,7 +85831,7 @@ const struct Glyph blackFontSjisA2EA = { // 瑤
 };
 
 const struct Glyph blackFontSjisA381 = { // ▲
-	NULL,
+	&blackFontGbA3F7,
 	0x81,
 	14,
 	{
@@ -86717,7 +86719,7 @@ const struct Glyph blackFontSjisA3E9 = { // 鬟
 };
 
 const struct Glyph blackFontSjisA481 = { // ▽
-	NULL,
+	&blackFontGbA4F7,
 	0x81,
 	14,
 	{
@@ -87605,7 +87607,7 @@ const struct Glyph blackFontSjisA4E9 = { // 鬢
 };
 
 const struct Glyph blackFontSjisA581 = { // ▼
-	NULL,
+	&blackFontGbA5F7,
 	0x81,
 	14,
 	{
@@ -88493,7 +88495,7 @@ const struct Glyph blackFontSjisA5E9 = { // 鬣
 };
 
 const struct Glyph blackFontSjisA681 = { // ※
-	NULL,
+	&blackFontGbA6F7,
 	0x81,
 	12,
 	{
@@ -89381,7 +89383,7 @@ const struct Glyph blackFontSjisA6E9 = { // 鬥
 };
 
 const struct Glyph blackFontSjisA781 = { // 〒
-	NULL,
+	&blackFontGbA7F7,
 	0x81,
 	12,
 	{
@@ -90269,7 +90271,7 @@ const struct Glyph blackFontSjisA7E9 = { // 鬧
 };
 
 const struct Glyph blackFontSjisA881 = { // →
-	NULL,
+	&blackFontGbA8F7,
 	0x81,
 	14,
 	{
@@ -91157,7 +91159,7 @@ const struct Glyph blackFontSjisA8E9 = { // 鬨
 };
 
 const struct Glyph blackFontSjisA981 = { // ←
-	NULL,
+	&blackFontGbA9F7,
 	0x81,
 	14,
 	{
@@ -92045,7 +92047,7 @@ const struct Glyph blackFontSjisA9E9 = { // 鬩
 };
 
 const struct Glyph blackFontSjisAA81 = { // ↑
-	NULL,
+	&blackFontGbAAF7,
 	0x81,
 	10,
 	{
@@ -92933,7 +92935,7 @@ const struct Glyph blackFontSjisAAE9 = { // 鬪
 };
 
 const struct Glyph blackFontSjisAB81 = { // ↓
-	NULL,
+	&blackFontGbABF7,
 	0x81,
 	10,
 	{
@@ -93821,7 +93823,7 @@ const struct Glyph blackFontSjisABE9 = { // 鬮
 };
 
 const struct Glyph blackFontSjisAC81 = { // 〓
-	NULL,
+	&blackFontGbACF7,
 	0x81,
 	13,
 	{
@@ -95573,7 +95575,7 @@ const struct Glyph blackFontSjis9FEA = { // 堯
 };
 
 const struct Glyph blackFontSjisAD82 = { // く
-	NULL,
+	&blackFontGbADF7,
 	0x82,
 	10,
 	{
@@ -96437,7 +96439,7 @@ const struct Glyph blackFontSjisADE9 = { // 鬲
 };
 
 const struct Glyph blackFontSjisAE82 = { // ぐ
-	NULL,
+	&blackFontGbAEF7,
 	0x82,
 	12,
 	{
@@ -97301,7 +97303,7 @@ const struct Glyph blackFontSjisAEE9 = { // 魄
 };
 
 const struct Glyph blackFontSjisAF82 = { // け
-	NULL,
+	&blackFontGbAFF7,
 	0x82,
 	13,
 	{
@@ -98165,7 +98167,7 @@ const struct Glyph blackFontSjisAFE9 = { // 魃
 };
 
 const struct Glyph blackFontSjisB082 = { // げ
-	NULL,
+	&blackFontGbB0F7,
 	0x82,
 	14,
 	{
@@ -99029,7 +99031,7 @@ const struct Glyph blackFontSjisB0E9 = { // 魏
 };
 
 const struct Glyph blackFontSjisB182 = { // こ
-	NULL,
+	&blackFontGbB1F7,
 	0x82,
 	12,
 	{
@@ -99893,7 +99895,7 @@ const struct Glyph blackFontSjisB1E9 = { // 魍
 };
 
 const struct Glyph blackFontSjisB282 = { // ご
-	NULL,
+	&blackFontGbB2F7,
 	0x82,
 	14,
 	{
@@ -100757,7 +100759,7 @@ const struct Glyph blackFontSjisB2E9 = { // 魎
 };
 
 const struct Glyph blackFontSjisB382 = { // さ
-	NULL,
+	&blackFontGbB3F7,
 	0x82,
 	12,
 	{
@@ -101621,7 +101623,7 @@ const struct Glyph blackFontSjisB3E9 = { // 魑
 };
 
 const struct Glyph blackFontSjisB482 = { // ざ
-	NULL,
+	&blackFontGbB4F7,
 	0x82,
 	14,
 	{
@@ -102485,7 +102487,7 @@ const struct Glyph blackFontSjisB4E9 = { // 魘
 };
 
 const struct Glyph blackFontSjisB582 = { // し
-	NULL,
+	&blackFontGbB5F7,
 	0x82,
 	13,
 	{
@@ -103349,7 +103351,7 @@ const struct Glyph blackFontSjisB5E9 = { // 魴
 };
 
 const struct Glyph blackFontSjisB682 = { // じ
-	NULL,
+	&blackFontGbB6F7,
 	0x82,
 	13,
 	{
@@ -104213,7 +104215,7 @@ const struct Glyph blackFontSjisB6E9 = { // 鮓
 };
 
 const struct Glyph blackFontSjisB782 = { // す
-	NULL,
+	&blackFontGbB7F7,
 	0x82,
 	13,
 	{
@@ -105053,7 +105055,7 @@ const struct Glyph blackFontSjisB7E9 = { // 鮃
 };
 
 const struct Glyph blackFontSjisB882 = { // ず
-	NULL,
+	&blackFontGbB8F7,
 	0x82,
 	13,
 	{
@@ -105893,7 +105895,7 @@ const struct Glyph blackFontSjisB8E9 = { // 鮑
 };
 
 const struct Glyph blackFontSjisB982 = { // せ
-	NULL,
+	&blackFontGbB9F7,
 	0x82,
 	13,
 	{
@@ -106733,7 +106735,7 @@ const struct Glyph blackFontSjisB9E9 = { // 鮖
 };
 
 const struct Glyph blackFontSjisBA82 = { // ぜ
-	NULL,
+	&blackFontGbBAF7,
 	0x82,
 	14,
 	{
@@ -107573,7 +107575,7 @@ const struct Glyph blackFontSjisBAE9 = { // 鮗
 };
 
 const struct Glyph blackFontSjisBB82 = { // そ
-	NULL,
+	&blackFontGbBBF7,
 	0x82,
 	13,
 	{
@@ -108413,7 +108415,7 @@ const struct Glyph blackFontSjisBBE9 = { // 鮟
 };
 
 const struct Glyph blackFontSjisBC82 = { // ぞ
-	NULL,
+	&blackFontGbBCF7,
 	0x82,
 	13,
 	{
@@ -109253,7 +109255,7 @@ const struct Glyph blackFontSjisBCE9 = { // 鮠
 };
 
 const struct Glyph blackFontSjisBD82 = { // た
-	NULL,
+	&blackFontGbBDF7,
 	0x82,
 	13,
 	{
@@ -110093,7 +110095,7 @@ const struct Glyph blackFontSjisBDE9 = { // 鮨
 };
 
 const struct Glyph blackFontSjisBE82 = { // だ
-	NULL,
+	&blackFontGbBEF7,
 	0x82,
 	13,
 	{
@@ -110933,7 +110935,7 @@ const struct Glyph blackFontSjisBEE9 = { // 鮴
 };
 
 const struct Glyph blackFontSjisBF82 = { // ち
-	NULL,
+	&blackFontGbBFF7,
 	0x82,
 	12,
 	{
@@ -111797,7 +111799,7 @@ const struct Glyph blackFontSjisBFE9 = { // 鯀
 };
 
 const struct Glyph blackFontSjisC082 = { // ぢ
-	NULL,
+	&blackFontGbC0F7,
 	0x82,
 	13,
 	{
@@ -112661,7 +112663,7 @@ const struct Glyph blackFontSjisC0E9 = { // 鯊
 };
 
 const struct Glyph blackFontSjisC182 = { // っ
-	NULL,
+	&blackFontGbC1F7,
 	0x82,
 	12,
 	{
@@ -113525,7 +113527,7 @@ const struct Glyph blackFontSjisC1E9 = { // 鮹
 };
 
 const struct Glyph blackFontSjisC282 = { // つ
-	NULL,
+	&blackFontGbC2F7,
 	0x82,
 	13,
 	{
@@ -114389,7 +114391,7 @@ const struct Glyph blackFontSjisC2E9 = { // 鯆
 };
 
 const struct Glyph blackFontSjisC382 = { // づ
-	NULL,
+	&blackFontGbC3F7,
 	0x82,
 	13,
 	{
@@ -115253,7 +115255,7 @@ const struct Glyph blackFontSjisC3E9 = { // 鯏
 };
 
 const struct Glyph blackFontSjisC482 = { // て
-	NULL,
+	&blackFontGbC4F7,
 	0x82,
 	13,
 	{
@@ -116117,7 +116119,7 @@ const struct Glyph blackFontSjisC4E9 = { // 鯑
 };
 
 const struct Glyph blackFontSjisC582 = { // で
-	NULL,
+	&blackFontGbC5F7,
 	0x82,
 	13,
 	{
@@ -116981,7 +116983,7 @@ const struct Glyph blackFontSjisC5E9 = { // 鯒
 };
 
 const struct Glyph blackFontSjisC682 = { // と
-	NULL,
+	&blackFontGbC6F7,
 	0x82,
 	12,
 	{
@@ -117845,7 +117847,7 @@ const struct Glyph blackFontSjisC6E9 = { // 鯣
 };
 
 const struct Glyph blackFontSjisC782 = { // ど
-	NULL,
+	&blackFontGbC7F7,
 	0x82,
 	14,
 	{
@@ -118709,7 +118711,7 @@ const struct Glyph blackFontSjisC7E9 = { // 鯢
 };
 
 const struct Glyph blackFontSjisC882 = { // な
-	NULL,
+	&blackFontGbC8F7,
 	0x82,
 	13,
 	{
@@ -119573,7 +119575,7 @@ const struct Glyph blackFontSjisC8E9 = { // 鯤
 };
 
 const struct Glyph blackFontSjisC982 = { // に
-	NULL,
+	&blackFontGbC9F7,
 	0x82,
 	13,
 	{
@@ -120437,7 +120439,7 @@ const struct Glyph blackFontSjisC9E9 = { // 鯔
 };
 
 const struct Glyph blackFontSjisCA82 = { // ぬ
-	NULL,
+	&blackFontGbCAF7,
 	0x82,
 	14,
 	{
@@ -121301,7 +121303,7 @@ const struct Glyph blackFontSjisCAE9 = { // 鯡
 };
 
 const struct Glyph blackFontSjisCB82 = { // ね
-	NULL,
+	&blackFontGbCBF7,
 	0x82,
 	14,
 	{
@@ -122165,7 +122167,7 @@ const struct Glyph blackFontSjisCBE9 = { // 鰺
 };
 
 const struct Glyph blackFontSjisCC82 = { // の
-	NULL,
+	&blackFontGbCCF7,
 	0x82,
 	13,
 	{
@@ -123029,7 +123031,7 @@ const struct Glyph blackFontSjisCCE9 = { // 鯲
 };
 
 const struct Glyph blackFontSjisCD82 = { // は
-	NULL,
+	&blackFontGbCDF7,
 	0x82,
 	13,
 	{
@@ -123893,7 +123895,7 @@ const struct Glyph blackFontSjisCDE9 = { // 鯱
 };
 
 const struct Glyph blackFontSjisCE82 = { // ば
-	NULL,
+	&blackFontGbCEF7,
 	0x82,
 	14,
 	{
@@ -124757,7 +124759,7 @@ const struct Glyph blackFontSjisCEE9 = { // 鯰
 };
 
 const struct Glyph blackFontSjisCF82 = { // ぱ
-	NULL,
+	&blackFontGbCFF7,
 	0x82,
 	14,
 	{
@@ -125621,7 +125623,7 @@ const struct Glyph blackFontSjisCFE9 = { // 鰕
 };
 
 const struct Glyph blackFontSjisD082 = { // ひ
-	NULL,
+	&blackFontGbD0F7,
 	0x82,
 	13,
 	{
@@ -126485,7 +126487,7 @@ const struct Glyph blackFontSjisD0E9 = { // 鰔
 };
 
 const struct Glyph blackFontSjisD182 = { // び
-	NULL,
+	&blackFontGbD1F7,
 	0x82,
 	14,
 	{
@@ -127349,7 +127351,7 @@ const struct Glyph blackFontSjisD1E9 = { // 鰉
 };
 
 const struct Glyph blackFontSjisD282 = { // ぴ
-	NULL,
+	&blackFontGbD2F7,
 	0x82,
 	14,
 	{
@@ -128213,7 +128215,7 @@ const struct Glyph blackFontSjisD2E9 = { // 鰓
 };
 
 const struct Glyph blackFontSjisD382 = { // ふ
-	NULL,
+	&blackFontGbD3F7,
 	0x82,
 	14,
 	{
@@ -129077,7 +129079,7 @@ const struct Glyph blackFontSjisD3E9 = { // 鰌
 };
 
 const struct Glyph blackFontSjisD482 = { // ぶ
-	NULL,
+	&blackFontGbD4F7,
 	0x82,
 	14,
 	{
@@ -129941,7 +129943,7 @@ const struct Glyph blackFontSjisD4E9 = { // 鰆
 };
 
 const struct Glyph blackFontSjisD582 = { // ぷ
-	NULL,
+	&blackFontGbD5F7,
 	0x82,
 	14,
 	{
@@ -130805,7 +130807,7 @@ const struct Glyph blackFontSjisD5E9 = { // 鰈
 };
 
 const struct Glyph blackFontSjisD682 = { // へ
-	NULL,
+	&blackFontGbD6F7,
 	0x82,
 	13,
 	{
@@ -131669,7 +131671,7 @@ const struct Glyph blackFontSjisD6E9 = { // 鰒
 };
 
 const struct Glyph blackFontSjisD782 = { // べ
-	NULL,
+	&blackFontGbD7F7,
 	0x82,
 	13,
 	{
@@ -132509,7 +132511,7 @@ const struct Glyph blackFontSjisD7E9 = { // 鰊
 };
 
 const struct Glyph blackFontSjisD882 = { // ぺ
-	NULL,
+	&blackFontGbD8F7,
 	0x82,
 	13,
 	{
@@ -133349,7 +133351,7 @@ const struct Glyph blackFontSjisD8E9 = { // 鰄
 };
 
 const struct Glyph blackFontSjisD982 = { // ほ
-	NULL,
+	&blackFontGbD9F7,
 	0x82,
 	13,
 	{
@@ -134189,7 +134191,7 @@ const struct Glyph blackFontSjisD9E9 = { // 鰮
 };
 
 const struct Glyph blackFontSjisDA82 = { // ぼ
-	NULL,
+	&blackFontGbDAF7,
 	0x82,
 	14,
 	{
@@ -135029,7 +135031,7 @@ const struct Glyph blackFontSjisDAE9 = { // 鰛
 };
 
 const struct Glyph blackFontSjisDB82 = { // ぽ
-	NULL,
+	&blackFontGbDBF7,
 	0x82,
 	14,
 	{
@@ -135869,7 +135871,7 @@ const struct Glyph blackFontSjisDBE9 = { // 鰥
 };
 
 const struct Glyph blackFontSjisDC82 = { // ま
-	NULL,
+	&blackFontGbDCF7,
 	0x82,
 	12,
 	{
@@ -136709,7 +136711,7 @@ const struct Glyph blackFontSjisDCE9 = { // 鰤
 };
 
 const struct Glyph blackFontSjisDD82 = { // み
-	NULL,
+	&blackFontGbDDF7,
 	0x82,
 	13,
 	{
@@ -137549,7 +137551,7 @@ const struct Glyph blackFontSjisDDE9 = { // 鰡
 };
 
 const struct Glyph blackFontSjisDE82 = { // む
-	NULL,
+	&blackFontGbDEF7,
 	0x82,
 	13,
 	{
@@ -138389,7 +138391,7 @@ const struct Glyph blackFontSjisDEE9 = { // 鰰
 };
 
 const struct Glyph blackFontSjisDF82 = { // め
-	NULL,
+	&blackFontGbDFF7,
 	0x82,
 	13,
 	{
@@ -139229,7 +139231,7 @@ const struct Glyph blackFontSjisDFE9 = { // 鱇
 };
 
 const struct Glyph blackFontSjisE082 = { // も
-	NULL,
+	&blackFontGbE0F7,
 	0x82,
 	12,
 	{
@@ -140069,7 +140071,7 @@ const struct Glyph blackFontSjisE0E9 = { // 鰲
 };
 
 const struct Glyph blackFontSjisE182 = { // ゃ
-	NULL,
+	&blackFontGbE1F7,
 	0x82,
 	12,
 	{
@@ -140909,7 +140911,7 @@ const struct Glyph blackFontSjisE1E9 = { // 鱆
 };
 
 const struct Glyph blackFontSjisE282 = { // や
-	NULL,
+	&blackFontGbE2F7,
 	0x82,
 	13,
 	{
@@ -141749,7 +141751,7 @@ const struct Glyph blackFontSjisE2E9 = { // 鰾
 };
 
 const struct Glyph blackFontSjisE382 = { // ゅ
-	NULL,
+	&blackFontGbE3F7,
 	0x82,
 	12,
 	{
@@ -142589,7 +142591,7 @@ const struct Glyph blackFontSjisE3E9 = { // 鱚
 };
 
 const struct Glyph blackFontSjisE482 = { // ゆ
-	NULL,
+	&blackFontGbE4F7,
 	0x82,
 	13,
 	{
@@ -143429,7 +143431,7 @@ const struct Glyph blackFontSjisE4E9 = { // 鱠
 };
 
 const struct Glyph blackFontSjisE582 = { // ょ
-	NULL,
+	&blackFontGbE5F7,
 	0x82,
 	11,
 	{
@@ -144269,7 +144271,7 @@ const struct Glyph blackFontSjisE5E9 = { // 鱧
 };
 
 const struct Glyph blackFontSjisE682 = { // よ
-	NULL,
+	&blackFontGbE6F7,
 	0x82,
 	12,
 	{
@@ -145109,7 +145111,7 @@ const struct Glyph blackFontSjisE6E9 = { // 鱶
 };
 
 const struct Glyph blackFontSjisE782 = { // ら
-	NULL,
+	&blackFontGbE7F7,
 	0x82,
 	12,
 	{
@@ -145949,7 +145951,7 @@ const struct Glyph blackFontSjisE7E9 = { // 鱸
 };
 
 const struct Glyph blackFontSjisE882 = { // り
-	NULL,
+	&blackFontGbE8F7,
 	0x82,
 	11,
 	{
@@ -146789,7 +146791,7 @@ const struct Glyph blackFontSjisE8E9 = { // 鳧
 };
 
 const struct Glyph blackFontSjisE982 = { // る
-	NULL,
+	&blackFontGbE9F7,
 	0x82,
 	12,
 	{
@@ -147629,7 +147631,7 @@ const struct Glyph blackFontSjisE9E9 = { // 鳬
 };
 
 const struct Glyph blackFontSjisEA82 = { // れ
-	NULL,
+	&blackFontGbEAF7,
 	0x82,
 	14,
 	{
@@ -148469,7 +148471,7 @@ const struct Glyph blackFontSjisEAE9 = { // 鳰
 };
 
 const struct Glyph blackFontSjisEB82 = { // ろ
-	NULL,
+	&blackFontGbEBF7,
 	0x82,
 	12,
 	{
@@ -149309,7 +149311,7 @@ const struct Glyph blackFontSjisEBE9 = { // 鴉
 };
 
 const struct Glyph blackFontSjisEC82 = { // ゎ
-	NULL,
+	&blackFontGbECF7,
 	0x82,
 	12,
 	{
@@ -150149,7 +150151,7 @@ const struct Glyph blackFontSjisECE9 = { // 鴈
 };
 
 const struct Glyph blackFontSjisED82 = { // わ
-	NULL,
+	&blackFontGbEDF7,
 	0x82,
 	13,
 	{
@@ -150989,7 +150991,7 @@ const struct Glyph blackFontSjisEDE9 = { // 鳫
 };
 
 const struct Glyph blackFontSjisEE82 = { // ゐ
-	NULL,
+	&blackFontGbEEF7,
 	0x82,
 	13,
 	{
@@ -151829,7 +151831,7 @@ const struct Glyph blackFontSjisEEE9 = { // 鴃
 };
 
 const struct Glyph blackFontSjisEF82 = { // ゑ
-	NULL,
+	&blackFontGbEFF7,
 	0x82,
 	13,
 	{
@@ -152669,7 +152671,7 @@ const struct Glyph blackFontSjisEFE9 = { // 鴆
 };
 
 const struct Glyph blackFontSjisF082 = { // を
-	NULL,
+	&blackFontGbF0F7,
 	0x82,
 	12,
 	{
@@ -153509,7 +153511,7 @@ const struct Glyph blackFontSjisF0E9 = { // 鴪
 };
 
 const struct Glyph blackFontSjisF182 = { // ん
-	NULL,
+	&blackFontGbF1F7,
 	0x82,
 	13,
 	{
@@ -154349,7 +154351,7 @@ const struct Glyph blackFontSjisF1E9 = { // 鴦
 };
 
 const struct Glyph blackFontSjisF288 = { // 允
-	NULL,
+	&blackFontGbF2F7,
 	0x88,
 	14,
 	{
@@ -155165,7 +155167,7 @@ const struct Glyph blackFontSjisF2E9 = { // 鶯
 };
 
 const struct Glyph blackFontSjisF388 = { // 印
-	NULL,
+	&blackFontGbF3F7,
 	0x88,
 	13,
 	{
@@ -155981,7 +155983,7 @@ const struct Glyph blackFontSjisF3E9 = { // 鴣
 };
 
 const struct Glyph blackFontSjisF488 = { // 咽
-	NULL,
+	&blackFontGbF4F7,
 	0x88,
 	13,
 	{
@@ -156797,7 +156799,7 @@ const struct Glyph blackFontSjisF4E9 = { // 鴟
 };
 
 const struct Glyph blackFontSjisF588 = { // 員
-	NULL,
+	&blackFontGbF5F7,
 	0x88,
 	14,
 	{
@@ -157613,7 +157615,7 @@ const struct Glyph blackFontSjisF5E9 = { // 鵄
 };
 
 const struct Glyph blackFontSjisF688 = { // 因
-	NULL,
+	&blackFontGbF6F7,
 	0x88,
 	13,
 	{
@@ -158429,7 +158431,7 @@ const struct Glyph blackFontSjisF6E9 = { // 鴕
 };
 
 const struct Glyph blackFontSjisF788 = { // 姻
-	NULL,
+	&blackFontGbF7F7,
 	0x88,
 	13,
 	{
@@ -159245,7 +159247,7 @@ const struct Glyph blackFontSjisF7E9 = { // 鴒
 };
 
 const struct Glyph blackFontSjisF888 = { // 引
-	NULL,
+	&blackFontGbF8F7,
 	0x88,
 	12,
 	{
@@ -160061,7 +160063,7 @@ const struct Glyph blackFontSjisF8E9 = { // 鵁
 };
 
 const struct Glyph blackFontSjisF988 = { // 飲
-	NULL,
+	&blackFontGbF9F7,
 	0x88,
 	14,
 	{
@@ -160877,7 +160879,7 @@ const struct Glyph blackFontSjisF9E9 = { // 鴿
 };
 
 const struct Glyph blackFontSjisFA88 = { // 淫
-	NULL,
+	&blackFontGbFAF7,
 	0x88,
 	14,
 	{
@@ -161693,7 +161695,7 @@ const struct Glyph blackFontSjisFAE9 = { // 鴾
 };
 
 const struct Glyph blackFontSjisFB88 = { // 胤
-	NULL,
+	&blackFontGbFBF7,
 	0x88,
 	14,
 	{
@@ -162509,7 +162511,7 @@ const struct Glyph blackFontSjisFBE9 = { // 鵆
 };
 
 const struct Glyph blackFontSjisFC88 = { // 蔭
-	NULL,
+	&blackFontGbFCF7,
 	0x88,
 	14,
 	{
