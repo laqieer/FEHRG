@@ -162315,7 +162315,3 @@ const struct Glyph blackFontGbFEF7 = { // 齄
 		0x7ffdd0d, // 15
 	},
 };
-
-const struct Glyph * const blackFontsFD = &blackFontGbFDF7;
-const struct Glyph * const blackFontsFE = &blackFontGbFEF7;
-

@@ -126,8 +126,6 @@
 .rodata.whiteFonts7D : {*(.rodata.whiteFonts7D)}
 . = 0x8bd7c94;
 .rodata.whiteFonts7E : {*(.rodata.whiteFonts7E)}
-. = 0x8bc20e8;
-.rodata.whiteFonts7F : {*(.rodata.whiteFonts7F)}
 . = 0x8bdbf84;
 .rodata.whiteFonts80 : {*(.rodata.whiteFonts80)}
 . = 0x8bd95e4;
@@ -378,12 +376,6 @@
 .rodata.whiteFontsFB : {*(.rodata.whiteFontsFB)}
 . = 0x8bdbb4c;
 .rodata.whiteFontsFC : {*(.rodata.whiteFontsFC)}
-. = 0x8bc22e0;
-.rodata.whiteFontsFD : {*(.rodata.whiteFontsFD)}
-. = 0x8bc22e4;
-.rodata.whiteFontsFE : {*(.rodata.whiteFontsFE)}
-. = 0x8bc22e8;
-.rodata.whiteFontsFF : {*(.rodata.whiteFontsFF)}
 
 . = 0x8bfe560;
 .rodata.blackFonts40 : {*(.rodata.blackFonts40)}
@@ -511,8 +503,6 @@
 .rodata.blackFonts7D : {*(.rodata.blackFonts7D)}
 . = 0x8bff058;
 .rodata.blackFonts7E : {*(.rodata.blackFonts7E)}
-. = 0x8bdc2dc;
-.rodata.blackFonts7F : {*(.rodata.blackFonts7F)}
 . = 0x8bfb788;
 .rodata.blackFonts80 : {*(.rodata.blackFonts80)}
 . = 0x8bff6d0;
@@ -763,9 +753,8 @@
 .rodata.blackFontsFB : {*(.rodata.blackFontsFB)}
 . = 0x8bfce50;
 .rodata.blackFontsFC : {*(.rodata.blackFontsFC)}
-. = 0x8bdc4d4;
-.rodata.blackFontsFD : {*(.rodata.blackFontsFD)}
-. = 0x8bdc4d8;
-.rodata.blackFontsFE : {*(.rodata.blackFontsFE)}
-. = 0x8bdc4dc;
-.rodata.blackFontsFF : {*(.rodata.blackFontsFF)}
+
+. = 0x80052f0;
+.rodata.pWhiteFonts : {*(.rodata.pWhiteFonts)}
+. = 0x8005304;
+.rodata.pBlackFonts : {*(.rodata.pBlackFonts)}

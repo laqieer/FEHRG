@@ -30,13 +30,15 @@ struct Font
              // this array is a linked list. byte2 - 0x40 is the index of the head
              // of the list, and the list is traversed until a matching byte1 is found.
     /*0x04*/ struct Glyph **glyphs;
-    /*0x08*/ void (*drawGlyph)(struct TextHandle *, struct Glyph *);
+    /*0x08*/ void (*drawGlyph)(struct TextHandle *, const struct Glyph *);
     /*0x0C*/ void *(*getVramTileOffset)(struct TextHandle *);
     /*0x10*/ u16 unk10;
     /*0x12*/ u16 unk12;
     /*0x14*/ u16 paletteNum;
     /*0x16*/ u8 isAscii;
 };
+
+extern struct Font *CurrentFont;
 
 struct TextBatch
 {

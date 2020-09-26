@@ -1,3 +1,5 @@
+#pragma once
+
 extern const struct Glyph blackFontGbA1F7;
 extern const struct Glyph blackFontGbA2F7;
 extern const struct Glyph blackFontGbA3F7;
