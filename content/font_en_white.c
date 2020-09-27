@@ -8,6 +8,7 @@
 
 #include "font_jp_white.h"
 #include "font_cn_white.h"
+#include "font_en_white.h"
 
 const struct Glyph whiteFont1F = {
 	NULL,
@@ -1042,7 +1043,7 @@ const struct Glyph * const whiteFonts[] = {
 	NULL, // 1D
 	NULL, // 1E
 	&whiteFont1F,
-	&whiteFont20,
+	&Mglyph_shortspace, // 20
 	&whiteFont21,
 	&whiteFont22,
 	&whiteFont23,
@@ -1075,64 +1076,64 @@ const struct Glyph * const whiteFonts[] = {
 	&whiteFont3E,
 	&whiteFont3F,
 	&whiteFont40,
-	&whiteFont41,
-	&whiteFont42,
-	&whiteFont43,
-	&whiteFont44,
-	&whiteFont45,
-	&whiteFont46,
-	&whiteFont47,
-	&whiteFont48,
+	&UpMglyph_a, // 41
+	&UpMglyph_b, // 42
+	&UpMglyph_c, // 43
+	&UpMglyph_d, // 44
+	&UpMglyph_e, // 45
+	&UpMglyph_f, // 46
+	&UpMglyph_g, // 47
+	&UpMglyph_h, // 48
 	&whiteFont49,
-	&whiteFont4A,
-	&whiteFont4B,
-	&whiteFont4C,
+	&UpMglyph_j, // 4A
+	&UpMglyph_k, // 4B
+	&UpMglyph_l, // 4C
 	&whiteFont4D,
 	&whiteFont4E,
-	&whiteFont4F,
-	&whiteFont50,
-	&whiteFont51,
-	&whiteFont52,
-	&whiteFont53,
+	&UpMglyph_o, // 4F
+	&UpMglyph_p, // 50
+	&UpMglyph_q, // 51
+	&UpMglyph_r, // 52
+	&UpMglyph_s, // 53
 	&whiteFont54,
-	&whiteFont55,
-	&whiteFont56,
+	&UpMglyph_u, // 55
+	&UpMglyph_v, // 56
 	&whiteFont57,
-	&whiteFont58,
-	&whiteFont59,
-	&whiteFont5A,
+	&UpMglyph_x, // 58
+	&UpMglyph_y, // 59
+	&UpMglyph_z, // 5A
 	&whiteFont5B,
 	&whiteFont5C,
 	&whiteFont5D,
 	&whiteFont5E,
 	&whiteFont5F,
 	&whiteFont60,
-	&whiteFont61,
-	&whiteFont62,
-	&whiteFont63,
-	&whiteFont64,
-	&whiteFont65,
-	&whiteFont66,
-	&whiteFont67,
-	&whiteFont68,
+	&Mglyph_a, // 61
+	&Mglyph_b, // 62
+	&Mglyph_c, // 63
+	&Mglyph_d, // 64
+	&Mglyph_e, // 65
+	&Mglyph_f, // 66
+	&Mglyph_g, // 67
+	&Mglyph_h, // 68
 	&whiteFont69,
-	&whiteFont6A,
-	&whiteFont6B,
+	&Mglyph_j, // 6A
+	&Mglyph_k, // 6B
 	&whiteFont6C,
 	&whiteFont6D,
-	&whiteFont6E,
-	&whiteFont6F,
-	&whiteFont70,
-	&whiteFont71,
-	&whiteFont72,
-	&whiteFont73,
-	&whiteFont74,
-	&whiteFont75,
-	&whiteFont76,
+	&Mglyph_n, // 6E
+	&Mglyph_o, // 6F
+	&Mglyph_p, // 70
+	&Mglyph_q, // 71
+	&Mglyph_r, // 72
+	&Mglyph_s, // 73
+	&Mglyph_t, // 74
+	&Mglyph_u, // 75
+	&Mglyph_v, // 76
 	&whiteFont77,
-	&whiteFont78,
-	&whiteFont79,
-	&whiteFont7A,
+	&Mglyph_x, // 78
+	&Mglyph_y, // 79
+	&Mglyph_z, // 7A
 	&whiteFont7B,
 	&whiteFont7C,
 	&whiteFont7D,

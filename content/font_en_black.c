@@ -8,6 +8,7 @@
 
 #include "font_jp_black.h"
 #include "font_cn_black.h"
+#include "font_en_black.h"
 
 const struct Glyph blackFont1F = {
 	NULL,
@@ -1035,97 +1036,97 @@ const struct Glyph * const blackFonts[] = {
 	NULL, // 1D
 	NULL, // 1E
 	&blackFont1F,
-	&blackFont20,
+	&Sglyph_shortspace, // 20
 	&blackFont21,
-	&blackFont22,
+	&Sglyph_DoubleQuote, // 22
 	&blackFont23,
 	&blackFont24,
 	&blackFont25,
 	&blackFont26,
-	&blackFont27,
-	&blackFont28,
-	&blackFont29,
+	&Sglyph_SingleQuote, // 27
+	&Sglyph_LParen, // 28
+	&Sglyph_RParen, // 29
 	&blackFont2A,
-	&blackFont2B,
-	&blackFont2C,
-	&blackFont2D,
-	&blackFont2E,
-	&blackFont2F,
-	&blackFont30,
-	&blackFont31,
-	&blackFont32,
-	&blackFont33,
-	&blackFont34,
-	&blackFont35,
-	&blackFont36,
-	&blackFont37,
-	&blackFont38,
-	&blackFont39,
+	&Sglyph_Plus, // 2B
+	&Sglyph_Comma, // 2C
+	&Sglyph_Minus, // 2D
+	&Sglyph_Dot, // 2E
+	&Sglyph_Slash, // 2F
+	&Sglyph_0,
+	&Sglyph_1,
+	&Sglyph_2,
+	&Sglyph_3,
+	&Sglyph_4,
+	&Sglyph_5,
+	&Sglyph_6,
+	&Sglyph_7,
+	&Sglyph_8,
+	&Sglyph_9,
 	&blackFont3A,
-	&blackFont3B,
+	&Sglyph_Colon, // 3B
 	&blackFont3C,
 	&blackFont3D,
 	&blackFont3E,
 	&blackFont3F,
 	&blackFont40,
-	&blackFont41,
-	&blackFont42,
-	&blackFont43,
-	&blackFont44,
-	&blackFont45,
-	&blackFont46,
-	&blackFont47,
-	&blackFont48,
+	&UpSglyph_a, // 41
+	&UpSglyph_b, // 42
+	&UpSglyph_c, // 43
+	&UpSglyph_d, // 44
+	&UpSglyph_e, // 45
+	&UpSglyph_f, // 46
+	&UpSglyph_g, // 47
+	&UpSglyph_h, // 48
 	&blackFont49,
-	&blackFont4A,
-	&blackFont4B,
-	&blackFont4C,
+	&UpSglyph_j, // 4A
+	&UpSglyph_k, // 4B
+	&UpSglyph_l, // 4C
 	&blackFont4D,
 	&blackFont4E,
-	&blackFont4F,
-	&blackFont50,
-	&blackFont51,
-	&blackFont52,
-	&blackFont53,
+	&UpSglyph_o, // 4F
+	&UpSglyph_p, // 50
+	&UpSglyph_q, // 51
+	&UpSglyph_r, // 52
+	&UpSglyph_s, // 53
 	&blackFont54,
-	&blackFont55,
-	&blackFont56,
+	&UpSglyph_u, // 55
+	&UpSglyph_v, // 56
 	&blackFont57,
-	&blackFont58,
-	&blackFont59,
-	&blackFont5A,
+	&UpSglyph_x, // 58
+	&UpSglyph_y, // 59
+	&UpSglyph_z, // 5A
 	&blackFont5B,
 	&blackFont5C,
 	&blackFont5D,
 	&blackFont5E,
 	&blackFont5F,
 	&blackFont60,
-	&blackFont61,
-	&blackFont62,
-	&blackFont63,
-	&blackFont64,
-	&blackFont65,
-	&blackFont66,
-	&blackFont67,
-	&blackFont68,
+	&Sglyph_a, // 61
+	&Sglyph_b, // 62
+	&Sglyph_c, // 63
+	&Sglyph_d, // 64
+	&Sglyph_e, // 65
+	&Sglyph_f, // 66
+	&Sglyph_g, // 67
+	&Sglyph_h, // 68
 	&blackFont69,
 	&blackFont6A,
-	&blackFont6B,
+	&Sglyph_k, // 6B
 	&blackFont6C,
 	&blackFont6D,
-	&blackFont6E,
-	&blackFont6F,
-	&blackFont70,
-	&blackFont71,
-	&blackFont72,
-	&blackFont73,
-	&blackFont74,
-	&blackFont75,
-	&blackFont76,
+	&Sglyph_n, // 6E
+	&Sglyph_o, // 6F
+	&Sglyph_p, // 70
+	&Sglyph_q, // 71
+	&Sglyph_r, // 72
+	&Sglyph_s, // 73
+	&Sglyph_t, // 74
+	&Sglyph_u, // 75
+	&Sglyph_v, // 76
 	&blackFont77,
-	&blackFont78,
-	&blackFont79,
-	&blackFont7A,
+	&Sglyph_x, // 78
+	&Sglyph_y, // 79
+	&Sglyph_z, // 7A
 	&blackFont7B,
 	&blackFont7C,
 	&blackFont7D,
