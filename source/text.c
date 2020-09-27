@@ -8,7 +8,12 @@
 
 const struct Glyph *getAsciiGlyph(char a)
 {
-    return CurrentFont->glyphs[a + 0xC0 + 0x80 * (getCurrentLanguage() - LANGUAGE_ENGLISH)];
+    if (getCurrentLanguage() == LANGUAGE_ENGLISH_NARROW)
+    {
+        return CurrentFont->glyphs[a + 0xC0 + 0x80];
+    }
+    
+    return CurrentFont->glyphs[a + 0xC0];
 }
 
 int getStringTextWidthCore(const char *str)
