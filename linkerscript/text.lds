@@ -6,3 +6,5 @@
 .text.appendString : {*(.text.appendString)}
 . = 0x80056d8;
 .text.appendChar : {*(.text.appendChar)}
+. = 0x8013318;
+.text.getTextById : {*(.text.getTextById)}

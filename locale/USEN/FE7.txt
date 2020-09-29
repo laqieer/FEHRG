@@ -1,0 +1,7303 @@
+[0x0001] =
+"Yes"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0002] =
+"No",
+
+[0x0003] =
+"Buy"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0004] =
+"Sell",
+
+[0x0005] =
+"Welcome to the armory!"TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"These are the weapons"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"we have for sale."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0006] =
+"Welcome to the"TEXT_NEWLINE
+"general store!"TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"Here are all the items"TEXT_NEWLINE
+"we have for sale."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0007] =
+"Come back again."TEXT_PUSH_A"",
+
+[0x0008] =
+"Hope to see you again!"TEXT_PUSH_A"",
+
+[0x0009] =
+"This is an armory."TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"I buy and sell all manner"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"of things."TEXT_BUY_SELL"",
+
+[0x000A] =
+"This is a general store."TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"How can I help you?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x000B] =
+"Shhh... Hee hee..."TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"This is a secret shop!"TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x000C] =
+"Do you need anything else?"TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x000D] =
+"Anything else I can do "TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for you?"TEXT_BUY_SELL"",
+
+[0x000E] =
+"Is there anything else"TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"you'll be needing?"TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x000F] =
+"Do you need anything else?"TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x0010] =
+"Anything else I can do "TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for you?"TEXT_BUY_SELL"",
+
+[0x0011] =
+"Is there anything else"TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"you'll be needing?"TEXT_NEWLINE
+""TEXT_BUY_SELL"",
+
+[0x0012] =
+"What would you like?",
+
+[0x0013] =
+"What can I get for you?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0014] =
+"What do you need?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0015] =
+"Anything else?",
+
+[0x0016] =
+"Anything else?",
+
+[0x0017] =
+"Any other requests?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0018] =
+"What do you want to sell?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0019] =
+"What are you selling?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x001A] =
+"What would you sell?",
+
+[0x001B] =
+"You've got nothing to sell!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x001C] =
+"You have nothing to sell."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x001D] =
+"You've got nothing to sell!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x001E] =
+"Selling anything else?",
+
+[0x001F] =
+"Anything else to sell?",
+
+[0x0020] =
+"What else are you selling?",
+
+[0x0021] =
+"You don't have the money!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0022] =
+"You're short of funds."TEXT_PUSH_A"",
+
+[0x0023] =
+"Heh! Not enough money!"TEXT_PUSH_A"",
+
+[0x0024] =
+""TEXT_GOLD_AMOUNT" gold."TEXT_NEWLINE
+"That sound fair?"TEXT_YES"",
+
+[0x0025] =
+""TEXT_GOLD_AMOUNT" gold."TEXT_NEWLINE
+"Is that all right?"TEXT_YES"",
+
+[0x0026] =
+""TEXT_GOLD_AMOUNT" gold."TEXT_NEWLINE
+"Acceptable?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_YES"",
+
+[0x0027] =
+"Come back again."TEXT_PUSH_A"",
+
+[0x0028] =
+"Drop in again."TEXT_PUSH_A"",
+
+[0x0029] =
+"Hee hee... Buh-bye!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x002A] =
+"I can't buy that."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x002B] =
+"I can't buy that."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x002C] =
+"Hee hee... Wait a minute."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I can't buy that!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x002D] =
+"Looks like you're full."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Send it to Merlinus?"TEXT_YES"",
+
+[0x002E] =
+"Your hands are full."TEXT_NEWLINE
+"Send it to Merlinus?"TEXT_YES"",
+
+[0x002F] =
+"Your hands are full."TEXT_NEWLINE
+"Send it to Merlinus?"TEXT_YES"",
+
+[0x0030] =
+"Looks like you're full."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0031] =
+"Your hands are full."TEXT_PUSH_A"",
+
+[0x0032] =
+"Your hands are full."TEXT_PUSH_A"",
+
+[0x0033] =
+"Right. I'll send it."TEXT_PUSH_A"",
+
+[0x0034] =
+"Right. I'll have it sent."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0035] =
+"Hee hee... I'll send it then."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0036] =
+"No? Too bad. You could"TEXT_NEWLINE
+"take it if you made room."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0037] =
+"That's a shame. You could"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"carry it if you made room."TEXT_PUSH_A"",
+
+[0x0038] =
+"Ah, well... You could take"TEXT_NEWLINE
+"it if you made room."TEXT_PUSH_A"",
+
+[0x0039] =
+"Too bad you don't have a"TEXT_NEWLINE
+"merchant to send it to."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x003A] =
+"If you had a merchant,"TEXT_NEWLINE
+"I could send it there..."TEXT_PUSH_A"",
+
+[0x003B] =
+"If you had a merchant,"TEXT_NEWLINE
+"I could send it to you."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x003C] =
+"Merlinus is full, too!"TEXT_NEWLINE
+"Rearrange your things!"TEXT_PUSH_A"",
+
+[0x003D] =
+"Merlinus is full,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"too. Try again later."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x003E] =
+"Heh... Merlinus is full,"TEXT_NEWLINE
+"too. Rearrange things..."TEXT_PUSH_A"",
+
+[0x003F] =
+"Welcome to the arena!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0040] =
+"Welcome to the arena."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A""TEXT_NEWLINE
+"Oh! It's you again."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"I've lost a lot of gold"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"thanks to you..."TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"If you want to continue,"TEXT_PUSH_A""TEXT_NEWLINE
+"we're going to have to"TEXT_NEWLINE
+"do things differently."TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"I'm going to prepare some"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"more challenging foes."TEXT_PUSH_A"",
+
+[0x0041] =
+"Would you like to wager"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+""TEXT_GOLD_AMOUNT" gold?"TEXT_YES"",
+
+[0x0042] =
+"Good luck. Don't get"TEXT_NEWLINE
+"yourself killed."TEXT_PUSH_A"",
+
+[0x0043] =
+"Bah! What's that?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Get outta here!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0044] =
+"Fight 'til defeat, or press"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the B Button to yield."TEXT_PUSH_A"",
+
+[0x0045] =
+"So you won, eh? Here's"TEXT_NEWLINE
+"your prize. "TEXT_GOLD_AMOUNT" gold."TEXT_PUSH_A"",
+
+[0x0046] =
+"Ahh, you lost? I'd hoped"TEXT_NEWLINE
+"for better from you."TEXT_PUSH_A"",
+
+[0x0047] =
+"What? You yield? Well,"TEXT_NEWLINE
+"your gold is mine, then!"TEXT_PUSH_A"",
+
+[0x0048] =
+"Looks like no one wins."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Here's your money back."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0049] =
+"You don't have the money!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Try again later."TEXT_PUSH_A"",
+
+[0x004A] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"Do you want to quit?"TEXT_NEWLINE
+""TEXT_YES"",
+
+[0x004B] =
+""TEXT_OPEN_LEFT"Next time, choose Resume"TEXT_NEWLINE
+"Chapter to finish this battle."TEXT_PUSH_A"",
+
+[0x004C] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"Do you surrender?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+""TEXT_YES"",
+
+[0x004D] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"You can do no damage."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Would you like to quit?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_YES"",
+
+[0x004E] =
+""TEXT_OPEN_LEFT"Shall I begin sending the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"trial map?"TEXT_YES"",
+
+[0x004F] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"Loading."TEXT_NEWLINE
+"Please wait a moment."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0050] =
+""TEXT_OPEN_LEFT"Sending map now."TEXT_NEWLINE
+"Please wait a moment."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0051] =
+""TEXT_OPEN_LEFT"Map send complete.",
+
+[0x0052] =
+""TEXT_OPEN_LEFT"An error has occurred.",
+
+[0x0053] =
+""TEXT_OPEN_LEFT" There is no backup trial map."TEXT_NEWLINE
+"Ending map send and returning to menu.",
+
+[0x0054] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"All your saved data will be erased."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Shall I continue?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NO"",
+
+[0x0055] =
+""TEXT_OPEN_LEFT"Once your data is erased, it cannot"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"be restored. Shall I continue?"TEXT_NO"",
+
+[0x0056] =
+""TEXT_OPEN_LEFT"The data's been erased."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[0x0057] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE"\xdf"TEXT_NEWLINE""TEXT_NEWLINE
+"Are you finished training?"TEXT_NEWLINE
+""TEXT_YES"",
+
+[0x0058] =
+""TEXT_OPEN_LEFT"All right, we're done here."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[3+0x01AF] =
+"Marquess Pherae's young"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"son. Just and honorable.",
+
+[3+0x01B0] =
+"Marquess Ostia's younger"TEXT_NEWLINE
+"brother. Reckless, but loyal."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01B1] =
+"A young girl from the Lorca"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"tribe. Stouthearted and kind."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01B2] =
+"A man from a small village in"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Bern. Fights for his wife.",
+
+[3+0x01B3] =
+"One of Eliwood's guardsmen."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Duty is everything to him.",
+
+[3+0x01B4] =
+"A troubled mercenary with a"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"grudge against House Ostia."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01B5] =
+"The eldest son of a wealthy"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"merchant. Finding himself.",
+
+[3+0x01B6] =
+"A youth from Sacae. Yearns"TEXT_NEWLINE
+"to be a swordmaster.",
+
+[3+0x01B7] =
+"An eastern swordmaster."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Seeking worthy opponents."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01B8] =
+"A knight in service to House"TEXT_NEWLINE
+"Ostia. Hector's sworn man.",
+
+[3+0x01B9] =
+"The captain of a band of"TEXT_NEWLINE
+"corsairs. A generous man."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01BA] =
+"A youth from Pherae, in the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Lycian League. Very social."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01BB] =
+"A youth from Pherae. Very"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"helpful and bright."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01BC] =
+"The wife of Marquess"TEXT_NEWLINE
+"Reglay. A lethal beauty.",
+
+[3+0x01BD] =
+"A traveling acolyte."TEXT_NEWLINE
+"Gentle and serene.",
+
+[3+0x01BE] =
+"A cleric in service to House"TEXT_NEWLINE
+"Ostia. Headstrong and bold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01BF] =
+"A cleric wandering Valor."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Shrouded in mystery.",
+
+[3+0x01C0] =
+"A young mage from Etruria."TEXT_NEWLINE
+"Charming, but uptight.",
+
+[3+0x01C1] =
+"One of the Black Fang."TEXT_NEWLINE
+"True and innocent.",
+
+[3+0x01C2] =
+"Marquess of Reglay. Sole"TEXT_NEWLINE
+"student of Archsage Athos.",
+
+[3+0x01C3] =
+"A scholar, and a novice"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"student of ancient magics.",
+
+[3+0x01C4] =
+"A knight in service to house"TEXT_NEWLINE
+"Caelin. Virtuous to a fault.",
+
+[3+0x01C5] =
+"A knight in service to house"TEXT_NEWLINE
+"Caelin. A bit of a scoundrel."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01C6] =
+"A knight in service to House"TEXT_NEWLINE
+"Pherae. A fresh recruit.",
+
+[3+0x01C7] =
+"A paladin serving House"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Pherae. A skilled veteran.",
+
+[3+0x01C8] =
+"A vassal in service to Count"TEXT_NEWLINE
+"Caerleon of Etruria.",
+
+[3+0x01C9] =
+"A young hired sword from"TEXT_NEWLINE
+"the Kutolah tribe.",
+
+[3+0x01CA] =
+"A pegasus knight earning"TEXT_NEWLINE
+"her title. A friend of Lyn's."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01CB] =
+"Commander of the 5th wing"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"of Ilia's pegasus knights.",
+
+[3+0x01CC] =
+"A member of the 3rd wing"TEXT_NEWLINE
+"of Ilia's pegasus knights.",
+
+[3+0x01CD] =
+"A deserter from Bern's"TEXT_NEWLINE
+"wyvern riders. Prideful.",
+
+[3+0x01CE] =
+"A deserter from Bern's"TEXT_NEWLINE
+"wyvern riders. Brutal.",
+
+[3+0x01CF] =
+"A wyvern rider to whom dark"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"magic has given strength."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01D0] =
+"The protector of Nabata. A"TEXT_NEWLINE
+"mysterious air surrounds him."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01D1] =
+"A cheery thief. His casual"TEXT_NEWLINE
+"demeanor belies his skill.",
+
+[3+0x01D2] =
+"The Black Fang's Angel of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Death. Once served Nergal.",
+
+[3+0x01D3] =
+"A somber girl. Quiet, but"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"filled with a solemn energy.",
+
+[3+0x01D4] =
+"A bard possessing arcane"TEXT_NEWLINE
+"powers. Brother of Ninian.",
+
+[3+0x01D5] =
+"An archsage. One of the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"eight legendary heroes."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01D6] =
+"A traveling merchant. Timid"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"and easily frightened.",
+
+[3+0x01D7] =
+"One of Fargus's corsairs."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Foulmouthed, but kind.",
+
+[3+0x01D8] =
+"A retired knight of Caelin."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Constantly testing himself."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01D9] =
+"A paladin in service to House"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Pherae. Modest and polite.",
+
+[3+0x01DA] =
+"A former Black Fang once"TEXT_NEWLINE
+"known as Hurricane."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01DB] =
+"The sole survivor of the"TEXT_NEWLINE
+"Knights of Pherae.",
+
+[3+0x01DC] =
+"A dedicated swordfighter."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Cool and detached.",
+
+[3+0x01DD] =
+"The wife of Marquess"TEXT_NEWLINE
+"Pherae. Eliwood's mother."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01DE] =
+"Marquess Ostia, the head"TEXT_NEWLINE
+"of the Lycian League."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01DF] =
+"A spy in service to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"House Ostia.",
+
+[3+0x01E0] =
+"One of the eight legendary"TEXT_NEWLINE
+"heroes. A cryptic figure."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01E1] =
+"A Ganelon bandit. Called"TEXT_NEWLINE
+"the Beast for his savagery."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01E2] =
+"A thug who knows a secret"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"about Lyn's past."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01E3] =
+"A Sacaen swordsman with"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"a greedy heart."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01E4] =
+"A member of the Ganelon"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"bandits.",
+
+[3+0x01E5] =
+"A member of the Ganelon"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"bandits.",
+
+[3+0x01E6] =
+"A member of the Ganelon"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"bandits.",
+
+[3+0x01E7] =
+"One of Lord Lundgren's"TEXT_NEWLINE
+"assassins. Sent to kill Lyn.",
+
+[3+0x01E8] =
+"One of the Black Fang."TEXT_NEWLINE
+"Pursues Nils ruthlessly.",
+
+[3+0x01E9] =
+"A villager from northern"TEXT_NEWLINE
+"Bern. Has a bad leg.",
+
+[3+0x01EA] =
+"One of the Black Fang."TEXT_NEWLINE
+"Hunts for Ninian and Nils.",
+
+[3+0x01EB] =
+"A knight of Caelin who has"TEXT_NEWLINE
+"remained loyal to Lundgren."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01EC] =
+"Knight Commander of Caelin."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Obeys Lundgren's orders.",
+
+[3+0x01ED] =
+"Marquess Caelin's brother."TEXT_NEWLINE
+"Hungers to rule over Caelin.",
+
+[3+0x01EE] =
+"A bringer of silence. His"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"identity is unknown.",
+
+[3+0x01EF] =
+"One of the Black Fang."TEXT_NEWLINE
+"Hunts after Hector."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F0] =
+"An avaricious fiend who"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"turns death into power."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F1] =
+"A head of Eubans's hired"TEXT_NEWLINE
+"swords. Morally bankrupt."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F2] =
+"The marquess of Santaruz."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F3] =
+"A Caelin bandit, attacking"TEXT_NEWLINE
+"villages for money. ",
+
+[3+0x01F4] =
+"A Caelin bandit. Fights for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"pleasure more than money."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F5] =
+"A hired man working for the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"bandits plaguing Caelin.",
+
+[3+0x01F6] =
+"A lightning-swift head of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the mercenaries of Laus.",
+
+[3+0x01F7] =
+"One of the Black Fang."TEXT_NEWLINE
+"Hunts Eliwood and Hector."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01F8] =
+"The son of Marquess Laus."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Despises Eliwood and Hector.",
+
+[3+0x01F9] =
+"Commander of the Imperial"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Guard of Laus.",
+
+[3+0x01FA] =
+"Knight Commander of Bern."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Trusted by Marquess Laus."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01FB] =
+"One of the Black Fang."TEXT_NEWLINE
+"Hunts after Eliwood.",
+
+[3+0x01FC] =
+"One of the Black Fang."TEXT_NEWLINE
+"Sent to recapture Ninian."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01FD] =
+"A senior Black Fang called"TEXT_NEWLINE
+"the Soaring Hawk. Very just.",
+
+[3+0x01FE] =
+"The Black Fang's Owl. Takes"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"orders from Nergal."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x01FF] =
+"Marquess Laus. Power-"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"hungry and spiteful.",
+
+[3+0x0200] =
+"One of the Black Fang."TEXT_NEWLINE
+"Guards the Dragon's Gate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0201] =
+"One of the Black Fang."TEXT_NEWLINE
+"Hunts Ninian and Nils.",
+
+[3+0x0202] =
+"A bandit of the Nabata"TEXT_NEWLINE
+"deserts.",
+
+[3+0x0203] =
+"A bandit of the Nabata"TEXT_NEWLINE
+"deserts.",
+
+[3+0x0204] =
+"The leader of the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Black Fang."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0205] =
+"The White Wolf of the Four"TEXT_NEWLINE
+"Fangs. Brendan's first son."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0206] =
+"The Rabid Hound of the Four"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Fangs. Brendan's young son."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0207] =
+"The Blue Crow of the Four"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Fangs. Sworn to Sonia.",
+
+[3+0x0208] =
+"One of the morphs"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"created by Nergal.",
+
+[3+0x0209] =
+"The strongest of the"TEXT_NEWLINE
+"morphs Nergal created.",
+
+[3+0x020A] =
+"Formerly, the Beast of the"TEXT_NEWLINE
+"Four Fangs. Now, a prisoner.",
+
+[3+0x020B] =
+"The Black Fang's Shrike."TEXT_NEWLINE
+"Nergal empowers him.",
+
+[3+0x020C] =
+"The Black Fang's Death"TEXT_NEWLINE
+"Kite. Nergal empowers him.",
+
+[3+0x020D] =
+"One of the Black Fang."TEXT_NEWLINE
+"Ursula's faithful servant.",
+
+[3+0x020E] =
+"Brendan's wife, and a"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"devout servant of Nergal."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x020F] =
+"The Black Fang's Shadow"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Hawk. Studies the dark arts.",
+
+[3+0x0210] =
+"An ancient spirit who"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"guards the Blazing Blade."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0211] =
+"An ancient spirit who"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"guards the Thunder Axe."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0212] =
+"The crown prince of Bern."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Both clever and wise."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0213] =
+"Marquess Pherae.",
+
+[3+0x0214] =
+"A wandering dragon that"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"breached the Dragon's Gate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0215] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the White Wolf, Lloyd.",
+
+[3+0x0216] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the Rabid Hound, Linus."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0217] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Brendan of the Black Fang.",
+
+[3+0x0218] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the Soaring Hawk, Uhai."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0219] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the Blue Crow, Ursula.",
+
+[3+0x021A] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the Shrike, Kenneth.",
+
+[3+0x021B] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the Death Kite, Jerme.",
+
+[3+0x021C] =
+"A morph made in the form of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Marquess Laus.",
+
+[3+0x021D] =
+"Bandits staking out"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"their turf."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x021E] =
+"Bandits staking out"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"their turf."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x021F] =
+"Soldiers of Laus, a territory"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"in the Lycian League."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0220] =
+"Pirates staking out"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"their turf."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0221] =
+"Members of the Black Fang,"TEXT_NEWLINE
+"a league of assassins.",
+
+[3+0x0222] =
+"Soldiers of Ostia, a leading"TEXT_NEWLINE
+"land in the Lycian League.",
+
+[3+0x0223] =
+"Ghostly soldiers guarding"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"an ancient road.",
+
+[3+0x0224] =
+"Thugs roaming the area."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0225] =
+"Soldiers of Caelin, deep"TEXT_NEWLINE
+"in the Lycian League."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0226] =
+"Mercenaries of Eubans, paid"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"by the marquess of Laus.",
+
+[3+0x0227] =
+"Soldiers of Bern, the largest"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"realm under military rule.",
+
+[3+0x0228] =
+"A creature given life by"TEXT_NEWLINE
+"supernatural powers.",
+
+[3+0x0229] =
+"An imperial guardsman under"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Rath's command."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x022A] =
+"An independent soldier under"TEXT_NEWLINE
+"Vaida's command.",
+
+[3+0x022B] =
+"The unit's class. Each class"TEXT_NEWLINE
+"possesses unique traits.",
+
+[3+0x022C] =
+"A noble attached to a ruling"TEXT_NEWLINE
+"house. Has great potential."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x022D] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"Lycia's mounted knights.",
+
+[3+0x022E] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"especially gifted generals."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x022F] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"masters of sword and bow."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0230] =
+"Mounted knights with"TEXT_NEWLINE
+"superior movement.",
+
+[3+0x0231] =
+"Dedicated cavaliers with"TEXT_NEWLINE
+"superior abilities all around.",
+
+[3+0x0232] =
+"Soldiers who attack from a"TEXT_NEWLINE
+"distance with their bows."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0233] =
+"Heavily armored knights with"TEXT_NEWLINE
+"stout defense, but low speed."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0234] =
+"Ascetics who wield light"TEXT_NEWLINE
+"magic, but can't use staves.",
+
+[3+0x0235] =
+"Priestesses who aid their"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies with sacred staves.",
+
+[3+0x0236] =
+"Jacks of all trades who can"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"pick locks and learn secrets."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0237] =
+"Trained killers who can deal"TEXT_NEWLINE
+"death in a single blow."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0238] =
+"Professional soldiers with a"TEXT_NEWLINE
+"balanced set of skills."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0239] =
+"Axe-wielding soldiers whose"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"attack offers little defense."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x023A] =
+"Staff-wielding maidens who"TEXT_NEWLINE
+"travel by horseback.",
+
+[3+0x023B] =
+"Swordfighters with superior"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"skill. Swift at killing strokes.",
+
+[3+0x023C] =
+"Masters of justice. Strong"TEXT_NEWLINE
+"against well-defended foes."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x023D] =
+"Sacaen plainsmen with good"TEXT_NEWLINE
+"movement. Armed with bows.",
+
+[3+0x023E] =
+"Mighty mountaineers who"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"prefer axes in combat.",
+
+[3+0x023F] =
+"Bold pirates who use axes in"TEXT_NEWLINE
+"battle. Quite adept at sea."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0240] =
+"Courageous, axe-wielding"TEXT_NEWLINE
+"corsairs. Adept in lakes."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0241] =
+"Students of dark magic."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Powerful, but very slow.",
+
+[3+0x0242] =
+"Musicians whose melodies"TEXT_NEWLINE
+"aid allies. Unable to attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0243] =
+"Dancers whose arts aid"TEXT_NEWLINE
+"allies. Unable to attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0244] =
+"Knights who've earned the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"right to fly winged steeds."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0245] =
+"Wyvern riders, weak only"TEXT_NEWLINE
+"against magic and bows."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0246] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"famed mercenary masters.",
+
+[3+0x0247] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"strong, battle-worn fighters."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0248] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"true masters of dark arts.",
+
+[3+0x0249] =
+"A master druid whose heart"TEXT_NEWLINE
+"is bound in darkness."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x024A] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"truly talented troubadors.",
+
+[3+0x024B] =
+"An honorific bestowed on the"TEXT_NEWLINE
+"swiftest pegasus knights."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x024C] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"true masters of swordplay."TEXT_NEWLINE
+"",
+
+[3+0x024D] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"fighters of incredible fury.",
+
+[3+0x024E] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"staff-wielding mages."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x024F] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"the wisest of sages.",
+
+[3+0x0250] =
+"A living magic seal. Blocks"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the use of any magic."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0251] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"devout monks and clerics."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0252] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"nomads of great skill.",
+
+[3+0x0253] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"peerless veteran archers."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0254] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"seasoned knights."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0255] =
+"An honorific bestowed upon"TEXT_NEWLINE
+"skilled wyvern riders.",
+
+[3+0x0256] =
+"An ancient, hateful dragon"TEXT_NEWLINE
+"that survived the Scouring."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0257] =
+"The crown prince of Bern."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Young, but extremely gifted.",
+
+[3+0x0258] =
+"An innocent peasant with"TEXT_NEWLINE
+"no combat skills at all.",
+
+[3+0x0259] =
+"A conveyor of goods and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"items. Lacks combat skills."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x025A] =
+"An average soldier, who has"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"no special abilities."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x025B] =
+"Unit level."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"The level max is 20.",
+
+[3+0x025C] =
+"Experience points gained. Gain"TEXT_NEWLINE
+"100 points to earn a new level."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x025D] =
+"Unit hit points. The unit loses"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"consciousness if this reaches 0.",
+
+[3+0x025E] =
+"Weapon name and type."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x025F] =
+"Amount of damage this weapon"TEXT_NEWLINE
+"causes. Affected by defenses."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0260] =
+"Chance that the attack will hit."TEXT_NEWLINE
+"Affected by terrain and enemies.",
+
+[3+0x0261] =
+"Weapon Range. A range of 1"TEXT_NEWLINE
+"can only hit adjacent spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0262] =
+"Chance the weapon will strike a"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"critical blow, doing triple damage."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0263] =
+"Ability to dodge enemy attacks."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Affects enemy's hit %.",
+
+[3+0x0264] =
+"Strength. The higher the number,"TEXT_NEWLINE
+"the more damage you inflict.",
+
+[3+0x0265] =
+"Magical power. Magical"TEXT_NEWLINE
+"power is akin to strength.",
+
+[3+0x0266] =
+"Fighting skill. A higher"TEXT_NEWLINE
+"number improves the unit's hit %."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0267] =
+"Speed. This affects both"TEXT_NEWLINE
+"evasion and attacks.",
+
+[3+0x0268] =
+"Defensive skill. Reduces"TEXT_NEWLINE
+"damage from weapons.",
+
+[3+0x0269] =
+"Magical resistance. Reduces"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"damage from magic attacks.",
+
+[3+0x026A] =
+"Constitution, or physical size."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Affects rescues.",
+
+[3+0x026B] =
+"Max rescuing constitution. Units"TEXT_NEWLINE
+"with lower Cons can be rescued."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x026C] =
+"Movement. The normal distance"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"you can cross in 1 turn.",
+
+[3+0x026D] =
+"Traveler. The name of the unit"TEXT_NEWLINE
+"with whom this unit is traveling."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x026E] =
+"Luck. This affects many"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"different things."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x026F] =
+"Elemental affinity. Determines"TEXT_NEWLINE
+"compatibility with other units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0270] =
+"Normal."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Feeling Healthy.",
+
+[3+0x0271] =
+"Ooooog..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Poison slowly steals HP.",
+
+[3+0x0272] =
+"Zzzz... Zzzzz..."TEXT_NEWLINE
+"Sleeping now... Can't move..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0273] =
+"Rarrrrr! Attack the nearest"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"unit, be it friend or foe!",
+
+[3+0x0274] =
+"......"TEXT_NEWLINE
+"Magic and staves are unusable.",
+
+[3+0x0275] =
+"Attack power is increased,"TEXT_NEWLINE
+"thanks to Filla's Might.",
+
+[3+0x0276] =
+"Defense & resistance increased,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"thanks to Ninis's Grace.",
+
+[3+0x0277] =
+"Critical hit % is increased,"TEXT_NEWLINE
+"thanks to Thor's Ire."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0278] =
+"Dodge is increased, thanks"TEXT_NEWLINE
+"to Set's Litany.",
+
+[3+0x0279] =
+"",
+
+[3+0x027A] =
+"",
+
+[3+0x027B] =
+"",
+
+[3+0x027C] =
+"",
+
+[3+0x027D] =
+"",
+
+[3+0x027E] =
+"",
+
+[3+0x027F] =
+"",
+
+[3+0x0280] =
+"Coated in lethal poison.",
+
+[3+0x0281] =
+"Effective against infantry."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0282] =
+"Effective against infantry."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0283] =
+"Forged to battle wyverns."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0284] =
+"Can strike consecutively."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0285] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0286] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0287] =
+"Effective against infantry."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0288] =
+"Effective against wyverns.",
+
+[3+0x0289] =
+"Suffused with light magic.",
+
+[3+0x028A] =
+"Imbued with dark magic."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x028B] =
+"Strong against spears.",
+
+[3+0x028C] =
+"Effective against cavalry.",
+
+[3+0x028D] =
+"Increases strength by 5 pts.",
+
+[3+0x028E] =
+"For experienced units only."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x028F] =
+"",
+
+[3+0x0290] =
+"",
+
+[3+0x0291] =
+"",
+
+[3+0x0292] =
+"",
+
+[3+0x0293] =
+"Coated in lethal poison.",
+
+[3+0x0294] =
+"Can strike consecutively."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0295] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0296] =
+"Effective against cavalry.",
+
+[3+0x0297] =
+"Doubles as ranged attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0298] =
+"Doubles as ranged attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0299] =
+"Strong against axes.",
+
+[3+0x029A] =
+"For experienced units only."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x029B] =
+"Effective against knights.",
+
+[3+0x029C] =
+"Doubles as ranged attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x029D] =
+"",
+
+[3+0x029E] =
+"",
+
+[3+0x029F] =
+"",
+
+[3+0x02A0] =
+"Coated in lethal poison.",
+
+[3+0x02A1] =
+"Can strike consecutively."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02A2] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02A3] =
+"Effective against cavalry.",
+
+[3+0x02A4] =
+"Effective against knights.",
+
+[3+0x02A5] =
+"Might injure its wielder."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02A6] =
+"Doubles as ranged attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02A7] =
+"Doubles as ranged attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02A8] =
+"Strong against swords.",
+
+[3+0x02A9] =
+"Good against myrmidons."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02AA] =
+"Effective against infantry."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02AB] =
+"Lightning-charged axe.",
+
+[3+0x02AC] =
+"For experienced units only."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02AD] =
+"",
+
+[3+0x02AE] =
+"",
+
+[3+0x02AF] =
+"",
+
+[3+0x02B0] =
+"Coated in lethal poison.",
+
+[3+0x02B1] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02B2] =
+"Can strike consecutively."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02B3] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02B4] =
+"Extended attack range.",
+
+[3+0x02B5] =
+"Can strike consecutively."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02B6] =
+"Long-range weapon.",
+
+[3+0x02B7] =
+"Super long-range weapon.",
+
+[3+0x02B8] =
+"Improves critical hit rate."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02B9] =
+"",
+
+[3+0x02BA] =
+"",
+
+[3+0x02BB] =
+"",
+
+[3+0x02BC] =
+"Long-range lightning strike.",
+
+[3+0x02BD] =
+"",
+
+[3+0x02BE] =
+"Boosts luck by 5 pts."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02BF] =
+"",
+
+[3+0x02C0] =
+"",
+
+[3+0x02C1] =
+"",
+
+[3+0x02C2] =
+"",
+
+[3+0x02C3] =
+"Long-range magic attack.",
+
+[3+0x02C4] =
+"",
+
+[3+0x02C5] =
+"",
+
+[3+0x02C6] =
+"Boosts resistance by 5 pts."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02C7] =
+"",
+
+[3+0x02C8] =
+"Negates enemy resistance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02C9] =
+"Drains enemy HP into caster.",
+
+[3+0x02CA] =
+"Reduces enemy HP by half."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02CB] =
+"",
+
+[3+0x02CC] =
+"",
+
+[3+0x02CD] =
+"",
+
+[3+0x02CE] =
+"Restores HP to allies in"TEXT_NEWLINE
+"adjacent spaces.",
+
+[3+0x02CF] =
+"Restores many HP to allies"TEXT_NEWLINE
+"in adjacent spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02D0] =
+"Restores all HP to allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"in adjacent spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02D1] =
+"Restores HP to allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"at a distance.",
+
+[3+0x02D2] =
+"Restores all HP to allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"nearby."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02D3] =
+"Returns allies to normal"TEXT_NEWLINE
+"condition. (Cures sleep, etc.)",
+
+[3+0x02D4] =
+"Halts all enemy magic"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for several turns.",
+
+[3+0x02D5] =
+"Puts enemies to sleep for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"several turns.",
+
+[3+0x02D6] =
+"Sends enemies into a"TEXT_NEWLINE
+"berserker rage."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02D7] =
+"Moves allies in adjacent"TEXT_NEWLINE
+"spaces instantly elsewhere."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02D8] =
+"Moves allies from distant"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"spaces to adjacent ones.",
+
+[3+0x02D9] =
+"Lights an area. The light"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"grows weaker each turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02DA] =
+"Restores an adjacent ally's"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"weapons to new condition."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02DB] =
+"Unlocks doors, even from"TEXT_NEWLINE
+"a distance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02DC] =
+"Increases magic resistance"TEXT_NEWLINE
+"of adjacent allies briefly."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02DD] =
+"Restores some HP to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies in adjacent spaces.",
+
+[3+0x02DE] =
+"Increases HP by a max of"TEXT_NEWLINE
+"7 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02DF] =
+"Increases Mag or Str by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E0] =
+"Increases Skill by 2 points."TEXT_NEWLINE
+"Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E1] =
+"Increases speed by"TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E2] =
+"Increases luck by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E3] =
+"Increases defense by"TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E4] =
+"Increases resistance by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E5] =
+"Increases movement by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E6] =
+"Increases constitution by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"2 points. Vanishes after use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E7] =
+"For mercenaries, myrmidons,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"and fighters Lv. 10 and up."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E8] =
+"For seafighters Lv. 10"TEXT_NEWLINE
+"and up."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02E9] =
+"For knights and cavaliers"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Lv. 10 and up.",
+
+[3+0x02EA] =
+"For archers and nomads"TEXT_NEWLINE
+"Lv. 10 and up.",
+
+[3+0x02EB] =
+"For pegasus knights and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"wyvern riders Lv. 10 and up.",
+
+[3+0x02EC] =
+"For magic wielders and"TEXT_NEWLINE
+"troubadors Lv. 10 and up."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02ED] =
+"For some units above Lv. 10"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"who have not changed class."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02EE] =
+"For lords above Lv. 10 who"TEXT_NEWLINE
+"have been deemed worthy.",
+
+[3+0x02EF] =
+"Awaiting the signature of a"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"thief Lv. 10 or higher."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F0] =
+"Gives a little treat to the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"unit that uses it.",
+
+[3+0x02F1] =
+"Opens chests."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F2] =
+"Opens doors in"TEXT_NEWLINE
+"adjacent spaces.",
+
+[3+0x02F3] =
+"Opens doors and chests."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Usable only by thieves."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F4] =
+"A medicinal solution used"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for healing minor wounds."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F5] =
+"A powerful solution that"TEXT_NEWLINE
+"restores all HP.",
+
+[3+0x02F6] =
+"A draught that boosts Res."TEXT_NEWLINE
+"Grows weaker each turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F7] =
+"A staff with burning pitch."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Grows dimmer each turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F8] =
+"A medicinal solution that"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"cures poison."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02F9] =
+"An amulet of the god Delphi."TEXT_NEWLINE
+"Protects fliers from arrows.",
+
+[3+0x02FA] =
+"If someone with this card"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"stops in a suspicious space...",
+
+[3+0x02FB] =
+"A special card that reduces"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the cost of all items by half.",
+
+[3+0x02FC] =
+"A valuable gemstone worth"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"10,000 gold.",
+
+[3+0x02FD] =
+"A rare gemstone worth"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"5,000 gold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02FE] =
+"An uncommon gemstone"TEXT_NEWLINE
+"worth 2,500 gold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x02FF] =
+"",
+
+[3+0x0300] =
+"An axe designed to strike"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"down wyverns."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0301] =
+"A magic sword capable of"TEXT_NEWLINE
+"striking at a distance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0302] =
+""TEXT_TACTICIAN_NAME"'s scroll. Gives"TEXT_NEWLINE
+"its carrier an advantage."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0303] =
+"A trap that damages units"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"that step on it.",
+
+[3+0x0304] =
+"A device that blocks units"TEXT_NEWLINE
+"from entering spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0305] =
+"A device that negates"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"enemy critical attacks."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"",
+
+[3+0x0306] =
+"A dance that increases"TEXT_NEWLINE
+"allies' attack for a turn.",
+
+[3+0x0307] =
+"A dance that increases"TEXT_NEWLINE
+"allies' defenses for a turn.",
+
+[3+0x0308] =
+"A dance that increases"TEXT_NEWLINE
+"critical hit % for a turn.",
+
+[3+0x0309] =
+"A dance that increases"TEXT_NEWLINE
+"allies' dodge for a turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x030A] =
+"A dance that allows"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies to move again."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x030B] =
+"A song that allows"TEXT_NEWLINE
+"allies to move again."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x030C] =
+"A tactician's sword.",
+
+[3+0x030D] =
+"A tactician's lance.",
+
+[3+0x030E] =
+"A tactician's axe.",
+
+[3+0x030F] =
+"A tactician's bow.",
+
+[3+0x0310] =
+"Restores HP.",
+
+[3+0x0311] =
+"Restores many HP."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0312] =
+"Restores all HP.",
+
+[3+0x0313] =
+"Restores HP to"TEXT_NEWLINE
+"distant allies."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0314] =
+"Restores HP to all"TEXT_NEWLINE
+"allies in one area."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0315] =
+"Restores allies to"TEXT_NEWLINE
+"normal status.",
+
+[3+0x0316] =
+"Blocks all enemy"TEXT_NEWLINE
+"magic.",
+
+[3+0x0317] =
+"Puts enemies to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"sleep.",
+
+[3+0x0318] =
+"Drives enemies to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"attack wildly in a"TEXT_NEWLINE
+"frenzy of rage."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0319] =
+"Warps allies to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"other spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x031A] =
+"Warps allies to a"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"space adjacent to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the staff wielder.",
+
+[3+0x031B] =
+"Lights up an"TEXT_NEWLINE
+"area."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x031C] =
+"Restores items to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"new condition.",
+
+[3+0x031D] =
+"Opens doors.",
+
+[3+0x031E] =
+"Increases resistance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x031F] =
+"Increases max HP."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0320] =
+"Increases either"TEXT_NEWLINE
+"strength or magic.",
+
+[3+0x0321] =
+"Increases skill.",
+
+[3+0x0322] =
+"Increases speed.",
+
+[3+0x0323] =
+"Increases luck."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0324] =
+"Increases defense.",
+
+[3+0x0325] =
+"Increases resistance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0326] =
+"Increases movement."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0327] =
+"Increases"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"constitution."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0328] =
+"Use this on a worthy"TEXT_NEWLINE
+"mercenary, fighter,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"or myrmidon.",
+
+[3+0x0329] =
+"Use this on a worthy"TEXT_NEWLINE
+"sea fighter.",
+
+[3+0x032A] =
+"Use this on a worthy"TEXT_NEWLINE
+"cavalier or knight."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x032B] =
+"Use this on a worthy"TEXT_NEWLINE
+"archer or nomad.",
+
+[3+0x032C] =
+"Use this on a worthy"TEXT_NEWLINE
+"master of a winged"TEXT_NEWLINE
+"mount.",
+
+[3+0x032D] =
+"Use this on a worthy"TEXT_NEWLINE
+"wielder of magic"TEXT_NEWLINE
+"power and staves."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x032E] =
+"Use this on a unit"TEXT_NEWLINE
+"over Lv. 10 who has"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"yet to change class.",
+
+[3+0x032F] =
+"Use this on a worthy"TEXT_NEWLINE
+"lord to bring great"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"power.",
+
+[3+0x0330] =
+"Just have a thief"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"sign on the dotted"TEXT_NEWLINE
+"line..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0331] =
+"Give this to a"TEXT_NEWLINE
+"unit you like.",
+
+[3+0x0332] =
+"Opens chests."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0333] =
+"Opens doors.",
+
+[3+0x0334] =
+"Universal lockpicks"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"designed for thieves."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0335] =
+"Restores some HP."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0336] =
+"Restores all HP.",
+
+[3+0x0337] =
+"Reduces damage"TEXT_NEWLINE
+"from magic attacks."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0338] =
+"Cures poison."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0339] =
+"Lights an area."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x033A] =
+"Protects airborne"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"units from bows.",
+
+[3+0x033B] =
+"Grants access to"TEXT_NEWLINE
+"secret shops."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x033C] =
+"Reduces the cost"TEXT_NEWLINE
+"of items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x033D] =
+"",
+
+[3+0x033E] =
+"Gives its carrier an"TEXT_NEWLINE
+"advantage in battle.",
+
+[3+0x033F] =
+"Units that enter"TEXT_NEWLINE
+"spaces where these"TEXT_NEWLINE
+"are take damage.",
+
+[3+0x0340] =
+"Units cannot enter"TEXT_NEWLINE
+"spaces where these"TEXT_NEWLINE
+"have been placed."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0341] =
+"Negates enemies'"TEXT_NEWLINE
+"critical attacks."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0342] =
+"Increases allies'"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"attack power"TEXT_NEWLINE
+"for a turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0343] =
+"Increases allies'"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Def and Res for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"a turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0344] =
+"Increases allies'"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Crit for a turn.",
+
+[3+0x0345] =
+"Increases allies'"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"evasion for a turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0346] =
+"Allows allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"to move again.",
+
+[3+0x0347] =
+"Allows allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"to move again.",
+
+[3+0x0348] =
+"Sword mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0349] =
+"Spear mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034A] =
+"Axe mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034B] =
+"Bow mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034C] =
+"Staff mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034D] =
+"Anima magic mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034E] =
+"Light magic mastery level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x034F] =
+"Dark magic mastery level",
+
+[3+0x0350] =
+"Strengthen the bond"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"between units by talking."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0351] =
+"The name of the unit"TEXT_NEWLINE
+"to whom you can talk."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0352] =
+"End the turn. Be sure you're"TEXT_NEWLINE
+"done before you select this.",
+
+[3+0x0353] =
+"Attack an enemy unit."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0354] =
+"Use the magic stored"TEXT_NEWLINE
+"within a staff."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0355] =
+"Use a ring that allows your"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies to move again."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0356] =
+"Use a ring that allows your"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies to move again."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x0357] =
+"Shhh..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"(Steal enemy items!)",
+
+[3+0x0358] =
+"Rescue an ally from"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"an adjacent space.",
+
+[3+0x0359] =
+"Place a rescued ally in"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"an adjacent space.",
+
+[3+0x035A] =
+"Pass a rescued ally to"TEXT_NEWLINE
+"another ally next to you."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[3+0x035B] =
+"Receive a rescued ally from"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"another ally next to you."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[4+0x035C] =
+"Talk to an ally or enemy"TEXT_NEWLINE
+"in an adjacent space."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[4+0x035D] =
+"Visit a village or a home.",
+
+[4+0x035E] =
+"Seize a designated point"TEXT_NEWLINE
+"to complete the chapter.",
+
+[4+0x035F] =
+"A door."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Use a key to open it."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0360] =
+"A chest."TEXT_NEWLINE
+"Use a key to open it."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0361] =
+"An armory."TEXT_NEWLINE
+"Enter to buy weapons."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0362] =
+"A shop."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Enter to buy items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0363] =
+"Congratulations! Only for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"one as lucky as you...",
+
+[5+0x0364] =
+"An arena. Wager your life"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"in battle for gold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0365] =
+"Use and equip items.",
+
+[5+0x0366] =
+"Trade items with allies"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"in adjacent spaces."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0367] =
+"Adjacent units can manage"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"items with Merlinus.",
+
+[5+0x0368] =
+"Get on ballista and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"use it to attack."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0369] =
+"Get off of ballista.",
+
+[5+0x036A] =
+"Normal attack with a bow"TEXT_NEWLINE
+"occurs."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x036B] =
+"Use the ballista to target"TEXT_NEWLINE
+"distant enemies.",
+
+[5+0x036C] =
+"Ready weapons or magic."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Use them to counterattack.",
+
+[5+0x036D] =
+"Use items.",
+
+[5+0x036E] =
+"Discard items. Important"TEXT_NEWLINE
+"items cannot be discarded.",
+
+[5+0x036F] =
+"Display enemy attack range."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0370] =
+"Display a chart of all"TEXT_NEWLINE
+"units on the field."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0371] =
+"Display current battle"TEXT_NEWLINE
+"progress."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0372] =
+"Set game speed and windows."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0373] =
+"Stop a battle in progress."TEXT_NEWLINE
+"Battle can be continued later.",
+
+[5+0x0374] =
+"End player's phase."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0375] =
+"Select unit to deploy in battle.",
+
+[5+0x0376] =
+"Exchange items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0377] =
+"Predict various things."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0378] =
+"Check your rankings for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the battles so far."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0379] =
+"Predict elements of the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"coming battle.",
+
+[5+0x037A] =
+"Read the compatibility"TEXT_NEWLINE
+"of units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x037B] =
+"Check your tactician's rating"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"and character data."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x037C] =
+"View information on"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"individual units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x037D] =
+"View current battlefield"TEXT_NEWLINE
+"and troop layout."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x037E] =
+"Save the current campaign.",
+
+[5+0x037F] =
+"Switch unit positions on"TEXT_NEWLINE
+"the battle map."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0380] =
+"Return to the charge screen.",
+
+[5+0x0381] =
+"Begin combat."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0382] =
+"Set game speed and"TEXT_NEWLINE
+"windows.",
+
+[5+0x0383] =
+"View maps to battle on or"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"items to sell in stores.",
+
+[5+0x0384] =
+"Rearrange the order of"TEXT_NEWLINE
+"your units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0385] =
+"Exchange items"TEXT_NEWLINE
+"between units.",
+
+[5+0x0386] =
+"Discard item. Valuable items"TEXT_NEWLINE
+"cannot be dropped.",
+
+[5+0x0387] =
+"Tranfers items to and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"from Merlinus.",
+
+[5+0x0388] =
+"Give all items to Merlinus."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0389] =
+"Display all units' items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x038A] =
+"Use items.",
+
+[5+0x038B] =
+"Sell unneeded items."TEXT_NEWLINE
+"Important items cannot be sold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x038C] =
+"Shop at the army's armory.",
+
+[5+0x038D] =
+"Put items in storage."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Up to 100 items can be stored.",
+
+[5+0x038E] =
+"Receive item."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"A unit can carry up to 5 items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x038F] =
+"Name of the unit."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0390] =
+"Current Max HP."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Potential Max HP."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0391] =
+"Strength or magic power."TEXT_NEWLINE
+"This affects attack ability.",
+
+[5+0x0392] =
+"Weapon or magical tome"TEXT_NEWLINE
+"being used."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0393] =
+"Physical condition."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Default is normal.",
+
+[5+0x0394] =
+"This unit cannot fight, and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"therefore cannot be selected."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0395] =
+"Only units with animation turned"TEXT_NEWLINE
+"on can perform combat animation.",
+
+[5+0x0396] =
+"There are no messages for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"this menu item."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0397] =
+"Total time played.",
+
+[5+0x0398] =
+"Number of turns played at this"TEXT_NEWLINE
+"point in the current chapter."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0399] =
+"Number of allied units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x039A] =
+"Number of enemy units.",
+
+[5+0x039B] =
+"Name of the army commander."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x039C] =
+"The goal of this chapter."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x039D] =
+"Money on hand.",
+
+[5+0x039E] =
+"Weapon or magic in use."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x039F] =
+"Weapon or magic in use."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Does more damage than normal."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A0] =
+"Wielder and weapon are well"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"suited. Hit % and power increase."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A1] =
+"Wielder and weapon are well"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"suited. Hit % and dmg increase."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A2] =
+"Wielder and weapon are ill"TEXT_NEWLINE
+"suited. Hit % and power decrease."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A3] =
+"Wielder and weapon are ill"TEXT_NEWLINE
+"suited. Hit % and power decrease."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A4] =
+"Damage this weapon will do."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"x2 = two attacks, x4 = four.",
+
+[5+0x03A5] =
+"Attack Speed."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Determines number of attacks."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A6] =
+"Defense."TEXT_NEWLINE
+"Decreases damage from attacks.",
+
+[5+0x03A7] =
+"Select two units and trade items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03A8] =
+"Select unit to trade with.",
+
+[5+0x03A9] =
+"Discard unwanted item.",
+
+[5+0x03AA] =
+"Can trade for Merlinus's items."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03AB] =
+"Can view all units' items.",
+
+[5+0x03AC] =
+"Armories can buy and sell items.",
+
+[5+0x03AD] =
+"This unit has no usable weapons,"TEXT_NEWLINE
+"so it cannot join a team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03AE] =
+"If you have no usable weapons,"TEXT_NEWLINE
+"you will be unable to attack..",
+
+[5+0x03AF] =
+"The main character must"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"be in your party."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03B0] =
+"This unit must take part"TEXT_NEWLINE
+"in this chapter.",
+
+[5+0x03B1] =
+"This unit cannot take part"TEXT_NEWLINE
+"in this chapter.",
+
+[5+0x03B2] =
+"Suspended data will be lost."TEXT_NEWLINE
+"Is that all right?",
+
+[5+0x03B3] =
+"Select Edit Units to build a team.",
+
+[5+0x03B4] =
+"Build or edit a multiplayer team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03B5] =
+"Battle the computer.",
+
+[5+0x03B6] =
+"Set team "TEXT_PAUSE_SHORT_WITH_SFX"# with + Control Pad.",
+
+[5+0x03B7] =
+"Battle against a linked player."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03B8] =
+"Confirm battle records to date."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03B9] =
+"Set combat rules."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03BA] =
+"Build a new team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03BB] =
+"View all units on team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03BC] =
+"Switch teams."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03BD] =
+"Disband team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03BE] =
+"Return to link menu.",
+
+[5+0x03BF] =
+"Select team for battle."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03C0] =
+"Select your own team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03C1] =
+"Select team to battle.",
+
+[5+0x03C2] =
+"+Control Pad: move/B Button: back.",
+
+[5+0x03C3] =
+"Set whether to hide enemy units.",
+
+[5+0x03C4] =
+"Set victory conditions."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03C5] =
+"Set units to equip automatically."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03C6] =
+"Setting up. Please wait...",
+
+[5+0x03C7] =
+"Please wait...",
+
+[5+0x03C8] =
+"Press START to begin."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03C9] =
+"The rules for this battle.",
+
+[5+0x03CA] =
+"Select data to build a team with."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03CB] =
+"Saved data will not be changed."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03CC] =
+"Select player to move first.",
+
+[5+0x03CD] =
+"You move first."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03CE] =
+"P1 moves first."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03CF] =
+"P2 moves first."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D0] =
+"P3 moves first."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D1] =
+"P4 moves first."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D2] =
+"It is all right to delete?",
+
+[5+0x03D3] =
+"Cancel and lose team contents?",
+
+[5+0x03D4] =
+"Each unit receives 30 extra pts.",
+
+[5+0x03D5] =
+"The village was attacked."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D6] =
+"The team surrendered."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D7] =
+"No one can do damage this turn."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D8] =
+"Set unit speed to normal."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03D9] =
+"Set unit speed to high."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03DA] =
+"Enemy commander"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03DB] =
+"Speak to an allied unit and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"strengthen the bond you share.",
+
+[5+0x03DC] =
+"End building with current team."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03DD] =
+"Dragon's breath, which burns all"TEXT_NEWLINE
+"it touches. There is no protection."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03DE] =
+"For Mamukoot only!",
+
+[5+0x03DF] =
+"Tactician's name",
+
+[5+0x03E0] =
+"Tactician's blood type",
+
+[5+0x03E1] =
+"Month of tactician's birth",
+
+[5+0x03E2] =
+"Tactician's gender",
+
+[5+0x03E3] =
+"Select which units to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"field this battle. The"TEXT_NEWLINE
+"number is limited, but"TEXT_NEWLINE
+"the main character"TEXT_NEWLINE
+"must be in your party.",
+
+[5+0x03E4] =
+"Select which units to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"field this battle. The"TEXT_NEWLINE
+"number is limited, but"TEXT_NEWLINE
+"the main character"TEXT_NEWLINE
+"must be in your party.",
+
+[5+0x03E5] =
+"Manage your units'"TEXT_NEWLINE
+"items. Item names"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"that appear in gray"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"cannot be used by"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"that unit.",
+
+[5+0x03E6] =
+"Manage your units'"TEXT_NEWLINE
+"items. If Merlinus is"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"in your party, you can"TEXT_NEWLINE
+"manage items through"TEXT_NEWLINE
+"him as well.",
+
+[5+0x03E7] =
+"This command cannot be"TEXT_NEWLINE
+"used at this time.",
+
+[5+0x03E8] =
+"Valuable battle"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"information can be"TEXT_NEWLINE
+"viewed here, as well"TEXT_NEWLINE
+"as tactician data.",
+
+[5+0x03E9] =
+"View the map. Check"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the number and type of"TEXT_NEWLINE
+"enemies. Also, check for"TEXT_NEWLINE
+"shops and change your"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies' starting positions."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03EA] =
+"View the map. Check"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the number and type of"TEXT_NEWLINE
+"enemies. Also, check for"TEXT_NEWLINE
+"shops and change your"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"allies' starting positions."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03EB] =
+"Save any changed"TEXT_NEWLINE
+"information.",
+
+[5+0x03EC] =
+"Save any changed"TEXT_NEWLINE
+"information.",
+
+[5+0x03ED] =
+"The battle will begin."TEXT_NEWLINE
+"You can also press"TEXT_NEWLINE
+"START to begin."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03EE] =
+"The battle will begin."TEXT_NEWLINE
+"You can also press"TEXT_NEWLINE
+"START to begin."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03EF] =
+"A great darkness"TEXT_NEWLINE
+"shrouds the land."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"The future cannot be"TEXT_NEWLINE
+"foreseen."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03F0] =
+"Select up to 5 units"TEXT_NEWLINE
+"to fight in the Link"TEXT_NEWLINE
+"Arena. You cannot"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"select units that"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"cannot fight."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03F1] =
+"Swap units' items.",
+
+[5+0x03F2] =
+"Cancel link formation"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"and return to the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"previous screen.",
+
+[5+0x03F3] =
+"Iron sword",
+
+[5+0x03F4] =
+"Slim sword",
+
+[5+0x03F5] =
+"Steel sword"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03F6] =
+"Silver sword",
+
+[5+0x03F7] =
+"Iron blade",
+
+[5+0x03F8] =
+"Steel blade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03F9] =
+"Silver blade",
+
+[5+0x03FA] =
+"Poison sword",
+
+[5+0x03FB] =
+"Rapier",
+
+[5+0x03FC] =
+"Mani Katti",
+
+[5+0x03FD] =
+"Sol Katti"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03FE] =
+"Brave sword"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x03FF] =
+"Wo Dao",
+
+[5+0x0400] =
+"Killing edge",
+
+[5+0x0401] =
+"Armorslayer"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0402] =
+"Wyrmslayer",
+
+[5+0x0403] =
+"Light Brand"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0404] =
+"Runesword"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0405] =
+"Lancereaver"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0406] =
+"Longsword"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0407] =
+"Regal blade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0408] =
+"Iron lance",
+
+[5+0x0409] =
+"Slim lance",
+
+[5+0x040A] =
+"Steel lance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x040B] =
+"Silver lance",
+
+[5+0x040C] =
+"Poison lance",
+
+[5+0x040D] =
+"Brave lance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x040E] =
+"Killer lance",
+
+[5+0x040F] =
+"Horseslayer"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0410] =
+"Javelin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0411] =
+"Spear"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0412] =
+"Axereaver"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0413] =
+"Rex Hasta"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0414] =
+"Heavy spear"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0415] =
+"Short spear"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0416] =
+"Iron axe",
+
+[5+0x0417] =
+"Steel axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0418] =
+"Silver axe",
+
+[5+0x0419] =
+"Poison axe",
+
+[5+0x041A] =
+"Brave axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x041B] =
+"Killer axe",
+
+[5+0x041C] =
+"Halberd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x041D] =
+"Hammer",
+
+[5+0x041E] =
+"Devil axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x041F] =
+"Hand axe",
+
+[5+0x0420] =
+"Tomahawk",
+
+[5+0x0421] =
+"Swordreaver"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0422] =
+"Swordslayer"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0423] =
+"Wolf Beil"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0424] =
+"Basilikos"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0425] =
+"Iron bow",
+
+[5+0x0426] =
+"Steel bow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0427] =
+"Silver bow",
+
+[5+0x0428] =
+"Poison bow",
+
+[5+0x0429] =
+"Killer bow",
+
+[5+0x042A] =
+"Brave bow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x042B] =
+"Short bow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x042C] =
+"Longbow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x042D] =
+"Rienfleche",
+
+[5+0x042E] =
+"Ballista",
+
+[5+0x042F] =
+"Iron ballista"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0430] =
+"Killer ballista"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0431] =
+"Fire",
+
+[5+0x0432] =
+"Thunder"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0433] =
+"Elfire",
+
+[5+0x0434] =
+"Bolting"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0435] =
+"Fimbulvetr",
+
+[5+0x0436] =
+"Forblaze",
+
+[5+0x0437] =
+"Excalibur"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0438] =
+"Lightning"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0439] =
+"Shine"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x043A] =
+"Divine",
+
+[5+0x043B] =
+"Purge"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x043C] =
+"Aura",
+
+[5+0x043D] =
+"Luce",
+
+[5+0x043E] =
+"Aureola"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x043F] =
+"Flux",
+
+[5+0x0440] =
+"Luna",
+
+[5+0x0441] =
+"Nosferatu"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0442] =
+"Eclipse"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0443] =
+"Fenrir",
+
+[5+0x0444] =
+"Gespenst",
+
+[5+0x0445] =
+"Ereshkigal",
+
+[5+0x0446] =
+"Heal",
+
+[5+0x0447] =
+"Mend",
+
+[5+0x0448] =
+"Recover"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0449] =
+"Physic",
+
+[5+0x044A] =
+"Fortify"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x044B] =
+"Restore"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x044C] =
+"Silence"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x044D] =
+"Sleep"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x044E] =
+"Berserk"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x044F] =
+"Warp",
+
+[5+0x0450] =
+"Rescue",
+
+[5+0x0451] =
+"Torch"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0452] =
+"Hammerne",
+
+[5+0x0453] =
+"Unlock",
+
+[5+0x0454] =
+"Barrier"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0455] =
+"Tiina staff"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0456] =
+"Angelic robe",
+
+[5+0x0457] =
+"Energy ring"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0458] =
+"Secret book"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0459] =
+"Speedwings",
+
+[5+0x045A] =
+"Goddess icon",
+
+[5+0x045B] =
+"Dragonshield",
+
+[5+0x045C] =
+"Talisman",
+
+[5+0x045D] =
+"Boots"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x045E] =
+"Body ring"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x045F] =
+"Hero crest",
+
+[5+0x0460] =
+"Ocean seal",
+
+[5+0x0461] =
+"Knight crest",
+
+[5+0x0462] =
+"Orion's bolt",
+
+[5+0x0463] =
+"Elysian whip",
+
+[5+0x0464] =
+"Guiding ring",
+
+[5+0x0465] =
+"Earth seal",
+
+[5+0x0466] =
+"Heaven seal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0467] =
+"Fell contract"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0468] =
+"Afa's Drops"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0469] =
+"Chest key"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x046A] =
+"Door key",
+
+[5+0x046B] =
+"Lockpick",
+
+[5+0x046C] =
+"Vulnerary"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x046D] =
+"Elixir",
+
+[5+0x046E] =
+"Pure water",
+
+[5+0x046F] =
+"Antitoxin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0470] =
+"Torch"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0471] =
+"Delphi shield"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0472] =
+"Member card"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0473] =
+"Silver card"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0474] =
+"White gem"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0475] =
+"Blue gem",
+
+[5+0x0476] =
+"Red gem"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0477] =
+"Gold",
+
+[5+0x0478] =
+"Battle robe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0479] =
+"Battle call"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x047A] =
+"Mine",
+
+[5+0x047B] =
+"Light rune",
+
+[5+0x047C] =
+"Iron rune"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x047D] =
+"Filla's Might"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x047E] =
+"Ninis's Grace"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x047F] =
+"Thor's Ire",
+
+[5+0x0480] =
+"Set's Litany",
+
+[5+0x0481] =
+"Emblem blade",
+
+[5+0x0482] =
+"Emblem lance",
+
+[5+0x0483] =
+"Emblem axe",
+
+[5+0x0484] =
+"Emblem bow",
+
+[5+0x0485] =
+"Emblem seal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0486] =
+"Durandal",
+
+[5+0x0487] =
+"Armads",
+
+[5+0x0488] =
+"Flametongue"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x0489] =
+"Wind sword",
+
+[5+0x048A] =
+"Dragon axe",
+
+[5+0x048B] =
+"Dance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[5+0x048C] =
+"Play",
+
+[5+0x048D] =
+"5, 000 G",
+
+[5+0x048E] =
+"3, 000 G",
+
+[5+0x048F] =
+"Lord",
+
+[5+0x0490] =
+"Lord",
+
+[8+0x0491] =
+"Knight Lord"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0492] =
+"Great Lord",
+
+[8+0x0493] =
+"Blade Lord",
+
+[8+0x0494] =
+"Mercenary"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0495] =
+"Mercenary"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0496] =
+"Hero",
+
+[8+0x0497] =
+"Hero",
+
+[8+0x0498] =
+"Myrmidon",
+
+[8+0x0499] =
+"Myrmidon",
+
+[8+0x049A] =
+"Swordmaster"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x049B] =
+"Swordmaster"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x049C] =
+"Fighter"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x049D] =
+"Warrior"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x049E] =
+"Knight",
+
+[8+0x049F] =
+"Knight",
+
+[8+0x04A0] =
+"General"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04A1] =
+"General"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04A2] =
+"Archer",
+
+[8+0x04A3] =
+"Archer",
+
+[8+0x04A4] =
+"Sniper",
+
+[8+0x04A5] =
+"Sniper",
+
+[8+0x04A6] =
+"Monk",
+
+[8+0x04A7] =
+"Cleric",
+
+[8+0x04A8] =
+"Bishop",
+
+[8+0x04A9] =
+"Bishop",
+
+[8+0x04AA] =
+"Mage",
+
+[8+0x04AB] =
+"Mage",
+
+[8+0x04AC] =
+"Sage",
+
+[8+0x04AD] =
+"Sage",
+
+[8+0x04AE] =
+"Shaman",
+
+[8+0x04AF] =
+"Shaman",
+
+[8+0x04B0] =
+"Druid"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04B1] =
+"Druid"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04B2] =
+"Dark Druid",
+
+[8+0x04B3] =
+"Cavalier",
+
+[8+0x04B4] =
+"Cavalier",
+
+[8+0x04B5] =
+"Paladin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04B6] =
+"Paladin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04B7] =
+"Troubadour",
+
+[8+0x04B8] =
+"Valkyrie",
+
+[8+0x04B9] =
+"Nomad"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04BA] =
+"Nomad"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04BB] =
+"Nmd Trooper"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04BC] =
+"Nmd Trooper"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04BD] =
+"Peg Knight",
+
+[8+0x04BE] =
+"Falcoknight"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04BF] =
+"Wyvern Rider",
+
+[8+0x04C0] =
+"Wyvern Rider",
+
+[8+0x04C1] =
+"Wyvern Lord"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C2] =
+"Wyvern Lord"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C3] =
+"Soldier"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C4] =
+"Brigand"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C5] =
+"Pirate",
+
+[8+0x04C6] =
+"Corsair"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C7] =
+"Berserker"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C8] =
+"Thief"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04C9] =
+"Thief"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04CA] =
+"Assassin",
+
+[8+0x04CB] =
+"Assassin",
+
+[8+0x04CC] =
+"Dancer",
+
+[8+0x04CD] =
+"Bard",
+
+[8+0x04CE] =
+"Archsage",
+
+[8+0x04CF] =
+"Magic Seal",
+
+[8+0x04D0] =
+"Fire Dragon"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04D1] =
+"Civilian",
+
+[8+0x04D2] =
+"Civilian",
+
+[8+0x04D3] =
+"Child"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04D4] =
+"Child"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04D5] =
+"Child"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04D6] =
+"Bramimond"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04D7] =
+"Peer",
+
+[8+0x04D8] =
+"Peer",
+
+[8+0x04D9] =
+"Prince",
+
+[8+0x04DA] =
+"Queen"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04DB] =
+"Transporter"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04DC] =
+"Eliwood"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04DD] =
+"Hector",
+
+[8+0x04DE] =
+"Lyn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04DF] =
+"Raven"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E0] =
+"Geitz"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E1] =
+"Guy"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E2] =
+"Karel"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E3] =
+"Dorcas",
+
+[8+0x04E4] =
+"Bartre",
+
+[8+0x04E5] =
+"Oswin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E6] =
+"Fargus",
+
+[8+0x04E7] =
+"Wil"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E8] =
+"Rebecca"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04E9] =
+"Louise",
+
+[8+0x04EA] =
+"Lucius",
+
+[8+0x04EB] =
+"Serra"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04EC] =
+"Renault"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04ED] =
+"Erk"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04EE] =
+"Nino",
+
+[8+0x04EF] =
+"Pent",
+
+[8+0x04F0] =
+"Canas"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04F1] =
+"Kent",
+
+[8+0x04F2] =
+"Sain",
+
+[8+0x04F3] =
+"Lowen"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04F4] =
+"Marcus",
+
+[8+0x04F5] =
+"Priscilla"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04F6] =
+"Rath",
+
+[8+0x04F7] =
+"Florina"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04F8] =
+"Fiora"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04F9] =
+"Farina",
+
+[8+0x04FA] =
+"Heath"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04FB] =
+"Vaida"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04FC] =
+"Hawkeye"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04FD] =
+"Matthew"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x04FE] =
+"Jaffar",
+
+[8+0x04FF] =
+"Ninian",
+
+[8+0x0500] =
+"Nils",
+
+[8+0x0501] =
+"Athos"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0502] =
+"Merlinus",
+
+[8+0x0503] =
+"Eleanora",
+
+[8+0x0504] =
+"Uther"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0505] =
+"Igrene",
+
+[8+0x0506] =
+"Dart",
+
+[8+0x0507] =
+"Wallace"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0508] =
+"Isadora"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0509] =
+"Nadine",
+
+[8+0x050A] =
+"Legault"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x050B] =
+"Harken",
+
+[8+0x050C] =
+"Karla"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x050D] =
+"Leila"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x050E] =
+"Bramimond"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x050F] =
+"Kishuna"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0510] =
+"Wire",
+
+[8+0x0511] =
+"Groznyi"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0512] =
+"Zagan"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0513] =
+"Boies"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0514] =
+"Puzon"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0515] =
+"Eubans",
+
+[8+0x0516] =
+"Santals"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0517] =
+"Nergal",
+
+[8+0x0518] =
+"Erik",
+
+[8+0x0519] =
+"Sealen",
+
+[8+0x051A] =
+"Bauker",
+
+[8+0x051B] =
+"Bernard"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x051C] =
+"Damian",
+
+[8+0x051D] =
+"Zoldam",
+
+[8+0x051E] =
+"Uhai",
+
+[8+0x051F] =
+"Aion",
+
+[8+0x0520] =
+"Darin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0521] =
+"Cameron"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0522] =
+"Oleg",
+
+[8+0x0523] =
+"Ursula",
+
+[8+0x0524] =
+"Bruno"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0525] =
+"Paul",
+
+[8+0x0526] =
+"Jasmine"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0527] =
+"Brendan"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0528] =
+"Bogan"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0529] =
+"Efta",
+
+[8+0x052A] =
+"Denning"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x052B] =
+"Pascal",
+
+[8+0x052C] =
+"Kenneth"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x052D] =
+"Jerme"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x052E] =
+"Maxime",
+
+[8+0x052F] =
+"Sonia"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0530] =
+"Teodor",
+
+[8+0x0531] =
+"Kaim",
+
+[8+0x0532] =
+"Igor",
+
+[8+0x0533] =
+"Alexis",
+
+[8+0x0534] =
+"Baudouin",
+
+[8+0x0535] =
+"Lloyd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0536] =
+"Linus"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0537] =
+"Limstella"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0538] =
+"Dragon",
+
+[8+0x0539] =
+"Georg"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x053A] =
+"Zephiel"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x053B] =
+"Elbert",
+
+[8+0x053C] =
+"Batta"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x053D] =
+"Zugu",
+
+[8+0x053E] =
+"Glass"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x053F] =
+"Migal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0540] =
+"Carjiga"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0541] =
+"Bug"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0542] =
+"Bool",
+
+[8+0x0543] =
+"Natalie"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0544] =
+"Heintz",
+
+[8+0x0545] =
+"Beyard",
+
+[8+0x0546] =
+"Yogi",
+
+[8+0x0547] =
+"Eagler",
+
+[8+0x0548] =
+"Lundgren",
+
+[8+0x0549] =
+"Black Fang",
+
+[8+0x054A] =
+"Tactician"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x054B] =
+"Citizen"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x054C] =
+"Enemy"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x054D] =
+"Wall",
+
+[8+0x054E] =
+"Snag",
+
+[8+0x054F] =
+"Bandit",
+
+[8+0x0550] =
+"Pirate",
+
+[8+0x0551] =
+"Bandit",
+
+[8+0x0552] =
+"Laus",
+
+[8+0x0553] =
+"Caelin",
+
+[8+0x0554] =
+"Ostia"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x0555] =
+"Bern",
+
+[8+0x0556] =
+"Merc",
+
+[8+0x0557] =
+"Black Fang",
+
+[8+0x0558] =
+"Guardian",
+
+[8+0x0559] =
+"Morph"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[8+0x055A] =
+"Rath's unit"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x055B] =
+"Mark",
+
+[14+0x055C] =
+"A Girl from the Plains",
+
+[14+0x055D] =
+"Footsteps of Fate"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x055E] =
+"Sword of Spirits",
+
+[14+0x055F] =
+"Band of Mercenaries"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0560] =
+"In Occupation's Shadow",
+
+[14+0x0561] =
+"Beyond the Borders",
+
+[14+0x0562] =
+"Blood of Pride",
+
+[14+0x0563] =
+"Siblings Abroad"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0564] =
+"The Black Shadow",
+
+[14+0x0565] =
+"Vortex of Strategy",
+
+[14+0x0566] =
+"A Grim Reunion",
+
+[14+0x0567] =
+"The Distant Plains",
+
+[14+0x0568] =
+"Taking Leave",
+
+[14+0x0569] =
+"Another Journey"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x056A] =
+"Birds of a Feather",
+
+[14+0x056B] =
+"In Search of Truth",
+
+[14+0x056C] =
+"The Peddler Merlinus",
+
+[14+0x056D] =
+"False Friends"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x056E] =
+"Talons Alight"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x056F] =
+"Noble Lady of Caelin",
+
+[14+0x0570] =
+"Whereabouts Unknown"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0571] =
+"The Port of Badon"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0572] =
+"Pirate Ship"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0573] =
+"The Dread Isle",
+
+[14+0x0574] =
+"Imrisoner of Magic",
+
+[14+0x0575] =
+"A Glimpse in Time"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0576] =
+"Dragon's Gate"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0577] =
+"New Resolve"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0578] =
+"Kinship's Bond",
+
+[14+0x0579] =
+"Living Legend"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x057A] =
+"Genesis"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x057B] =
+"Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x057C] =
+"Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x057D] =
+"Crazed Beast",
+
+[14+0x057E] =
+"Unfulfilled Heart"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x057F] =
+"Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0580] =
+"Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0581] =
+"Battle Before Dawn",
+
+[14+0x0582] =
+"Night of Farewells",
+
+[14+0x0583] =
+"Cog of Destiny",
+
+[14+0x0584] =
+"Valorous Roland"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0585] =
+"The Berserker"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0586] =
+"Sands of Time"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0587] =
+"Battle Preparations"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x0588] =
+"Victory or Death",
+
+[14+0x0589] =
+"The Value of Life"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x058A] =
+"Light"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[14+0x058B] =
+"Light"TEXT_PAUSE_SHORT_WITH_SFX"",
+/*
+[0x058C] =
+"Prologue: A Girl from the Plains",
+
+[0x058D] =
+"Ch. 1: Footsteps of Fate",
+
+[0x058E] =
+"Ch. 2: Sword of Spirits"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x058F] =
+"Ch. 3: Band of Mercenaries",
+
+[0x0590] =
+"Ch. 4: In Occupation's Shadow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0591] =
+"Ch. 5: Beyond the Borders"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0592] =
+"Ch. 6: Blood of Pride"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0593] =
+"Ch. 7: Siblings Abroad",
+
+[0x0594] =
+"Ch. 7x: The Black Shadow",
+
+[0x0595] =
+"Ch. 8: Vortex of Strategy"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0596] =
+"Ch. 9: A Grim Reunion"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x0597] =
+"Ch. 10: The Distant Plains",
+
+[0x0598] =
+"Ch. 11: Taking Leave",
+
+[0x0599] =
+"Ch. 12: Birds of a Feather",
+
+[0x059A] =
+"Ch. 13: In Search of Truth",
+
+[0x059B] =
+"Ch. 13x: The Peddler Merlinus"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x059C] =
+"Ch. 14: False Friends"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x059D] =
+"Ch. 15: Noble Lady of Caelin",
+
+[0x059E] =
+"Ch. 16: Whereabouts Unknown"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x059F] =
+"Ch. 16x: The Port of Badon",
+
+[0x05A0] =
+"Ch. 17: Pirate Ship"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05A1] =
+"Ch. 18: The Dread Isle",
+
+[0x05A2] =
+"Ch. 18x: Imprisoner of Magic",
+
+[0x05A3] =
+"Ch. 19: Dragon's Gate"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05A4] =
+"Ch. 20: New Resolve"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05A5] =
+"Ch. 21: Kinship's Bond",
+
+[0x05A6] =
+"Ch. 22: Living Legend"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05A7] =
+"Ch. 22x: Genesis",
+
+[0x05A8] =
+"Ch. 23: Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05A9] =
+"Ch. 23: Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05AA] =
+"Ch. 24: Unfulfilled Heart"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05AB] =
+"Ch. 25: Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05AC] =
+"Ch. 25: Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05AD] =
+"Ch. 26: Battle before Dawn",
+
+[0x05AE] =
+"Ch. 26x: Night of Farewells"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05AF] =
+"Ch. 27: Cog of Destiny",
+
+[0x05B0] =
+"Ch. 28: Valorous Roland"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05B1] =
+"Ch. 29: Sands of Time"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05B2] =
+"Ch. 29x: Battle Preparations",
+
+[0x05B3] =
+"Ch. 30: Victory or Death",
+
+[0x05B4] =
+"Final Chapter: Light",
+
+[0x05B5] =
+"Ch. 11: Another Journey"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05B6] =
+"Ch. 15: Talons Alight"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05B7] =
+"Ch. 16: Noble Lady of Caelin",
+
+[0x05B8] =
+"Ch. 17: Whereabouts Unknown"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05B9] =
+"Ch. 17x: The Port of Badon",
+
+[0x05BA] =
+"Ch. 18: Pirate Ship"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05BB] =
+"Ch. 19: The Dread Isle",
+
+[0x05BC] =
+"Ch. 19x: Prisoner of Magic",
+
+[0x05BD] =
+"Ch. 19x pt 2: A Glimpse in Time"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05BE] =
+"Ch. 20: Dragon's Gate"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05BF] =
+"Ch. 21: New Resolve"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C0] =
+"Ch. 22: Kinship's Bond",
+
+[0x05C1] =
+"Ch. 23: Living Legend"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C2] =
+"Ch. 23x: Genesis",
+
+[0x05C3] =
+"Ch. 24: Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C4] =
+"Ch. 24: Four-Fanged Offense"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C5] =
+"Ch. 25: Crazed Beast",
+
+[0x05C6] =
+"Ch. 26: Unfulfilled Heart"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C7] =
+"Ch. 27: Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C8] =
+"Ch. 27: Pale Flower of Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05C9] =
+"Ch. 28: Battle before Dawn",
+
+[0x05CA] =
+"Ch. 28x: Night of Farewells"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05CB] =
+"Ch. 29: Cog of Destiny",
+
+[0x05CC] =
+"Ch. 30: The Berserker"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05CD] =
+"Ch. 31: Sands of Time"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05CE] =
+"Ch. 31x: Battle Preparations",
+
+[0x05CF] =
+"Ch. 32: Victory or Death",
+
+[0x05D0] =
+"Ch. 32x: The Value of Life",
+
+[0x05D1] =
+"Final Chapter: Light",
+
+[0x05D2] =
+"--NO DATA--"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x05D3] =
+"--EPILOGUE--",
+
+[0x05D4] =
+"--TRIAL--"TEXT_PAUSE_SHORT_WITH_SFX"",
+*/
+[9+0x05D5] =
+"Pherae",
+
+[9+0x05D6] =
+"Black Fang",
+
+[9+0x05D7] =
+"Ostia"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05D8] =
+"The Dragon's Gate"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05D9] =
+"Valor Isle",
+
+[9+0x05DA] =
+"Castle Ostia",
+
+[9+0x05DB] =
+"Santaruz Castle"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05DC] =
+"Bern Keep"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05DD] =
+"Laus Castle"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05DE] =
+"Bern Manse",
+
+[9+0x05DF] =
+"Castle Caelin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[9+0x05E0] =
+"Sealed Lava Cave",
+
+[340+0x05E1] =
+"--",
+
+[340+0x05E2] =
+"Plain"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05E3] =
+"Road",
+
+[340+0x05E4] =
+"Village"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05E5] =
+"Village"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05E6] =
+"House"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05E7] =
+"Armory",
+
+[340+0x05E8] =
+"Vendor",
+
+[340+0x05E9] =
+"Arena"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05EA] =
+"C.Room",
+
+[340+0x05EB] =
+"Fort",
+
+[340+0x05EC] =
+"Gate",
+
+[340+0x05ED] =
+"Forest",
+
+[340+0x05EE] =
+"Thicket"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05EF] =
+"Sand",
+
+[340+0x05F0] =
+"Desert",
+
+[340+0x05F1] =
+"River"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05F2] =
+"Mntn",
+
+[340+0x05F3] =
+"Peak",
+
+[340+0x05F4] =
+"Bridge",
+
+[340+0x05F5] =
+"Bridge",
+
+[340+0x05F6] =
+"Sea"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05F7] =
+"Lake",
+
+[340+0x05F8] =
+"Floor"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05F9] =
+"Floor"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05FA] =
+"Fence"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x05FB] =
+"Wall",
+
+[340+0x05FC] =
+"Wall",
+
+[340+0x05FD] =
+"Rubble",
+
+[340+0x05FE] =
+"Pillar",
+
+[340+0x05FF] =
+"Door",
+
+[340+0x0600] =
+"Throne",
+
+[340+0x0601] =
+"Chest"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0602] =
+"Chest"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0603] =
+"Roof",
+
+[340+0x0604] =
+"Gate",
+
+[340+0x0605] =
+"Church",
+
+[340+0x0606] =
+"Ruins"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0607] =
+"Cliff"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0608] =
+"Ballista",
+
+[340+0x0609] =
+"Long B",
+
+[340+0x060A] =
+"Killer B",
+
+[340+0x060B] =
+"Flat",
+
+[340+0x060C] =
+"Wreck"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x060D] =
+"",
+
+[340+0x060E] =
+"Stairs",
+
+[340+0x060F] =
+"",
+
+[340+0x0610] =
+"Glacier"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0611] =
+"Arena"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0612] =
+"Valley",
+
+[340+0x0613] =
+"Fence"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0614] =
+"Snag",
+
+[340+0x0615] =
+"Bridge",
+
+[340+0x0616] =
+"Sky"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0617] =
+"Deeps"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0618] =
+"Ruins"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0619] =
+"Inn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x061A] =
+"Barrel",
+
+[340+0x061B] =
+"Bone",
+
+[340+0x061C] =
+"Dark",
+
+[340+0x061D] =
+"Water"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x061E] =
+"Gunnel",
+
+[340+0x061F] =
+"Deck",
+
+[340+0x0620] =
+"Brace"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[340+0x0621] =
+"Mast",
+
+[-56+0x0622] =
+"Animation"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x0623] =
+"Terrain"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x0624] =
+"Unit",
+
+[-56+0x0625] =
+"Combat",
+
+[-56+0x0626] =
+"Subtitle Help"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x0627] =
+"Autocursor",
+
+[-56+0x0628] =
+"Text Speed",
+
+[-56+0x0629] =
+"Game Speed",
+
+[-56+0x062A] =
+"Music"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x062B] =
+"Sound Effects"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x062C] =
+"Window Color",
+
+[-56+0x062D] =
+"CPU Level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x062E] =
+"Autoend Turns"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-56+0x062F] =
+"Unit Color",
+
+[-56+0x0630] =
+"Show Objective",
+
+[-56+0x0631] =
+"Controller",
+
+[-55+0x0632] =
+"Show animation without backgrounds",
+
+[-55+0x0633] =
+"Show animation with backgrounds"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0634] =
+"Turn off combat animation"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0635] =
+"Set animation for each unit manually",
+
+[-55+0x0636] =
+"Set unit movement speed"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0637] =
+"Set unit movement speed (fast)",
+
+[-55+0x0638] =
+"Set message speed (slow)",
+
+[-55+0x0639] =
+"Set message speed"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x063A] =
+"Set message speed (fast)",
+
+[-55+0x063B] =
+"Set message speed (autoscroll)",
+
+[-55+0x063C] =
+"Set Terrain window display",
+
+[-55+0x063D] =
+"Show normal unit window"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x063E] =
+"Show unit window with tail",
+
+[-55+0x063F] =
+"Turn unit window off",
+
+[-55+0x0640] =
+"Set Combat Info window (basic)",
+
+[-55+0x0641] =
+"Set Combat Info window (detail)"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0642] =
+"Set Combat Info window (off)",
+
+[-55+0x0643] =
+"Set Easy/Help Scroll display",
+
+[-55+0x0644] =
+"Set cursor to start on main hero",
+
+[-55+0x0645] =
+"Set turn to end automatically"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0646] =
+"Turn music on or off",
+
+[-55+0x0647] =
+"Turn sound effects on or off",
+
+[-55+0x0648] =
+"Change window color"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x0649] =
+"Set enemy AI",
+
+[-55+0x064A] =
+"Set colors for individual units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-55+0x064B] =
+"Set Chapter Goal display",
+
+[-55+0x064C] =
+"Set Control Window display",
+
+[-54+0x064D] =
+"ON",
+
+[-54+0x064E] =
+"OFF"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x064F] =
+" 1 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0650] =
+" 2 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0651] =
+" 3 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0652] =
+" 4 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0653] =
+"Slow",
+
+[-54+0x0654] =
+"Norm",
+
+[-54+0x0655] =
+"Fast",
+
+[-54+0x0656] =
+"Max"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0657] =
+"Solo",
+
+[-54+0x0658] =
+"Strat"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0659] =
+"Detail",
+
+[-54+0x065A] =
+"Panel"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x065B] =
+"Burst"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x065C] =
+"Seize the gate"TEXT_NEWLINE
+"of the ger",
+
+[-54+0x065D] =
+"Seize gate",
+
+[-54+0x065E] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x065F] =
+"Defeat enemy",
+
+[-54+0x0660] =
+"Seize the throne",
+
+[-54+0x0661] =
+"Seize throne",
+
+[-54+0x0662] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0663] =
+"Defeat enemy",
+
+[-54+0x0664] =
+"Protect Natalie"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for seven turns"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0665] =
+"Protect"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0666] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0667] =
+"Defeat enemy",
+
+[-54+0x0668] =
+"Trigger 3 switches",
+
+[-54+0x0669] =
+"Hit switches",
+
+[-54+0x066A] =
+"Defeat Black Fang"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"shaman Heintz"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x066B] =
+"Defeat Heintz"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x066C] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x066D] =
+"Defeat enemy",
+
+[-54+0x066E] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x066F] =
+"Defeat enemy",
+
+[-54+0x0670] =
+"Seize the castle"TEXT_NEWLINE
+"gate",
+
+[-54+0x0671] =
+"Seize gate",
+
+[-54+0x0672] =
+"Seize the castle"TEXT_NEWLINE
+"gate",
+
+[-54+0x0673] =
+"Seize gate",
+
+[-54+0x0674] =
+"Seize the gate to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the mayor's home",
+
+[-54+0x0675] =
+"Seize gate",
+
+[-54+0x0676] =
+"Defeat enemy"TEXT_NEWLINE
+"knight, Wire",
+
+[-54+0x0677] =
+"Defeat Wire"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0678] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0679] =
+"Defeat enemy",
+
+[-54+0x067A] =
+"Seize the castle"TEXT_NEWLINE
+"gate",
+
+[-54+0x067B] =
+"Seize gate",
+
+[-54+0x067C] =
+"Protect Merlinus"TEXT_NEWLINE
+"for 7 turns"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x067D] =
+"Save Merlinus"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x067E] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x067F] =
+"Defeat enemy",
+
+[-54+0x0680] =
+"Defend the throne"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for 7 turns"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0681] =
+"Defend throne"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0682] =
+"Seize the castle"TEXT_NEWLINE
+"gate",
+
+[-54+0x0683] =
+"Seize gate",
+
+[-54+0x0684] =
+"Seize the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"throne",
+
+[-54+0x0685] =
+"Seize throne",
+
+[-54+0x0686] =
+"Speak to Fargus"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0687] =
+"Reach Fargus",
+
+[-54+0x0688] =
+"Survive for 11 turns"TEXT_NEWLINE
+"or defeat leader",
+
+[-54+0x0689] =
+"Survive"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x068A] =
+"Defeat nomad"TEXT_NEWLINE
+"trooper, Uhai"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x068B] =
+"Defeat Uhai"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x068C] =
+"Seize the gate",
+
+[-54+0x068D] =
+"Seize gate",
+
+[-54+0x068E] =
+"Seize the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"throne",
+
+[-54+0x068F] =
+"Seize throne",
+
+[-54+0x0690] =
+"Seize the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"throne",
+
+[-54+0x0691] =
+"Seize throne",
+
+[-54+0x0692] =
+"Defeat enemy"TEXT_NEWLINE
+"warrior, Oleg"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0693] =
+"Defeat Oleg"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0694] =
+"Protect Nils for 11"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"turns or defeat leader",
+
+[-54+0x0695] =
+"Defend Nils"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0696] =
+"Defeat all enemy"TEXT_NEWLINE
+"units & protect Pent",
+
+[-54+0x0697] =
+"Defeat enemy",
+
+[-54+0x0698] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0699] =
+"Defeat enemy",
+
+[-54+0x069A] =
+"Defeat the enemy"TEXT_NEWLINE
+"swordmaster, Lloyd",
+
+[-54+0x069B] =
+"Defeat Lloyd",
+
+[-54+0x069C] =
+"Defeat the enemy"TEXT_NEWLINE
+"hero, Linus"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x069D] =
+"Defeat Linus",
+
+[-54+0x069E] =
+"Earn 3 points"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x069F] =
+"Earn 3 points"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06A0] =
+"Your lord must"TEXT_NEWLINE
+"survive for 11 turns",
+
+[-54+0x06A1] =
+"Survive"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06A2] =
+"Seize the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"throne",
+
+[-54+0x06A3] =
+"Seize throne",
+
+[-54+0x06A4] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06A5] =
+"Defeat enemy",
+
+[-54+0x06A6] =
+"Protect Zephiel for"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"15 turns",
+
+[-54+0x06A7] =
+"Guard Zephiel"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06A8] =
+"Seize the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"throne",
+
+[-54+0x06A9] =
+"Seize throne",
+
+[-54+0x06AA] =
+"Defeat all"TEXT_NEWLINE
+"enemy units"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06AB] =
+"Defeat enemy",
+
+[-54+0x06AC] =
+"Move Eliwood to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"where Georg stands",
+
+[-54+0x06AD] =
+"Claim a space"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06AE] =
+"Move Hector to"TEXT_NEWLINE
+"where Kaim stands"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06AF] =
+"Claim a space"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06B0] =
+"Protect the throne"TEXT_NEWLINE
+"for 11 turns",
+
+[-54+0x06B1] =
+"Protect throne",
+
+[-54+0x06B2] =
+"Get supplies"TEXT_NEWLINE
+"within 5 turns",
+
+[-54+0x06B3] =
+"Get supplies",
+
+[-54+0x06B4] =
+"Seize the castle"TEXT_NEWLINE
+"gate",
+
+[-54+0x06B5] =
+"Seize gate",
+
+[-54+0x06B6] =
+"Defeat enemy"TEXT_NEWLINE
+"leader, Kishuna"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06B7] =
+"Kill Kishuna",
+
+[-54+0x06B8] =
+"Defeat the dark"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"druid, Nergal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06B9] =
+"Defeat Nergal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06BA] =
+"Defeat the ancient"TEXT_NEWLINE
+"fire dragon"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x06BB] =
+"Kill dragon"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x070F] =
+"Strength increased",
+
+[-50+0x0710] =
+"Magic increased"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0711] =
+"Skill increased"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0712] =
+"Speed increased"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0713] =
+"Luck increased",
+
+[-50+0x0714] =
+"Defense increased"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0715] =
+"Resistance increased",
+
+[-50+0x0716] =
+"Movement increased",
+
+[-50+0x0717] =
+"Constitution increased",
+
+[-50+0x0718] =
+"Max HP increased",
+
+[-50+0x0719] =
+"Maturity increased",
+
+[-50+0x071A] =
+"Disabled trap"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x071B] =
+"Recovered mine",
+
+[-50+0x071C] =
+"Select a unit to rescue.",
+
+[-50+0x071D] =
+"Select which space to drop the unit into."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x071E] =
+"Select a unit to receive the traveler.",
+
+[-50+0x071F] =
+"Select a unit to give the traveler to.",
+
+[-50+0x0720] =
+"Select which unit to trade with.",
+
+[-50+0x0721] =
+"Select which unit to steal from.",
+
+[-50+0x0722] =
+"Select which unit to use the staff on.",
+
+[-50+0x0723] =
+"Select which unit to speak to.",
+
+[-50+0x0724] =
+"Select unit to refresh."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0725] =
+"Select warp point.",
+
+[-50+0x0726] =
+"Reorder your units."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0727] =
+"Your inventory is full. Send an item to Merlinus."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0728] =
+"Your inventory is full. Select an item to discard.",
+
+[-50+0x0729] =
+"Select a weapon to attack with."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x072A] =
+"Select a character to restore HP to.",
+
+[-50+0x072B] =
+"Select character to warp."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x072C] =
+"Select which character to bring next to you.",
+
+[-50+0x072D] =
+"Select a character to restore to normal.",
+
+[-50+0x072E] =
+"Select the character whose weapon needs repair."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x072F] =
+"Select which character's resistance to bolster."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-50+0x0730] =
+"Select a door to open.",
+
+[-50+0x0731] =
+"Select a unit to use the staff on.",
+
+[0x072B] =
+"Select an area to trap."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x072C] =
+"Select an area to trap."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x072D] =
+"Select a character to bless.",
+
+[0x072E] =
+"Select an area to light up."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0736] =
+"You can't visit"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"while Silenced."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0737] =
+"You can't equip"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"this weapon.",
+
+[-54+0x0738] =
+"Your weapon level"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"is too low."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0739] =
+"Treasure can't be dropped.",
+
+[-54+0x073A] =
+"Treasure can't be sold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x073B] =
+"You can't use a staff"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"while Silenced."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x073C] =
+"You can't speak"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"while Silenced."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x073D] =
+"You can't enter the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"arena while Silenced."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x073E] =
+"You can't fight, so you"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"can't enter the arena.",
+
+[-54+0x073F] =
+"Weapons, magic, and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"staves can't be stolen."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0740] =
+"There's nothing to repair.",
+
+[-54+0x0741] =
+"This item cannot be stolen."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0742] =
+"There's no more ammo for"TEXT_NEWLINE
+"the ballista."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0743] =
+"There's no need for that."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0744] =
+"This can't be used."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0745] =
+"Must be above level 10."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0746] =
+"There's no door.",
+
+[-54+0x0747] =
+"There's no chest."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0748] =
+"For thieves only."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0749] =
+"Specialized weapon."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x074A] =
+"No doors or chests."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x074B] =
+"Your inventory is full."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x074C] =
+"Item cannot be repaired.",
+
+[-54+0x074D] =
+"You cannot stop in the"TEXT_NEWLINE
+"middle of the tutorial."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x074E] =
+"Merlinus is full."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Select an item to"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"discard."TEXT_PUSH_A"",
+
+[-54+0x074F] =
+"Linking error."TEXT_NEWLINE
+"Turn the power off, check"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the connections, and retry."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0750] =
+"Weapon Level increased."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0751] =
+"broke!",
+
+[-54+0x0752] =
+"is gone.",
+
+[-54+0x0753] =
+"gold."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0754] =
+"Got ",
+
+[-54+0x0755] =
+"Stole ",
+
+[-54+0x0756] =
+"gold was stolen.",
+
+[-54+0x0757] =
+"was pilfered."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0758] =
+"was stolen."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x0759] =
+"Support Lv. increased.",
+
+[-54+0x075A] =
+"You can now use ",
+
+[-54+0x075B] =
+"Send "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x075C] =
+" to Merlinus."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-54+0x075D] =
+"You got ",
+
+[-54+0x075E] =
+"Dropped ",
+
+[-54+0x075F] =
+"Sent to Merlinus.",
+
+[-55+0x0761] =
+"Drop "TEXT_PAUSE_SHORT_WITH_SFX""TEXT_ITEM_NAME"?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+""TEXT_NO"",
+/*
+[0x0762] =
+"Treasure can't be dropped."TEXT_PUSH_A"",
+*/
+[-52+0x0763] =
+"Already used",
+
+[-52+0x0764] =
+"Inventory full",
+
+[-52+0x0765] =
+"Sacred Dragon"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"added to"TEXT_NEWLINE
+"Sound Room",
+
+[-52+0x0766] =
+"Palace Silezia"TEXT_NEWLINE
+"added to"TEXT_NEWLINE
+"Sound Room",
+
+[-52+0x0767] =
+"Send data from"TEXT_NEWLINE
+"Chapter 12+"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[-52+0x0768] =
+"This data"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"can't be used"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"on a trial map."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0769] =
+"Hide Units",
+
+[13+0x076A] =
+"Victory Cond",
+
+[13+0x076B] =
+"Point"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x076C] =
+"Survival",
+
+[13+0x076D] =
+"AutoWeapon",
+
+[13+0x076E] =
+"ON",
+
+[13+0x076F] =
+"OFF"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0770] =
+"Not Linked",
+
+[13+0x0771] =
+"Connecting",
+
+[13+0x0772] =
+"Link Error",
+
+[13+0x0773] =
+"Done",
+
+[13+0x0774] =
+"Build Team",
+
+[13+0x0775] =
+"Team",
+
+[13+0x0776] =
+"Unit List"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0777] =
+"Swap",
+
+[13+0x0778] =
+"Disband"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0779] =
+"Link Menu"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x077A] =
+"Empty"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x077B] =
+"Empty"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x077C] =
+"Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x077D] =
+"Quit",
+
+[13+0x077E] =
+"Return",
+
+[13+0x077F] =
+"Name",
+
+[13+0x0780] =
+"Points",
+
+[13+0x0781] =
+"Rank",
+
+[13+0x0782] =
+"Players"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0783] =
+"Sending"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0784] =
+"Receiving"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0785] =
+"Now Loading"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0786] =
+"1st"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0787] =
+"2nd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0788] =
+"3rd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0789] =
+"4th"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x078A] =
+"P1",
+
+[13+0x078B] =
+"P2",
+
+[13+0x078C] =
+"P3",
+
+[13+0x078D] =
+"P4",
+
+[13+0x078E] =
+"P5",
+
+[13+0x078F] =
+"Press the A Button to change. Press START to finish.",
+
+[13+0x0790] =
+"Mark",
+
+[13+0x0791] =
+"You are a tactician"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"traveling across Elibe."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"Set your "TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_RED"name"TEXT_TOGGLE_RED", "TEXT_TOGGLE_RED"birth"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"month"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_RED", and "TEXT_TOGGLE_RED"gender"TEXT_TOGGLE_RED"."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"Use the + Control Pad and"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the A Button to enter info."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A""TEXT_NEWLINE2""TEXT_NEWLINE
+"To start with the default"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"settings, simply select No."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_PUSH_A"",
+
+[13+0x0792] =
+"Enter information?"TEXT_NEWLINE
+
+""TEXT_YES"",
+
+[13+0x0793] =
+"Are these the settings"TEXT_NEWLINE
+"you want to use?"TEXT_NEWLINE
+""TEXT_YES"",
+
+[13+0x0794] =
+"Create a new tactician?"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+
+""TEXT_YES"",
+
+[13+0x0795] =
+"January"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0796] =
+"February",
+
+[13+0x0797] =
+"March"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0798] =
+"April"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x0799] =
+"May"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x079A] =
+"June",
+
+[13+0x079B] =
+"July",
+
+[13+0x079C] =
+"August",
+
+[13+0x079D] =
+"September"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x079E] =
+"October"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x079F] =
+"November",
+
+[13+0x07A0] =
+"December",
+
+[13+0x07A1] =
+"A"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x07A2] =
+"B"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x07A3] =
+"AB",
+
+[13+0x07A4] =
+"O"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[13+0x07A5] =
+"Male",
+
+[13+0x07A6] =
+"Female",
+/*
+[0x109F] =
+"Save",
+
+[0x10A0] =
+"Start"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10A1] =
+"Copy",
+
+[0x10A2] =
+"Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10A3] =
+"Back",
+
+[0x10A4] =
+"Quit",
+
+[0x10A5] =
+"Drop?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10A6] =
+"Play Music",
+
+[0x10A7] =
+"Stop",
+
+[0x10A8] =
+"End"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10A9] =
+"Normal",
+
+[0x10AA] =
+"Hard",
+
+[0x10AB] =
+"Anim."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10AC] =
+"Left",
+
+[0x10AD] =
+"Nothing"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10AE] =
+"Trans"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10AF] =
+"Give",
+
+[0x10B0] =
+"Take",
+
+[0x10B1] =
+"Drop",
+
+[0x10B2] =
+"Is this map OK?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10B3] =
+"Sent "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10B4] =
+"Cont. Tutorial",
+
+[0x10B5] =
+"Quit Tutorial"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10B6] =
+"Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10B7] =
+"File?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10B8] =
+"Erased files are",
+
+[0x10B9] =
+"gone forever!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10BA] =
+"OK",
+
+[0x10BB] =
+"Release Entry"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10BC] =
+"Continue Chp."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10BD] =
+"Initialize File"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10BE] =
+"Manual Save"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10BF] =
+"Manual Cont.",
+
+[0x10C0] =
+"Map"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10C1] =
+"D.Info",
+
+[0x10C2] =
+"Weather"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10C3] =
+"Fog"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10C4] =
+"Clears",
+
+[0x10C5] =
+"Erased",
+
+[0x10C6] =
+"G'Night!",
+
+[0x10C7] =
+"M"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10C8] =
+"Ride",
+
+[0x10C9] =
+"Exit",
+
+[0x10CA] =
+"Seize"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10CB] =
+"Attack",
+
+[0x10CC] =
+"Staff"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10CD] =
+"Play",
+
+[0x10CE] =
+"Dance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10CF] =
+"Steal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10D0] =
+"Talk",
+
+[0x10D1] =
+"Support"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10D2] =
+"Visit"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10D3] =
+"Chest"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10D4] =
+"Door",
+
+[0x10D5] =
+"Armory",
+
+[0x10D6] =
+"Vendor",
+
+[0x10D7] =
+"Secret",
+
+[0x10D8] =
+"Arena"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10D9] =
+"Rescue",
+
+[0x10DA] =
+"Drop",
+
+[0x10DB] =
+"Take",
+
+[0x10DC] =
+"Give",
+
+[0x10DD] =
+"Item",
+
+[0x10DE] =
+"Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10DF] =
+"Merch"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10E0] =
+"Wait",
+
+[0x10E1] =
+"Sally"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10E2] =
+"Unit",
+
+[0x10E3] =
+"Status",
+
+[0x10E4] =
+"Options"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10E5] =
+"Suspend"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10E6] =
+"Lead",
+
+[0x10E7] =
+"Debug"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10E8] =
+"M.Save",
+
+[0x10E9] =
+"End"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10EA] =
+"Use"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10EB] =
+"Equip"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10EC] =
+"Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10ED] =
+"Discard"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10EE] =
+"Yes"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10EF] =
+"No",
+
+[0x10F0] =
+"Bllsta",
+
+[0x10F1] =
+"Normal",
+
+[0x10F2] =
+"Name",
+
+[0x10F3] =
+"Lv",
+
+[0x10F4] =
+"HP",
+
+[0x10F5] =
+"Max"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10F6] =
+"Exp"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10F7] =
+"Class"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10F8] =
+"Str"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10F9] =
+"Mag"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10FA] =
+"S/M"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10FB] =
+"Skill"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10FC] =
+"Spd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10FD] =
+"Luck",
+
+[0x10FE] =
+"Def"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x10FF] =
+"Res"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1100] =
+"Div"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1101] =
+"Affin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1102] =
+"Equip"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1103] =
+"Atk"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1104] =
+"Hit"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1105] =
+"Avoid"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1106] =
+"Move",
+
+[0x1107] =
+"Con"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1108] =
+"Aid"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1109] =
+"Trv"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x110A] =
+"Cond",
+
+[0x110B] =
+"Ally",
+
+[0x110C] =
+"Rng"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x110D] =
+"Crit",
+
+[0x110E] =
+"Wt",
+
+[0x110F] =
+"Mt",
+
+[0x1110] =
+"AS",
+
+[0x1111] =
+"Sword"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1112] =
+"Lance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1113] =
+"Axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1114] =
+"Bow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1115] =
+"Staff"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1116] =
+"Nature",
+
+[0x1117] =
+"Light"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1118] =
+"Dark",
+
+[0x1119] =
+"Item",
+
+[0x111A] =
+"Bllsta",
+
+[0x111B] =
+"Dragon",
+
+[0x111C] =
+"",
+
+[0x111D] =
+"E"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x111E] =
+"D"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x111F] =
+"C"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1120] =
+"B"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1121] =
+"A"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1122] =
+"S"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1123] =
+"Fire",
+
+[0x1124] =
+"Thunder"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1125] =
+"Wind",
+
+[0x1126] =
+"Ice"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1127] =
+"Dark",
+
+[0x1128] =
+"Light"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1129] =
+"Nature",
+
+[0x112A] =
+"",
+
+[0x112B] =
+"Poison",
+
+[0x112C] =
+"Sleep"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x112D] =
+"Silence"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x112E] =
+"Berserk"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x112F] =
+"MP/2",
+
+[0x1130] =
+"    1"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1131] =
+" 12"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1132] =
+" 13"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1133] =
+"    2"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1134] =
+" 23"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1135] =
+"3"TEXT_PAUSE_SHORT_WITH_SFX"10",
+
+[0x1136] =
+"3"TEXT_PAUSE_SHORT_WITH_SFX"15",
+
+[0x1137] =
+"Total"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1138] =
+"   "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1139] =
+"Goal:"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x113A] =
+"Turn:"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x113B] =
+"Funds:",
+
+[0x113C] =
+"Play",
+
+[0x113D] =
+"Pick Units",
+
+[0x113E] =
+"Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x113F] =
+"Exit",
+
+[0x1140] =
+"Save",
+
+[0x1141] =
+"Check Map"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1142] =
+"Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1143] =
+"Drop",
+
+[0x1144] =
+"Merlinus",
+
+[0x1145] =
+"View List"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1146] =
+"Fortune"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1147] =
+"Unit List"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1148] =
+"Armory",
+
+[0x1149] =
+"Form Team"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x114A] =
+"Deploy",
+
+[0x114B] =
+"Merlinus",
+
+[0x114C] =
+"Options"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x114D] =
+"Conditions",
+
+[0x114E] =
+"Formation"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x114F] =
+"View Map",
+
+[0x1150] =
+"Return",
+
+[0x1151] =
+"Begin"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1152] =
+"Cancel",
+
+[0x1153] =
+"Tprt On"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1154] =
+"Tprt Off",
+
+[0x1155] =
+"Breath of Destiny"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1156] =
+"Princess of Bern",
+
+[0x1157] =
+"The Latecomer"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1158] =
+"Federation Crumbling",
+
+[0x1159] =
+"Flame Crest"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x115A] =
+"The Trap Is Sprung",
+
+[0x115B] =
+"Ostia's Rebellion"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x115C] =
+"Reunion"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x115D] =
+"Island of Mists"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x115E] =
+"Fighters",
+
+[0x115F] =
+"Hero of the West",
+
+[0x1160] =
+"The True Enemy",
+
+[0x1161] =
+"Rescue Mission",
+
+[0x1162] =
+"Arcadia"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1163] =
+"Dragon Girl"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1164] =
+"Reclaim the Capital"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1165] =
+"Ocean Road",
+
+[0x1166] =
+"Frozen River",
+
+[0x1167] =
+"General Winter",
+
+[0x1168] =
+"Liberation of Ilia",
+
+[0x1169] =
+"Sword of Seals",
+
+[0x116A] =
+"Unfulfilled Dream"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x116B] =
+"Apparitions of Bern"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x116C] =
+"Truth of Legends",
+
+[0x116D] =
+"Beyond Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x116E] =
+"The Space Between"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x116F] =
+"Escape to Freedom"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1170] =
+"Cleric's Teachings",
+
+[0x1171] =
+"The Laws of Sacae"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1172] =
+"Bulgar's Arms & Armor"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1173] =
+"The Silver Wolf"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1174] =
+"The Blazing Blade"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1175] =
+"Thunder Axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1176] =
+"Hellfire's Truth",
+
+[0x1177] =
+"Light of Supremacy",
+
+[0x1178] =
+"Lance of Ice and snow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1179] =
+"Bow of Hurricanes"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x117A] =
+"Darkness of Oblivion",
+
+[0x117B] =
+" 0 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x117C] =
+" 1 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x117D] =
+" 2 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x117E] =
+" 3 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x117F] =
+" 4 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1180] =
+" 5 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1181] =
+" 6 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1182] =
+" 7 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1183] =
+" 8 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1184] =
+" 9 "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1185] =
+"Ch."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1186] =
+"Final"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1187] =
+"Prologue",
+
+[0x1188] =
+"x"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1189] =
+"x pt 2",
+
+[0x118A] =
+"Turn",
+
+[0x118B] =
+" "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x118C] =
+"No Data"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x118D] =
+"Linking. Please wait."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x118E] =
+"End"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x118F] =
+"Load",
+
+[0x1190] =
+"Master Load"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1191] =
+"Is this data OK?",
+
+[0x1192] =
+"Loading..."TEXT_NEWLINE
+"Please wait.",
+
+[0x1193] =
+"Sword of Seals Game Pak"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"could not be found."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1194] =
+"There is no Clear data."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1195] =
+"Data loaded successfully."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1196] =
+"",
+
+[0x1197] =
+"",
+
+[0x1198] =
+"",
+
+[0x1199] =
+"",
+
+[0x119A] =
+"",
+
+[0x119B] =
+"",
+
+[0x119C] =
+"",
+
+[0x119D] =
+"",
+
+[0x119E] =
+"",
+
+[0x119F] =
+"",
+
+[0x11A0] =
+"",
+*/
+[16+0x11A1] =
+""TEXT_TOGGLE_SMILE"Superb! That must be"TEXT_NEWLINE
+"the best record around."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11A2] =
+""TEXT_TOGGLE_SMILE"That's quite good. A"TEXT_NEWLINE
+"fine show of teamwork.",
+
+[16+0x11A3] =
+""TEXT_TOGGLE_SMILE"I guess that's one"TEXT_NEWLINE
+"way to fight."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11A4] =
+""TEXT_TOGGLE_SMILE"Fantastic! What an"TEXT_NEWLINE
+"unbelievable record!",
+
+[16+0x11A5] =
+""TEXT_TOGGLE_SMILE"That's not bad."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"No complaints, surely.",
+
+[16+0x11A6] =
+"What?"TEXT_PAUSE_SHORT_WITH_SFX"[.....] Come on,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I'm doing my best here..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11A7] =
+""TEXT_TOGGLE_SMILE"Amazing!"TEXT_NEWLINE
+"What more can I say?",
+
+[16+0x11A8] =
+""TEXT_TOGGLE_SMILE"Well done. I'm glad"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"we did our best.",
+
+[16+0x11A9] =
+""TEXT_TOGGLE_SMILE"Well... Hmm... We'll"TEXT_NEWLINE
+"do better next time.",
+
+[16+0x11AA] =
+""TEXT_TOGGLE_SMILE"Perfect! I've no"TEXT_NEWLINE
+"critcism whatsoever!",
+
+[16+0x11AB] =
+""TEXT_TOGGLE_SMILE"Well done."TEXT_NEWLINE
+"You're quite a tactican!",
+
+[16+0x11AC] =
+"I believe you can"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"do better than this.",
+
+[16+0x11AD] =
+""TEXT_TOGGLE_SMILE"Great! I'm filled"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"with admiration!",
+
+[16+0x11AE] =
+""TEXT_TOGGLE_SMILE"Well done! My respect"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"for you grows stronger!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11AF] =
+""TEXT_TOGGLE_SMILE"This is just a start!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Do your best next time!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11B0] =
+""TEXT_TOGGLE_SMILE"Th-That's incredible!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I'm so envious."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11B1] =
+""TEXT_TOGGLE_SMILE"I guess it's OK."TEXT_NEWLINE
+"That's what I think.",
+
+[16+0x11B2] =
+"I guess a country girl"TEXT_NEWLINE
+"like me isn't helping...",
+
+[16+0x11B3] =
+"You're very good."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"...Impressive.",
+
+[16+0x11B4] =
+"...Not bad."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11B5] =
+"...That's not good."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11B6] =
+""TEXT_TOGGLE_SMILE"Whoa! You're"TEXT_NEWLINE
+"a tough one!",
+
+[16+0x11B7] =
+""TEXT_TOGGLE_SMILE"You're doing a"TEXT_NEWLINE
+"pretty decent job!",
+
+[16+0x11B8] =
+""TEXT_TOGGLE_SMILE"You'd do well to"TEXT_NEWLINE
+"give me more chances!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11B9] =
+""TEXT_TOGGLE_SMILE"Please lend your"TEXT_NEWLINE
+"ingenuity to Ostia!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11BA] =
+""TEXT_TOGGLE_SMILE"Impressive."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Very impressive.",
+
+[16+0x11BB] =
+"You must focus on what"TEXT_NEWLINE
+"is necessary to win.",
+
+[16+0x11BC] =
+""TEXT_TOGGLE_SMILE"A superb tactician!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I stand in awe!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11BD] =
+""TEXT_TOGGLE_SMILE"Your tactical skills"TEXT_NEWLINE
+"have won me over."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11BE] =
+""TEXT_TOGGLE_SMILE"Uh-oh. Are you"TEXT_NEWLINE
+"not feeling well?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11BF] =
+""TEXT_TOGGLE_SMILE"Fantastic! You're"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"my favorite tactician!",
+
+[16+0x11C0] =
+""TEXT_TOGGLE_SMILE"Hey!"TEXT_NEWLINE
+"You're pretty good."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C1] =
+"...I hope you'll try"TEXT_NEWLINE
+"harder next time."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C2] =
+""TEXT_TOGGLE_SMILE"I'm going to learn from"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"you and be the best!",
+
+[16+0x11C3] =
+""TEXT_TOGGLE_SMILE"Does this mean"TEXT_NEWLINE
+"we're getting better?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C4] =
+""TEXT_TOGGLE_SMILE"We're just starting out!"TEXT_NEWLINE
+"C'mon! We can do it!",
+
+[16+0x11C5] =
+""TEXT_TOGGLE_SMILE"Nicely done. Perhaps"TEXT_NEWLINE
+"one day, I'll do as well."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C6] =
+""TEXT_TOGGLE_SMILE"That was well led."TEXT_NEWLINE
+"I learned much."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C7] =
+"My magic has not yet"TEXT_NEWLINE
+"matured...",
+
+[16+0x11C8] =
+""TEXT_TOGGLE_SMILE"You are the greatest"TEXT_NEWLINE
+"of tacticians. Truly."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11C9] =
+""TEXT_TOGGLE_SMILE"You are a superb"TEXT_NEWLINE
+"tactician, you know.",
+
+[16+0x11CA] =
+"I need to try to do"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"better myself, don't I?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11CB] =
+""TEXT_TOGGLE_SMILE"Fantastic commands!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Well done!",
+
+[16+0x11CC] =
+""TEXT_TOGGLE_SMILE"T'was a decent battle."TEXT_NEWLINE
+"...Due to your strength.",
+
+[16+0x11CD] =
+"My apologies."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"We were weak."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11CE] =
+""TEXT_TOGGLE_SMILE"Oh! That was incredible!"TEXT_NEWLINE
+"Really...well done!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11CF] =
+""TEXT_TOGGLE_SMILE"Hey! That's not bad!"TEXT_NEWLINE
+"You're rather good!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D0] =
+""TEXT_TOGGLE_SMILE"Next time, you should"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"rely on my lance!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D1] =
+""TEXT_TOGGLE_SMILE"We are truly fortunate..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"to have you with us...",
+
+[16+0x11D2] =
+""TEXT_TOGGLE_SMILE"Ah...that looks good."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"You did well out there."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D3] =
+""TEXT_TOGGLE_SMILE"Oh! Ah, I bet we can"TEXT_NEWLINE
+"do better together..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D4] =
+"You did it!"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"The best marks ever!",
+
+[16+0x11D5] =
+"These... These are good"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"marks, aren't they?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D6] =
+"Everyone has bad days."TEXT_NEWLINE
+"We can do better!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D7] =
+"...Well done."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I want your strength."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11D8] =
+"Tactician, you are"TEXT_NEWLINE
+"better than I'd thought.",
+
+[16+0x11D9] =
+"Useless...",
+
+[16+0x11DA] =
+""TEXT_TOGGLE_SMILE"Saint Elimine, thank you"TEXT_NEWLINE
+"for this miracle."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11DB] =
+""TEXT_TOGGLE_SMILE"This seems acceptable,"TEXT_NEWLINE
+"does it not?",
+
+[16+0x11DC] =
+"I'm sorry. I lacked faith."TEXT_NEWLINE
+"I hold the blame."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11DD] =
+""TEXT_TOGGLE_SMILE"Mm... This is the best"TEXT_NEWLINE
+"outcome, is it not?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11DE] =
+""TEXT_TOGGLE_SMILE"I see. No better than"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"average, are you?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11DF] =
+"You seem to lack even"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"basic skills."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E0] =
+""TEXT_TOGGLE_SMILE"Hey, you're"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"just amazing!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E1] =
+""TEXT_TOGGLE_SMILE"Hm... Well, it's better"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"than I'd thought."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E2] =
+""TEXT_TOGGLE_SMILE"Deal with it! We'll run"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"wild over them next time!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E3] =
+""TEXT_TOGGLE_SMILE"If we had someone of"TEXT_NEWLINE
+"your skill in Ilia..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E4] =
+""TEXT_TOGGLE_SMILE"A good strategy."TEXT_NEWLINE
+"It reflects well on you.",
+
+[16+0x11E5] =
+"Continue..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Duty calls."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E6] =
+""TEXT_TOGGLE_SMILE"What a surprise. Are"TEXT_NEWLINE
+"you a genius?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E7] =
+""TEXT_TOGGLE_SMILE"You tacticians are"TEXT_NEWLINE
+"handy to have around!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E8] =
+""TEXT_TOGGLE_SMILE"Do better? It's easy"TEXT_NEWLINE
+"enough to say, but..."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11E9] =
+""TEXT_TOGGLE_SMILE"Battle genius... You're"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"some kind of genius.",
+
+[16+0x11EA] =
+""TEXT_TOGGLE_SMILE"These results document"TEXT_NEWLINE
+"your achievements.",
+
+[16+0x11EB] =
+"Am I still not making the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"best use of my lance?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11EC] =
+""TEXT_TOGGLE_SMILE"Well done, tactician..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I am impressed."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11ED] =
+""TEXT_TOGGLE_SMILE"Excellent leadership."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"I learned much."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11EE] =
+"Is this the extent of"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"Pherae's strength?",
+
+[16+0x11EF] =
+"Thank you for aiding"TEXT_NEWLINE
+"Lyn with your guidance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11F0] =
+"Now I see it. This is"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"the strength of tactics.",
+
+[16+0x11F1] =
+"This, too, comes at the"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"guidance of the land."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11F2] =
+"...Well done."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11F3] =
+"...Middling is the"TEXT_NEWLINE
+"word I would choose.",
+
+[16+0x11F4] =
+"......",
+
+[16+0x11F5] =
+""TEXT_TOGGLE_SMILE"You are the greatest"TEXT_NEWLINE
+"tactician of this age!",
+
+[16+0x11F6] =
+""TEXT_TOGGLE_SMILE"Nicely done."TEXT_NEWLINE
+"I'm proud!",
+
+[16+0x11F7] =
+"We've both got some"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"work to do!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11F8] =
+""TEXT_TOGGLE_SMILE"Fighting doesn't get"TEXT_NEWLINE
+"any better than this!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11F9] =
+""TEXT_TOGGLE_SMILE"Hm... It's better than I"TEXT_NEWLINE
+"expected, isn't it?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11FA] =
+"Say, is there...anything"TEXT_NEWLINE
+"more I can be doing?",
+
+[16+0x11FB] =
+""TEXT_TOGGLE_SMILE"You must return with"TEXT_NEWLINE
+"me to Etruria, my friend!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x11FC] =
+""TEXT_TOGGLE_SMILE"Nicely done. You've"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"some measure of skill.",
+
+[16+0x11FD] =
+""TEXT_TOGGLE_SMILE"Perhaps this can serve"TEXT_NEWLINE
+"as a lesson to us.",
+
+[16+0x11FE] =
+""TEXT_TOGGLE_SMILE"Oh, that is wonderful!",
+
+[16+0x11FF] =
+""TEXT_TOGGLE_SMILE"Good results! Well,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"good enough for me!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1200] =
+"Is there something"TEXT_NEWLINE
+"wrong?",
+
+[16+0x1201] =
+""TEXT_TOGGLE_SMILE"Excellent! Continue to"TEXT_NEWLINE
+"serve Lord Eliwood well!",
+
+[16+0x1202] =
+""TEXT_TOGGLE_SMILE"Eliwood was right to"TEXT_NEWLINE
+"place his trust in you."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1203] =
+"Make better use of me!"TEXT_NEWLINE
+"You won't regret it!",
+
+[16+0x1204] =
+""TEXT_TOGGLE_SMILE"Hmph. I fear you may"TEXT_NEWLINE
+"be my next opponent.",
+
+[16+0x1205] =
+"...Not bad."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_SMILE""TEXT_NEWLINE
+""TEXT_TOGGLE_MOUTH_MOVE"..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_MOUTH_MOVE"...Hmph.",
+
+[16+0x1206] =
+"Could it be? Is my"TEXT_NEWLINE
+"blade...not worthy?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1207] =
+""TEXT_TOGGLE_SMILE"Wow! Terrific!"TEXT_NEWLINE
+"The best score!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1208] =
+""TEXT_TOGGLE_SMILE"Good marks, aren't"TEXT_NEWLINE
+"they? Yes, indeed.",
+
+[16+0x1209] =
+"I'm holding you back,"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"aren't I?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x120A] =
+""TEXT_TOGGLE_SMILE"..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_SMILE"Good, or so I here."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x120B] =
+""TEXT_TOGGLE_SMILE"..."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_TOGGLE_SMILE"Average at best...",
+
+[16+0x120C] =
+""TEXT_TOGGLE_SMILE"......"TEXT_TOGGLE_SMILE"",
+
+[16+0x120D] =
+""TEXT_TOGGLE_SMILE"Yippee! That's too good!"TEXT_NEWLINE
+"You're a genius!!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x120E] =
+""TEXT_TOGGLE_SMILE"Wow! These are good"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"results, aren't they?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x120F] =
+""TEXT_TOGGLE_SMILE"Oh, my... I'd do better"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"with a bonus, but...",
+
+[16+0x1210] =
+""TEXT_TOGGLE_SMILE"...Admirable. So, you"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"do have some worth."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1211] =
+"Hm. You've improved,"TEXT_NEWLINE
+"haven't you?",
+
+[16+0x1212] =
+"...You're not ready.",
+
+[16+0x1213] =
+""TEXT_TOGGLE_SMILE"You did great! I think"TEXT_NEWLINE
+"I'll claim you as my own!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1214] =
+""TEXT_TOGGLE_SMILE"That's not too bad."TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"It's thanks to me, yes?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1215] =
+"What's this? I told you"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"to use me!",
+
+[16+0x1216] =
+"Your battle sense is"TEXT_NEWLINE
+"beyond belief!",
+
+[16+0x1217] =
+"You have superior battle"TEXT_NEWLINE
+"abilities, don't you?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1218] =
+"Perhaps you could find"TEXT_NEWLINE
+"happiness off the field?",
+
+[16+0x1219] =
+""TEXT_TOGGLE_SMILE"Oh! I weep such tears"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"of gratitude and joy!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x121A] =
+""TEXT_TOGGLE_SMILE"Oh, well done!"TEXT_NEWLINE
+"I am impressed!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x121B] =
+""TEXT_TOGGLE_SMILE"Better you should"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"join me in my shop, yes?",
+
+[16+0x121C] =
+""TEXT_TOGGLE_SMILE"None could stand before"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"you, dragon or human!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x121D] =
+""TEXT_TOGGLE_SMILE"That was good."TEXT_NEWLINE
+"Your skill shows through."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x121E] =
+"If only I'd given you"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"but one more dance."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x121F] =
+""TEXT_TOGGLE_SMILE"Fantastic!"TEXT_NEWLINE
+"You must be a genius!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1220] =
+""TEXT_TOGGLE_SMILE"That's a good score!"TEXT_NEWLINE
+"Everyone did well!",
+
+[16+0x1221] =
+"My flute must be out"TEXT_NEWLINE
+"of tune, I guess."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[16+0x1222] =
+"Your superior intellect"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"guides you well.",
+
+[16+0x1223] =
+"You have the makings"TEXT_NEWLINE
+"of a superior tactician!",
+
+[16+0x1224] =
+"This, too, is the history"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"of a single battle."TEXT_PAUSE_SHORT_WITH_SFX"",
+/*
+[0x1225] =
+"Erase file?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1226] =
+"Once a file is erased,"TEXT_NEWLINE
+"it cannot be played.",
+
+[0x1227] =
+"Understood",
+
+[0x1228] =
+"G'Night!",
+
+[0x1229] =
+"Nothing Found"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x122A] =
+"Total Score"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x122B] =
+"Total P"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x122C] =
+"No Display",
+
+[0x122D] =
+"Phase Ended"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x122E] =
+"Dead",
+
+[0x122F] =
+"Retired"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1230] =
+"Parent",
+
+[0x1231] =
+"Child"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1232] =
+"Sheltered"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1233] =
+"Out of Sight",
+
+[0x1234] =
+"Peninsula"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1235] =
+"CP Attack"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1236] =
+"CP Move"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1237] =
+"Counter"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1238] =
+"1/3"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1239] =
+"Trust Level"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123A] =
+"Support"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123B] =
+"2/3"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123C] =
+"3/3"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123D] =
+"This unit has no SRAM information"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123E] =
+"SRAM info"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x123F] =
+"Vctry"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1240] =
+"Dft"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1241] =
+"Adv.",
+
+[0x1242] =
+"E.D.",
+
+[0x1243] =
+"Pick",
+
+[0x1244] =
+"x"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1245] =
+"Exp"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1246] =
+"Favorite",
+
+[0x1247] =
+"DEBUG"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1248] =
+"Clear"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1249] =
+"Sand",
+
+[0x124A] =
+"Snow",
+
+[0x124B] =
+"Flurry",
+
+[0x124C] =
+"Rain",
+
+[0x124D] =
+"Night"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x124E] =
+"Lava",
+
+[0x124F] =
+"Wthr",
+
+[0x1250] =
+"Clears",
+
+[0x1251] =
+"Clears",
+
+[0x1252] =
+"Erased",
+
+[0x1253] =
+"Fog"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1254] =
+"CPU"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1255] =
+"Human"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1256] =
+"Blocked"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1257] =
+"Brightness",
+
+[0x1258] =
+"Tact."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1259] =
+"Funds"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x125A] =
+"Trnsfr",
+
+[0x125B] =
+"Give all",
+
+[0x125C] =
+"Choose unit"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x125D] =
+"Trd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x125E] =
+"List",
+
+[0x125F] =
+"Use"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1260] =
+"Sell",
+
+[0x1261] =
+"Choose unit"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
+"to trade with"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1262] =
+"Owner:",
+
+[0x1263] =
+"Unneeded items will be sold.",
+
+[0x1264] =
+"Is this acceptable?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1265] =
+"Quit",
+
+[0x1266] =
+"Sell?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1267] =
+"Value"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1268] =
+"HP",
+
+[0x1269] =
+"Will you really use it?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x126A] =
+"What'll you do?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x126B] =
+"I'll take it."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x126C] =
+"Here you go!",
+
+[0x126D] =
+"Nothing"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x126E] =
+"Give",
+
+[0x126F] =
+"Take",
+
+[0x1270] =
+"Stock"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1271] =
+"Pick "TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1272] =
+"more units",
+
+[0x1273] =
+"Anim",
+
+[0x1274] =
+"1"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1275] =
+"2"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1276] =
+"OFF"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1277] =
+"Attack",
+
+[0x1278] =
+"Defend",
+
+[0x1279] =
+"Critical",
+
+[0x127A] =
+"Dodge"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x127B] =
+"",
+
+[0x127C] =
+"",
+
+[0x127D] =
+"",
+
+[0x127E] =
+"",
+
+[0x127F] =
+"",
+
+[0x1280] =
+"Remaining"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1281] =
+"x"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1282] =
+"Healthy"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1283] =
+"Poisoned",
+
+[0x1284] =
+"Asleep",
+
+[0x1285] =
+"Silenced",
+
+[0x1286] =
+"Panicked",
+
+[0x1287] =
+"Finished",
+
+[0x1288] =
+"N/A"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1289] =
+"Status",
+
+[0x128A] =
+"N/A"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x128B] =
+"N/A"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x128C] =
+"Enhance?",
+
+[0x128D] =
+"Left",
+
+[0x128E] =
+"Last Turn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x128F] =
+"Turn",
+
+[0x1290] =
+"None",
+
+[0x1291] =
+"Sky"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1292] =
+"Unit",
+
+[0x1293] =
+"Wpn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1294] =
+"Copy",
+
+[0x1295] =
+"Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1296] =
+"Start"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1297] =
+"Save",
+
+[0x1298] =
+"What would you like?",
+
+[0x1299] =
+"You can't afford it.",
+
+[0x129A] =
+"Is that acceptable?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x129B] =
+"Anything else?",
+
+[0x129C] =
+"What would you sell?",
+
+[0x129D] =
+"I cannot buy that.",
+
+[0x129E] =
+"Is that acceptable?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x129F] =
+"Sell anything else?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A0] =
+"Send to Merlinus?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A1] =
+"Merlinus is full."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A2] =
+"I'll send it now."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A3] =
+"Too bad"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A4] =
+"Just browsing?",
+
+[0x12A5] =
+"You can't afford it.",
+
+[0x12A6] =
+"Coord"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A7] =
+"?"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A8] =
+"CritAvoid"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12A9] =
+"ON",
+
+[0x12AA] =
+"OFF"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12AB] =
+"B"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12AC] =
+"W"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12AD] =
+"L"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12AE] =
+"Prf"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12AF] =
+"Gen"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B0] =
+"/"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B1] =
+"-"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B2] =
+"."TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B3] =
+"Swordfighter of Sacae"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B4] =
+"Nobleman of Pherae",
+
+[0x12B5] =
+"Marquess Ostia's brother",
+
+[0x12B6] =
+"Main character:"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B7] =
+"Weapon:"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B8] =
+"Swd"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12B9] =
+"Axe"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12BA] =
+"Normal",
+
+[0x12BB] =
+"Hard",
+
+[0x12BC] =
+"Blue",
+
+[0x12BD] =
+"Red"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12BE] =
+"Green"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12BF] =
+"Black"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C0] =
+"Link Blue"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C1] =
+"Lyn's Tale",
+
+[0x12C2] =
+"Eliwood's Tale",
+
+[0x12C3] =
+"Hector's Tale"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C4] =
+"Assets",
+
+[0x12C5] =
+"Time",
+
+[0x12C6] =
+"Total"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C7] =
+"All"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C8] =
+"Screens"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12C9] =
+"Success"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12CA] =
+"Link Test"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12CB] =
+"Point"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12CC] =
+"Not Usable",
+
+[0x12CD] =
+"Not Selected",
+
+[0x12CE] =
+"Merlinus became level ",
+
+[0x12CF] =
+"!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D0] =
+"Btl:00 Win:00 Loss:00"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D1] =
+"Turns"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D2] =
+"?????"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D3] =
+"Opening: History Unveiled"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D4] =
+"Fire Emblem Theme"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D5] =
+"A Hint of Things to Come",
+
+[0x12D6] =
+"Road of Trials",
+
+[0x12D7] =
+"Destiny Enlaced by Fear"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D8] =
+"Winds across the Plains"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12D9] =
+"Precious Things"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12DA] =
+"Companions",
+
+[0x12DB] =
+"Friendship and Adventure",
+
+[0x12DC] =
+"Distant Travels"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12DD] =
+"Inescapable Fate",
+
+[0x12DE] =
+"Dragon's Gate II",
+
+[0x12DF] =
+"Winning Road",
+
+[0x12E0] =
+"Binding Ties",
+
+[0x12E1] =
+"Scars of the Scouring"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12E2] =
+"Raise Your Spirits",
+
+[0x12E3] =
+"Shadow Approaches"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12E4] =
+"Enemies Appear",
+
+[0x12E5] =
+"The Messenger"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12E6] =
+"Darkness Comes",
+
+[0x12E7] =
+"Dragon's Gate I"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12E8] =
+"Nabata's Wandering Messenger",
+
+[0x12E9] =
+"Legendary Inheritance"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12EA] =
+"Raid!"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12EB] =
+"Messenger from the Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12EC] =
+"Strike",
+
+[0x12ED] =
+"Safeguard"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12EE] =
+"Victory Now!",
+
+[0x12EF] =
+"Rise to the Challenge"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12F0] =
+"Softly with Grace"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12F1] =
+"Everything into the Dark",
+
+[0x12F2] =
+"Campaign of Fire",
+
+[0x12F3] =
+"Blessing of the 8 Generals I",
+
+[0x12F4] =
+"Healing"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12F5] =
+"Curing",
+
+[0x12F6] =
+"Receive the Blessings of Water",
+
+[0x12F7] =
+"Ride the Wind"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12F8] =
+"To the Heights",
+
+[0x12F9] =
+"An Unexpected Caller",
+
+[0x12FA] =
+"When the Rush Comes"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12FB] =
+"Land of Swirling Sands",
+
+[0x12FC] =
+"Ships and Homes"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12FD] =
+"Silent Ground"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12FE] =
+"The Inn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x12FF] =
+"Going My Way",
+
+[0x1300] =
+"Together, We Ride!",
+
+[0x1301] =
+"A Knight's Oath"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1302] =
+"Happiness Abounds"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1303] =
+"Merlinus",
+
+[0x1304] =
+"Final Farewell",
+
+[0x1305] =
+"Requiem"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1306] =
+"Recollection of a Petal"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1307] =
+"The Cogs of Fate",
+
+[0x1308] =
+"The Eight Generals",
+
+[0x1309] =
+"The Archsage Athos",
+
+[0x130A] =
+"Distant Utopia",
+
+[0x130B] =
+"What Comes from Darkness",
+
+[0x130C] =
+"Black Fang",
+
+[0x130D] =
+"Calamity Bringer: Nergal's Theme",
+
+[0x130E] =
+"Nergal's Wrath",
+
+[0x130F] =
+"Stratagem"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1310] =
+"The Kingdom of Bern"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1311] =
+"Bern - A Mother's Wish",
+
+[0x1312] =
+"Shocking Truth I",
+
+[0x1313] =
+"Shocking Truth II"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1314] =
+"Triumph"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1315] =
+"Into the Shadow of Triumph",
+
+[0x1316] =
+"Main Theme Arrangement",
+
+[0x1317] =
+"Blessing of the 8 Generals II"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1318] =
+"Girl of the Plains: Lyn's Theme"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1319] =
+"Lyn's Desire",
+
+[0x131A] =
+"Light to Tomorrow"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x131B] =
+"One Heart: Eliwood's Theme",
+
+[0x131C] =
+"Eyes of Sorrow",
+
+[0x131D] =
+"Unshakable Faith",
+
+[0x131E] =
+"Loyalty: Hector's Theme"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x131F] =
+"The Grieving Heart",
+
+[0x1320] =
+"Reminiscence",
+
+[0x1321] =
+"Shattered Life",
+
+[0x1322] =
+"Anguish"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1323] =
+"Respite in Battle"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1324] =
+"Prepare to Charge"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1325] =
+"Armory",
+
+[0x1326] =
+"Shop",
+
+[0x1327] =
+"Fortune-Telling"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1328] =
+"Arena Entrance",
+
+[0x1329] =
+"Arena Battle",
+
+[0x132A] =
+"Arena Victory"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x132B] =
+"Arena Tactics"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x132C] =
+"Within Sadness",
+
+[0x132D] =
+"Game Over"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x132E] =
+"Legend of Athos"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x132F] =
+"Results"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1330] =
+"Treasured Hope",
+
+[0x1331] =
+"Beneath a New Light"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1332] =
+"The Path to Greatness"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1333] =
+"In the Name of Bern"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1334] =
+"Avoided Fate",
+
+[0x1335] =
+"Legend of the Dragon God",
+
+[0x1336] =
+"Royal Palace of Silezha"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1337] =
+"Prologue to World Map"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x1338] =
+"Long Silence (MIDI Data)",
+
+[0x1339] =
+"Lyn's Organ"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x133A] =
+"The Inn"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x133B] =
+"Fire Emblem Theme"TEXT_PAUSE_SHORT_WITH_SFX"",
+
+[0x133C] =
+"Fire Emblem Theme Loop",
+
+[0x133D] =
+"Final Battle (Sans Intro)"TEXT_PAUSE_SHORT_WITH_SFX"",
+*/

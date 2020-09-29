@@ -11,6 +11,8 @@
 #define TILE_WIDTH 8
 #define TILE_HEIGHT 8
 
+#define MAX_GOLD_AMOUNT 999999
+
 enum AnimationSide {
     LEFT_SIDE,
     RIGHT_SIDE

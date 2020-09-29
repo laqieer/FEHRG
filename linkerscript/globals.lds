@@ -473,3 +473,19 @@ blackFontListF9 = 0x8bf0e80;
 blackFontListFA = 0x8be2750;
 blackFontListFB = 0x8be2288;
 blackFontListFC = 0x8be38c0;
+
+/* Text. */
+
+CurrentText = 0x202a5b0;
+LastTextId = 0x202b5b0;
+Texts = 0x8bbb370;
+
+/* Input. */
+
+KeyStatusBuffer = 0x2024c78;
+
+/* Option. */
+
+CurrentSelectedItemInOptionMenu = 0x202016a;
+
+

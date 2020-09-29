@@ -62,3 +62,25 @@ void DrawPortraitInBg(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePa
 void LoadMiniPortraitGfx(int portraitId, u32 baseTileNum, u8 basePaletteSlot);
 void LoadMiniPortraitMap(u16 *mapBuffer, cu8 *map, u16 baseVal, bool flag);
 void DrawMiniPortraitInObj(int portraitId, u32 baseTileNum, u8 basePaletteSlot);
+
+/* Text. */
+
+void DecompressText(const char * src, char *dst);
+const char *GetTacticianNameString();
+const char *GetItemNameString(u16 item);
+
+/* Gold amount. */
+
+u32 GetGoldAmount();
+void SetGoldAmount(u32 goldAmount);
+void AddGoldAmount(int goldAmount);
+
+/* Option. */
+
+int OptionMenuItemHandler(u32 procParent);
+int OptionMenuItemBgmHandler(u32 procParent);
+int OptionMenuItemWindowColorHandler(u32 procParent);
+int GetOptionMenuItemCurrentValue(u8 item, int pad, int defaultValue);
+void DisplayItemAlternativesInOptionMenu(int param_1,int param_2,int param_3);
+int GetOptionMenuId();
+

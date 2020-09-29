@@ -69,3 +69,12 @@ extern u8 DAT_0203a50c;
 extern u8 DAT_0203a50d;
 extern u8 DAT_0203a50e;
 
+/* Text. */
+
+extern u32 LastTextId;
+extern char CurrentText[];
+
+/* Option. */
+
+extern u16 CurrentSelectedItemInOptionMenu;
+

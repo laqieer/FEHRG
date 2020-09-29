@@ -6,6 +6,8 @@ INCLUDE ../linkerscript/data.lds
 
 SECTIONS
 {
+    . = 0xE007400;
+    .bss.currentLanguage : {*(.bss.currentLanguage)}
     . = 0x203F040;
 	.bss : {*(.bss.*)}
     __end__ = .;

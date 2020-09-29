@@ -1,0 +1,17 @@
+[TID_OPTION_LANGUAGE] = "言語設定",
+
+[TID_OPTION_LANGUAGE_JP] = "日本語",
+
+[TID_OPTION_LANGUAGE_JP_HELP] = "ゲーム内の言語を日本語に変更する",
+
+[TID_OPTION_LANGUAGE_CN] = "中国語",
+
+[TID_OPTION_LANGUAGE_CN_HELP] = "ゲーム内の言語を中国語に変更する",
+
+[TID_OPTION_LANGUAGE_EN] = "Eng.1",
+
+[TID_OPTION_LANGUAGE_EN_HELP] = "Change game language to English",
+
+[TID_OPTION_LANGUAGE_EN_NARROW] = "Eng.2",
+
+[TID_OPTION_LANGUAGE_EN_NARROW_HELP] = "Change game language to English (narrow font)",
