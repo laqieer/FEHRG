@@ -879,8 +879,8 @@ const struct Glyph * const whiteFonts[] = {
 	&whiteFontListFA,
 	&whiteFontListFB,
 	&whiteFontListFC,
-	&whiteFontGbFDF7,
-	&whiteFontGbFEF7,
+	&whiteFontGbFDA3,
+	&whiteFontGbFEA3,
 	NULL, // FF
 
 	NULL, // 0

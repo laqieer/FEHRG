@@ -872,8 +872,8 @@ const struct Glyph * const blackFonts[] = {
 	&blackFontListFA,
 	&blackFontListFB,
 	&blackFontListFC,
-	&blackFontGbFDF7,
-	&blackFontGbFEF7,
+	&blackFontGbFDA3,
+	&blackFontGbFEA3,
 	NULL, // FF
 
 	NULL, // 0
