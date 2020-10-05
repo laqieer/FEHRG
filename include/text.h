@@ -3,6 +3,18 @@
 #define CHAR_NEWLINE 0x01
 #define CHAR_NEWLINE2 0x02
 
+#define CHAR_X					0x00
+#define CHAR_N					0x01
+#define CHAR_CLEAR				0x02
+#define CHAR_A					0x03
+#define CHAR_PAUSE				0x04
+#define CHAR_LOADFACE 			0x10
+#define CHAR_CLEARFACE			0x11
+#define CHAR_CLOSESPEECHFAST	0x14
+#define CHAR_CLOSESPEECHSLOW	0x15
+#define CHAR_TOGGLEMOUTHMOVE	0x16
+#define CHAR_SHORTPAUSE			0x1F
+
 #define TEXT_END "\0"
 #define TEXT_NEWLINE "\x01"
 #define TEXT_NEWLINE2 "\x02"

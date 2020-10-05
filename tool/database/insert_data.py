@@ -35,7 +35,7 @@ print ("\ntable name for JSON data:", table_name)
 if len(sys.argv) > 2:
     json_dir = sys.argv[2]
 else:
-    # ..otherwise revert to a default table name
+    # ..otherwise revert to a default directory
     json_dir = "."
 
 record_list = []

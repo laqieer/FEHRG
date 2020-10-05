@@ -1,4 +1,4 @@
-select map_units.id_tag, roman, face_name from map_units inner join units on map_units.id_tag = units.id_tag where (map_id like 'X%' or roman = 'ALFONS' or roman = 'ANNA' or roman = 'SHARON') and units.id_tag like 'PID_%' group by (map_units.id_tag, roman, face_name) order by roman;
+# select map_units.id_tag, roman, face_name from map_units inner join units on map_units.id_tag = units.id_tag where (map_id like 'X%' or roman = 'ALFONS' or roman = 'ANNA' or roman = 'SHARON') and units.id_tag like 'PID_%' group by (map_units.id_tag, roman, face_name) order by roman;
 
          id_tag         |         roman         |           face_name
 ------------------------+-----------------------+--------------------------------
@@ -19,6 +19,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_春祭バアトル       | BARTR_SPRING04        | ch02_02_Bartr_M_SpringFes20
  PID_比翼ベレス         | BELETH_PAIR01         | ch17_01_Beleth_FF_Pair
  PID_舞踏ベルクト       | BERKUT_DANCE02        | ch10_14_Berkut_M_Dance19
+ PID_海賊ブリギッド     | BRIGID_PIRATE01       | ch06_25_Brigid_F_Pirate20
  PID_春祭ブルーノ       | BRUNO_SPRING03        | ch00_05_Bruno_M_SpringFes19
  PID_カミラ             | CAMILLA               | ch05_28_Camilla_F_Normal
  PID_夢カミラ           | CAMILLA_DREAM01       | ch05_28_Camilla_F_Dreaming18
@@ -39,6 +40,8 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_冬祭クロム         | CHROM_WINTER01        | ch04_00_Chrom_M_WinterFes17
  PID_愛の祭コンラート   | CONRAD_VALENTINE03    | ch10_24_Conrad_M_Valentine20
  PID_クレア             | CREA                  | ch10_03_Crea_F_Normal
+ PID_舞踏キュアン       | CUAN_DANCE03          | ch06_14_Cuan_M_Dance20
+ PID_海賊ダロス         | DAROS_PIRATE01        | ch01_42_Daros_M_Pirate20
  PID_ディアドラ         | DIADORA               | ch06_07_Diadora_F_Normal
  PID_ドルカス           | DORCAS                | ch03_17_Dorcas_M_Normal
  PID_ハロドルカス       | DORCAS_HALLOWEEN02    | ch03_17_Dorcas_M_Halloween18
@@ -56,12 +59,14 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_総選挙エリウッド   | ELIWOD_POPULARITY05   | ch03_06_Eliwod_M_ELECTION01
  PID_愛の祭エリウッド   | ELIWOD_VALENTINE01    | ch03_06_Eliwod_M_Valentine18
  PID_エルトシャン       | ELTSHAN               | ch06_01_Eltshan_M_Normal
+ PID_舞踏エルトシャン   | ELTSHAN_DANCE03       | ch06_01_Eltshan_M_Dance20
  PID_エフラム           | EPHRAIM               | ch08_00_Ephraim_M_Normal
  PID_総選挙エフラム     | EPHRAM_POPULARITY03   | ch08_00_Ephraim_M_ELECTION01
  PID_冬祭エフラム       | EPHRAM_WINTER02       | ch08_00_Ephraim_M_WinterFes18
  PID_ハロイレース       | ERASE_HALLOWEEN03     | ch09_14_Erase_F_Halloween19
  PID_夏祭エリンシア     | ERINCIA_BON01         | ch09_06_Erincia_F_dance18
  PID_春祭エスト         | EST_SPRING04          | ch01_20_Est_F_SpringFes20
+ PID_舞踏エスリン       | ETHLIN_DANCE03        | ch06_15_Ethlin_F_Dance20
  PID_ウード             | EUDES                 | ch04_20_Eudes_M_Normal
  PID_冬祭ファ           | FA_WINTER02           | ch02_06_Fa_F_WinterFes18
  PID_行楽フェリシア     | FERICIA_PICNIC01      | ch05_15_Felicia_F_Picnic19
@@ -72,6 +77,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_行楽フローラ       | FLORA_PICNIC01        | ch05_41_Flora_F_Picnic19
  PID_水着フレデリク     | FREDERIK_SUMMER01     | ch04_16_Frederik_M_Swim17
  PID_年明フリーズ       | FREEZE_NEWYEAR02      | ch00_16_Freeze_M_NewYear19
+ PID_海賊ギース         | GEESE_PIRATE01        | ch02_26_Geese_M_Pirate20
  PID_愛の祭グレイル     | GREIL_VALENTINE02     | ch09_10_Greil_M_Valentine19
  PID_水着ガイア         | GUIRE_SUMMER01        | ch04_06_Guire_M_Swim17
  PID_ヒーニアス         | HEANIUS               | ch08_03_Heanius_M_Normal
@@ -181,6 +187,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_プリシラ           | PRISCILLA             | ch03_15_Priscilla_F_Normal
  PID_クリフ             | QULYF                 | ch10_17_Qulyf_M_Normal
  PID_ラケシス           | RACKESIS              | ch06_02_Rackesis_F_Normal
+ PID_舞踏ラケシス       | RACKESIS_DANCE03      | ch06_02_Rackesis_F_Dance20
  PID_花婿ラフィエル     | RAPHAEL_BRIDE04       | ch11_17_Raphael_M_Wedding20
  PID_レベッカ           | REBACCA               | ch03_13_Rebacca_F_Normal
  PID_水着ルフレ女       | REFLET_F_SUMMER01     | ch04_08_Reflet_F_Swim17
@@ -212,6 +219,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_花嫁シーダ         | SHEEDA_BRIDE01        | ch01_17_Sheeda_F_Wedding17
  PID_舞踏祭シグレ       | SHIGURE_DANCE         | ch05_32_Shigure_M_dance17
  PID_シグルド           | SIGLUD                | ch06_04_Siglud_M_Normal
+ PID_比翼シグルド       | SIGLUD_PAIR01         | ch06_04_Siglud_MF_Pair
  PID_花嫁シグルーン     | SIGRUN_BRIDE03        | ch09_11_Sigurun_F_Wedding19
  PID_愛の祭シルク       | SILQUE_VALENTINE03    | ch10_23_Silque_F_Valentine20
  PID_冬祭ソティス       | SOTHIS_WINTER03       | ch17_05_Sothis_F_WinterFes19
@@ -223,6 +231,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_愛の祭ティアマト   | TIAMAT_VALENTINE02    | ch09_04_Tiamat_F_Valentine19
  PID_花嫁ティアモ       | TIAMO_BRIDE01         | ch04_17_Tiamo_F_Wedding17
  PID_水着ティアモ       | TIAMO_SUMMER03        | ch04_17_Tiamo_F_Swim18
+ PID_海賊ティバーン     | TIBARN_PIRATE01       | ch11_05_Tibarn_M_Pirate20
  PID_チキ               | TIKI                  | ch01_10_Tiki_F_Normal
  PID_水着チキ覚醒       | TIKI_A_SUMMER01       | ch04_12_Tiki_F_Swim17
  PID_水着チキ           | TIKI_SUMMER04         | ch01_10_Tiki_F_Swim18
@@ -231,6 +240,7 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_水着ターナ         | TURNER_SUMMER03       | ch08_05_Turner_F_Swim18
  PID_ウルスラ           | URSULA                | ch03_07_Ursula_F_Normal
  PID_水着ウルスラ       | URSULA_SUMMER06       | ch03_07_Ursula_F_Swim19
+ PID_双界ヴェロニカ     | VERONICA_PAIR01       | ch00_04_Veronica_FM_Pair
  PID_総選挙ヴェロニカ   | VERONICA_POPULARITY03 | ch00_04_Veronica_F_ELECTION01
  PID_春祭ヴェロニカ     | VERONICA_SPRING03     | ch00_04_Veronica_F_SpringFes19
  PID_水着ウォルト       | WALT_SUMMER06         | ch02_19_Walt_M_Swim19
@@ -242,5 +252,5 @@ select map_units.id_tag, roman, face_name from map_units inner join units on map
  PID_ゼフィール         | ZEFHYR                | ch02_08_Zefhyr_M_Normal
  PID_冬祭若ゼフィール   | ZEFHYR_WINTER03       | ch03_25_Zefhyr_M_WinterFes19
  PID_ハロゼロ           | ZERO_HALLOWEEN02      | ch05_11_Zero_M_Halloween18
-(240 rows)
+(250 rows)
 

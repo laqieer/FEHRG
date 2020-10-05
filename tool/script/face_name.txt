@@ -1,6 +1,8 @@
+ ch00_01_Alfons_M_Normal
  ch00_01_Alfons_MF_Pair
  ch00_01_Alfons_M_SpringFes18
  ch08_04_Amelia_F_Normal
+ ch00_03_Anna_F_Normal
  ch00_03_Anna_F_NewYear20
  ch05_07_Aqua_F_dance17
  ch05_07_Aqua_F_NewYear18
@@ -13,6 +15,7 @@
  ch02_02_Bartr_M_SpringFes20
  ch17_01_Beleth_FF_Pair
  ch10_14_Berkut_M_Dance19
+ ch06_25_Brigid_F_Pirate20
  ch00_05_Bruno_M_SpringFes19
  ch05_28_Camilla_F_Normal
  ch05_28_Camilla_F_Dreaming18
@@ -33,6 +36,8 @@
  ch04_00_Chrom_M_WinterFes17
  ch10_24_Conrad_M_Valentine20
  ch10_03_Crea_F_Normal
+ ch06_14_Cuan_M_Dance20
+ ch01_42_Daros_M_Pirate20
  ch06_07_Diadora_F_Normal
  ch03_17_Dorcas_M_Normal
  ch03_17_Dorcas_M_Halloween18
@@ -50,12 +55,14 @@
  ch03_06_Eliwod_M_ELECTION01
  ch03_06_Eliwod_M_Valentine18
  ch06_01_Eltshan_M_Normal
+ ch06_01_Eltshan_M_Dance20
  ch08_00_Ephraim_M_Normal
  ch08_00_Ephraim_M_ELECTION01
  ch08_00_Ephraim_M_WinterFes18
  ch09_14_Erase_F_Halloween19
  ch09_06_Erincia_F_dance18
  ch01_20_Est_F_SpringFes20
+ ch06_15_Ethlin_F_Dance20
  ch04_20_Eudes_M_Normal
  ch02_06_Fa_F_WinterFes18
  ch05_15_Felicia_F_Picnic19
@@ -66,6 +73,7 @@
  ch05_41_Flora_F_Picnic19
  ch04_16_Frederik_M_Swim17
  ch00_16_Freeze_M_NewYear19
+ ch02_26_Geese_M_Pirate20
  ch09_10_Greil_M_Valentine19
  ch04_06_Guire_M_Swim17
  ch08_03_Heanius_M_Normal
@@ -175,6 +183,7 @@
  ch03_15_Priscilla_F_Normal
  ch10_17_Qulyf_M_Normal
  ch06_02_Rackesis_F_Normal
+ ch06_02_Rackesis_F_Dance20
  ch11_17_Raphael_M_Wedding20
  ch03_13_Rebacca_F_Normal
  ch04_08_Reflet_F_Swim17
@@ -200,11 +209,13 @@
  ch09_01_Sanaki_F_Wedding18
  ch09_02_Senerio_M_Valentine19
  ch08_02_Seth_M_Normal
+ ch00_02_Sharon_F_Normal
  ch00_02_Sharon_F_SpringFes18
  ch01_17_Sheeda_F_Before01
  ch01_17_Sheeda_F_Wedding17
  ch05_32_Shigure_M_dance17
  ch06_04_Siglud_M_Normal
+ ch06_04_Siglud_MF_Pair
  ch09_11_Sigurun_F_Wedding19
  ch10_23_Silque_F_Valentine20
  ch17_05_Sothis_F_WinterFes19
@@ -216,6 +227,7 @@
  ch09_04_Tiamat_F_Valentine19
  ch04_17_Tiamo_F_Wedding17
  ch04_17_Tiamo_F_Swim18
+ ch11_05_Tibarn_M_Pirate20
  ch01_10_Tiki_F_Normal
  ch04_12_Tiki_F_Swim17
  ch01_10_Tiki_F_Swim18
@@ -224,6 +236,7 @@
  ch08_05_Turner_F_Swim18
  ch03_07_Ursula_F_Normal
  ch03_07_Ursula_F_Swim19
+ ch00_04_Veronica_FM_Pair
  ch00_04_Veronica_F_ELECTION01
  ch00_04_Veronica_F_SpringFes19
  ch02_19_Walt_M_Swim19
