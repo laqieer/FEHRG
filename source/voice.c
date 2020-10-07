@@ -17,13 +17,25 @@ void playVoice(const struct Sound *voice)
     }
 }
 
+bool isSelectedUnitDamaged()
+{
+    return SelectedUnit->maxHP > SelectedUnit->curHP * 3;
+}
+
 void playMapVoiceCore()
 {
     DAT_0203a50c = 0;
     DAT_0203a50d = 0;
     DAT_0203a50e = 0;
 
-    playVoice(voices[SelectedUnit->pCharacter->number].map);
+    if (isSelectedUnitDamaged())
+    {
+        playVoice(voices[SelectedUnit->pCharacter->number].damage);
+    }
+    else
+    {
+        playVoice(voices[SelectedUnit->pCharacter->number].map);
+    }
 }
 
 void playMapVoice()
