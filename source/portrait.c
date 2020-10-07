@@ -124,18 +124,12 @@ cu16 * const textBoxPalette2 = text_boxPal;
 
 void drawPortraitInBg64(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot)
 {
-    int x;
     const struct Portrait *portrait = getPortraitByIdCore(portraitId);
 
     CopyToPaletteBuffer((u16 *)portrait->palette, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * basePaletteSlot, BYTES_PER_COLOR * COLORS_PER_PALETTE_SLOT * 4);
     SmartDecompress((void *)portrait->tiles, &tile_mem[0][baseTileNum]);
     setBasePaletteSlotForTiles256((vu16 *)&tile_mem[0][baseTileNum], PORTRAIT_OBJ_WIDTH * PORTRAIT_OBJ_HEIGHT, PORTRAIT_BG_PALETTE_SLOT);
-    x = portrait->bgX;
-    if(x == 0 && portrait->bgY == 0)
-    {
-        x = PORTRAIT_OBJ_WIDTH / TILE_WIDTH - PORTRAIT_BG_WIDTH_BY_TILE;
-    }
-    putBgMap256BySize(mapBuffer, PORTRAIT_BG_WIDTH_BY_TILE, PORTRAIT_BG_HEIGHT_BY_TILE, baseTileNum / 2 + TILES_PER_LINE_256_COLOR * portrait->bgY + x - TILES_PER_BLOCK_256_COLOR * 2);
+    putBgMap256BySize(mapBuffer, PORTRAIT_BG_WIDTH_BY_TILE, PORTRAIT_BG_HEIGHT_BY_TILE, baseTileNum / 2 + TILES_PER_LINE_256_COLOR * portrait->bgY + portrait->bgX - TILES_PER_BLOCK_256_COLOR * 2);
     BG2CNTBuffer |= BG_8BPP;
 }
 
