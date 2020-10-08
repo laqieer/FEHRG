@@ -45,6 +45,33 @@ CREATE TABLE public.bgm (
 ALTER TABLE public.bgm OWNER TO postgres;
 
 --
+-- Name: character_messages; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.character_messages (
+    "character" character varying(30) NOT NULL,
+    key character varying(50) NOT NULL,
+    locale character(4) NOT NULL,
+    value text
+);
+
+
+ALTER TABLE public.character_messages OWNER TO postgres;
+
+--
+-- Name: data_texts; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.data_texts (
+    key character varying(100) NOT NULL,
+    locale character(4) NOT NULL,
+    value text
+);
+
+
+ALTER TABLE public.data_texts OWNER TO postgres;
+
+--
 -- Name: map_units; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -160,6 +187,22 @@ ALTER TABLE ONLY public.bg
 
 ALTER TABLE ONLY public.bgm
     ADD CONSTRAINT bgm_pkey PRIMARY KEY (key);
+
+
+--
+-- Name: character_messages character_message_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.character_messages
+    ADD CONSTRAINT character_message_key PRIMARY KEY (key, locale);
+
+
+--
+-- Name: data_texts data_text_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.data_texts
+    ADD CONSTRAINT data_text_key PRIMARY KEY (key, locale);
 
 
 --
