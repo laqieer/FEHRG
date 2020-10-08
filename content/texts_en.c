@@ -6,6 +6,7 @@
 const char * const textsEN[] = {
     #include "../locale/USEN/FE7.txt"
     #include "../locale/USEN/misc.txt"
+    #include "../locale/USEN/scenario.txt"
 };
 
 

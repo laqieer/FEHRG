@@ -21,6 +21,30 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
+-- Name: bg; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.bg (
+    key character varying(100) NOT NULL,
+    value character varying(50)
+);
+
+
+ALTER TABLE public.bg OWNER TO postgres;
+
+--
+-- Name: bgm; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.bgm (
+    key character varying(100) NOT NULL,
+    value character varying(100)
+);
+
+
+ALTER TABLE public.bgm OWNER TO postgres;
+
+--
 -- Name: map_units; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -73,6 +97,19 @@ CREATE TABLE public.maps (
 ALTER TABLE public.maps OWNER TO postgres;
 
 --
+-- Name: scenario; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.scenario (
+    key character varying(100) NOT NULL,
+    locale character(4) NOT NULL,
+    value text
+);
+
+
+ALTER TABLE public.scenario OWNER TO postgres;
+
+--
 -- Name: units; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -110,11 +147,35 @@ CREATE TABLE public.units (
 ALTER TABLE public.units OWNER TO postgres;
 
 --
+-- Name: bg bg_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.bg
+    ADD CONSTRAINT bg_pkey PRIMARY KEY (key);
+
+
+--
+-- Name: bgm bgm_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.bgm
+    ADD CONSTRAINT bgm_pkey PRIMARY KEY (key);
+
+
+--
 -- Name: maps maps_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.maps
     ADD CONSTRAINT maps_pkey PRIMARY KEY (map_id);
+
+
+--
+-- Name: scenario textkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.scenario
+    ADD CONSTRAINT textkey PRIMARY KEY (key, locale);
 
 
 --

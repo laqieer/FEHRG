@@ -6,6 +6,7 @@
 const char * const textsCN[] = {
     #include "../locale/CNZH/FE7.txt"
     #include "../locale/CNZH/misc.txt"
+    #include "../locale/CNZH/scenario.txt"
 };
 
 
