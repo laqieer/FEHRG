@@ -69,3 +69,5 @@ extern const struct ProcCmd SCRIPT_8bffa20[];
 extern cu8 MiniPortraitMap[];
 
 #define DEFINE_FACE(face, x, y) { face##_FaceTiles , face##_Face_FCTiles , face##_FacePal , NULL, NULL, 0, 0, x, y, face##_Face_FCPal },
+
+#define NULL_FACE {NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, NULL},

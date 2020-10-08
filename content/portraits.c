@@ -4,7 +4,7 @@
 #include "all_gfx.h"
 
 const struct Portrait newPortraits[] = {
-    {NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, NULL},
+    NULL_FACE
     DEFINE_FACE(ch00_01_Alfons_M_Normal, 5, 0)
     DEFINE_FACE(ch00_01_Alfons_MF_Pair, 3, 0)
     DEFINE_FACE(ch00_01_Alfons_M_SpringFes18, 3, 0)
@@ -255,4 +255,22 @@ const struct Portrait newPortraits[] = {
     DEFINE_FACE(ch02_08_Zefhyr_M_Normal, 4, 0)
     DEFINE_FACE(ch03_25_Zefhyr_M_WinterFes19, 2, 0)
     DEFINE_FACE(ch05_11_Zero_M_Halloween18, 2, 0)
+    DEFINE_FACE(ch00_05_Bruno_M_Normal, 2, 0)
+    DEFINE_FACE(ch00_04_Veronica_F_Normal, 3, 0)
+    DEFINE_FACE(ch05_07_Aqua_F_Normal, 3, 0)
+    DEFINE_FACE(ch05_07_Aqua_F_Dreaming18, 4, 0)
+    NULL_FACE
+    NULL_FACE
+    DEFINE_FACE(ch00_06_Fjorm_F_Normal, 4, 0)
+    DEFINE_FACE(ch00_15_Yurg_F_Normal, 0, 0)
+    DEFINE_FACE(ch00_09_Laevatain_F_Normal, 3, 0)
+    DEFINE_FACE(ch00_11_Laegjarn_F_Normal, 4, 0)
+    DEFINE_FACE(ch00_22_Tor_F_Normal, 5, 0)
+    DEFINE_FACE(ch11_08_Learne_F_Normal, 5, 1)
+    DEFINE_FACE(ch11_07_Rieusion_M_Normal, 3, 1)
+    DEFINE_FACE(ch90_02_FighterAX_M_Normal, 5, 0)
+    DEFINE_FACE(ch04_23_Marth_F_Mask, 4, 0)
+    DEFINE_FACE(ch00_07_Surtr_M_Normal, 3, 0)
+    DEFINE_FACE(ch00_18_Srasir_F_Normal, 4, 2)
+    DEFINE_FACE(ch00_17_Lif_M_Normal, 4, 0)
 };
