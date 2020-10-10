@@ -27,13 +27,13 @@ def convert_text(text, locale):
     if locale == LOCALE_JP:
         for damemoji in "―ソЫⅨ噂浬欺圭構蚕十申曾箪貼能表暴予禄兔喀媾彌拿杤歃濬畚秉綵臀藹觸軆鐔饅鷭纊犾偆砡":
             text = text.replace(damemoji, damemoji + "\\")
-        text = text.replace("～", "~")
+        text = text.replace("～", "~").replace("≤", "<=").replace("≥", ">=").replace("’", "'").replace("－", "ー")
     elif locale == LOCALE_CN:
         cc = opencc.OpenCC('t2s')
         text = cc.convert(text)
-        text = text.replace("啰", "罗").replace("妳", "你").replace("—", "-").replace("欸", "唉").replace("祂", "他").replace("‧", "-").replace("瑯", "琅").replace("牠", "它").replace("♪", "").replace("菈", "拉").replace("媞", "缇").replace("姪", "侄").replace("糬", "糍")
+        text = text.replace("啰", "罗").replace("妳", "你").replace("—", "-").replace("欸", "唉").replace("祂", "他").replace("‧", "-").replace("瑯", "琅").replace("牠", "它").replace("♪", "").replace("菈", "拉").replace("媞", "缇").replace("姪", "侄").replace("糬", "糍").replace("薙", "剃")
     elif locale == LOCALE_EN:
-        text = text.replace("—", "-").replace("á", "a").replace("ú", "u").replace("♪", "").replace("–", "-").replace("ó", "o").replace("…", "...").replace("ö", "o").replace("ð", "e").replace("♯", "#").replace("í", "i")
+        text = text.replace("—", "-").replace("á", "a").replace("ú", "u").replace("♪", "").replace("–", "-").replace("ó", "o").replace("…", "...").replace("ö", "o").replace("ð", "e").replace("♯", "#").replace("í", "i").replace("≤", "<=").replace("≥", ">=").replace("’", "'").replace("×", "x").replace("★", " star").replace("æ", "a").replace("þ", "p").replace("ø", "e")
     return text
 
 
@@ -59,11 +59,15 @@ def make_source_by_key_file(table, key, locale):
             if line.endswith(",\n") and len(line) > 2:
                 k = line[:-2]
                 v = db.get_data("SELECT value FROM {} WHERE locale = '{}' AND key = '{}'".format(table, locale, k))[0][0]
+                if v is None:
+                    v = ""
                 if k[:7] == "MPID_H_":
                     for unit_from_word in unit_froms[locale]:
                         v = v.split(unit_from_word)[0]
                 text = convert_text(v, locale)
                 print(locale, k, ' | ', text)
+                if text == "":
+                    text = "\"\""
                 f_v.write(text + ",\n\n")
 
 

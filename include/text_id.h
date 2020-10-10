@@ -6,4 +6,5 @@ enum TEXT_ID {
     #include "../locale/key/misc.txt"
     #include "../locale/key/scenario.txt"
     #include "../locale/key/unit.txt"
+    #include "../locale/key/skill.txt"
 };
