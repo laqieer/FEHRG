@@ -8,6 +8,7 @@ LOCALE_EN = 'USEN'
 LOCALE_CN = 'TWZH'
 
 encodings = {LOCALE_JP: "shift_jis", LOCALE_EN:"ascii", LOCALE_CN:"gb2312"}
+unit_froms = {LOCALE_JP:("\n（登場"), LOCALE_EN:("\nAppear", "Appear", "\nThey appear", "They appear", "They\nappear"), LOCALE_CN:("\n（登場")}
 
 def format_text(key, value):
     return "[{}] = {},\n\n".format(key, value)
@@ -30,19 +31,40 @@ def convert_text(text, locale):
     elif locale == LOCALE_CN:
         cc = opencc.OpenCC('t2s')
         text = cc.convert(text)
-        text = text.replace("啰", "罗").replace("妳", "你").replace("—", "-").replace("欸", "唉").replace("祂", "他").replace("‧", "-").replace("瑯", "琅").replace("牠", "它").replace("♪", "")
+        text = text.replace("啰", "罗").replace("妳", "你").replace("—", "-").replace("欸", "唉").replace("祂", "他").replace("‧", "-").replace("瑯", "琅").replace("牠", "它").replace("♪", "").replace("菈", "拉").replace("媞", "缇").replace("姪", "侄").replace("糬", "糍")
     elif locale == LOCALE_EN:
-        text = text.replace("—", "-").replace("á", "a").replace("ú", "u").replace("♪", "").replace("–", "-").replace("ó", "o").replace("…", "...").replace("ö", "o").replace("ð", "e")
+        text = text.replace("—", "-").replace("á", "a").replace("ú", "u").replace("♪", "").replace("–", "-").replace("ó", "o").replace("…", "...").replace("ö", "o").replace("ð", "e").replace("♯", "#").replace("í", "i")
     return text
 
 
-def make_source(table, locale, where):
+def get_file_path_by_locale(locale):
     if locale == LOCALE_CN:
-        filename = "../../locale/CNZH/{}.txt".format(table)
-    else:
-        filename = "../../locale/{}/{}.txt".format(locale, table)
+        return "../../locale/CNZH/"
+    return "../../locale/{}/".format(locale)
+
+
+def make_source(table, locale, where):
+    filename = get_file_path_by_locale(locale) + table + ".txt"
     with open(filename, "w", encoding=encodings[locale]) as f:
         for k, v in db.get_data("SELECT key, value FROM {} WHERE locale = '{}' AND {} ORDER BY key".format(table, locale, where)):
             text = convert_text(v, locale)
             print(locale, k, ' | ', text)
             f.write(format_text(k, text))
+
+
+def make_source_by_key_file(table, key, locale):
+    filename = get_file_path_by_locale(locale) + key + ".txt"
+    with open("../../locale/key/" + key + ".txt") as f_k, open(filename, "w", encoding=encodings[locale]) as f_v:
+        for line in f_k:
+            if line.endswith(",\n") and len(line) > 2:
+                k = line[:-2]
+                v = db.get_data("SELECT value FROM {} WHERE locale = '{}' AND key = '{}'".format(table, locale, k))[0][0]
+                if k[:7] == "MPID_H_":
+                    for unit_from_word in unit_froms[locale]:
+                        v = v.split(unit_from_word)[0]
+                text = convert_text(v, locale)
+                print(locale, k, ' | ', text)
+                f_v.write(text + ",\n\n")
+
+
+
