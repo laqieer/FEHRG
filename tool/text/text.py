@@ -10,8 +10,18 @@ LOCALE_CN = 'TWZH'
 encodings = {LOCALE_JP: "shift_jis", LOCALE_EN:"ascii", LOCALE_CN:"gb2312"}
 unit_froms = {LOCALE_JP:("\n（登場"), LOCALE_EN:("\nAppear", "Appear", "\nThey appear", "They appear", "They\nappear"), LOCALE_CN:("\n（登場")}
 
+
+def check_key(key):
+    for c in key:
+        if ord(c) > 255:
+            return False
+    return True
+
+
 def format_text(key, value):
-    return "[{}] = {},\n\n".format(key, value)
+    if check_key(key):
+        return "[{}] = {},\n\n".format(key, value)
+    return value + ",\n\n"
 
 
 def convert_text(text, locale):
@@ -68,7 +78,7 @@ def make_source_by_key_file(table, key, locale):
                 print(locale, k, ' | ', text)
                 if text == "":
                     text = "\"\""
-                f_v.write(text + ",\n\n")
+                f_v.write(format_text(k, text))
 
 
 

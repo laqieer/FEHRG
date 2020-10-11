@@ -1,0 +1,462 @@
+[MID_STAGE_X0001] = "圣魔兄妹"
+,
+
+[MID_STAGE_X0002] = "圣战兄妹"
+,
+
+[MID_STAGE_X0003] = "兄妹之情重现"
+,
+
+[MID_STAGE_X0004] = "兄与妹"
+,
+
+[MID_STAGE_X0005] = "青雷兄妹"
+,
+
+[MID_STAGE_X0006] = "狮子王与其妹"
+,
+
+[MID_STAGE_X0021] = "复仇佣兵"
+,
+
+[MID_STAGE_X0022] = "剑魔"
+,
+
+[MID_STAGE_X0023] = "死神与少女"
+,
+
+[MID_STAGE_X0031] = "春色之花"
+,
+
+[MID_STAGE_X0032] = "春色之卵"
+,
+
+[MID_STAGE_X0033] = "春季共演"
+,
+
+[MID_STAGE_X0041] = "另一位英雄王"
+,
+
+[MID_STAGE_X0042] = "脱离森林"
+,
+
+[MID_STAGE_X0043] = "英雄王阿雷武"
+,
+
+[MID_STAGE_X0051] = "纯洁的新娘"
+,
+
+[MID_STAGE_X0052] = "新娘课程进行中"
+,
+
+[MID_STAGE_X0053] = "新娘捧花"
+,
+
+[MID_STAGE_X0061] = "迷途军师"
+,
+
+[MID_STAGE_X0062] = "包围网"
+,
+
+[MID_STAGE_X0063] = "刺客"
+,
+
+[MID_STAGE_X0071] = "沙滩美女"
+,
+
+[MID_STAGE_X0072] = "沙洲美男"
+,
+
+[MID_STAGE_X0073] = "决战沙岸"
+,
+
+[MID_STAGE_X0081] = "海边繁花"
+,
+
+[MID_STAGE_X0082] = "船难"
+,
+
+[MID_STAGE_X0083] = "决战岩场"
+,
+
+[MID_STAGE_X0091] = "皇女与骑士"
+,
+
+[MID_STAGE_X0092] = "弗莱利亚的兄妹"
+,
+
+[MID_STAGE_X0093] = "纯银的骑士"
+,
+
+[MID_STAGE_X0101] = "佣兵与女爵"
+,
+
+[MID_STAGE_X0102] = "勋爵与公主"
+,
+
+[MID_STAGE_X0103] = "过去的梦境"
+,
+
+[MID_STAGE_X0111] = "女歌手与舞者"
+,
+
+[MID_STAGE_X0112] = "舞娘与歌手"
+,
+
+[MID_STAGE_X0113] = "终章"
+,
+
+[MID_STAGE_X0121] = "巴尔德的圣骑士"
+,
+
+[MID_STAGE_X0122] = "奥德的剑姬"
+,
+
+[MID_STAGE_X0123] = "古老的血脉"
+,
+
+[MID_STAGE_X0131] = "吸血鬼与怪物"
+,
+
+[MID_STAGE_X0132] = "魔女与猫又"
+,
+
+[MID_STAGE_X0133] = "不给糖就捣蛋！"
+,
+
+[MID_STAGE_X0141] = "女剑士与女魔道士"
+,
+
+[MID_STAGE_X0142] = "佣兵与佣兵"
+,
+
+[MID_STAGE_X0143] = "奇特的英雄们"
+,
+
+[MID_STAGE_X0151] = "肩上背著白色的大袋子"
+,
+
+[MID_STAGE_X0152] = "身上穿著红色的衣裳"
+,
+
+[MID_STAGE_X0153] = "他会来到好孩子的身边"
+,
+
+[MID_STAGE_X0161] = "恭贺新禧！"
+,
+
+[MID_STAGE_X0162] = "公主们的新年参拜"
+,
+
+[MID_STAGE_X0163] = "希望今年能是个好年"
+,
+
+[MID_STAGE_X0171] = "爱之祭典的孩子们"
+,
+
+[MID_STAGE_X0172] = "爱之祭典的父亲们"
+,
+
+[MID_STAGE_X0173] = "想要传达的心意"
+,
+
+[MID_STAGE_X0181] = "兔子兄妹档"
+,
+
+[MID_STAGE_X0182] = "为了任务"
+,
+
+[MID_STAGE_X0183] = "我与我"
+,
+
+[MID_STAGE_X0191] = "婚礼上的王子"
+,
+
+[MID_STAGE_X0192] = "神圣的新娘"
+,
+
+[MID_STAGE_X0193] = "收下幸福的花束吧"
+,
+
+[MID_STAGE_X0201] = "弗莱利亚兄妹档的夏天"
+,
+
+[MID_STAGE_X0202] = "闪耀于蓝天之中"
+,
+
+[MID_STAGE_X0203] = "倾听海洋之声"
+,
+
+[MID_STAGE_X0211] = "在意泳装的两人"
+,
+
+[MID_STAGE_X0212] = "想去海边玩的两人"
+,
+
+[MID_STAGE_X0213] = "画笔描绘的夏日"
+,
+
+[MID_STAGE_X0221] = "奉献给白色大地"
+,
+
+[MID_STAGE_X0222] = "古老诸神的黄昏"
+,
+
+[MID_STAGE_X0223] = "龙转为风"
+,
+
+[MID_STAGE_X0231] = "公主与皇女"
+,
+
+[MID_STAGE_X0232] = "侯爵与王子"
+,
+
+[MID_STAGE_X0233] = "皇女的心愿"
+,
+
+[MID_STAGE_X0241] = "蝙蝠、魔女与女仆"
+,
+
+[MID_STAGE_X0242] = "牛头怪物与恶魔"
+,
+
+[MID_STAGE_X0243] = "寻求南瓜"
+,
+
+[MID_STAGE_X0251] = "妖女与游女"
+,
+
+[MID_STAGE_X0252] = "剑士与村民"
+,
+
+[MID_STAGE_X0253] = "自阴影现身的英雄们"
+,
+
+[MID_STAGE_X0261] = "我的朋友"
+,
+
+[MID_STAGE_X0262] = "我的家族"
+,
+
+[MID_STAGE_X0263] = "我的心愿……"
+,
+
+[MID_STAGE_X0271] = "玩雪的少女们"
+,
+
+[MID_STAGE_X0272] = "下雪时寂静的课程"
+,
+
+[MID_STAGE_X0273] = "好孩子们睡觉时……"
+,
+
+[MID_STAGE_X0281] = "冰炎公主的新年参拜"
+,
+
+[MID_STAGE_X0282] = "冰之姐与炎之妹"
+,
+
+[MID_STAGE_X0283] = "两国唯一的愿望"
+,
+
+[MID_STAGE_X0291] = "在男用浴池"
+,
+
+[MID_STAGE_X0292] = "在女用浴池"
+,
+
+[MID_STAGE_X0293] = "蒸气弥漫之中"
+,
+
+[MID_STAGE_X0301] = "副团长的思念"
+,
+
+[MID_STAGE_X0302] = "参谋的思念"
+,
+
+[MID_STAGE_X0303] = "团长的思念"
+,
+
+[MID_STAGE_X0311] = "兔皇女与兔皇子"
+,
+
+[MID_STAGE_X0312] = "与天马一同飞舞"
+,
+
+[MID_STAGE_X0313] = "兔之传承"
+,
+
+[MID_STAGE_X0321] = "所谓的野餐"
+,
+
+[MID_STAGE_X0322] = "暗夜王族的郊游"
+,
+
+[MID_STAGE_X0323] = "享受悠闲片刻"
+,
+
+[MID_STAGE_X0331] = "深藏于心的思念之人"
+,
+
+[MID_STAGE_X0332] = "为了守护深爱之人"
+,
+
+[MID_STAGE_X0333] = "总有一天能迎接那样的未来"
+,
+
+[MID_STAGE_X0341] = "炎之姊妹的夏天"
+,
+
+[MID_STAGE_X0342] = "重逢的两人的夏天"
+,
+
+[MID_STAGE_X0343] = "暑气与寒气的夏夜"
+,
+
+[MID_STAGE_X0351] = "表示对大地的敬意"
+,
+
+[MID_STAGE_X0352] = "为了罗伊珍视的人"
+,
+
+[MID_STAGE_X0353] = "安娜等人的商业大战"
+,
+
+[MID_STAGE_X0361] = "被刻下的姓名"
+,
+
+[MID_STAGE_X0362] = "两位女王"
+,
+
+[MID_STAGE_X0363] = "团结英雄之人"
+,
+
+[MID_STAGE_X0371] = "绚烂的贵公子"
+,
+
+[MID_STAGE_X0372] = "绚烂的贵妇"
+,
+
+[MID_STAGE_X0373] = "憧憬著灿烂的光"
+,
+
+[MID_STAGE_X0381] = "食欲的鬼怪"
+,
+
+[MID_STAGE_X0382] = "亲子鬼怪"
+,
+
+[MID_STAGE_X0383] = "聚集的鬼怪"
+,
+
+[MID_STAGE_X0391] = "如纯白无瑕的白雪"
+,
+
+[MID_STAGE_X0392] = "穿上冬季的服装"
+,
+
+[MID_STAGE_X0393] = "幸福的反馈"
+,
+
+[MID_STAGE_X0401] = "身穿正月和服"
+,
+
+[MID_STAGE_X0402] = "兽牙族与妖狐的新年参拜"
+,
+
+[MID_STAGE_X0403] = "与许多人一起"
+,
+
+[MID_STAGE_X0411] = "拥有壮丽梦想的偶像"
+,
+
+[MID_STAGE_X0412] = "好莱坞式的展现"
+,
+
+[MID_STAGE_X0413] = "无论是歌曲，还是表演"
+,
+
+[MID_STAGE_X0421] = "重逢"
+,
+
+[MID_STAGE_X0422] = "尴尬的亲子"
+,
+
+[MID_STAGE_X0423] = "真正的心愿"
+,
+
+[MID_STAGE_X0431] = "与黑兔一同"
+,
+
+[MID_STAGE_X0432] = "春祭的礼法"
+,
+
+[MID_STAGE_X0433] = "突破考验"
+,
+
+[MID_STAGE_X0441] = "阿利提亚的少年"
+,
+
+[MID_STAGE_X0442] = "童年时代的白骑们"
+,
+
+[MID_STAGE_X0443] = "从很久以前就一直在一起"
+,
+
+[MID_STAGE_X0451] = "白夜新娘的坚持"
+,
+
+[MID_STAGE_X0452] = "新郎的忧郁"
+,
+
+[MID_STAGE_X0453] = "恋乘飞翼"
+,
+
+[MID_STAGE_X0461] = "尽情享乐"
+,
+
+[MID_STAGE_X0462] = "携手合作"
+,
+
+[MID_STAGE_X0463] = "至少留下回忆"
+,
+
+[MID_STAGE_X0471] = "令人伤脑筋的青梅竹马"
+,
+
+[MID_STAGE_X0472] = "沙滩之花"
+,
+
+[MID_STAGE_X0473] = "总有一天要再来海边"
+,
+
+[MID_STAGE_X0481] = "鹰王与怯懦的海盗"
+,
+
+[MID_STAGE_X0482] = "反复无常的皇女"
+,
+
+[MID_STAGE_X0483] = "重要的事物"
+,
+
+[MID_STAGE_X0491] = "热闹的兄妹档"
+,
+
+[MID_STAGE_X0492] = "野丫头在哪？"
+,
+
+[MID_STAGE_X0493] = "永远的约定"
+,
+
+[MID_STAGE_XX001] = "被幽禁的皇女"
+,
+
+[MID_STAGE_XX002] = "战乱与混沌"
+,
+
+[MID_STAGE_XX003] = "世界所需要的英雄"
+,
+
+[MID_STAGE_XX004] = "死亡细语"
+,
+

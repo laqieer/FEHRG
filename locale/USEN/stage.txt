@@ -1,0 +1,462 @@
+[MID_STAGE_X0001] = "Sacred Bond"
+,
+
+[MID_STAGE_X0002] = "Holy War's Bond"
+,
+
+[MID_STAGE_X0003] = "Unbreakable Bond"
+,
+
+[MID_STAGE_X0004] = "Brothers and Sisters"
+,
+
+[MID_STAGE_X0005] = "Siblings of Thunder"
+,
+
+[MID_STAGE_X0006] = "Courage and Devotion"
+,
+
+[MID_STAGE_X0021] = "Vengeful Mercenary"
+,
+
+[MID_STAGE_X0022] = "Sword Demon"
+,
+
+[MID_STAGE_X0023] = "Death and the Child"
+,
+
+[MID_STAGE_X0031] = "Bright Blooms"
+,
+
+[MID_STAGE_X0032] = "Painted Eggs"
+,
+
+[MID_STAGE_X0033] = "Spring Stars"
+,
+
+[MID_STAGE_X0041] = "Legendary Hero"
+,
+
+[MID_STAGE_X0042] = "Into the Forest"
+,
+
+[MID_STAGE_X0043] = "Alm's Heroic Stand"
+,
+
+[MID_STAGE_X0051] = "Martial Bliss"
+,
+
+[MID_STAGE_X0052] = "Groomed for Combat"
+,
+
+[MID_STAGE_X0053] = "Battle of the Bouquet"
+,
+
+[MID_STAGE_X0061] = "Wayward One"
+,
+
+[MID_STAGE_X0062] = "Led by the Nose"
+,
+
+[MID_STAGE_X0063] = "Three Assassins"
+,
+
+[MID_STAGE_X0071] = "Sunny Sneak Attack"
+,
+
+[MID_STAGE_X0072] = "Seaside Trouble"
+,
+
+[MID_STAGE_X0073] = "Taking the Beachhead"
+,
+
+[MID_STAGE_X0081] = "Nohr on the Shore"
+,
+
+[MID_STAGE_X0082] = "Shipwrecked"
+,
+
+[MID_STAGE_X0083] = "A Vacation in Ruins"
+,
+
+[MID_STAGE_X0091] = "A Lecture Fit for Royalty"
+,
+
+[MID_STAGE_X0092] = "The Heirs of Frelia"
+,
+
+[MID_STAGE_X0093] = "The Silver Knight"
+,
+
+[MID_STAGE_X0101] = "Mercenary and the Lady"
+,
+
+[MID_STAGE_X0102] = "The Lion and the Princess"
+,
+
+[MID_STAGE_X0103] = "The Dream We Shared"
+,
+
+[MID_STAGE_X0111] = "A Heartfelt Dance"
+,
+
+[MID_STAGE_X0112] = "A Bittersweet Melody"
+,
+
+[MID_STAGE_X0113] = "The Finale"
+,
+
+[MID_STAGE_X0121] = "Baldr's Holy Knight"
+,
+
+[MID_STAGE_X0122] = "Od's Swordswoman"
+,
+
+[MID_STAGE_X0123] = "Bound by Blood"
+,
+
+[MID_STAGE_X0131] = "Creatures of the Night"
+,
+
+[MID_STAGE_X0132] = "Treat-Seeking Mischief"
+,
+
+[MID_STAGE_X0133] = "Trick or Treat!"
+,
+
+[MID_STAGE_X0141] = "Sword and Sorcery"
+,
+
+[MID_STAGE_X0142] = "The Dorcas Gambit"
+,
+
+[MID_STAGE_X0143] = "Offbeat Heroes"
+,
+
+[MID_STAGE_X0151] = "Get Those Gifts!"
+,
+
+[MID_STAGE_X0152] = "Tinsel Tussle"
+,
+
+[MID_STAGE_X0153] = "If You're Good..."
+,
+
+[MID_STAGE_X0161] = "New Year's Greetings"
+,
+
+[MID_STAGE_X0162] = "Princesses at the Shrine"
+,
+
+[MID_STAGE_X0163] = "Wishes for the New Year"
+,
+
+[MID_STAGE_X0171] = "Devoted Youth"
+,
+
+[MID_STAGE_X0172] = "Devoted Dads"
+,
+
+[MID_STAGE_X0173] = "Truth and Ardor"
+,
+
+[MID_STAGE_X0181] = "The Hare Pair"
+,
+
+[MID_STAGE_X0182] = "Duty-Bound Bunnies"
+,
+
+[MID_STAGE_X0183] = "Rabbiting On"
+,
+
+[MID_STAGE_X0191] = "Here Comes the Groom"
+,
+
+[MID_STAGE_X0192] = "Veiled Insecurities"
+,
+
+[MID_STAGE_X0193] = "Love and War"
+,
+
+[MID_STAGE_X0201] = "A Fighting Family"
+,
+
+[MID_STAGE_X0202] = "Shimmering in the Sun"
+,
+
+[MID_STAGE_X0203] = "Sounds of the Ocean"
+,
+
+[MID_STAGE_X0211] = "A Distracted Duo"
+,
+
+[MID_STAGE_X0212] = "A Playful Pair"
+,
+
+[MID_STAGE_X0213] = "A Little Drawn Out"
+,
+
+[MID_STAGE_X0221] = "Honoring the Land"
+,
+
+[MID_STAGE_X0222] = "The Gods Pass On..."
+,
+
+[MID_STAGE_X0223] = "The Wind Itself"
+,
+
+[MID_STAGE_X0231] = "Princesses in Contrast"
+,
+
+[MID_STAGE_X0232] = "Lords in Accord"
+,
+
+[MID_STAGE_X0233] = "The Princess's Request"
+,
+
+[MID_STAGE_X0241] = "The Spooky Trio"
+,
+
+[MID_STAGE_X0242] = "Two More Horrors"
+,
+
+[MID_STAGE_X0243] = "Grab Those Gourds!"
+,
+
+[MID_STAGE_X0251] = "Dark and Darker"
+,
+
+[MID_STAGE_X0252] = "Cosmic and Earthly"
+,
+
+[MID_STAGE_X0253] = "They Gather..."
+,
+
+[MID_STAGE_X0261] = "Friends"
+,
+
+[MID_STAGE_X0262] = "Family"
+,
+
+[MID_STAGE_X0263] = "A Dream"
+,
+
+[MID_STAGE_X0271] = "A Snowy Playtime"
+,
+
+[MID_STAGE_X0272] = "Lesson in the Snow"
+,
+
+[MID_STAGE_X0273] = "As Good Children Dream..."
+,
+
+[MID_STAGE_X0281] = "Fire and Ice"
+,
+
+[MID_STAGE_X0282] = "Ice and Fire"
+,
+
+[MID_STAGE_X0283] = "Joined in a Wish"
+,
+
+[MID_STAGE_X0291] = "The Men's Bath"
+,
+
+[MID_STAGE_X0292] = "The Women's Bath"
+,
+
+[MID_STAGE_X0293] = "Shrouded by Steam"
+,
+
+[MID_STAGE_X0301] = "A Deputy's Devotion"
+,
+
+[MID_STAGE_X0302] = "A Strategist's Devotion"
+,
+
+[MID_STAGE_X0303] = "A Leader's Devotion"
+,
+
+[MID_STAGE_X0311] = "Bunny Prince & Princess"
+,
+
+[MID_STAGE_X0312] = "Pegasus, Take Flight!"
+,
+
+[MID_STAGE_X0313] = "Rabbit Lore"
+,
+
+[MID_STAGE_X0321] = "The Meaning of Picnic"
+,
+
+[MID_STAGE_X0322] = "An Acquired Taste"
+,
+
+[MID_STAGE_X0323] = "Some Time to Breathe"
+,
+
+[MID_STAGE_X0331] = "One Close to the Heart"
+,
+
+[MID_STAGE_X0332] = "One Loved and Protected"
+,
+
+[MID_STAGE_X0333] = "One Day Yet to Come"
+,
+
+[MID_STAGE_X0341] = "Summer's Flame Sisters"
+,
+
+[MID_STAGE_X0342] = "Summer's Reunited Pair"
+,
+
+[MID_STAGE_X0343] = "Summer's Heat and Chill"
+,
+
+[MID_STAGE_X0351] = "Customary Attire"
+,
+
+[MID_STAGE_X0352] = "Friend of a Friend"
+,
+
+[MID_STAGE_X0353] = "Swimwear Warfare"
+,
+
+[MID_STAGE_X0361] = "Carved in History"
+,
+
+[MID_STAGE_X0362] = "A Pair of Queens"
+,
+
+[MID_STAGE_X0363] = "Locus of Heroes"
+,
+
+[MID_STAGE_X0371] = "Splendid Gallants"
+,
+
+[MID_STAGE_X0372] = "Splendid Darlings"
+,
+
+[MID_STAGE_X0373] = "Dreams of the Spotlight"
+,
+
+[MID_STAGE_X0381] = "Hungering Harvesters"
+,
+
+[MID_STAGE_X0382] = "Two-Headed Monsters"
+,
+
+[MID_STAGE_X0383] = "A Gathering of Ghouls"
+,
+
+[MID_STAGE_X0391] = "An Enchanting Sight"
+,
+
+[MID_STAGE_X0392] = "Delight in Battle"
+,
+
+[MID_STAGE_X0393] = "A Vigorous Jingle"
+,
+
+[MID_STAGE_X0401] = "New Year's Extravagance"
+,
+
+[MID_STAGE_X0402] = "Shrine Playtime"
+,
+
+[MID_STAGE_X0403] = "Meeting Our Heroes"
+,
+
+[MID_STAGE_X0411] = "Dreams of Stardom"
+,
+
+[MID_STAGE_X0412] = "Hollywood Appeal"
+,
+
+[MID_STAGE_X0413] = "Singing and Acting"
+,
+
+[MID_STAGE_X0421] = "Reunion"
+,
+
+[MID_STAGE_X0422] = "An Awkward Attempt"
+,
+
+[MID_STAGE_X0423] = "Heart-to-Heart"
+,
+
+[MID_STAGE_X0431] = "Hare Out of Place"
+,
+
+[MID_STAGE_X0432] = "Hopping to It"
+,
+
+[MID_STAGE_X0433] = "The Tail End"
+,
+
+[MID_STAGE_X0441] = "An Altean Youth"
+,
+
+[MID_STAGE_X0442] = "Fledgling Knights"
+,
+
+[MID_STAGE_X0443] = "Together from the First"
+,
+
+[MID_STAGE_X0451] = "Hoshidan Bridal Spirit"
+,
+
+[MID_STAGE_X0452] = "A Groom's Gloom"
+,
+
+[MID_STAGE_X0453] = "On Love's Wings"
+,
+
+[MID_STAGE_X0461] = "Finding Fulfillment"
+,
+
+[MID_STAGE_X0462] = "Hand in Hand"
+,
+
+[MID_STAGE_X0463] = "Lasting Memories"
+,
+
+[MID_STAGE_X0471] = "A Friend in Need"
+,
+
+[MID_STAGE_X0472] = "Beach Blossoms"
+,
+
+[MID_STAGE_X0473] = "Seaside Someday"
+,
+
+[MID_STAGE_X0481] = "Hawk and Dove"
+,
+
+[MID_STAGE_X0482] = "Mercurial Princess"
+,
+
+[MID_STAGE_X0483] = "The True Treasure"
+,
+
+[MID_STAGE_X0491] = "Sprightly Siblings"
+,
+
+[MID_STAGE_X0492] = "Runaway Sister"
+,
+
+[MID_STAGE_X0493] = "Everlasting Vow"
+,
+
+[MID_STAGE_XX001] = "Detached Princess"
+,
+
+[MID_STAGE_XX002] = "The Brink of Chaos"
+,
+
+[MID_STAGE_XX003] = "The People's Hero"
+,
+
+[MID_STAGE_XX004] = "Whispers"
+,
+

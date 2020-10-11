@@ -9,6 +9,7 @@ const char * const textsEN[] = {
     #include "../locale/USEN/scenario.txt"
     #include "../locale/USEN/unit.txt"
     #include "../locale/USEN/skill.txt"
+    #include "../locale/USEN/stage.txt"
 };
 
 
