@@ -9,3 +9,4 @@ INCLUDE ../linkerscript/voice.lds
 INCLUDE ../linkerscript/font.lds
 INCLUDE ../linkerscript/text.lds
 INCLUDE ../linkerscript/option.lds
+INCLUDE ../linkerscript/chapter_title.lds

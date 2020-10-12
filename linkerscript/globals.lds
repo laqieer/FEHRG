@@ -488,4 +488,8 @@ KeyStatusBuffer = 0x2024c78;
 
 CurrentSelectedItemInOptionMenu = 0x202016a;
 
+/* Chapter title. */
+
+CurrentChapterTitleImageTileId = 0x0203e672;
+
 
