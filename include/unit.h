@@ -20,7 +20,7 @@ struct Character
     /* 06 */ u16 portraitId;
     /* 08 */ u8 miniPortrait;
     /* 09 */ u8 affinity;
-    /* 0A */ u8 _u0A;
+    /* 0A */ u8 sortId;
 
     /* 0B */ s8 baseLevel;
     /* 0C */ s8 baseHP;
@@ -42,16 +42,16 @@ struct Character
     /* 21 */ u8 growthRes;
     /* 22 */ u8 growthLck;
 
-    /* 23 */ u8 _u23;
-    /* 24 */ u8 _u24;
-    /* 25 */ u8 _u25;
-    /* 26 */ u8 _u26;
+    /* 23 */ u8 unpromotedPaletteId;
+    /* 24 */ u8 promotedPaletteId;
+    /* 25 */ u8 unpromotedAnimationId;
+    /* 26 */ u8 promotedAnimationId;
     /* 27 */ u8 _u27;
 
     /* 28 */ u32 attributes;
 
     /* 2C */ const struct SupportData* pSupportData;
-    /* 30 */ void* _pU30;
+    /* 30 */ void* dialogueId;
 };
 
 struct Class
