@@ -15,3 +15,5 @@
 [TID_OPTION_LANGUAGE_EN_NARROW] = "Eng.2",
 
 [TID_OPTION_LANGUAGE_EN_NARROW_HELP] = "Change game language to English (narrow font)",
+
+[TID_ENEMY] = "µ–»À",

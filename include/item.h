@@ -140,3 +140,33 @@ enum {
     WPN_EXP_A = 181,
     WPN_EXP_S = 251,
 };
+
+#define WPN_EXP(type, exp) { [ type ] = exp }
+
+#define WPN_EXP_NONE(exp) { WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0, WPN_EXP_0 }
+
+#define WPN_EXP_剣(exp) WPN_EXP(ITYPE_SWORD, exp)
+#define WPN_EXP_槍(exp) WPN_EXP(ITYPE_LANCE, exp)
+#define WPN_EXP_斧(exp) WPN_EXP(ITYPE_AXE, exp)
+#define WPN_EXP_弓(exp) WPN_EXP(ITYPE_BOW, exp)
+#define WPN_EXP_赤弓 WPN_EXP_弓
+#define WPN_EXP_青弓 WPN_EXP_弓
+#define WPN_EXP_緑弓 WPN_EXP_弓
+#define WPN_EXP_暗 WPN_EXP_弓
+#define WPN_EXP_赤暗 WPN_EXP_暗
+#define WPN_EXP_青暗 WPN_EXP_暗
+#define WPN_EXP_緑暗 WPN_EXP_暗
+#define WPN_EXP_赤魔(exp) WPN_EXP(ITYPE_DARK, exp)
+#define WPN_EXP_青魔(exp) WPN_EXP(ITYPE_LIGHT, exp)
+#define WPN_EXP_緑魔(exp) WPN_EXP(ITYPE_ANIMA, exp)
+#define WPN_EXP_無魔 WPN_EXP_赤魔
+#define WPN_EXP_杖(exp) WPN_EXP(ITYPE_STAFF, exp)
+#define WPN_EXP_無竜 WPN_EXP_NONE
+#define WPN_EXP_赤竜 WPN_EXP_無竜
+#define WPN_EXP_青竜 WPN_EXP_無竜
+#define WPN_EXP_緑竜 WPN_EXP_無竜
+#define WPN_EXP_無獣 WPN_EXP_NONE
+#define WPN_EXP_赤獣 WPN_EXP_無獣
+#define WPN_EXP_青獣 WPN_EXP_無獣
+#define WPN_EXP_緑獣 WPN_EXP_無獣
+

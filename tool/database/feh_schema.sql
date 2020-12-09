@@ -124,6 +124,20 @@ CREATE TABLE public.maps (
 ALTER TABLE public.maps OWNER TO postgres;
 
 --
+-- Name: move_type; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.move_type (
+    id_tag character(7) NOT NULL,
+    move_cost integer[],
+    index integer NOT NULL,
+    range integer
+);
+
+
+ALTER TABLE public.move_type OWNER TO postgres;
+
+--
 -- Name: scenario; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -174,6 +188,30 @@ CREATE TABLE public.units (
 ALTER TABLE public.units OWNER TO postgres;
 
 --
+-- Name: weapon_type; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.weapon_type (
+    id_tag character varying(10) NOT NULL,
+    sprite_base character varying(10)[],
+    base_weapon character varying(10),
+    index integer NOT NULL,
+    color integer,
+    range integer,
+    _unknown1 integer,
+    sort_id integer,
+    equip_group integer,
+    res_damage boolean,
+    is_staff boolean,
+    is_dagger boolean,
+    is_breath boolean,
+    is_beast boolean
+);
+
+
+ALTER TABLE public.weapon_type OWNER TO postgres;
+
+--
 -- Name: bg bg_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -214,6 +252,14 @@ ALTER TABLE ONLY public.maps
 
 
 --
+-- Name: move_type move_type_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.move_type
+    ADD CONSTRAINT move_type_pkey PRIMARY KEY (index);
+
+
+--
 -- Name: scenario textkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -227,6 +273,14 @@ ALTER TABLE ONLY public.scenario
 
 ALTER TABLE ONLY public.units
     ADD CONSTRAINT units_pkey PRIMARY KEY (id_tag);
+
+
+--
+-- Name: weapon_type weapon_type_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.weapon_type
+    ADD CONSTRAINT weapon_type_pkey PRIMARY KEY (index);
 
 
 --

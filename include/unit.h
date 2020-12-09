@@ -51,7 +51,7 @@ struct Character
     /* 28 */ u32 attributes;
 
     /* 2C */ const struct SupportData* pSupportData;
-    /* 30 */ void* dialogueId;
+    /* 30 */ u32 dialogueId;
 };
 
 struct Class
@@ -199,6 +199,14 @@ struct UnitDefinition
         /* 12 */ u8 ai3;
         /* 13 */ u8 ai4;
     } ai;
+};
+
+enum
+{
+    // Unit affinity
+    
+    AFFINITY_NONE = 0,
+
 };
 
 enum
