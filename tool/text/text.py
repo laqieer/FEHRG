@@ -8,7 +8,7 @@ LOCALE_EN = 'USEN'
 LOCALE_CN = 'TWZH'
 
 encodings = {LOCALE_JP: "shift_jis", LOCALE_EN:"ascii", LOCALE_CN:"gb2312"}
-unit_froms = {LOCALE_JP:("\n（登場"), LOCALE_EN:("\nAppear", "Appear", "\nThey appear", "They appear", "They\nappear"), LOCALE_CN:("\n（登場")}
+unit_froms = {LOCALE_JP:("\n（登場", "\n（登場"), LOCALE_EN:("\nAppear", "Appear", "\nThey appear", "They appear", "They\nappear"), LOCALE_CN:("\n（登場", "\n（登場")}
 
 
 def check_key(key):
