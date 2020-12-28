@@ -1,1933 +1,1933 @@
 "Alfonse"
 ,
 
-"A prince of Askr and member of the" TEXT_NEWLINE
-"Order of Heroes. Kind and serious," TEXT_NEWLINE
+"A prince of Askr and member of the "
+"Order of Heroes. Kind and serious, "
 "and eager to maintain peace."
 ,
 
 "Alfonse"
 ,
 
-"Siblings who, together, represent Askr's future." TEXT_NEWLINE
-"They have come to participate in the celebration" TEXT_NEWLINE
-"and to make a resolution to keep up their hard" TEXT_NEWLINE
+"Siblings who, together, represent Askr's future. "
+"They have come to participate in the celebration "
+"and to make a resolution to keep up their hard "
 "work in the coming year."
 ,
 
 "Alfonse"
 ,
 
-"A prince of Askr who's kind and serious." TEXT_NEWLINE
-"He's taking part in the spring festival as a" TEXT_NEWLINE
+"A prince of Askr who's kind and serious. "
+"He's taking part in the spring festival as a "
 "member of the Order of Heroes."
 ,
 
 "Amelia"
 ,
 
-"A young soldier from a small village in Grado." TEXT_NEWLINE
+"A young soldier from a small village in Grado. "
 "She is honest and sincere. "
 ,
 
 "Anna"
 ,
 
-"A veteran fighter who leads the Order of" TEXT_NEWLINE
+"A veteran fighter who leads the Order of "
 "Heroes. Alfonse and Sharena's commander."
 ,
 
 "Anna"
 ,
 
-"Commander of the Order of Heroes. Hatched" TEXT_NEWLINE
-"a brilliant strategy for taking advantage of the" TEXT_NEWLINE
+"Commander of the Order of Heroes. Hatched "
+"a brilliant strategy for taking advantage of the "
 "new year in order to draw in customers."
 ,
 
 "Azura"
 ,
 
-"A mysterious songstress who appeared at the" TEXT_NEWLINE
-"theater in Cyrkensia. Has overwhelming singing" TEXT_NEWLINE
+"A mysterious songstress who appeared at the "
+"theater in Cyrkensia. Has overwhelming singing "
 "abilities. "
 ,
 
 "Azura"
 ,
 
-"An enchanting princess raised in Hoshido" TEXT_NEWLINE
-"who has never lost a match of the traditional" TEXT_NEWLINE
-"sport hanetsuki when played at the New" TEXT_NEWLINE
+"An enchanting princess raised in Hoshido "
+"who has never lost a match of the traditional "
+"sport hanetsuki when played at the New "
 "Year. "
 ,
 
 "Arden"
 ,
 
-"An armored knight from Chalphy. Dreams of" TEXT_NEWLINE
-"fighting on the front lines, but is often assigned" TEXT_NEWLINE
+"An armored knight from Chalphy. Dreams of "
+"fighting on the front lines, but is often assigned "
 "to castle defense. "
 ,
 
 "Alm"
 ,
 
-"A brave but kind young warrior, raised by the" TEXT_NEWLINE
-"hero Mycen in Ram Village. His left hand is" TEXT_NEWLINE
+"A brave but kind young warrior, raised by the "
+"hero Mycen in Ram Village. His left hand is "
 "marked with the Brand. "
 ,
 
 "Alm"
 ,
 
-"Prince of Rigel and princess of Zofia. Ended" TEXT_NEWLINE
-"the strife between their countries and founded" TEXT_NEWLINE
+"Prince of Rigel and princess of Zofia. Ended "
+"the strife between their countries and founded "
 "the One Kingdom of Valentia. "
 ,
 
 "Alm"
 ,
 
-"Son of Rudolf, the Rigelian Emperor. Dons" TEXT_NEWLINE
-"special armor that has been passed down for" TEXT_NEWLINE
+"Son of Rudolf, the Rigelian Emperor. Dons "
+"special armor that has been passed down for "
 "generations. "
 ,
 
 "Athena"
 ,
 
-"A foreign warrior with a straightforward" TEXT_NEWLINE
+"A foreign warrior with a straightforward "
 "personality. Speaks with an accent. "
 ,
 
 "Inigo"
 ,
 
-"A descendant of the dancer Olivia. He carries" TEXT_NEWLINE
-"on his departed mother's dancing and her" TEXT_NEWLINE
+"A descendant of the dancer Olivia. He carries "
+"on his departed mother's dancing and her "
 "power. "
 ,
 
 "Bartre"
 ,
 
-"A warrior from a remote region who takes pride" TEXT_NEWLINE
-"in his strength. Joining his beloved daughter Fir" TEXT_NEWLINE
+"A warrior from a remote region who takes pride "
+"in his strength. Joining his beloved daughter Fir "
 "and fully embracing the springtime festivities."
 ,
 
 "Byleth"
 ,
 
-"Byleth, a professor at the Church of Seiros's" TEXT_NEWLINE
-"Officers Academy, and Rhea, the church's" TEXT_NEWLINE
+"Byleth, a professor at the Church of Seiros's "
+"Officers Academy, and Rhea, the church's "
 "archbishop, enjoying a summer away. "
 ,
 
 "Berkut"
 ,
 
-"A royal of the Rigelian Empire. Dancing holds" TEXT_NEWLINE
-"no particular interest for him, but he can't say" TEXT_NEWLINE
+"A royal of the Rigelian Empire. Dancing holds "
+"no particular interest for him, but he can't say "
 "no to Rinea's pleading smile. "
 ,
 
 "Brigid"
 ,
 
-"Gallant and determined, she was separated" TEXT_NEWLINE
-"from her family as a child and raised by a pirate" TEXT_NEWLINE
+"Gallant and determined, she was separated "
+"from her family as a child and raised by a pirate "
 "leader. "
 ,
 
 "Bruno"
 ,
 
-"Prince of the Emblian empire, whose lineage" TEXT_NEWLINE
-"remains something of a mystery. Dressing as" TEXT_NEWLINE
+"Prince of the Emblian empire, whose lineage "
+"remains something of a mystery. Dressing as "
 "a rabbit isn't clarifying things for anybody."
 ,
 
 "Camilla"
 ,
 
-"Princess of Nohr who dotes on her" TEXT_NEWLINE
+"Princess of Nohr who dotes on her "
 "sibling Corrin and is merciless to foes."
 ,
 
 "Camilla"
 ,
 
-"The eldest princess of another Nohr. A demure" TEXT_NEWLINE
+"The eldest princess of another Nohr. A demure "
 "and caring older sister to young Azura. "
 ,
 
 "Camilla"
 ,
 
-"A princess of Nohr who dotes on her sibling" TEXT_NEWLINE
-"Corrin and is trying to learn about Hoshidan" TEXT_NEWLINE
+"A princess of Nohr who dotes on her sibling "
+"Corrin and is trying to learn about Hoshidan "
 "culture through fashion. "
 ,
 
 "Camilla"
 ,
 
-"Eldest princess of Nohr. Loves to soak in a hot" TEXT_NEWLINE
+"Eldest princess of Nohr. Loves to soak in a hot "
 "spring as she believes it enhances her charm."
 ,
 
 "Camilla"
 ,
 
-"Camilla from a world where she takes the throne" TEXT_NEWLINE
-"as Queen of Nohr. Rules with both strength and" TEXT_NEWLINE
-"compassion. Loved and supported by all her" TEXT_NEWLINE
+"Camilla from a world where she takes the throne "
+"as Queen of Nohr. Rules with both strength and "
+"compassion. Loved and supported by all her "
 "subjects. "
 ,
 
 "Camilla"
 ,
 
-"Princess of Nohr who dotes on her" TEXT_NEWLINE
-"sibling Corrin. Loves her new outfit" TEXT_NEWLINE
+"Princess of Nohr who dotes on her "
+"sibling Corrin. Loves her new outfit "
 "ever since Corrin said it was cute."
 ,
 
 "Camilla"
 ,
 
-"Princess of Nohr who dotes on her sibling" TEXT_NEWLINE
-"Corrin. She's hoping someone can help her" TEXT_NEWLINE
+"Princess of Nohr who dotes on her sibling "
+"Corrin. She's hoping someone can help her "
 "apply tanning oil to protect her skin."
 ,
 
 "Cecilia"
 ,
 
-"Mage General of Etruria. She is currently using" TEXT_NEWLINE
-"her teaching skills to instruct visitors at the" TEXT_NEWLINE
+"Mage General of Etruria. She is currently using "
+"her teaching skills to instruct visitors at the "
 "winter festival. "
 ,
 
 "Seliph"
 ,
 
-"Inheritor of the sacred sword Tyrfing." TEXT_NEWLINE
-"A savior in his time, but dislikes battle." TEXT_NEWLINE
+"Inheritor of the sacred sword Tyrfing. "
+"A savior in his time, but dislikes battle. "
 "Julia's half brother. "
 ,
 
 "Selena"
 ,
 
-"One of the Grado Empire's six generals, known" TEXT_NEWLINE
-"as the Fluorspar. Her loyalty is unwavering, even" TEXT_NEWLINE
+"One of the Grado Empire's six generals, known "
+"as the Fluorspar. Her loyalty is unwavering, even "
 "under the summer sea's waves. "
 ,
 
 "Celica"
 ,
 
-"Princess of Zofia and warrior priestess in" TEXT_NEWLINE
-"service of the goddess Mila. Summoned" TEXT_NEWLINE
-"while wielding a royal sword entrusted to" TEXT_NEWLINE
+"Princess of Zofia and warrior priestess in "
+"service of the goddess Mila. Summoned "
+"while wielding a royal sword entrusted to "
 "her by Alm the Hero. "
 ,
 
 "Gunnthra"
 ,
 
-"The eldest princess of Nifl, the Kingdom of Ice." TEXT_NEWLINE
-"A gentle soul with strong maternal instincts. She" TEXT_NEWLINE
-"is very much looking forward to her first dream" TEXT_NEWLINE
+"The eldest princess of Nifl, the Kingdom of Ice. "
+"A gentle soul with strong maternal instincts. She "
+"is very much looking forward to her first dream "
 "of the New Year."
 ,
 
 "Gunnthra"
 ,
 
-"The eldest princess of Nifl. Her gentle demeanor" TEXT_NEWLINE
-"seems to encircle the beach itself in a loving" TEXT_NEWLINE
+"The eldest princess of Nifl. Her gentle demeanor "
+"seems to encircle the beach itself in a loving "
 "embrace."
 ,
 
 "Charlotte"
 ,
 
-"Nohrian border guard always on patrol," TEXT_NEWLINE
-"whether to find enemies to fight or" TEXT_NEWLINE
+"Nohrian border guard always on patrol, "
+"whether to find enemies to fight or "
 "a rich fellow to marry. "
 ,
 
 "Chrom"
 ,
 
-"A prince of Ylisse and descendant of the" TEXT_NEWLINE
+"A prince of Ylisse and descendant of the "
 "Hero-King. Leads the Shepherds. "
 ,
 
 "Chrom"
 ,
 
-"A prince of Ylisse and descendant of the" TEXT_NEWLINE
-"Hero-King. Dressed to celebrate the" TEXT_NEWLINE
+"A prince of Ylisse and descendant of the "
+"Hero-King. Dressed to celebrate the "
 "spring festival. "
 ,
 
 "Chrom"
 ,
 
-"A prince of Ylisse and descendant of the" TEXT_NEWLINE
-"Hero-King. He was summoned in the middle" TEXT_NEWLINE
+"A prince of Ylisse and descendant of the "
+"Hero-King. He was summoned in the middle "
 "of a party for a winter festival. "
 ,
 
 "Conrad"
 ,
 
-"Celica's older brother. Lovingly dotes on his" TEXT_NEWLINE
-"younger sister. Decided to put his mask away" TEXT_NEWLINE
+"Celica's older brother. Lovingly dotes on his "
+"younger sister. Decided to put his mask away "
 "for the Day of Devotion festivities. "
 ,
 
 "Clair"
 ,
 
-"A pegasus knight with the Deliverance. Clive's" TEXT_NEWLINE
+"A pegasus knight with the Deliverance. Clive's "
 "younger sister. Secretly loves Alm. "
 ,
 
 "Quan"
 ,
 
-"Prince of Leonster. Gallantly taking" TEXT_NEWLINE
-"part in the dance festival is part of his" TEXT_NEWLINE
+"Prince of Leonster. Gallantly taking "
+"part in the dance festival is part of his "
 "royal duty. "
 ,
 
 "Darros"
 ,
 
-"A fisherman whose circumstances led him to" TEXT_NEWLINE
-"a life of piracy. He's not proud of it, but the" TEXT_NEWLINE
+"A fisherman whose circumstances led him to "
+"a life of piracy. He's not proud of it, but the "
 "festival is different. "
 ,
 
 "Deirdre"
 ,
 
-"She lives hidden away in the Spirit Forest. She" TEXT_NEWLINE
+"She lives hidden away in the Spirit Forest. She "
 "lost the memories of her past. "
 ,
 
 "Dorcas"
 ,
 
-"A mercenary trying to earn money for his ill" TEXT_NEWLINE
-"wife's treatment. Doesn't talk much and isn't" TEXT_NEWLINE
+"A mercenary trying to earn money for his ill "
+"wife's treatment. Doesn't talk much and isn't "
 "expressive, but loves his family dearly."
 ,
 
 "Dorcas"
 ,
 
-"A mercenary trying to earn money for his ill" TEXT_NEWLINE
-"wife's treatment. He'd like to bring her back" TEXT_NEWLINE
+"A mercenary trying to earn money for his ill "
+"wife's treatment. He'd like to bring her back "
 "some treats. "
 ,
 
 "Dorothea"
 ,
 
-"The only member of common birth in the entire" TEXT_NEWLINE
-"Black Eagle House. Her beautiful voice, honed" TEXT_NEWLINE
-"over years, can harmonize with even crashing" TEXT_NEWLINE
+"The only member of common birth in the entire "
+"Black Eagle House. Her beautiful voice, honed "
+"over years, can harmonize with even crashing "
 "waves. "
 ,
 
 "Dozla"
 ,
 
-"An attendant in L'Arachel's service. A hearty" TEXT_NEWLINE
-"man with a thirst for life, who treasures children" TEXT_NEWLINE
+"An attendant in L'Arachel's service. A hearty "
+"man with a thirst for life, who treasures children "
 "above all else. "
 ,
 
 "Faye"
 ,
 
-"A young woman from Ram Village, and" TEXT_NEWLINE
-"Alm's childhood friend. Her devotion to" TEXT_NEWLINE
+"A young woman from Ram Village, and "
+"Alm's childhood friend. Her devotion to "
 "him stretches back to those days. "
 ,
 
 "Faye"
 ,
 
-"A young girl madly in love with Alm. Eager to" TEXT_NEWLINE
-"express her growing feelings to her beloved at" TEXT_NEWLINE
+"A young girl madly in love with Alm. Eager to "
+"express her growing feelings to her beloved at "
 "the Day of Devotion festival. "
 ,
 
 "Eirika"
 ,
 
-"Princess of Renais. Ephraim's twin. Cares" TEXT_NEWLINE
-"dearly for her brother. Her kindness has" TEXT_NEWLINE
+"Princess of Renais. Ephraim's twin. Cares "
+"dearly for her brother. Her kindness has "
 "sometimes put her in danger. "
 ,
 
 "Eirika"
 ,
 
-"Princess of Renais. Ephraim's twin. Her gentle" TEXT_NEWLINE
+"Princess of Renais. Ephraim's twin. Her gentle "
 "mien blankets the winter festival. "
 ,
 
 "Eir"
 ,
 
-"Princess of the realm of dead. Is both" TEXT_NEWLINE
-"delighted and confused by her first New" TEXT_NEWLINE
+"Princess of the realm of dead. Is both "
+"delighted and confused by her first New "
 "Year's experience."
 ,
 
 "Eleonora"
 ,
 
-"A young half-Japanese actor who has Hollywood" TEXT_NEWLINE
-"dreams. Polishes her acting skills while piercing" TEXT_NEWLINE
+"A young half-Japanese actor who has Hollywood "
+"dreams. Polishes her acting skills while piercing "
 "enemies with Virion's arrows. "
 ,
 
 "Elise"
 ,
 
-"Princess of Nohr who adores her siblings. A bit" TEXT_NEWLINE
+"Princess of Nohr who adores her siblings. A bit "
 "childish, but has a pure heart and keen eyes."
 ,
 
 "Elise"
 ,
 
-"Youngest princess of Nohr. Sometimes slips out" TEXT_NEWLINE
-"of the castle to enjoy herself at a famous hot" TEXT_NEWLINE
+"Youngest princess of Nohr. Sometimes slips out "
+"of the castle to enjoy herself at a famous hot "
 "spring. "
 ,
 
 "Elise"
 ,
 
-"A Nohrian princess who loves her siblings and" TEXT_NEWLINE
-"has matured a little by taking a solo trip to a" TEXT_NEWLINE
+"A Nohrian princess who loves her siblings and "
+"has matured a little by taking a solo trip to a "
 "tropical island. "
 ,
 
 "Eliwood"
 ,
 
-"The soon-to-be Marquess Pherae. Eyes burning" TEXT_NEWLINE
-"with the fire of determination, he carries on his" TEXT_NEWLINE
+"The soon-to-be Marquess Pherae. Eyes burning "
+"with the fire of determination, he carries on his "
 "father's will. "
 ,
 
 "Eliwood"
 ,
 
-"A sincere noble of Pherae. Wishes to enjoy" TEXT_NEWLINE
-"the festival together with his close friends" TEXT_NEWLINE
+"A sincere noble of Pherae. Wishes to enjoy "
+"the festival together with his close friends "
 "Hector and Lyn. "
 ,
 
 "Eldigan"
 ,
 
-"Ruler of Nordion. Wields the Demon" TEXT_NEWLINE
-"Sword in knightly devotion to any master." TEXT_NEWLINE
+"Ruler of Nordion. Wields the Demon "
+"Sword in knightly devotion to any master. "
 "Older brother of Lachesis. "
 ,
 
 "Eldigan"
 ,
 
-"Young ruler of Nordion. Also known as" TEXT_NEWLINE
-"the Lionheart. Sets out for the dance" TEXT_NEWLINE
+"Young ruler of Nordion. Also known as "
+"the Lionheart. Sets out for the dance "
 "festival in dignified attire. "
 ,
 
 "Ephraim"
 ,
 
-"Prince of Renais. Eirika's twin. Cares" TEXT_NEWLINE
-"deeply for his sister. His confidence has" TEXT_NEWLINE
+"Prince of Renais. Eirika's twin. Cares "
+"deeply for his sister. His confidence has "
 "sometimes put him in danger. "
 ,
 
 "Ephraim"
 ,
 
-"Prince of Renais who protects his kingdom in" TEXT_NEWLINE
-"place of his deceased father, King Fado. He's" TEXT_NEWLINE
-"taken to using one of the Sacred Twins relics" TEXT_NEWLINE
+"Prince of Renais who protects his kingdom in "
+"place of his deceased father, King Fado. He's "
+"taken to using one of the Sacred Twins relics "
 "from Grado-the black axe Garm. "
 ,
 
 "Ephraim"
 ,
 
-"The gallant prince of Renais. His chivalrous" TEXT_NEWLINE
+"The gallant prince of Renais. His chivalrous "
 "nature enlivens the winter festival. "
 ,
 
 "Ilyana"
 ,
 
-"A mage always on the verge of collapsing from" TEXT_NEWLINE
-"hunger, attracted to the harvest festival by the" TEXT_NEWLINE
+"A mage always on the verge of collapsing from "
+"hunger, attracted to the harvest festival by the "
 "sights and smells of delicious foods. "
 ,
 
 "Elincia"
 ,
 
-"The princess of Crimea who cares for her" TEXT_NEWLINE
-"kingdom and people. It pleases her to see the" TEXT_NEWLINE
+"The princess of Crimea who cares for her "
+"kingdom and people. It pleases her to see the "
 "smiling dancers at the summer festival."
 ,
 
 "Est"
 ,
 
-"Youngest of the three Pegasus Sisters from" TEXT_NEWLINE
-"Macedon. She's come to the spring festival" TEXT_NEWLINE
+"Youngest of the three Pegasus Sisters from "
+"Macedon. She's come to the spring festival "
 "as a bunny, just like her sisters. "
 ,
 
 "Ethlyn"
 ,
 
-"Noblewoman of Chalphy, attending the dance" TEXT_NEWLINE
-"festival with her husband, Quan. As always, she" TEXT_NEWLINE
+"Noblewoman of Chalphy, attending the dance "
+"festival with her husband, Quan. As always, she "
 "supports him every step of the way. "
 ,
 
 "Owain"
 ,
 
-"Lissa's son who tends to be overly theatrical." TEXT_NEWLINE
+"Lissa's son who tends to be overly theatrical. "
 "He loves to give weapons dramatic names."
 ,
 
 "Fae"
 ,
 
-"A young dragon from Nabata village. Her" TEXT_NEWLINE
-"excitement for her first winter festival cannot" TEXT_NEWLINE
+"A young dragon from Nabata village. Her "
+"excitement for her first winter festival cannot "
 "be contained. "
 ,
 
 "Felicia"
 ,
 
-"Hails from the Ice Tribe. Younger twin of Flora." TEXT_NEWLINE
-"Leaves a trail of blunders in her wake despite" TEXT_NEWLINE
+"Hails from the Ice Tribe. Younger twin of Flora. "
+"Leaves a trail of blunders in her wake despite "
 "her best efforts to prepare beforehand. "
 ,
 
 "Fiora"
 ,
 
-"A commander of the Pegasus Knights of Ilia." TEXT_NEWLINE
-"Led away from her snowy homeland to the" TEXT_NEWLINE
+"A commander of the Pegasus Knights of Ilia. "
+"Led away from her snowy homeland to the "
 "islands by a mission. "
 ,
 
 "Fir"
 ,
 
-"Daughter of the warrior Bartre and the" TEXT_NEWLINE
-"swordmaster Karla. She has taken a moment" TEXT_NEWLINE
+"Daughter of the warrior Bartre and the "
+"swordmaster Karla. She has taken a moment "
 "away from training to visit the spring festival."
 ,
 
 "Fjorm"
 ,
 
-"The middle princess of Nifl. Dressed in an" TEXT_NEWLINE
-"elegant dress with clean lines, she elevates the" TEXT_NEWLINE
+"The middle princess of Nifl. Dressed in an "
+"elegant dress with clean lines, she elevates the "
 "style of the bridal festival."
 ,
 
 "Fjorm"
 ,
 
-"The gentle second princess of Nifl, the" TEXT_NEWLINE
-"Kingdom of Ice. Her joy in joining Laegjarn and" TEXT_NEWLINE
+"The gentle second princess of Nifl, the "
+"Kingdom of Ice. Her joy in joining Laegjarn and "
 "the others for a trip to the shrine shines through."
 ,
 
 "Flora"
 ,
 
-"Hails from the Ice Tribe. Older twin of Felicia." TEXT_NEWLINE
+"Hails from the Ice Tribe. Older twin of Felicia. "
 "Perfectly suited to prepare and plan any picnic."
 ,
 
 "Frederick"
 ,
 
-"A knight who serves the royal house of Ylisse." TEXT_NEWLINE
+"A knight who serves the royal house of Ylisse. "
 "Collector of pebbles and shells on the beach."
 ,
 
 "Hrid"
 ,
 
-"The eldest prince of Nifl, Kingdom of Ice. With a" TEXT_NEWLINE
-"steady, calm demeanor, he's always prepared for" TEXT_NEWLINE
+"The eldest prince of Nifl, Kingdom of Ice. With a "
+"steady, calm demeanor, he's always prepared for "
 "danger, even when on a simple trip to a shrine."
 ,
 
 "Geese"
 ,
 
-"A former merchant captain. Prevented by war" TEXT_NEWLINE
-"from pursuing his business, he reluctantly took" TEXT_NEWLINE
+"A former merchant captain. Prevented by war "
+"from pursuing his business, he reluctantly took "
 "up piracy for a time. "
 ,
 
 "Greil"
 ,
 
-"The first leader of the Greil Mercenaries. Father" TEXT_NEWLINE
-"of Ike and Mist. Will meet his family again at" TEXT_NEWLINE
+"The first leader of the Greil Mercenaries. Father "
+"of Ike and Mist. Will meet his family again at "
 "the Day of Devotion festival. "
 ,
 
 "Gaius"
 ,
 
-"A thief from Ylisse known for his sweet" TEXT_NEWLINE
-"tooth. Usually secrets candy in his clothes," TEXT_NEWLINE
+"A thief from Ylisse known for his sweet "
+"tooth. Usually secrets candy in his clothes, "
 "but can't when he's dressed like this."
 ,
 
 "Innes"
 ,
 
-"The prince of Frelia. Tana's brother. He's" TEXT_NEWLINE
+"The prince of Frelia. Tana's brother. He's "
 "brash and arrogant, but good at heart."
 ,
 
 "Innes"
 ,
 
-"The prince of Frelia. Tana's brother. Determined" TEXT_NEWLINE
-"to use his vacation to hone his skills rather than" TEXT_NEWLINE
+"The prince of Frelia. Tana's brother. Determined "
+"to use his vacation to hone his skills rather than "
 "play around. "
 ,
 
 "Hector"
 ,
 
-"Eliwood's friend and brother of the Marquess" TEXT_NEWLINE
+"Eliwood's friend and brother of the Marquess "
 "of Ostia. Prefers action to court formality."
 ,
 
 "Hector"
 ,
 
-"The Marquess Ostia and his daughter. Drawn" TEXT_NEWLINE
-"to the castle by the delightful glow of the" TEXT_NEWLINE
+"The Marquess Ostia and his daughter. Drawn "
+"to the castle by the delightful glow of the "
 "harvest festival's activities. "
 ,
 
 "Hector"
 ,
 
-"Inherited the title of Marquess Ostia after" TEXT_NEWLINE
-"the sudden death of his elder brother. Here an" TEXT_NEWLINE
-"armored knight, he wields the lance of one of" TEXT_NEWLINE
+"Inherited the title of Marquess Ostia after "
+"the sudden death of his elder brother. Here an "
+"armored knight, he wields the lance of one of "
 "the Eight Legends. "
 ,
 
 "Hector"
 ,
 
-"Eliwood's friend and brother of the Marquess" TEXT_NEWLINE
+"Eliwood's friend and brother of the Marquess "
 "of Ostia. Wants to win the big tournament."
 ,
 
 "Helbindi"
 ,
 
-"Rough and tumble general of Muspell, the" TEXT_NEWLINE
-"Kingdom of Flame. Finds the hot beach" TEXT_NEWLINE
+"Rough and tumble general of Muspell, the "
+"Kingdom of Flame. Finds the hot beach "
 "refreshing compared to his home."
 ,
 
 "Henry"
 ,
 
-"This dark mage of Plegia will curse you without" TEXT_NEWLINE
+"This dark mage of Plegia will curse you without "
 "a second thought if you withhold candy."
 ,
 
 "Hinata"
 ,
 
-"Hoshidan samurai and one of Takumi's retainers." TEXT_NEWLINE
-"He is wearing clothes outside his usual in order" TEXT_NEWLINE
+"Hoshidan samurai and one of Takumi's retainers. "
+"He is wearing clothes outside his usual in order "
 "to play the part of bridegroom for the festival."
 ,
 
 "Hinoka"
 ,
 
-"Eldest princess of Hoshido. She seeks respite" TEXT_NEWLINE
-"from the travails of battle in hot springs from" TEXT_NEWLINE
+"Eldest princess of Hoshido. She seeks respite "
+"from the travails of battle in hot springs from "
 "time to time, but she rarely finds it. "
 ,
 
 "Idunn"
 ,
 
-"The last of the dragonkin on the continent Elibe." TEXT_NEWLINE
-"They heard about the spring festival and are" TEXT_NEWLINE
+"The last of the dragonkin on the continent Elibe. "
+"They heard about the spring festival and are "
 "trying the costumes out for themselves. "
 ,
 
 "Ike"
 ,
 
-"A kindhearted but stoic young man who has" TEXT_NEWLINE
+"A kindhearted but stoic young man who has "
 "taken command of his father's mercenary band."
 ,
 
 "Ike"
 ,
 
-"The leader of the Greil Mercenaries. He is blunt" TEXT_NEWLINE
-"but genuine and loyal. He is also a general that" TEXT_NEWLINE
-"pulled people of different races and kingdoms" TEXT_NEWLINE
+"The leader of the Greil Mercenaries. He is blunt "
+"but genuine and loyal. He is also a general that "
+"pulled people of different races and kingdoms "
 "together. "
 ,
 
 "Ike"
 ,
 
-"A kindhearted but stoic young man who has" TEXT_NEWLINE
-"taken command of his father's mercenary band." TEXT_NEWLINE
+"A kindhearted but stoic young man who has "
+"taken command of his father's mercenary band. "
 "Wields the axe of his father, Greil. "
 ,
 
 "Ike"
 ,
 
-"The leader of the Greil Mercenaries. A stoic and" TEXT_NEWLINE
+"The leader of the Greil Mercenaries. A stoic and "
 "brave warrior who treats his friends like family."
 ,
 
 "Ingrid"
 ,
 
-"Daughter of House Galatea of the Holy Kingdom" TEXT_NEWLINE
-"of Faerghus. Her summer outfit does nothing to" TEXT_NEWLINE
+"Daughter of House Galatea of the Holy Kingdom "
+"of Faerghus. Her summer outfit does nothing to "
 "dull her trademark diligence in any way. "
 ,
 
 "Aversa"
 ,
 
-"A wily mage who serves Gangrel of Plegia." TEXT_NEWLINE
-"Excels at using her charms to disarm and then" TEXT_NEWLINE
+"A wily mage who serves Gangrel of Plegia. "
+"Excels at using her charms to disarm and then "
 "destroy her foes. "
 ,
 
 "Ayra"
 ,
 
-"Princess of Isaach, master of the sword, and" TEXT_NEWLINE
-"descendant of the crusader Od. She fights for" TEXT_NEWLINE
+"Princess of Isaach, master of the sword, and "
+"descendant of the crusader Od. She fights for "
 "her homeland. "
 ,
 
 "Ishtar"
 ,
 
-"The heir to Mjolnir, she carries the blood of" TEXT_NEWLINE
-"Friege's royal family. Dances with the power" TEXT_NEWLINE
+"The heir to Mjolnir, she carries the blood of "
+"Friege's royal family. Dances with the power "
 "of rolling thunder. "
 ,
 
 "Itsuki"
 ,
 
-"Young man who battles evil Mirages at Chrom's" TEXT_NEWLINE
+"Young man who battles evil Mirages at Chrom's "
 "side. A kindly leader to his comrades. "
 ,
 
 "Jaffar"
 ,
 
-"An emotionless member of the Black Fang" TEXT_NEWLINE
+"An emotionless member of the Black Fang "
 "assassins. Known as the Angel of Death."
 ,
 
 "Jaffar"
 ,
 
-"An unfeeling member of the Black Fang" TEXT_NEWLINE
-"assassins. Attending the winter festival at" TEXT_NEWLINE
+"An unfeeling member of the Black Fang "
+"assassins. Attending the winter festival at "
 "Nino's side. "
 ,
 
 "Genny"
 ,
 
-"A cleric from Novis. Introverted, but enjoying" TEXT_NEWLINE
+"A cleric from Novis. Introverted, but enjoying "
 "her conspicuous clothing nevertheless. "
 ,
 
 "Joshua"
 ,
 
-"A mercenary who loves to gamble. He has" TEXT_NEWLINE
+"A mercenary who loves to gamble. He has "
 "an evasive, almost aggravating personality."
 ,
 
 "Joshua"
 ,
 
-"A mercenary with a love for gambling. He's in" TEXT_NEWLINE
+"A mercenary with a love for gambling. He's in "
 "the tropics hoping luck's tide turns in his favor."
 ,
 
 "Jakob"
 ,
 
-"A butler of Nohr who serves Corrin. He would" TEXT_NEWLINE
+"A butler of Nohr who serves Corrin. He would "
 "rather receive tea than candy. "
 ,
 
 "Kagero"
 ,
 
-"A ninja of Hoshido who is ready to lay down her" TEXT_NEWLINE
-"life to obtain some candy. One of Ryoma's" TEXT_NEWLINE
+"A ninja of Hoshido who is ready to lay down her "
+"life to obtain some candy. One of Ryoma's "
 "retainers. "
 ,
 
 "Kagero"
 ,
 
-"One of Ryoma's retainers, and a ninja of Hoshido." TEXT_NEWLINE
-"She was given the mission to participate in the" TEXT_NEWLINE
+"One of Ryoma's retainers, and a ninja of Hoshido. "
+"She was given the mission to participate in the "
 "Spring Festival, and she's fulfilling that duty."
 ,
 
 "Corrin"
 ,
 
-"A Hoshidan princess raised in another Nohr. She" TEXT_NEWLINE
-"understands young Azura's feelings very well." TEXT_NEWLINE
+"A Hoshidan princess raised in another Nohr. She "
+"understands young Azura's feelings very well. "
 "They are the best of friends. "
 ,
 
 "Corrin"
 ,
 
-"A Hoshidan princess raised in Nohr. She won" TEXT_NEWLINE
+"A Hoshidan princess raised in Nohr. She won "
 "a ticket to a tropical island in a lottery."
 ,
 
 "Corrin"
 ,
 
-"A Hoshidan prince raised in another Nohr. He" TEXT_NEWLINE
-"understands young Azura's feelings very well." TEXT_NEWLINE
+"A Hoshidan prince raised in another Nohr. He "
+"understands young Azura's feelings very well. "
 "They are the best of friends. "
 ,
 
 "Corrin"
 ,
 
-"A Hoshidan prince raised in Nohr. His" TEXT_NEWLINE
-"kimono was prepared by Mikoto while" TEXT_NEWLINE
+"A Hoshidan prince raised in Nohr. His "
+"kimono was prepared by Mikoto while "
 "she was still alive. "
 ,
 
 "Karel"
 ,
 
-"A vicious swordsman from a family devoted to" TEXT_NEWLINE
+"A vicious swordsman from a family devoted to "
 "mastering the blade. Known as the Sword Demon."
 ,
 
 "Katarina"
 ,
 
-"Reserved and harboring a dark secret, this" TEXT_NEWLINE
+"Reserved and harboring a dark secret, this "
 "trainee tactician depends on others. "
 ,
 
 "Catria"
 ,
 
-"Middle of three sisters who are pegasus knights" TEXT_NEWLINE
-"for Macedon. She takes her duty to participate" TEXT_NEWLINE
+"Middle of three sisters who are pegasus knights "
+"for Macedon. She takes her duty to participate "
 "in the Spring Festival seriously. "
 ,
 
 "Rhys"
 ,
 
-"A member of the Greil Mercenaries known" TEXT_NEWLINE
-"for his gentle demeanor. He's taking to the" TEXT_NEWLINE
+"A member of the Greil Mercenaries known "
+"for his gentle demeanor. He's taking to the "
 "battlefield in a swimsuit this time. "
 ,
 
 "Selkie"
 ,
 
-"A carefree kitsune. She's dressed up in a kimono" TEXT_NEWLINE
+"A carefree kitsune. She's dressed up in a kimono "
 "and ready to join in the New Year's celebrations."
 ,
 
 "Kiria"
 ,
 
-"A singer with a slick image and many fans." TEXT_NEWLINE
+"A singer with a slick image and many fans. "
 "Throws herself into battle alongside Tharja."
 ,
 
 "Klein"
 ,
 
-"A young general of Etruria. Clarine's" TEXT_NEWLINE
+"A young general of Etruria. Clarine's "
 "brother. Treats all as equals. "
 ,
 
 "Clarisse"
 ,
 
-"One of a group of assassins plotting to kill" TEXT_NEWLINE
-"Marth. Katarina's friend. Cruel and lacks" TEXT_NEWLINE
+"One of a group of assassins plotting to kill "
+"Marth. Katarina's friend. Cruel and lacks "
 "manners, but yearns for a family. "
 ,
 
 "Laegjarn"
 ,
 
-"The eldest princess of Muspell, the Flame" TEXT_NEWLINE
-"Kingdom, and Laevatein's older sister. Her joy" TEXT_NEWLINE
-"in joining Fjorm and the others for a trip to the" TEXT_NEWLINE
+"The eldest princess of Muspell, the Flame "
+"Kingdom, and Laevatein's older sister. Her joy "
+"in joining Fjorm and the others for a trip to the "
 "shrine is effulgent."
 ,
 
 "Laegjarn"
 ,
 
-"The eldest princess of Muspell, the Flame" TEXT_NEWLINE
-"Kingdom. In her swimsuit, she braves the" TEXT_NEWLINE
+"The eldest princess of Muspell, the Flame "
+"Kingdom. In her swimsuit, she braves the "
 "red-hot sun."
 ,
 
 "Laevatein"
 ,
 
-"The second princess of Muspell, the Kingdom" TEXT_NEWLINE
-"of Flame. She keeps her emotions in check but" TEXT_NEWLINE
+"The second princess of Muspell, the Kingdom "
+"of Flame. She keeps her emotions in check but "
 "can't relax without her blade by her side."
 ,
 
 "Laevatein"
 ,
 
-"The second princess of Muspell, the Kingdom" TEXT_NEWLINE
+"The second princess of Muspell, the Kingdom "
 "of Flame. She's begun to practice swimming."
 ,
 
 "L'Arachel"
 ,
 
-"Princess of Rausten. Enthusiastically" TEXT_NEWLINE
-"participating in the harvest festival" TEXT_NEWLINE
+"Princess of Rausten. Enthusiastically "
+"participating in the harvest festival "
 "alongside her attendant Dozla. "
 ,
 
 "Leo"
 ,
 
-"A talented Nohrian prince who wields" TEXT_NEWLINE
+"A talented Nohrian prince who wields "
 "the divine tome Brynhildr. "
 ,
 
 "Leo"
 ,
 
-"Younger prince of Nohr. Comes off as displeased" TEXT_NEWLINE
-"about the unexpected picnic, but secretly having" TEXT_NEWLINE
+"Younger prince of Nohr. Comes off as displeased "
+"about the unexpected picnic, but secretly having "
 "a lovely time. "
 ,
 
 "Leo"
 ,
 
-"A suntan-despising Nohrian prince who wields" TEXT_NEWLINE
-"the divine tome Brynhildr. Loves red summer" TEXT_NEWLINE
+"A suntan-despising Nohrian prince who wields "
+"the divine tome Brynhildr. Loves red summer "
 "produce. "
 ,
 
 "Raven"
 ,
 
-"A noble heir whose true name is Raymond." TEXT_NEWLINE
+"A noble heir whose true name is Raymond. "
 "Works as a mercenary to enact revenge."
 ,
 
 "Lilina"
 ,
 
-"The only daughter of Hector, the marquess of" TEXT_NEWLINE
-"Ostia. Excited to dive into the ocean wearing" TEXT_NEWLINE
+"The only daughter of Hector, the marquess of "
+"Ostia. Excited to dive into the ocean wearing "
 "her brand-new swimsuit. "
 ,
 
 "Lilina"
 ,
 
-"A noble of Ostia and Roy's friend since" TEXT_NEWLINE
-"childhood. Focused on choosing gifts for" TEXT_NEWLINE
+"A noble of Ostia and Roy's friend since "
+"childhood. Focused on choosing gifts for "
 "those dearest to her. "
 ,
 
 "Lyn"
 ,
 
-"A woman who grew up on the plains before" TEXT_NEWLINE
+"A woman who grew up on the plains before "
 "learning she is nobility of Caelin. "
 ,
 
 "Rinea"
 ,
 
-"Berkut's betrothed. Typically on the reserved" TEXT_NEWLINE
-"side, she loves to dance. She moves to the beat" TEXT_NEWLINE
+"Berkut's betrothed. Typically on the reserved "
+"side, she loves to dance. She moves to the beat "
 "of any music playing in earshot. "
 ,
 
 "Lyn"
 ,
 
-"Noblewoman of Caelin. Eager to win the" TEXT_NEWLINE
-"bridal tournament and nab the prize" TEXT_NEWLINE
+"Noblewoman of Caelin. Eager to win the "
+"bridal tournament and nab the prize "
 "bouquet. "
 ,
 
 "Lyn"
 ,
 
-"A woman who grew up on the plains. Uses" TEXT_NEWLINE
+"A woman who grew up on the plains. Uses "
 "the bow, like her father, Hassar. "
 ,
 
 "Lyn"
 ,
 
-"Noblewoman of Caelin whose true name is" TEXT_NEWLINE
-"Lyndis. Ventured to the island beaches upon" TEXT_NEWLINE
+"Noblewoman of Caelin whose true name is "
+"Lyndis. Ventured to the island beaches upon "
 "receiving an invitation. "
 ,
 
 "Lyn"
 ,
 
-"A noble of Caelin whose full name is Lyndis." TEXT_NEWLINE
-"She hopes that her gifts express all of the" TEXT_NEWLINE
+"A noble of Caelin whose full name is Lyndis. "
+"She hopes that her gifts express all of the "
 "feelings she normally doesn't put into words."
 ,
 
 "Lissa"
 ,
 
-"A princess of Ylisse and Chrom's sister. Of" TEXT_NEWLINE
-"all the winter-festival party foods, she loves" TEXT_NEWLINE
+"A princess of Ylisse and Chrom's sister. Of "
+"all the winter-festival party foods, she loves "
 "cake the most. "
 ,
 
 "Rolf"
 ,
 
-"A member of the Greil Mercenaries and the" TEXT_NEWLINE
-"younger brother of Oscar and Boyd. Joining" TEXT_NEWLINE
+"A member of the Greil Mercenaries and the "
+"younger brother of Oscar and Boyd. Joining "
 "in on the harvest festivities in a ghostly getup."
 ,
 
 "Loki"
 ,
 
-"Strategist for Muspell, the Kingdom of Flame." TEXT_NEWLINE
+"Strategist for Muspell, the Kingdom of Flame. "
 "Likes to play tricks and manipulate people."
 ,
 
 "Loki"
 ,
 
-"Mysterious woman who operated behind the" TEXT_NEWLINE
+"Mysterious woman who operated behind the "
 "scenes as Muspell's tactician. "
 ,
 
 "Lorenz"
 ,
 
-"Heir to the famously noble House Gloucester." TEXT_NEWLINE
-"Determined to conduct himself as his status" TEXT_NEWLINE
+"Heir to the famously noble House Gloucester. "
+"Determined to conduct himself as his status "
 "demands, even on the beach. "
 ,
 
 "Lucina"
 ,
 
-"A princess and daughter of Chrom who" TEXT_NEWLINE
+"A princess and daughter of Chrom who "
 "traveled to her past to prevent apocalypse."
 ,
 
 "Lucina"
 ,
 
-"A princess and the daughter of Chrom with a" TEXT_NEWLINE
-"strong sense of justice. Fights in similar" TEXT_NEWLINE
+"A princess and the daughter of Chrom with a "
+"strong sense of justice. Fights in similar "
 "garb to her beloved father. "
 ,
 
 "Lucina"
 ,
 
-"Daughter of Chrom. Future exalt of" TEXT_NEWLINE
-"Ylisse. Curious about the old festival" TEXT_NEWLINE
+"Daughter of Chrom. Future exalt of "
+"Ylisse. Curious about the old festival "
 "traditions of Ylisse. "
 ,
 
 "Louise"
 ,
 
-"Bride of Pent, Count Reglay of Etruria. Dressed" TEXT_NEWLINE
+"Bride of Pent, Count Reglay of Etruria. Dressed "
 "up for the festival together with her husband."
 ,
 
 "Lukas"
 ,
 
-"A young noble fighting for the Deliverance." TEXT_NEWLINE
+"A young noble fighting for the Deliverance. "
 "Strict, calm, and considerate. "
 ,
 
 "Lukas"
 ,
 
-"A young noble with the Deliverance. Spends his" TEXT_NEWLINE
+"A young noble with the Deliverance. Spends his "
 "free time in quiet solitude when he can. "
 ,
 
 "Lute"
 ,
 
-"A young mage of Renais with an unusual" TEXT_NEWLINE
+"A young mage of Renais with an unusual "
 "temperament. Confident in her abilities."
 ,
 
 "Lute"
 ,
 
-"A young mage of Renais possessed of a rather" TEXT_NEWLINE
-"unusual temperament. She is searching for signs" TEXT_NEWLINE
+"A young mage of Renais possessed of a rather "
+"unusual temperament. She is searching for signs "
 "of new magics among the summer sands."
 ,
 
 "Mamori"
 ,
 
-"Cute and courteous master of Draug. Under" TEXT_NEWLINE
-"the moniker Mamorin, she hosts a popular" TEXT_NEWLINE
+"Cute and courteous master of Draug. Under "
+"the moniker Mamorin, she hosts a popular "
 "cooking show for kids. "
 ,
 
 "Marisa"
 ,
 
-"Skilled mercenary called the Crimson Flash." TEXT_NEWLINE
-"Received an order to participate in the Spring" TEXT_NEWLINE
+"Skilled mercenary called the Crimson Flash. "
+"Received an order to participate in the Spring "
 "Festival as a bunny. "
 ,
 
 "Merric"
 ,
 
-"Born to Altean nobility, he grew up alongside" TEXT_NEWLINE
+"Born to Altean nobility, he grew up alongside "
 "Elice and Marth as if they were family. "
 ,
 
 "Xander"
 ,
 
-"Nohrian prince respected for his military" TEXT_NEWLINE
+"Nohrian prince respected for his military "
 "prowess. Wields the divine blade Siegfried."
 ,
 
 "Xander"
 ,
 
-"Crown Prince of Nohr. Seeks to better himself." TEXT_NEWLINE
-"Invited to a Hoshidan festival, he opted to don" TEXT_NEWLINE
+"Crown Prince of Nohr. Seeks to better himself. "
+"Invited to a Hoshidan festival, he opted to don "
 "the traditional garb and participate. "
 ,
 
 "Xander"
 ,
 
-"Nohrian prince who normally wields" TEXT_NEWLINE
-"the divine blade Siegfried but left" TEXT_NEWLINE
+"Nohrian prince who normally wields "
+"the divine blade Siegfried but left "
 "it behind for the festival. "
 ,
 
 "Xander"
 ,
 
-"A Nohrian prince who wields the divine sword" TEXT_NEWLINE
-"Siegfried but can't swim. Clings to his Lilith" TEXT_NEWLINE
+"A Nohrian prince who wields the divine sword "
+"Siegfried but can't swim. Clings to his Lilith "
 "water toy. "
 ,
 
 "Marth"
 ,
 
-"Prince of Altea and inheritor of the Hero Anri's" TEXT_NEWLINE
-"blade, as well as the duty it represents. Great-" TEXT_NEWLINE
+"Prince of Altea and inheritor of the Hero Anri's "
+"blade, as well as the duty it represents. Great- "
 "grandson of Marcelus. "
 ,
 
 "Marth"
 ,
 
-"Prince of Altea who fights for his homeland." TEXT_NEWLINE
+"Prince of Altea who fights for his homeland. "
 "Dressed as a groom to participate in a festival."
 ,
 
 "Marth"
 ,
 
-"Marth and Elice enjoying a brief moment of" TEXT_NEWLINE
-"relaxation. After a long period of struggle, these" TEXT_NEWLINE
+"Marth and Elice enjoying a brief moment of "
+"relaxation. After a long period of struggle, these "
 "siblings are entering a new phase of their lives."
 ,
 
 "Micaiah"
 ,
 
-"A member of the Dawn Brigade with silver hair" TEXT_NEWLINE
-"who is a little apprehensive about wearing" TEXT_NEWLINE
+"A member of the Dawn Brigade with silver hair "
+"who is a little apprehensive about wearing "
 "unfamiliar summer festival garb. "
 ,
 
 "Micaiah"
 ,
 
-"Sharing a mutual trust rivaling that even of" TEXT_NEWLINE
-"siblings, they are dressed to participate in the" TEXT_NEWLINE
+"Sharing a mutual trust rivaling that even of "
+"siblings, they are dressed to participate in the "
 "festival activities. "
 ,
 
 "Micaiah"
 ,
 
-"The fifteenth ruler of Daein. Determined to" TEXT_NEWLINE
+"The fifteenth ruler of Daein. Determined to "
 "reconstruct and develop her home country."
 ,
 
 "Mikoto"
 ,
 
-"The extremely affectionate queen of another" TEXT_NEWLINE
-"Hoshido. She is a nurturing adoptive mother to" TEXT_NEWLINE
+"The extremely affectionate queen of another "
+"Hoshido. She is a nurturing adoptive mother to "
 "Azura. "
 ,
 
 "Minerva"
 ,
 
-"Eldest princess of Macedon. Devoted to her" TEXT_NEWLINE
-"military training so she might one day rule the" TEXT_NEWLINE
+"Eldest princess of Macedon. Devoted to her "
+"military training so she might one day rule the "
 "kingdom with her brother Michalis. "
 ,
 
 "Michalis"
 ,
 
-"King of Macedon who had great ambitions" TEXT_NEWLINE
-"for his country. Murdered his father." TEXT_NEWLINE
+"King of Macedon who had great ambitions "
+"for his country. Murdered his father. "
 "Brother to Minerva and Maria. "
 ,
 
 "Mist"
 ,
 
-"Ike's sister and a great help to the Greil" TEXT_NEWLINE
-"Mercenaries. Looks forward to shopping at" TEXT_NEWLINE
+"Ike's sister and a great help to the Greil "
+"Mercenaries. Looks forward to shopping at "
 "the Day of Devotion festival. "
 ,
 
 "Myrrh"
 ,
 
-"A manakete who is much older than her" TEXT_NEWLINE
-"appearance suggests. She's shy but oddly" TEXT_NEWLINE
+"A manakete who is much older than her "
+"appearance suggests. She's shy but oddly "
 "attached to Ephraim. "
 ,
 
 "Myrrh"
 ,
 
-"A manakete who is much older than her" TEXT_NEWLINE
-"appearance suggests. She'd like some candy" TEXT_NEWLINE
+"A manakete who is much older than her "
+"appearance suggests. She'd like some candy "
 "but is a little shy about asking for it. "
 ,
 
 "Narcian"
 ,
 
-"One of the three Wyvern Generals of Bern." TEXT_NEWLINE
-"Making a rare exception, he is donning an" TEXT_NEWLINE
+"One of the three Wyvern Generals of Bern. "
+"Making a rare exception, he is donning an "
 "unusual outfit just for the spring festival."
 ,
 
 "Nephenee"
 ,
 
-"A militia member from the Crimean countryside." TEXT_NEWLINE
-"Urges her allies onward with the dance steps" TEXT_NEWLINE
+"A militia member from the Crimean countryside. "
+"Urges her allies onward with the dance steps "
 "she's been practicing. "
 ,
 
 "Nailah"
 ,
 
-"Queen of Hatari, a lost desert nation spoken of" TEXT_NEWLINE
-"in legend. She's joining the festival ceremony" TEXT_NEWLINE
+"Queen of Hatari, a lost desert nation spoken of "
+"in legend. She's joining the festival ceremony "
 "with her partner Rafiel. "
 ,
 
 "Ninian"
 ,
 
-"A young dancer who has a serene and mystical" TEXT_NEWLINE
+"A young dancer who has a serene and mystical "
 "presence. Her dances are divine tributes."
 ,
 
 "Ninian"
 ,
 
-"A young dancer who has a serene and mystical" TEXT_NEWLINE
-"presence. Her travels took her on a path that" TEXT_NEWLINE
+"A young dancer who has a serene and mystical "
+"presence. Her travels took her on a path that "
 "led to a festival celebrating brides. "
 ,
 
 "Nino"
 ,
 
-"A kindhearted member of the Black Fang" TEXT_NEWLINE
+"A kindhearted member of the Black Fang "
 "assassins. Longed to help her mother. "
 ,
 
 "Nino"
 ,
 
-"A kindhearted member of the Black Fang" TEXT_NEWLINE
-"assassins. Heard rumors of the winter festival" TEXT_NEWLINE
+"A kindhearted member of the Black Fang "
+"assassins. Heard rumors of the winter festival "
 "and is attending to deliver smiles to all. "
 ,
 
 "Noire"
 ,
 
-"Tharja's daughter. Turns into a terrifying" TEXT_NEWLINE
-"alter ego when pushed too far. The summer" TEXT_NEWLINE
+"Tharja's daughter. Turns into a terrifying "
+"alter ego when pushed too far. The summer "
 "sun has made her a bit dizzy. "
 ,
 
 "Nowi"
 ,
 
-"Manakete who travels with Chrom's group. She" TEXT_NEWLINE
-"may be over a thousand years old, but she still" TEXT_NEWLINE
+"Manakete who travels with Chrom's group. She "
+"may be over a thousand years old, but she still "
 "gets candy. "
 ,
 
 "Oboro"
 ,
 
-"Hoshidan lancer and retainer of Takumi, she is" TEXT_NEWLINE
-"participating in the festival in her handmade" TEXT_NEWLINE
+"Hoshidan lancer and retainer of Takumi, she is "
+"participating in the festival in her handmade "
 "bridal attire. "
 ,
 
 "Olivia"
 ,
 
-"A dancer who brings a smile to people's faces." TEXT_NEWLINE
-"She had appeared at a performing arts festival" TEXT_NEWLINE
+"A dancer who brings a smile to people's faces. "
+"She had appeared at a performing arts festival "
 "in Ylisse. "
 ,
 
 "Olwen"
 ,
 
-"A mage knight in Friege's army. Her" TEXT_NEWLINE
-"ideals sometimes put her in opposition" TEXT_NEWLINE
+"A mage knight in Friege's army. Her "
+"ideals sometimes put her in opposition "
 "with her beloved brother, Reinhardt."
 ,
 
 "Pent"
 ,
 
-"Mage General, Count Reglay of Etruria. Dressed" TEXT_NEWLINE
+"Mage General, Count Reglay of Etruria. Dressed "
 "as a groom, making a pair with his wife, Louise."
 ,
 
 "Palla"
 ,
 
-"Trio of Macedonian sisters who dream of one" TEXT_NEWLINE
-"day flying alongside Princess Minerva as" TEXT_NEWLINE
+"Trio of Macedonian sisters who dream of one "
+"day flying alongside Princess Minerva as "
 "members of the Whitewings. "
 ,
 
 "Palla"
 ,
 
-"Elder sister of Catria and Est. Attending" TEXT_NEWLINE
+"Elder sister of Catria and Est. Attending "
 "the Spring Festival as a bunny. "
 ,
 
 "Priscilla"
 ,
 
-"The daughter of Count Caerleon. Also Raven's" TEXT_NEWLINE
+"The daughter of Count Caerleon. Also Raven's "
 "sister. Poised and gentle, with a jealous streak."
 ,
 
 "Kliff"
 ,
 
-"Alm's childhood friend from Ram Village. Loves" TEXT_NEWLINE
+"Alm's childhood friend from Ram Village. Loves "
 "learning and hungers to see more of the world."
 ,
 
 "Lachesis"
 ,
 
-"Lady of House Nordion. Adores her older" TEXT_NEWLINE
-"brother, Eldigan, to the point that other" TEXT_NEWLINE
+"Lady of House Nordion. Adores her older "
+"brother, Eldigan, to the point that other "
 "men pale in comparison. "
 ,
 
 "Lachesis"
 ,
 
-"Younger sister of Eldigan, ruler of Nordion." TEXT_NEWLINE
-"Sheds her armor for a gorgeous dress" TEXT_NEWLINE
+"Younger sister of Eldigan, ruler of Nordion. "
+"Sheds her armor for a gorgeous dress "
 "and a night of dancing. "
 ,
 
 "Rafiel"
 ,
 
-"Prince of Serenes, the destroyed heron country." TEXT_NEWLINE
+"Prince of Serenes, the destroyed heron country. "
 "Fell in love with Nailah after she saved his life."
 ,
 
 "Rebecca"
 ,
 
-"A girl who lives in a remote village and spends" TEXT_NEWLINE
+"A girl who lives in a remote village and spends "
 "her time hunting. Kind and sociable. "
 ,
 
 "Robin"
 ,
 
-"A tactician of Ylisse and Chrom's close ally. Loves" TEXT_NEWLINE
+"A tactician of Ylisse and Chrom's close ally. Loves "
 "the strange creatures she finds on the beach."
 ,
 
 "Robin"
 ,
 
-"Chrom's right-hand man and a tactician who" TEXT_NEWLINE
-"has amnesia. Spends all day thinking of plans" TEXT_NEWLINE
+"Chrom's right-hand man and a tactician who "
+"has amnesia. Spends all day thinking of plans "
 "for enjoying the winter festival. "
 ,
 
 "Reinhardt"
 ,
 
-"Formidable and admired mage knight" TEXT_NEWLINE
-"in Friege's army. Ever ready to lend" TEXT_NEWLINE
+"Formidable and admired mage knight "
+"in Friege's army. Ever ready to lend "
 "an ear to his younger sister, Olwen."
 ,
 
 "Reinhardt"
 ,
 
-"A shining example of the mage knights of" TEXT_NEWLINE
-"Friege's army. Leads his partners with nimble," TEXT_NEWLINE
+"A shining example of the mage knights of "
+"Friege's army. Leads his partners with nimble, "
 "precise steps. "
 ,
 
 "Lethe"
 ,
 
-"A member of the cat clan of laguz. Out enjoying" TEXT_NEWLINE
+"A member of the cat clan of laguz. Out enjoying "
 "New Year's treats in unusual garb. "
 ,
 
 "Linde"
 ,
 
-"Daughter of Pontifex Miloah from Archanea." TEXT_NEWLINE
-"She's a bit flustered, since she's not wearing" TEXT_NEWLINE
+"Daughter of Pontifex Miloah from Archanea. "
+"She's a bit flustered, since she's not wearing "
 "her usual robe. "
 ,
 
 "Roderick"
 ,
 
-"An aspiring knight of Altea. Of calm demeanor." TEXT_NEWLINE
+"An aspiring knight of Altea. Of calm demeanor. "
 "Luke's longtime friend and rival. "
 ,
 
 "Legion"
 ,
 
-"One of a group of assassins. Wears an odd" TEXT_NEWLINE
+"One of a group of assassins. Wears an odd "
 "mask, as do his many \"brothers.\" "
 ,
 
 "Roy"
 ,
 
-"The son of Eliwood, Marquess of Pherae." TEXT_NEWLINE
-"Has immense respect for his father and" TEXT_NEWLINE
+"The son of Eliwood, Marquess of Pherae. "
+"Has immense respect for his father and "
 "wields his weapon, Durandal. "
 ,
 
 "Roy"
 ,
 
-"The son of Eliwood, Marquess of Pherae." TEXT_NEWLINE
-"He decided to visit the festival after receiving" TEXT_NEWLINE
+"The son of Eliwood, Marquess of Pherae. "
+"He decided to visit the festival after receiving "
 "an invitation from Lilina. "
 ,
 
 "Rudolf"
 ,
 
-"The stern, commanding Emperor of Rigel." TEXT_NEWLINE
+"The stern, commanding Emperor of Rigel. "
 "Father of Alm and uncle of Berkut. "
 ,
 
 "Luke"
 ,
 
-"An aspiring knight of Altea. Flirtatious." TEXT_NEWLINE
+"An aspiring knight of Altea. Flirtatious. "
 "Roderick's longtime friend and rival. "
 ,
 
 "Lucius"
 ,
 
-"A gentle cleric who serves Raven. Carries a" TEXT_NEWLINE
+"A gentle cleric who serves Raven. Carries a "
 "heavy burden from a dark childhood. "
 ,
 
 "Ryoma"
 ,
 
-"High Prince of Hoshido. Direct and focused" TEXT_NEWLINE
-"on duty. Currently participating in a" TEXT_NEWLINE
+"High Prince of Hoshido. Direct and focused "
+"on duty. Currently participating in a "
 "traditional Hoshidan summer festival."
 ,
 
 "Ryoma"
 ,
 
-"High Prince of Hoshido. A font of knowledge" TEXT_NEWLINE
+"High Prince of Hoshido. A font of knowledge "
 "about remote and hidden hot springs. "
 ,
 
 "Sakura"
 ,
 
-"This Hoshidan princess is so kind that she" TEXT_NEWLINE
-"wouldn't play a trick on anyone, even if they" TEXT_NEWLINE
+"This Hoshidan princess is so kind that she "
+"wouldn't play a trick on anyone, even if they "
 "didn't give her candy. "
 ,
 
 "Sakura"
 ,
 
-"Youngest princess of Hoshido. Well versed in" TEXT_NEWLINE
+"Youngest princess of Hoshido. Well versed in "
 "the healing benefits of hot springs. "
 ,
 
 "Tharja"
 ,
 
-"A mage from Plegia with a dark side and a" TEXT_NEWLINE
-"possessive streak. Determined to get her hands" TEXT_NEWLINE
+"A mage from Plegia with a dark side and a "
+"possessive streak. Determined to get her hands "
 "on the festival's prize, a bouquet. "
 ,
 
 "Tharja"
 ,
 
-"A mage from Plegia who, while usually creepy," TEXT_NEWLINE
+"A mage from Plegia who, while usually creepy, "
 "is acting bright and cheerful...for some reason."
 ,
 
 "Sanaki"
 ,
 
-"Empress of Begnion. Known as" TEXT_NEWLINE
-"the Apostle, voice of the goddess." TEXT_NEWLINE
+"Empress of Begnion. Known as "
+"the Apostle, voice of the goddess. "
 "Young but dutiful ruler. "
 ,
 
 "Sanaki"
 ,
 
-"Empress of Begnion. Known as the Apostle," TEXT_NEWLINE
-"voice of the goddess. Curiosity led her to" TEXT_NEWLINE
+"Empress of Begnion. Known as the Apostle, "
+"voice of the goddess. Curiosity led her to "
 "participate in a festival about brides."
 ,
 
 "Soren"
 ,
 
-"Strategist of the Greil Mercenaries. Always" TEXT_NEWLINE
-"considers the best tactics-even at the Day of" TEXT_NEWLINE
+"Strategist of the Greil Mercenaries. Always "
+"considers the best tactics-even at the Day of "
 "Devotion festival. "
 ,
 
 "Seth"
 ,
 
-"A young commander of Renais. He's calm," TEXT_NEWLINE
+"A young commander of Renais. He's calm, "
 "composed, and skilled. "
 ,
 
 "Sharena"
 ,
 
-"A princess of Askr and Alfonse's" TEXT_NEWLINE
-"sister. Cheerful and loves making" TEXT_NEWLINE
+"A princess of Askr and Alfonse's "
+"sister. Cheerful and loves making "
 "friends-especially with Heroes."
 ,
 
 "Sharena"
 ,
 
-"Princess of Askr and Alfonse's younger sister." TEXT_NEWLINE
-"She cajoled her brother into participating" TEXT_NEWLINE
+"Princess of Askr and Alfonse's younger sister. "
+"She cajoled her brother into participating "
 "in the Spring Festival with her."
 ,
 
 "Caeda"
 ,
 
-"Princess of the small kingdom of Talys. Showing" TEXT_NEWLINE
+"Princess of the small kingdom of Talys. Showing "
 "kindness to all, she is beloved by the people."
 ,
 
 "Caeda"
 ,
 
-"The charming princess of Talys. Has" TEXT_NEWLINE
+"The charming princess of Talys. Has "
 "grand dreams of being a bride. "
 ,
 
 "Shigure"
 ,
 
-"A descendant of the songstress Azura. Sings" TEXT_NEWLINE
+"A descendant of the songstress Azura. Sings "
 "in Cyrkensia while hiding his identity."
 ,
 
 "Sigurd"
 ,
 
-"Heir to Chalphy, descendant of the crusader" TEXT_NEWLINE
-"Baldr, and Seliph's father. He's courageous" TEXT_NEWLINE
+"Heir to Chalphy, descendant of the crusader "
+"Baldr, and Seliph's father. He's courageous "
 "and has a strong sense of justice. "
 ,
 
 "Sigurd"
 ,
 
-"The duo of Sigurd, heir to Chalphy, and" TEXT_NEWLINE
-"the devoted Deirdre. This happily married" TEXT_NEWLINE
+"The duo of Sigurd, heir to Chalphy, and "
+"the devoted Deirdre. This happily married "
 "couple radiates joy. "
 ,
 
 "Sigrun"
 ,
 
-"Commander of Begnion's Holy Guard. Serves" TEXT_NEWLINE
-"and supports Empress Sanaki. She heard that" TEXT_NEWLINE
-"Sanaki had participated previously, so she came" TEXT_NEWLINE
+"Commander of Begnion's Holy Guard. Serves "
+"and supports Empress Sanaki. She heard that "
+"Sanaki had participated previously, so she came "
 "to see the festival for herself. "
 ,
 
 "Silque"
 ,
 
-"A cleric from Novis. Appreciative of everyone's" TEXT_NEWLINE
+"A cleric from Novis. Appreciative of everyone's "
 "hard work day in and day out. "
 ,
 
 "Sothis"
 ,
 
-"Mysterious girl upon a throne within dreams." TEXT_NEWLINE
-"A vision that appears for just one night during" TEXT_NEWLINE
+"Mysterious girl upon a throne within dreams. "
+"A vision that appears for just one night during "
 "the winter festival. "
 ,
 
 "Sylvain"
 ,
 
-"Heir to the title of Margrave Gautier. Excited by" TEXT_NEWLINE
-"the opportunity to show off in front of the ladies" TEXT_NEWLINE
+"Heir to the title of Margrave Gautier. Excited by "
+"the opportunity to show off in front of the ladies "
 "spending summer on the beach. "
 ,
 
 "Tailtiu"
 ,
 
-"A noblewoman from Friege and descendant of" TEXT_NEWLINE
-"the crusader Thrud. She appears cheerful but" TEXT_NEWLINE
+"A noblewoman from Friege and descendant of "
+"the crusader Thrud. She appears cheerful but "
 "is hiding her troubles. "
 ,
 
 "Takumi"
 ,
 
-"The Hoshidan prince who wields the divine" TEXT_NEWLINE
-"bow Fujin Yumi. Loves miso soup, but loves" TEXT_NEWLINE
+"The Hoshidan prince who wields the divine "
+"bow Fujin Yumi. Loves miso soup, but loves "
 "ozoni, eaten at the New Year, just as much."
 ,
 
 "Takumi"
 ,
 
-"Prince of Hoshido who wields the divine" TEXT_NEWLINE
-"bow Fujin Yumi. He is genuinely happy" TEXT_NEWLINE
-"about being able to spend time on a tropical" TEXT_NEWLINE
+"Prince of Hoshido who wields the divine "
+"bow Fujin Yumi. He is genuinely happy "
+"about being able to spend time on a tropical "
 "island. "
 ,
 
 "Tanith"
 ,
 
-"Deputy commander of Begnion's Holy Guard." TEXT_NEWLINE
+"Deputy commander of Begnion's Holy Guard. "
 "Left with no choice, she joins the bridal festival."
 ,
 
 "Titania"
 ,
 
-"Talented second-in-command of the Greil" TEXT_NEWLINE
-"Mercenaries. Her heart stirs at the reunion of" TEXT_NEWLINE
+"Talented second-in-command of the Greil "
+"Mercenaries. Her heart stirs at the reunion of "
 "Ike and Greil. "
 ,
 
 "Cordelia"
 ,
 
-"Pegasus knight of Ylisse who excels in" TEXT_NEWLINE
-"all things, including being delightful." TEXT_NEWLINE
+"Pegasus knight of Ylisse who excels in "
+"all things, including being delightful. "
 "Hopes to marry her perfect match."
 ,
 
 "Cordelia"
 ,
 
-"The sole survivor of Ylisse's pegasus knights." TEXT_NEWLINE
-"Supremely talented, but not so sure about" TEXT_NEWLINE
+"The sole survivor of Ylisse's pegasus knights. "
+"Supremely talented, but not so sure about "
 "swimwear. "
 ,
 
 "Tibarn"
 ,
 
-"King of Phoenicis, the nation of the Hawk Tribe" TEXT_NEWLINE
-"of laguz. Swooping in just in time to participate" TEXT_NEWLINE
+"King of Phoenicis, the nation of the Hawk Tribe "
+"of laguz. Swooping in just in time to participate "
 "in the pirate festival by coincidence. "
 ,
 
 "Tiki"
 ,
 
-"A young Divine Dragon once put into a timeless" TEXT_NEWLINE
-"sleep to keep her dragon impulses in check." TEXT_NEWLINE
+"A young Divine Dragon once put into a timeless "
+"sleep to keep her dragon impulses in check. "
 "Now longs for human company. "
 ,
 
 "Tiki"
 ,
 
-"Known as the Voice of the Divine Dragon. Has" TEXT_NEWLINE
-"lived through thousands of summers, but usually" TEXT_NEWLINE
+"Known as the Voice of the Divine Dragon. Has "
+"lived through thousands of summers, but usually "
 "doesn't need to worry about swimming gear."
 ,
 
 "Tiki"
 ,
 
-"A young Divine Dragon once put into a" TEXT_NEWLINE
-"timeless sleep. Now super excited to play" TEXT_NEWLINE
+"A young Divine Dragon once put into a "
+"timeless sleep. Now super excited to play "
 "with everyone at the beach. "
 ,
 
 "Tsubasa"
 ,
 
-"Energetic high schooler and idol, partnered to" TEXT_NEWLINE
+"Energetic high schooler and idol, partnered to "
 "Caeda. She gives any job her all. "
 ,
 
 "Tana"
 ,
 
-"The princess of Frelia. Innes's sister. Somewhat" TEXT_NEWLINE
+"The princess of Frelia. Innes's sister. Somewhat "
 "naive, but cheery and very sociable. "
 ,
 
 "Tana"
 ,
 
-"The princess of Frelia. Innes's sister. She's" TEXT_NEWLINE
+"The princess of Frelia. Innes's sister. She's "
 "enjoying her break on a summer beach."
 ,
 
 "Ursula"
 ,
 
-"A cruel member of the Black Fang assassins." TEXT_NEWLINE
+"A cruel member of the Black Fang assassins. "
 "Lends her service only to someone truly perfect."
 ,
 
 "Ursula"
 ,
 
-"An elite member of the Black Fang, known as" TEXT_NEWLINE
-"the Blue Crow. Her motives for visiting the" TEXT_NEWLINE
+"An elite member of the Black Fang, known as "
+"the Blue Crow. Her motives for visiting the "
 "beach remain mysterious. "
 ,
 
 "Veronica"
 ,
 
-"Veronica, princess of Embla, and Xander, crown" TEXT_NEWLINE
-"prince of Nohr. They're joining the pirate festival" TEXT_NEWLINE
+"Veronica, princess of Embla, and Xander, crown "
+"prince of Nohr. They're joining the pirate festival "
 "for insight into their peoples' hearts. "
 ,
 
 "Veronica"
 ,
 
-"Imperial princess of the Emblian Empire." TEXT_NEWLINE
-"She is seeking the whereabouts of her" TEXT_NEWLINE
+"Imperial princess of the Emblian Empire. "
+"She is seeking the whereabouts of her "
 "missing beloved brother, Bruno."
 ,
 
 "Veronica"
 ,
 
-"Imperial princess of the Emblian Empire." TEXT_NEWLINE
-"Dressed as a bunny for the festival at her" TEXT_NEWLINE
+"Imperial princess of the Emblian Empire. "
+"Dressed as a bunny for the festival at her "
 "brother Bruno's request."
 ,
 
 "Wolt"
 ,
 
-"Knight of Pherae. His devotion to his foster" TEXT_NEWLINE
-"sibling and lord, Roy, is apparent-even at the" TEXT_NEWLINE
+"Knight of Pherae. His devotion to his foster "
+"sibling and lord, Roy, is apparent-even at the "
 "beach. "
 ,
 
 "Mia"
 ,
 
-"A mercenary fighting to improve her sword" TEXT_NEWLINE
+"A mercenary fighting to improve her sword "
 "skills. In life, she doesn't sweat the details."
 ,
 
 "Mia"
 ,
 
-"A mercenary fighting to improve her sword" TEXT_NEWLINE
-"skills. She can't wait to get to the harvest" TEXT_NEWLINE
+"A mercenary fighting to improve her sword "
+"skills. She can't wait to get to the harvest "
 "festival. "
 ,
 
 "Mia"
 ,
 
-"Young swordmasters Mia and the ever-masked" TEXT_NEWLINE
-"Marth. What destiny does summer hold for the" TEXT_NEWLINE
+"Young swordmasters Mia and the ever-masked "
+"Marth. What destiny does summer hold for the "
 "two of them? "
 ,
 
 "Ylgr"
 ,
 
-"The naive youngest princess of Nifl. Excited to" TEXT_NEWLINE
+"The naive youngest princess of Nifl. Excited to "
 "go to a beach for the first time."
 ,
 
 "Julia"
 ,
 
-"Inheritor of the Book of Naga. Seliph's" TEXT_NEWLINE
-"half sister by a different father. Gentle, yet" TEXT_NEWLINE
+"Inheritor of the Book of Naga. Seliph's "
+"half sister by a different father. Gentle, yet "
 "faces her destiny with strength. "
 ,
 
 "Zephiel"
 ,
 
-"King of Bern. Once a kindhearted boy who" TEXT_NEWLINE
-"became disillusioned with humanity. Wants" TEXT_NEWLINE
+"King of Bern. Once a kindhearted boy who "
+"became disillusioned with humanity. Wants "
 "his world to be ruled by dragons. "
 ,
 
 "Zephiel"
 ,
 
-"The wise prince of Bern. Attending the winter" TEXT_NEWLINE
+"The wise prince of Bern. Attending the winter "
 "festival to expand his horizons. "
 ,
 
 "Niles"
 ,
 
-"Nohrian scoundrel who wags his saucy tongue" TEXT_NEWLINE
-"at everyone. One of Leo's retainers. Hopes to" TEXT_NEWLINE
-"have a night to remember at the harvest" TEXT_NEWLINE
+"Nohrian scoundrel who wags his saucy tongue "
+"at everyone. One of Leo's retainers. Hopes to "
+"have a night to remember at the harvest "
 "festival. "
 ,
 
