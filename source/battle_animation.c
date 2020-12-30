@@ -1,5 +1,7 @@
 #include <tonc.h>
 
+#include "animation.h"
+
 // Remove force real animation on for Fire Dragon.
 
 cu16 fireDragonDetection1 = 0;
@@ -36,4 +38,11 @@ cu16 battleAnimationCompressionType26 = 0xFB67;
 cu32 battleAnimationCompressionType27 = 0xFB60F7C1;
 cu32 battleAnimationCompressionType28 = 0xFB5AF7C1;
 cu32 battleAnimationCompressionType29 = 0xFF86F7BE;
+
+// Repoint to expand battle animation data table for more animations.
+
+const struct BattleAnimation * const pBattleAnimations1 = BattleAnimations;
+const struct BattleAnimation * const pBattleAnimations2 = BattleAnimations;
+const struct BattleAnimation * const pBattleAnimations3 = BattleAnimations;
+const struct BattleAnimation * const pBattleAnimations4 = BattleAnimations;
 

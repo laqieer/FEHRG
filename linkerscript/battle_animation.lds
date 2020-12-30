@@ -62,3 +62,12 @@
 . = 0x8054778;
 .rodata.battleAnimationCompressionType29 : {*(.rodata.battleAnimationCompressionType29)}
 
+. = 0x80549DC;
+.rodata.pBattleAnimations1 : {*(.rodata.pBattleAnimations1)}
+. = 0x80552D0;
+.rodata.pBattleAnimations2 : {*(.rodata.pBattleAnimations2)}
+. = 0x8055360;
+.rodata.pBattleAnimations3 : {*(.rodata.pBattleAnimations3)}
+. = 0x80554E8;
+.rodata.pBattleAnimations4 : {*(.rodata.pBattleAnimations4)}
+

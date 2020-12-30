@@ -102,3 +102,15 @@ enum AnimationSide GetAnimationSide(struct Animation *animation);
 void HandleBattleAnimationEvtCmdC07();
 
 void handleBattleAnimationEvtCmdC07();
+
+struct BattleAnimation {
+    char abbrName[8];
+    COLOR *extraPalette;
+    void *modeOffsets;
+    void *eventScript;
+    void *oamRight;
+    void *oamLeft;
+    void *basicPalette;
+};
+
+extern const struct BattleAnimation BattleAnimations[];
