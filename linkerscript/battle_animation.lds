@@ -71,3 +71,6 @@
 . = 0x80554E8;
 .rodata.pBattleAnimations4 : {*(.rodata.pBattleAnimations4)}
 
+. = 0x8053a38;
+.text.getExtraAnimationPalette : {*(.text.getExtraAnimationPalette)}
+

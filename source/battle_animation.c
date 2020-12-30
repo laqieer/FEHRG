@@ -46,3 +46,15 @@ const struct BattleAnimation * const pBattleAnimations2 = BattleAnimations;
 const struct BattleAnimation * const pBattleAnimations3 = BattleAnimations;
 const struct BattleAnimation * const pBattleAnimations4 = BattleAnimations;
 
+// Support battle animation with extra palette for more colors.
+
+const COLOR * getExtraAnimationPaletteCore(s16 animationId)
+{
+    return BattleAnimations[animationId].extraPalette;
+}
+
+const COLOR * getExtraAnimationPalette(s16 animationId)
+{
+    return getExtraAnimationPaletteCore(animationId);
+}
+
