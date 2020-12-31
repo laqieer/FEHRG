@@ -148,6 +148,12 @@ bool interpretAnimationCore(struct Animation* anim)
                 case ANIM_CMD_WAIT_39:
                 case ANIM_CMD_WAIT_52:
                     anim->pScrCurrent--;
+                    // Animation Command 01 Hack
+                    // This hack causes the game to loop back NN words in the frame data of an animation when the word 0x8500NN01 is encountered in the frame data so long as the game is waiting for HP depletion. This is used by the FEditor Adv to enable looping effects such as cape flowing.
+                    if (!IsNotInHPDepletion())
+                    {
+                        anim->pScrCurrent -= ANINS_COMMAND_GET_ARG(instruction);
+                    }
                     break;
 
                 } // switch (ANINS_COMMAND_GET_ID(instruction))

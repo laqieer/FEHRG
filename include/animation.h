@@ -133,6 +133,7 @@ extern const struct BattleAnimation BattleAnimations[];
 #define ANINS_MOVE_GET_DELAY(instruction) (((instruction) >> 16) & 0xFF)
 
 #define ANINS_COMMAND_GET_ID(instruction) (0xFF & (instruction))
+#define ANINS_COMMAND_GET_ARG(instruction) (((instruction) << 8) >> 16)
 
 #define ANINS_FRAME_GET_DELAY(instruction) ((instruction) & 0xFFFF)
 #define ANINS_FRAME_GET_FRAME(instruction) ((instruction) >> 16) & 0xFF
@@ -149,4 +150,6 @@ enum
 };
 
 typedef void (*AnimCallback_t) (struct Animation* anim);
+
+bool IsNotInHPDepletion();
 
