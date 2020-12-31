@@ -74,3 +74,6 @@
 . = 0x8053a38;
 .text.getExtraAnimationPalette : {*(.text.getExtraAnimationPalette)}
 
+. = 0x8006518;
+.text.interpretAnimation : {*(.text.interpretAnimation)}
+
