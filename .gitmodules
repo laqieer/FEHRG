@@ -1,0 +1,3 @@
+[submodule "tool/bin2c"]
+	path = tool/bin2c
+	url = https://github.com/delimitry/bin2c.git

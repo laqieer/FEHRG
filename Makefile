@@ -22,7 +22,7 @@ include $(DEVKITARM)/gba_rules
 #---------------------------------------------------------------------------------
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
-SOURCES		:= source content
+SOURCES		:= source content content/battle_animation
 INCLUDES	:= include
 DATA		:=
 LDSCRIPTS	:= ../linkerscript
@@ -42,7 +42,7 @@ CFLAGS	+=	$(INCLUDE) $(HACK)
 
 CXXFLAGS	:=	$(CFLAGS) -fno-rtti -fno-exceptions
 
-ASFLAGS	:=	-g $(ARCH)
+ASFLAGS	:=	-g $(ARCH) $(INCLUDE)
 LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(notdir $(OUTPUT).map) -nostartfiles
 
 LIBTONC	:= $(DEVKITPRO)/libtonc
@@ -83,6 +83,7 @@ export DEPSDIR	:=	$(CURDIR)/$(BUILD)
 CFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.c)))
 CPPFILES	:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.cpp)))
 SFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.s)))
+SSFILES		:=	$(foreach dir,$(SOURCES),$(notdir $(wildcard $(dir)/*.S)))
 BINFILES	:=	$(foreach dir,$(DATA),$(notdir $(wildcard $(dir)/*.*)))
 
 #---------------------------------------------------------------------------------
@@ -101,7 +102,7 @@ endif
 
 export OFILES_BIN := $(addsuffix .o,$(BINFILES))
 
-export OFILES_SOURCES := $(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(SFILES:.s=.o)
+export OFILES_SOURCES := $(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(SFILES:.s=.o) $(SSFILES:.S=.o)
 
 export OFILES := $(OFILES_BIN) $(OFILES_SOURCES)
 
