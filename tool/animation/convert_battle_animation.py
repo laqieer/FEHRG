@@ -574,7 +574,7 @@ class SheetSet:
                 f_c.write(self.tostring_lz77(name))
             else:
                 f_c.write(self.tostring(name).replace('{\n\t0x10,0x0,0x20,0x0,', '{\n\t0x0,0x0,0x20,0x0,'))
-            if self.palette[3 * 16: 3 * 16 * 2] == self.palette[3 * 16: 3 * 16 + 3] * 16:
+            if self.palette[3 * 16: 3 * 16 * 2] == self.palette[3 * 16: 3 * 16 + 3] * 16 or self.palette[3 * 16 + 3: 3 * 16 * 2] == [0] * 3 * 15:
                 f_c.write('const unsigned short %s_basic_pal[] __attribute__((aligned(4)))= {0xA000,0x0,\n' % name)
                 f_c.write(automake_palette_group(self.palette[: 3 * 16]) + '};\n')
             else:
@@ -808,7 +808,7 @@ def output_extra_palette(name, fp, palette: list):
 
 def print_asm_data(name: str, palette: list):
     print("Copy and paste the following line to content/battle_animations.s:")
-    if palette[3 * 16: 3 * 16 * 2] == palette[3 * 16: 3 * 16 + 3] * 16:
+    if palette[3 * 16: 3 * 16 * 2] == palette[3 * 16: 3 * 16 + 3] * 16  or palette[3 * 16 + 3: 3 * 16 * 2] == [0] * 3 * 15:
         print('.word 0, 0, 0, %s_modes, %s_script_header, %s_frames_r_header, %s_frames_l_header, %s_basic_pal' % tuple([name] * 5))
     else:
         print('.word 0, 0, %s_extra_pal, %s_modes, %s_script_header, %s_frames_r_header, %s_frames_l_header, %s_basic_pal' % tuple([name] * 6))
