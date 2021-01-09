@@ -18,3 +18,9 @@ A hack based on Fire Emblem 7 Japanese version.
 1. Put `baserom.gba` in project directory
 1. `make`
 
+## Credit
+**Greentea/qiuzf007**
+
+Circleseverywhere
+
+Blaze
