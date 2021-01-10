@@ -103,7 +103,8 @@ void HandleBattleAnimationEvtCmdC07();
 
 void handleBattleAnimationEvtCmdC07();
 
-struct BattleAnimation {
+struct BattleAnimation 
+{
     char abbrName[8];
     COLOR *extraPalette;
     void *modeOffsets;
@@ -164,4 +165,15 @@ bool IsNotInHPDepletion();
 #define ANFRM_OBJ(shape, size, xInSheet, yInSheet, xOffset, yOffset, palette, flipH, flipV) shape, (size) | (flipH) * ATTR1_HFLIP | (flipV) * ATTR1_VFLIP, (xInSheet) / 8 + 32 * (yInSheet) / 8 | ATTR2_PALBANK(palette), xOffset, yOffset, 0 // .hword
 #define ANFRM_END_FRM 1,0,0 // .word
 #define ANFRM_END_ALL -1,-1,-1 // .word
+
+struct BattleAnimationConfig 
+{
+    u8 weapon;
+    u8 isType;
+    u16 animationId;
+};
+
+#define ANCFG_END {0, 0, 0}
+
+extern const struct BattleAnimationConfig * const CharacterAnimations[];
 

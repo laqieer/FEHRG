@@ -77,3 +77,6 @@
 . = 0x8006518;
 .text.interpretAnimation : {*(.text.interpretAnimation)}
 
+. = 0x80530CC;
+.rodata.pCharacterAnimations : {*(.rodata.pCharacterAnimations)}
+
