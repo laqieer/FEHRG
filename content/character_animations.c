@@ -57,10 +57,35 @@ const struct BattleAnimationConfig SharonAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig AlfonsSharonAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_ALFONS_SHARON
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_ALFONS_SHARON
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_ALFONS_SHARON
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ALFONS_SHARON
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
     &AnnaAnimations[0],
     &SharonAnimations[0],
+    &AlfonsSharonAnimations[0],
 };
 

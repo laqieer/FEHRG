@@ -6,5 +6,6 @@ enum
     UANID_ALFONS,
     UANID_ANNA,
     UANID_SHARON,
+    UANID_ALFONS_SHARON,
 };
 
