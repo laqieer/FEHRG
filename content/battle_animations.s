@@ -12,3 +12,4 @@ BattleAnimations:
     .word 0, 0, 0, sharon_unarmed_modes, sharon_unarmed_script_header, sharon_unarmed_frames_r_header, sharon_unarmed_frames_l_header, sharon_unarmed_basic_pal
     .word 0, 0, alfons_sharon_extra_pal, alfons_sharon_modes, alfons_sharon_script_header, alfons_sharon_frames_r_header, alfons_sharon_frames_l_header, alfons_sharon_basic_pal
     .word 0, 0, alfons_spring_extra_pal, alfons_spring_modes, alfons_spring_script_header, alfons_spring_frames_r_header, alfons_spring_frames_l_header, alfons_spring_basic_pal
+    .word 0, 0, amelia_axe_extra_pal, amelia_axe_modes, amelia_axe_script_header, amelia_axe_frames_r_header, amelia_axe_frames_l_header, amelia_axe_basic_pal
