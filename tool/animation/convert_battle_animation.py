@@ -853,11 +853,10 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                                 im = Image.open(image_file)
                                 is_pierce = False
                                 if im.width >= 480:
-                                    is_pierce = True
                                     im_p = im.crop((240, 0, 480, 160))
-                                    im = im.crop((0, 0, 240, 160))
-                                elif im.width > 240 and im.width < 480:
-                                    im = im.crop((0, 0, 240, 160))
+                                    if not is_transparent(im_p):
+                                        is_pierce = True
+                                im = im.crop((0, 0, 240, 160))
                                 frame_id = frames.add(im)
                                 sheet_id = frames.frame_list[frame_id].sheet_index
                                 parsed_images[image_file] = {'frame_id': frame_id, 'sheet_id': sheet_id, 'is_pierce': is_pierce}
