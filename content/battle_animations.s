@@ -11,3 +11,4 @@ BattleAnimations:
     .word 0, 0, 0, sharon_lance_modes, sharon_lance_script_header, sharon_lance_frames_r_header, sharon_lance_frames_l_header, sharon_lance_basic_pal
     .word 0, 0, 0, sharon_unarmed_modes, sharon_unarmed_script_header, sharon_unarmed_frames_r_header, sharon_unarmed_frames_l_header, sharon_unarmed_basic_pal
     .word 0, 0, alfons_sharon_extra_pal, alfons_sharon_modes, alfons_sharon_script_header, alfons_sharon_frames_r_header, alfons_sharon_frames_l_header, alfons_sharon_basic_pal
+    .word 0, 0, alfons_spring_extra_pal, alfons_spring_modes, alfons_spring_script_header, alfons_spring_frames_r_header, alfons_spring_frames_l_header, alfons_spring_basic_pal
