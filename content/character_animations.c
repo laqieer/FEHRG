@@ -123,6 +123,20 @@ const struct BattleAnimationConfig AnnaNewYearAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig ArdenAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_ARDEN_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ARDEN_SWORD
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -132,5 +146,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &AlfonsSpringAnimations[0],
     &AmeliaAnimations[0],
     &AnnaNewYearAnimations[0],
+    &ArdenAnimations[0],
 };
 

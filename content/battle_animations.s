@@ -14,3 +14,4 @@ BattleAnimations:
     .word 0, 0, alfons_spring_extra_pal, alfons_spring_modes, alfons_spring_script_header, alfons_spring_frames_r_header, alfons_spring_frames_l_header, alfons_spring_basic_pal
     .word 0, 0, amelia_axe_extra_pal, amelia_axe_modes, amelia_axe_script_header, amelia_axe_frames_r_header, amelia_axe_frames_l_header, amelia_axe_basic_pal
     .word 0, 0, anna_newyear_extra_pal, anna_newyear_modes, anna_newyear_script_header, anna_newyear_frames_r_header, anna_newyear_frames_l_header, anna_newyear_basic_pal
+    .word 0, 0, arden_sword_extra_pal, arden_sword_modes, arden_sword_script_header, arden_sword_frames_r_header, arden_sword_frames_l_header, arden_sword_basic_pal

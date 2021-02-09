@@ -1,0 +1,248 @@
+/// - Mode 1
+C03
+C07
+1 p- 000.png
+4 p- 001.png
+4 p- 002.png
+C1B
+4 p- 003.png
+C2B
+4 p- 004.png
+C15
+10 p- 005.png
+C04
+C24
+4 p- 006.png
+C1B
+C2B
+1 p- 007.png
+C15
+C1A
+C21
+1 p- 008.png
+C01
+4 p- 009.png
+4 p- 010.png
+4 p- 011.png
+4 p- 012.png
+4 p- 013.png
+4 p- 014.png
+10 p- 015.png
+4 p- 016.png
+4 p- 017.png
+C15
+C2B
+C1B
+10 p- 004.png
+2 p- 002.png
+C06
+2 p- 001.png
+C1B
+C15
+4 p- 000.png
+C2B
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- 000.png
+C22
+C2B
+5 p- 018.png
+3 p- 019.png
+3 p- 020.png
+3 p- 021.png
+3 p- 022.png
+C22
+3 p- 019.png
+3 p- 020.png
+3 p- 021.png
+3 p- 022.png
+3 p- 019.png
+C22
+3 p- 020.png
+3 p- 021.png
+3 p- 022.png
+3 p- 019.png
+3 p- 020.png
+4 p- 023.png
+5 p- 024.png
+C2B
+15 p- 025.png
+4 p- 001.png
+4 p- 002.png
+C1B
+C15
+4 p- 003.png
+4 p- 004.png
+C2B
+10 p- 005.png
+C04
+C24
+4 p- 006.png
+C1B
+C2B
+1 p- 007.png
+C15
+C0C
+C21
+1 p- 008.png
+C01
+4 p- 009.png
+4 p- 010.png
+4 p- 011.png
+4 p- 012.png
+4 p- 013.png
+4 p- 014.png
+10 p- 015.png
+4 p- 016.png
+C1B
+C15
+4 p- 017.png
+C2B
+10 p- 004.png
+2 p- 002.png
+C06
+2 p- 001.png
+C1B
+C15
+4 p- 000.png
+C2B
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+1 p- 000.png
+C22
+C2B
+3 p- 018.png
+5 p- 026.png
+C05
+C01
+C06
+5 p- 026.png
+3 p- 018.png
+C06
+C22
+C2B
+1 p- 000.png
+C2B
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- 000.png
+C22
+C2B
+3 p- 018.png
+3 p- 019.png
+3 p- 020.png
+3 p- 021.png
+3 p- 022.png
+C22
+3 p- 019.png
+3 p- 020.png
+3 p- 021.png
+3 p- 022.png
+5 p- 026.png
+3 p- 027.png
+3 p- 026.png
+3 p- 027.png
+3 p- 026.png
+3 p- 027.png
+3 p- 026.png
+C05
+C01
+C06
+5 p- 026.png
+3 p- 018.png
+C06
+C22
+C2B
+1 p- 000.png
+C2B
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- 000.png
+C0E
+3 p- 028.png
+C2B
+1 p- 029.png
+C01
+3 p- 028.png
+C2B
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- 000.png
+C0E
+3 p- 028.png
+C2B
+1 p- 029.png
+C01
+3 p- 028.png
+C2B
+C0D
+~~~
+/// - Mode 9
+1 p- 000.png
+C01
+~~~
+/// - Mode 10
+1 p- 000.png
+C01
+~~~
+/// - Mode 11
+1 p- 000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- 000.png
+4 p- 001.png
+4 p- 002.png
+C1B
+4 p- 003.png
+C2B
+4 p- 004.png
+C15
+10 p- 005.png
+C04
+C24
+4 p- 006.png
+C1B
+C2B
+1 p- 007.png
+C15
+1 p- 030.png
+C01
+4 p- 031.png
+4 p- 032.png
+4 p- 033.png
+4 p- 034.png
+4 p- 013.png
+4 p- 014.png
+10 p- 015.png
+4 p- 016.png
+4 p- 017.png
+C15
+C2B
+C1B
+10 p- 004.png
+2 p- 002.png
+C06
+2 p- 001.png
+C1B
+C15
+4 p- 000.png
+C2B
+C0D
+~~~
+/// - End of animation
