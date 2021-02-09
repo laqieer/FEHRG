@@ -11,5 +11,6 @@ enum
     UANID_AMELIA,
     UANID_ANNA_NEWYEAR,
     UANID_ARDEN,
+    UANID_AQUA_DANCE,
 };
 
