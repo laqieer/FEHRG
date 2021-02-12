@@ -151,6 +151,20 @@ const struct BattleAnimationConfig AquaDanceAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig AquaNewYearAnimations[] = {
+    {
+        ITYPE_AXE,
+        true,
+        ANID_AQUA_NEWYEAR
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_AQUA_NEWYEAR
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -162,5 +176,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &AnnaNewYearAnimations[0],
     &ArdenAnimations[0],
     &AquaDanceAnimations[0],
+    &AquaNewYearAnimations[0],
 };
 
