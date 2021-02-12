@@ -3,27 +3,27 @@
         {
             "width": 64,
             "height": 64,
-            "threshold": 4
+            "threshold": 7
         },
         {
             "width": 32,
             "height": 64,
-            "threshold": 2
+            "threshold": 3
         },
         {
             "width": 64,
             "height": 32,
-            "threshold": 2
+            "threshold": 3
         },
         {
             "width": 32,
             "height": 32,
-            "threshold": 1
+            "threshold": 3
         },
         {
             "width": 16,
             "height": 32,
-            "threshold": 0
+            "threshold": 1
         },
         {
             "width": 8,
@@ -33,12 +33,12 @@
         {
             "width": 32,
             "height": 16,
-            "threshold": 0
+            "threshold": 1
         },
         {
             "width": 16,
             "height": 16,
-            "threshold": 0
+            "threshold": 1
         },
         {
             "width": 8,
