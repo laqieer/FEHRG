@@ -602,17 +602,9 @@ class Frame:
             bbox_p1 = self.parsed_frames[self.hash_core]['bbox_p1']
             bbox_p2 = self.parsed_frames[self.hash_core]['bbox_p2']
             if len(self.space_list_p1) > 0:
-                self.bbox_p1 = []
-                # element 2 & 3 are useless, so omitted
-                self.bbox_p1[0] = bbox_p1[0] - bbox[0] + self.bbox[0]
-                self.bbox_p1[1] = bbox_p1[1] - bbox[1] + self.bbox[1]
-                self.bbox_p1 = tuple(self.bbox_p1)
+                self.bbox_p1 = (bbox_p1[0] - bbox[0] + self.bbox[0], bbox_p1[1] - bbox[1] + self.bbox[1])
             if len(self.space_list_p2) > 0:
-                self.bbox_p2 = []
-                # element 2 & 3 are useless, so omitted
-                self.bbox_p2[0] = bbox_p2[0] - bbox[0] + self.bbox[0]
-                self.bbox_p2[1] = bbox_p2[1] - bbox[1] + self.bbox[1]
-                self.bbox_p2 = tuple(self.bbox_p2)
+                self.bbox_p2 = (bbox_p2[0] - bbox[0] + self.bbox[0], bbox_p2[1] - bbox[1] + self.bbox[1])
         else:
             self.im_p1, self.im_p2, im_p2_ref = split_palette(self.image)
             self.bbox_p1 = self.im_p1.getbbox()
