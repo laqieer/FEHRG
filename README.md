@@ -38,3 +38,7 @@ TBA
 Yazuki
 
 Flasuban
+
+Kermy
+
+Jeorge_Reds

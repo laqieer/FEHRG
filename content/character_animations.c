@@ -165,6 +165,34 @@ const struct BattleAnimationConfig AquaNewYearAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig EirikAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_EIRIK_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_EIRIK_SWORD
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig EphraimAnimations[] = {
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_EPHRAIM_LANCE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_EPHRAIM_LANCE
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
