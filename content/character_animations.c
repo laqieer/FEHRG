@@ -193,6 +193,20 @@ const struct BattleAnimationConfig EphraimAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig CeliseAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_CELISE_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_CELISE_SWORD
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -205,5 +219,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &ArdenAnimations[0],
     &AquaDanceAnimations[0],
     &AquaNewYearAnimations[0],
+    &CeliseAnimations[0],
 };
 

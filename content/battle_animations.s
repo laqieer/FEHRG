@@ -19,3 +19,4 @@ BattleAnimations:
     .word 0, 0, aqua_newyear_extra_pal, aqua_newyear_modes, aqua_newyear_script_header, aqua_newyear_frames_r_header, aqua_newyear_frames_l_header, aqua_newyear_basic_pal
     .word 0, 0, 0, eirik_sword_modes, eirik_sword_script_header, eirik_sword_frames_r_header, eirik_sword_frames_l_header, eirik_sword_basic_pal
     .word 0, 0, 0, ephraim_lance_modes, ephraim_lance_script_header, ephraim_lance_frames_r_header, ephraim_lance_frames_l_header, ephraim_lance_basic_pal
+    .word 0, 0, celise_sword_extra_pal, celise_sword_modes, celise_sword_script_header, celise_sword_frames_r_header, celise_sword_frames_l_header, celise_sword_basic_pal

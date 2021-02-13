@@ -15,5 +15,6 @@ enum
     UANID_AQUA_NEWYEAR,
     UANID_EIRIK,
     UANID_EPHRAIM,
+    UANID_CELISE,
 };
 
