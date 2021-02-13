@@ -16,5 +16,6 @@ enum
     UANID_EIRIK,
     UANID_EPHRAIM,
     UANID_CELISE,
+    UANID_YURIA,
 };
 

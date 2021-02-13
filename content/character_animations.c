@@ -207,6 +207,30 @@ const struct BattleAnimationConfig CeliseAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig YuriaAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_YURIA_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_YURIA_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_YURIA_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_YURIA_MAGIC
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -222,5 +246,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &EirikAnimations[0],
     &EphraimAnimations[0],
     &CeliseAnimations[0],
+    &YuriaAnimations[0],
 };
 
