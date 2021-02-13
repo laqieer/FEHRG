@@ -219,6 +219,8 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &ArdenAnimations[0],
     &AquaDanceAnimations[0],
     &AquaNewYearAnimations[0],
+    &EirikAnimations[0],
+    &EphraimAnimations[0],
     &CeliseAnimations[0],
 };
 
