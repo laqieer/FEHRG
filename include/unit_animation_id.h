@@ -17,5 +17,6 @@ enum
     UANID_EPHRAIM,
     UANID_CELISE,
     UANID_YURIA,
+    UANID_KLEIN,
 };
 

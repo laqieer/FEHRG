@@ -231,6 +231,20 @@ const struct BattleAnimationConfig YuriaAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig KleinAnimations[] = {
+    {
+        ITYPE_BOW,
+        true,
+        ANID_KLEIN_BOW
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_KLEIN_BOW
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -247,5 +261,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &EphraimAnimations[0],
     &CeliseAnimations[0],
     &YuriaAnimations[0],
+    &KleinAnimations[0],
 };
 

@@ -1,0 +1,183 @@
+/// - Mode 1
+C03
+C07
+1 p- 000.png
+2 p- 001.png
+2 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+2 p- 006.png
+2 p- 007.png
+2 p- 008.png
+2 p- 009.png
+2 p- 010.png
+C19
+2 p- 011.png
+2 p- 012.png
+2 p- 013.png
+3 p- 014.png
+C05
+1 p- 015.png
+C01
+2 p- 015.png
+C06
+4 p- 016.png
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- 000.png
+2 p- 001.png
+2 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+2 p- 006.png
+2 p- 007.png
+2 p- 008.png
+2 p- 009.png
+2 p- 010.png
+C19
+2 p- 011.png
+2 p- 012.png
+2 p- 013.png
+3 p- 014.png
+C05
+1 p- 015.png
+C01
+2 p- 015.png
+C06
+4 p- 016.png
+C0D
+~~~
+/// - Mode 5
+C03
+C07
+1 p- 000.png
+2 p- 001.png
+2 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+2 p- 006.png
+2 p- 007.png
+2 p- 008.png
+2 p- 009.png
+2 p- 010.png
+C19
+3 p- 011.png
+7 p- 012.png
+10 p- 013.png
+3 p- 014.png
+C05
+1 p- 015.png
+C01
+2 p- 015.png
+C06
+4 p- 016.png
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- 000.png
+2 p- 001.png
+2 p- 002.png
+2 p- 003.png
+C23
+2 p- 004.png
+2 p- 017.png
+2 p- 018.png
+C23
+2 p- 019.png
+2 p- 020.png
+2 p- 018.png
+C23
+2 p- 019.png
+2 p- 020.png
+2 p- 021.png
+C23
+2 p- 022.png
+2 p- 023.png
+2 p- 021.png
+2 p- 022.png
+2 p- 006.png
+2 p- 007.png
+3 p- 008.png
+4 p- 009.png
+4 p- 010.png
+C19
+5 p- 011.png
+7 p- 012.png
+15 p- 013.png
+3 p- 014.png
+C05
+1 p- 015.png
+C01
+2 p- 015.png
+C06
+4 p- 016.png
+C0D
+~~~
+/// - Mode 7
+C18
+1 p- 000.png
+C0E
+3 p- 024.png
+31 p- 025.png
+C01
+3 p- 024.png
+C0D
+~~~
+/// - Mode 8
+C18
+1 p- 000.png
+C0E
+3 p- 024.png
+1 p- 025.png
+C01
+3 p- 024.png
+C0D
+~~~
+/// - Mode 9
+1 p- 000.png
+C01
+~~~
+/// - Mode 10
+1 p- 000.png
+C01
+~~~
+/// - Mode 11
+1 p- 000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- 000.png
+2 p- 001.png
+2 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+2 p- 006.png
+2 p- 007.png
+2 p- 008.png
+2 p- 009.png
+2 p- 010.png
+C19
+3 p- 011.png
+7 p- 012.png
+10 p- 013.png
+3 p- 014.png
+C05
+1 p- 015.png
+C01
+2 p- 015.png
+C06
+4 p- 016.png
+C0D
+~~~
+/// - End of animation
