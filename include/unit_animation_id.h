@@ -18,5 +18,6 @@ enum
     UANID_CELISE,
     UANID_YURIA,
     UANID_KLEIN,
+    UANID_REINHARDT,
 };
 

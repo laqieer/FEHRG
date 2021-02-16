@@ -231,6 +231,30 @@ const struct BattleAnimationConfig YuriaAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig ReinhardtAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_REINHARDT_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_REINHARDT_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_REINHARDT_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_REINHARDT_MAGIC
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig KleinAnimations[] = {
     {
         ITYPE_BOW,
@@ -262,5 +286,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &CeliseAnimations[0],
     &YuriaAnimations[0],
     &KleinAnimations[0],
+    &ReinhardtAnimations[0],
 };
 
