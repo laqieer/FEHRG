@@ -269,6 +269,30 @@ const struct BattleAnimationConfig KleinAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig OlwenAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_OLWEN_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_OLWEN_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_OLWEN_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_OLWEN_MAGIC
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -287,5 +311,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &YuriaAnimations[0],
     &KleinAnimations[0],
     &ReinhardtAnimations[0],
+    &OlwenAnimations[0],
 };
 

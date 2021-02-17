@@ -19,5 +19,6 @@ enum
     UANID_YURIA,
     UANID_KLEIN,
     UANID_REINHARDT,
+    UANID_OLWEN,
 };
 
