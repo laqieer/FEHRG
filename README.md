@@ -48,3 +48,13 @@ Jono The Red
 Shin19
 
 BatimaTheBat
+
+Aruka
+
+Kenpuhu
+
+Nuramon
+
+Swain
+
+Temp
