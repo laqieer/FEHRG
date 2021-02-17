@@ -21,6 +21,7 @@ BattleAnimations:
     .word 0, 0, 0, ephraim_lance_modes, ephraim_lance_script_header, ephraim_lance_frames_r_header, ephraim_lance_frames_l_header, ephraim_lance_basic_pal
     .word 0, 0, celise_sword_extra_pal, celise_sword_modes, celise_sword_script_header, celise_sword_frames_r_header, celise_sword_frames_l_header, celise_sword_basic_pal
     .word 0, 0, yuria_magic_extra_pal, yuria_magic_modes, yuria_magic_script_header, yuria_magic_frames_r_header, yuria_magic_frames_l_header, yuria_magic_basic_pal
-    .word 0, 0, klein_bow_extra_pal, klein_bow_modes, klein_bow_script_header, klein_bow_frames_r_header, klein_bow_frames_l_header, klein_bow_basic_pal
+    //.word 0, 0, klein_bow_extra_pal, klein_bow_modes, klein_bow_script_header, klein_bow_frames_r_header, klein_bow_frames_l_header, klein_bow_basic_pal
+    .word 0, 0, klein_bow2_extra_pal, klein_bow2_modes, klein_bow2_script_header, klein_bow2_frames_r_header, klein_bow2_frames_l_header, klein_bow2_basic_pal
     .word 0, 0, reinhardt_magic_extra_pal, reinhardt_magic_modes, reinhardt_magic_script_header, reinhardt_magic_frames_r_header, reinhardt_magic_frames_l_header, reinhardt_magic_basic_pal
     .word 0, 0, olwen_magic_extra_pal, olwen_magic_modes, olwen_magic_script_header, olwen_magic_frames_r_header, olwen_magic_frames_l_header, olwen_magic_basic_pal
