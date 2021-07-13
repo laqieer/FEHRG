@@ -307,6 +307,20 @@ const struct BattleAnimationConfig RackesisAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig EltshanAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_ELTSHAN_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ELTSHAN_SWORD
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -327,5 +341,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &ReinhardtAnimations[0],
     &OlwenAnimations[0],
     &RackesisAnimations[0],
+    &EltshanAnimations[0],
 };
 

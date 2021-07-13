@@ -21,5 +21,6 @@ enum
     UANID_REINHARDT,
     UANID_OLWEN,
     UANID_RACKESIS,
+    UANID_ELTSHAN,
 };
 
