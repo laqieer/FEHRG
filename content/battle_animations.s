@@ -25,3 +25,4 @@ BattleAnimations:
     .word 0, 0, klein_bow2_extra_pal, klein_bow2_modes, klein_bow2_script_header, klein_bow2_frames_r_header, klein_bow2_frames_l_header, klein_bow2_basic_pal
     .word 0, 0, reinhardt_magic_extra_pal, reinhardt_magic_modes, reinhardt_magic_script_header, reinhardt_magic_frames_r_header, reinhardt_magic_frames_l_header, reinhardt_magic_basic_pal
     .word 0, 0, olwen_magic_extra_pal, olwen_magic_modes, olwen_magic_script_header, olwen_magic_frames_r_header, olwen_magic_frames_l_header, olwen_magic_basic_pal
+    .word 0, 0, rackesis_staff_extra_pal, rackesis_staff_modes, rackesis_staff_script_header, rackesis_staff_frames_r_header, rackesis_staff_frames_l_header, rackesis_staff_basic_pal
