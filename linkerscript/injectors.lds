@@ -11,3 +11,5 @@ INCLUDE ../linkerscript/text.lds
 INCLUDE ../linkerscript/option.lds
 INCLUDE ../linkerscript/chapter_title.lds
 INCLUDE ../linkerscript/character.lds
+INCLUDE ../linkerscript/standing_unit_icon.lds
+INCLUDE ../linkerscript/moving_unit_icon.lds
