@@ -620,7 +620,7 @@ int main() {
     printf("\n--- movingUnitIcons ---\n\n");
     num = sizeof(MovingUnitIconClasses) / sizeof(MovingUnitIconClasses[0]);
     for (int i = 0; i < num; i++)
-        printf("{MovingUnitIconSheet%s, MovingUnitIconMotion%x},\n", MovingUnitIconClasses[i], movingUnitIcons[i].motion);
+        printf("{MovingUnitIconSheet%s, MovingUnitIconMotion%s},\n", MovingUnitIconClasses[i], MovingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
         printf("extern const char MovingUnitIconSheet%s[];\n", MovingUnitIconClasses[i]);
@@ -629,10 +629,10 @@ int main() {
         printf("MovingUnitIconSheet%s = 0x%X;\n", MovingUnitIconClasses[i], movingUnitIcons[i].sheet);
     printf("\n");
     for (int i = 0; i < num; i++)
-        printf("extern const char MovingUnitIconMotion%x[];\n", movingUnitIcons[i].motion);
+        printf("extern const char MovingUnitIconMotion%s[];\n", MovingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
-        printf("MovingUnitIconMotion%x = 0x%X;\n", movingUnitIcons[i].motion, movingUnitIcons[i].motion);
+        printf("MovingUnitIconMotion%s = 0x%X;\n", MovingUnitIconClasses[i], movingUnitIcons[i].motion);
 
    return 0;
 }
