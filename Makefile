@@ -24,7 +24,7 @@ TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
 SOURCES		:= source content content/battle_animation
 INCLUDES	:= include
-DATA		:=
+DATA		:= content/moving_unit_icon_motion
 LDSCRIPTS	:= ../linkerscript
 
 #---------------------------------------------------------------------------------

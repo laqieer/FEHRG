@@ -4,6 +4,8 @@
 
 #include "standing_unit_icon.h"
 
+#include "all_gfx.h"
+
 const struct StandingUnitIcon StandingUnitIcons[] = {
     {STANDING_UNIT_ICON_PATTERN_2, STANDING_UNIT_ICON_SIZE_16x32, StandingUnitIconSheetEliwoodLord},
     {STANDING_UNIT_ICON_PATTERN_2, STANDING_UNIT_ICON_SIZE_16x16, StandingUnitIconSheetLynLord},
@@ -90,4 +92,36 @@ const struct StandingUnitIcon StandingUnitIcons[] = {
     {STANDING_UNIT_ICON_PATTERN_2, STANDING_UNIT_ICON_SIZE_16x32, StandingUnitIconSheetEmptyBallista},
     {STANDING_UNIT_ICON_PATTERN_2, STANDING_UNIT_ICON_SIZE_16x32, StandingUnitIconSheetEmptyIronBallista},
     {STANDING_UNIT_ICON_PATTERN_2, STANDING_UNIT_ICON_SIZE_16x32, StandingUnitIconSheetEmptyKillerBallista},
+    // FE6
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_lord_royTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_master_lord_royTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_mamkuteTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_mamkute_fTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_32x32, standing_unit_icon_divine_dragonTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_32x32, standing_unit_icon_magic_dragonTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_kingTiles},
+    // FE8
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_lord_ephraimTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_lord_eirikaTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_master_lord_ephraimTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_master_lord_eirikaTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_manaketeTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_wyvern_riderTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_wyvern_rider_fTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_rangerTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_ranger_fTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_summonerTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_summoner_fTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_rogueTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_great_knightTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_recruitTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_journeymanTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_pupilTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_necromancerTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_mauthe_doogTiles},
+    // Custom
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_lord_annaTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x16, standing_unit_icon_halberdierTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_halberdier_fTiles},
+    {STANDING_UNIT_ICON_PATTERN_0, STANDING_UNIT_ICON_SIZE_16x32, standing_unit_icon_vanguardTiles},
 };
