@@ -53,6 +53,7 @@ extern struct PortraitSpace PortraitSpaces[MAX_PORTRAIT_AMOUNT];
 
 extern const struct Portrait Portraits[];
 extern const struct Portrait newPortraits[];
+extern const struct Portrait newClassCards[];
 
 #define PORTRAIT_OBJ_WIDTH 128
 #define PORTRAIT_OBJ_HEIGHT 128
@@ -73,3 +74,8 @@ extern cu8 MiniPortraitMap[];
 #define NULL_FACE {NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0, NULL},
 
 #define UNIT_FACE(unitId) (0x100 + (unitId))
+
+#define DEFINE_CLASS_CARD(className) { NULL, NULL, class_card_##className##Pal, NULL, class_card_##className##Tiles, 0, 0, 0, 0, NULL },
+
+#define NULL_CLASS_CARD NULL_FACE
+

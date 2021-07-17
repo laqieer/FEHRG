@@ -25,6 +25,11 @@ void allocatePortraitSpace(struct PortraitSpace *portraitSpaces)
     allocatePortraitSpaceCore(portraitSpaces);
 }
 
+bool isClassCardNew(u16 classCardId)
+{
+    return classCardId > 0x200;
+}
+
 bool isPortraitNew(u16 portraitId)
 {
     return portraitId > 0x100;
@@ -32,6 +37,11 @@ bool isPortraitNew(u16 portraitId)
 
 const struct Portrait *getPortraitByIdCore(u16 portraitId)
 {
+    if(isClassCardNew(portraitId))
+    {
+        return &newClassCards[portraitId - 0x200];
+    }
+
     if(isPortraitNew(portraitId))
     {
         return &newPortraits[portraitId - 0x100];
