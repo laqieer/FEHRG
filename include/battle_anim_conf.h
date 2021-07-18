@@ -72,3 +72,5 @@ extern const struct BattleAnimationConfig BattleAnimConf_FallenIceDragon[];
 extern const struct BattleAnimationConfig BattleAnimConf_TransporterHorse[];
 extern const struct BattleAnimationConfig BattleAnimConf_UberSage[];
 
+extern const struct BattleAnimationConfig RoyAnimations[];
+extern const struct BattleAnimationConfig RoyLegendaryAnimations[];

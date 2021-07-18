@@ -1,0 +1,3 @@
+[MCID_RoyMasterLord] = "大领主",
+
+[MCID_H_RoyMasterLord] = "升格为大领主" TEXT_NEWLINE "继承『英雄』之名的战士",

@@ -116,37 +116,37 @@ const struct MovingUnitIcon MovingUnitIcons[] = {
     {MovingUnitIconSheetEmptyIronBallista, MovingUnitIconMotionEmptyIronBallista},
     {MovingUnitIconSheetEmptyKillerBallista, MovingUnitIconMotionEmptyKillerBallista},
     // FE6
-    {moving_unit_icon_motion_8_bin, moving_unit_icon_lord_royTiles}, // RoyLord
-    {moving_unit_icon_motion_8_bin, moving_unit_icon_master_lord_royTiles}, // RoyMasterLord
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_mamkuteTiles}, // Mamkute
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_mamkute_fTiles}, // Mamkute_F
-    {moving_unit_icon_motion_10_bin, moving_unit_icon_divine_dragonTiles}, // DivineDragon
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_magic_dragonTiles}, // MagicDragon
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_kingTiles}, // King
+    {moving_unit_icon_lord_royTiles, moving_unit_icon_motion_8_bin}, // RoyLord
+    {moving_unit_icon_master_lord_royTiles, moving_unit_icon_motion_8_bin}, // RoyMasterLord
+    {moving_unit_icon_mamkuteTiles, moving_unit_icon_motion_1_bin}, // Mamkute
+    {moving_unit_icon_mamkute_fTiles, moving_unit_icon_motion_1_bin}, // Mamkute_F
+    {moving_unit_icon_divine_dragonTiles, moving_unit_icon_motion_10_bin}, // DivineDragon
+    {moving_unit_icon_magic_dragonTiles, moving_unit_icon_motion_1_bin}, // MagicDragon
+    {moving_unit_icon_kingTiles, moving_unit_icon_motion_1_bin}, // King
     // FE8
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_lord_ephraimTiles}, // EphraimLord
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_lord_eirikaTiles}, // EirikaLord
-    {moving_unit_icon_motion_2_bin, moving_unit_icon_master_lord_ephraimTiles}, // EphraimMasterLord
-    {moving_unit_icon_motion_2_bin, moving_unit_icon_master_lord_eirikaTiles}, // EirikaMasterLord
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_manaketeTiles}, // Manakete
-    {moving_unit_icon_motion_2_bin, moving_unit_icon_wyvern_riderTiles}, // WyvernRider
-    {moving_unit_icon_motion_2_bin, moving_unit_icon_wyvern_rider_fTiles}, // WyvernRider_F
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_rangerTiles}, // Ranger
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_ranger_fTiles}, // Ranger_F
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_summonerTiles}, // Summoner
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_summoner_fTiles}, // Summoner_F
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_rogueTiles}, // Rogue
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_great_knightTiles}, // GreatKnight
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_great_knightTiles}, // GreatKnight_F
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_recruitTiles}, // Recruit
-    {moving_unit_icon_motion_2_bin, moving_unit_icon_journeymanTiles}, // Journeyman
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_pupilTiles}, // Pupil
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_necromancerTiles}, // Necromancer
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_mauthe_doogTiles}, // Mauthedoog
+    {moving_unit_icon_lord_ephraimTiles, moving_unit_icon_motion_1_bin}, // EphraimLord
+    {moving_unit_icon_lord_eirikaTiles, moving_unit_icon_motion_1_bin}, // EirikaLord
+    {moving_unit_icon_master_lord_ephraimTiles, moving_unit_icon_motion_2_bin}, // EphraimMasterLord
+    {moving_unit_icon_master_lord_eirikaTiles, moving_unit_icon_motion_2_bin}, // EirikaMasterLord
+    {moving_unit_icon_manaketeTiles, moving_unit_icon_motion_1_bin}, // Manakete
+    {moving_unit_icon_wyvern_riderTiles, moving_unit_icon_motion_2_bin}, // WyvernRider
+    {moving_unit_icon_wyvern_rider_fTiles, moving_unit_icon_motion_2_bin}, // WyvernRider_F
+    {moving_unit_icon_rangerTiles, moving_unit_icon_motion_1_bin}, // Ranger
+    {moving_unit_icon_ranger_fTiles, moving_unit_icon_motion_1_bin}, // Ranger_F
+    {moving_unit_icon_summonerTiles, moving_unit_icon_motion_1_bin}, // Summoner
+    {moving_unit_icon_summoner_fTiles, moving_unit_icon_motion_1_bin}, // Summoner_F
+    {moving_unit_icon_rogueTiles, moving_unit_icon_motion_1_bin}, // Rogue
+    {moving_unit_icon_great_knightTiles, moving_unit_icon_motion_1_bin}, // GreatKnight
+    {moving_unit_icon_great_knightTiles, moving_unit_icon_motion_1_bin}, // GreatKnight_F
+    {moving_unit_icon_recruitTiles, moving_unit_icon_motion_1_bin}, // Recruit
+    {moving_unit_icon_journeymanTiles, moving_unit_icon_motion_2_bin}, // Journeyman
+    {moving_unit_icon_pupilTiles, moving_unit_icon_motion_1_bin}, // Pupil
+    {moving_unit_icon_necromancerTiles, moving_unit_icon_motion_1_bin}, // Necromancer
+    {moving_unit_icon_mauthe_doogTiles, moving_unit_icon_motion_1_bin}, // Mauthedoog
     // Custom
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_lord_annaTiles}, // AnnaLord
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_lord_annaTiles}, // AnnaMasterLord
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_halberdierTiles}, // Halberdier
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_halberdier_fTiles}, // Halberdier_F
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_vanguardTiles}, // Vanguard
+    {moving_unit_icon_lord_annaTiles, moving_unit_icon_motion_1_bin}, // AnnaLord
+    {moving_unit_icon_lord_annaTiles, moving_unit_icon_motion_1_bin}, // AnnaMasterLord
+    {moving_unit_icon_halberdierTiles, moving_unit_icon_motion_1_bin}, // Halberdier
+    {moving_unit_icon_halberdier_fTiles, moving_unit_icon_motion_1_bin}, // Halberdier_F
+    {moving_unit_icon_vanguardTiles, moving_unit_icon_motion_1_bin}, // Vanguard
 };

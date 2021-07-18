@@ -1,0 +1,3 @@
+[MCID_RoyMasterLord] = "マスターロード",
+
+[MCID_H_RoyMasterLord] = "ロードが昇格する" TEXT_NEWLINE "『英雄』の名をつぐ大器",

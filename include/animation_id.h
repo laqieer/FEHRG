@@ -165,6 +165,11 @@ enum {
 	ANID_TENT,
 	ANID_TRANSPORTER,
 
+    // Class animations
+    ANID_ROY_SWORD,
+    ANID_ROY_DISARMED,
+    ANID_ROY_LEGENDARY,
+
     // New animations
     ANID_ANNA_AXE,
     ANID_ANNA_HAND_AXE,

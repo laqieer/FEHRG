@@ -10,6 +10,7 @@ const char * const textsJP[] = {
     #include "../locale/JPJA/unit.txt"
     #include "../locale/JPJA/skill.txt"
     #include "../locale/JPJA/stage.txt"
+    #include "../locale/JPJA/class.txt"
 };
 
 u32 maxTextId = sizeof(textsJP) / sizeof(textsJP[0]);

@@ -321,6 +321,34 @@ const struct BattleAnimationConfig EltshanAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig RoyAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_ROY_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ROY_SWORD
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig RoyLegendaryAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_ROY_LEGENDARY
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ROY_SWORD
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],

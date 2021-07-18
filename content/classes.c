@@ -6350,4 +6350,137 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// RoyLord
+	{
+		MCID_RoyLord, // nameTextId
+		MCID_H_RoyLord, // descTextId
+		RoyLord, // id
+		RoyMasterLord, // promotionClassId
+		SUIID_RoyLord, // standingUnitIconId
+		FALSE, // slowWalking
+		0, // classCardId
+		1, // _u0A
+		18, // baseHP
+		3, // basePow
+		3, // baseSkl
+		4, // baseSpd
+		5, // baseDef
+		0, // baseRes
+		6, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		90, // growthHP
+		45, // growthPow
+		40, // growthSkl
+		45, // growthSpd
+		15, // growthDef
+		12, // growthRes
+		40, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LORD |
+		CA_LOCK_4 |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_D, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RoyAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// RoyMasterLord
+	{
+		MCID_RoyMasterLord, // nameTextId
+		MCID_H_RoyMasterLord, // descTextId
+		RoyMasterLord, // id
+		RoyLord, // promotionClassId
+		SUIID_RoyMasterLord, // standingUnitIconId
+		FALSE, // slowWalking
+		0, // classCardId
+		1, // _u0A
+		22, // baseHP
+		5, // basePow
+		6, // baseSkl
+		6, // baseSpd
+		7, // baseDef
+		5, // baseRes
+		8, // baseCon
+		6, // baseMov
+		60, // maxHP
+		25, // maxPow
+		25, // maxSkl
+		25, // maxSpd
+		25, // maxDef
+		25, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		60, // growthHP
+		35, // growthPow
+		30, // growthSkl
+		30, // growthSpd
+		35, // growthDef
+		10, // growthRes
+		15, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LORD |
+        CA_PROMOTED |
+		CA_LOCK_4 |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_A, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RoyLegendaryAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };

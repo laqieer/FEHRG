@@ -8,6 +8,7 @@ enum TEXT_ID {
     #include "../locale/key/unit.txt"
     #include "../locale/key/skill.txt"
     #include "../locale/key/stage.txt"
+    #include "../locale/key/class.txt"
 };
 
 #define MPID_WALL 0x555
@@ -185,4 +186,7 @@ enum TEXT_ID {
 #define MCID_H_TransporterHorse 0x25c
 #define MCID_UberSage 0x4b5
 #define MCID_H_UberSage 0x251
+
+#define MCID_RoyLord 0x494
+#define MCID_H_RoyLord 0x22f
 
