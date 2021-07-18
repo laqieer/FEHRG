@@ -1,17 +1,5 @@
 #pragma once
 
-#include "moving_unit_icon_motion_1_bin.h"
-#include "moving_unit_icon_motion_2_bin.h"
-#include "moving_unit_icon_motion_3_bin.h"
-#include "moving_unit_icon_motion_4_bin.h"
-#include "moving_unit_icon_motion_5_bin.h"
-#include "moving_unit_icon_motion_6_bin.h"
-#include "moving_unit_icon_motion_7_bin.h"
-#include "moving_unit_icon_motion_8_bin.h"
-#include "moving_unit_icon_motion_9_bin.h"
-#include "moving_unit_icon_motion_10_bin.h"
-#include "moving_unit_icon_motion_11_bin.h"
-
 struct MovingUnitIcon {
     const unsigned char *sheet; // animation sheet
     const unsigned char *motion; // frames and scripts for different modes
@@ -23,6 +11,9 @@ extern const struct MovingUnitIcon MovingUnitIcons[];
 extern const unsigned char MovingUnitIconSheetEliwoodLord[];
 extern const unsigned char MovingUnitIconSheetLynLord[];
 extern const unsigned char MovingUnitIconSheetHectorLord[];
+extern const unsigned char MovingUnitIconSheetEliwoodLord2[];
+extern const unsigned char MovingUnitIconSheetLynLord2[];
+extern const unsigned char MovingUnitIconSheetHectorLord2[];
 extern const unsigned char MovingUnitIconSheetKnightLord[];
 extern const unsigned char MovingUnitIconSheetBladeLord[];
 extern const unsigned char MovingUnitIconSheetGreatLord[];
@@ -117,6 +108,9 @@ extern const unsigned char MovingUnitIconSheetEmptyKillerBallista[];
 extern const unsigned char MovingUnitIconMotionEliwoodLord[];
 extern const unsigned char MovingUnitIconMotionLynLord[];
 extern const unsigned char MovingUnitIconMotionHectorLord[];
+extern const unsigned char MovingUnitIconMotionEliwoodLord2[];
+extern const unsigned char MovingUnitIconMotionLynLord2[];
+extern const unsigned char MovingUnitIconMotionHectorLord2[];
 extern const unsigned char MovingUnitIconMotionKnightLord[];
 extern const unsigned char MovingUnitIconMotionBladeLord[];
 extern const unsigned char MovingUnitIconMotionGreatLord[];

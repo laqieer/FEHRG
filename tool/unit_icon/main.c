@@ -504,6 +504,9 @@ const char * const MovingUnitIconClasses[] = {
 	"EliwoodLord",
 	"LynLord",
 	"HectorLord",
+	"EliwoodLord2",
+	"LynLord2",
+	"HectorLord2",
 	"KnightLord",
 	"BladeLord",
 	"GreatLord",
@@ -609,7 +612,7 @@ int main() {
         printf("{STANDING_UNIT_ICON_PATTERN_%d, STANDING_UNIT_ICON_SIZE_%s, StandingUnitIconSheet%s},\n", standingUnitIcons[i].pattern, StandingUnitIconSizes[standingUnitIcons[i].size], StandingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
-        printf("extern const char StandingUnitIconSheet%s[];\n", StandingUnitIconClasses[i]);
+        printf("extern const unsigned char StandingUnitIconSheet%s[];\n", StandingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
         printf("StandingUnitIconSheet%s = 0x%X;\n", StandingUnitIconClasses[i], standingUnitIcons[i].sheet);
@@ -623,13 +626,13 @@ int main() {
         printf("{MovingUnitIconSheet%s, MovingUnitIconMotion%s},\n", MovingUnitIconClasses[i], MovingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
-        printf("extern const char MovingUnitIconSheet%s[];\n", MovingUnitIconClasses[i]);
+        printf("extern const unsigned char MovingUnitIconSheet%s[];\n", MovingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
         printf("MovingUnitIconSheet%s = 0x%X;\n", MovingUnitIconClasses[i], movingUnitIcons[i].sheet);
     printf("\n");
     for (int i = 0; i < num; i++)
-        printf("extern const char MovingUnitIconMotion%s[];\n", MovingUnitIconClasses[i]);
+        printf("extern const unsigned char MovingUnitIconMotion%s[];\n", MovingUnitIconClasses[i]);
     printf("\n");
     for (int i = 0; i < num; i++)
         printf("MovingUnitIconMotion%s = 0x%X;\n", MovingUnitIconClasses[i], movingUnitIcons[i].motion);

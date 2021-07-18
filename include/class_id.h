@@ -5,6 +5,9 @@
 #define EliwoodLord 0x01
 #define LynLord 0x02
 #define HectorLord 0x03
+#define EliwoodLord2 0x04
+#define LynLord2 0x05
+#define HectorLord2 0x06
 #define KnightLord 0x07
 #define BladeLord 0x08
 #define GreatLord 0x09

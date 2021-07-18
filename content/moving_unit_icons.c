@@ -6,10 +6,25 @@
 
 #include "all_gfx.h"
 
+#include "moving_unit_icon_motion_1_bin.h"
+#include "moving_unit_icon_motion_2_bin.h"
+#include "moving_unit_icon_motion_3_bin.h"
+#include "moving_unit_icon_motion_4_bin.h"
+#include "moving_unit_icon_motion_5_bin.h"
+#include "moving_unit_icon_motion_6_bin.h"
+#include "moving_unit_icon_motion_7_bin.h"
+#include "moving_unit_icon_motion_8_bin.h"
+#include "moving_unit_icon_motion_9_bin.h"
+#include "moving_unit_icon_motion_10_bin.h"
+#include "moving_unit_icon_motion_11_bin.h"
+
 const struct MovingUnitIcon MovingUnitIcons[] = {
     {MovingUnitIconSheetEliwoodLord, MovingUnitIconMotionEliwoodLord},
     {MovingUnitIconSheetLynLord, MovingUnitIconMotionLynLord},
     {MovingUnitIconSheetHectorLord, MovingUnitIconMotionHectorLord},
+    {MovingUnitIconSheetEliwoodLord2, MovingUnitIconMotionEliwoodLord2},
+    {MovingUnitIconSheetLynLord2, MovingUnitIconMotionLynLord2},
+    {MovingUnitIconSheetHectorLord2, MovingUnitIconMotionHectorLord2},
     {MovingUnitIconSheetKnightLord, MovingUnitIconMotionKnightLord},
     {MovingUnitIconSheetBladeLord, MovingUnitIconMotionBladeLord},
     {MovingUnitIconSheetGreatLord, MovingUnitIconMotionGreatLord},
@@ -89,7 +104,7 @@ const struct MovingUnitIcon MovingUnitIcons[] = {
     {MovingUnitIconSheetPrinceFacingUpward, MovingUnitIconMotionPrinceFacingUpward},
     {MovingUnitIconSheetFallenNinian, MovingUnitIconMotionFallenNinian},
     {MovingUnitIconSheetFallenIceDragon, MovingUnitIconMotionFallenIceDragon},
-    {moving_unit_icon_motion_1_bin, moving_unit_icon_vanguardTiles}, // RangerIke
+    {MovingUnitIconSheetFallenWarrior, MovingUnitIconMotionFallenWarrior},
     {MovingUnitIconSheetChild_2, MovingUnitIconMotionChild_2},
     {MovingUnitIconSheetChild_2_F, MovingUnitIconMotionChild_2_F},
     {MovingUnitIconSheetTransporterHorse, MovingUnitIconMotionTransporterHorse},

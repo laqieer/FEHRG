@@ -58,11 +58,11 @@ struct Class
 {
     /* 00 */ u16 nameTextId;
     /* 02 */ u16 descTextId;
-    /* 04 */ u8 number;
-    /* 05 */ u8 promotion;
-    /* 06 */ u8 SMSId;
+    /* 04 */ u8 id;
+    /* 05 */ u8 promotionClassId;
+    /* 06 */ u8 standingUnitIconId;
     /* 07 */ u8 slowWalking;
-    /* 08 */ u16 defaultPortraitId;
+    /* 08 */ u16 classCardId;
     /* 0A */ u8 _u0A;
 
     /* 0B */ s8 baseHP;
@@ -92,7 +92,7 @@ struct Class
     /* 20 */ s8 growthRes;
     /* 21 */ s8 growthLck;
 
-    /* 22 */ u8 promotionHp;
+    /* 22 */ u8 promotionHP;
     /* 23 */ u8 promotionPow;
     /* 24 */ u8 promotionSkl;
     /* 25 */ u8 promotionSpd;
@@ -103,7 +103,7 @@ struct Class
 
     /* 2C */ u8 baseRanks[8];
 
-    /* 34 */ const void* pBattleAnimDef;
+    /* 34 */ const struct BattleAnimationConfig* pBattleAnimConf;
     /* 38 */ const s8* pMovCostTable[3]; // standard, rain, snow
 
     /* 44 */ const s8* pTerrainAvoidLookup;
@@ -372,3 +372,11 @@ extern const struct Character Characters[];
 #define UNIT_SUPPORT_DATA(aUnit) ((aUnit)->pCharacter->pSupportData)
 
 extern struct Unit *SelectedUnit;
+
+extern const s8 TerrainAvoidLookupNormal[];
+extern const s8 TerrainDefenseLookupNormal[];
+extern const s8 TerrainResistanceLookupNormal[];
+extern const s8 TerrainAvoidLookupFlyer[];
+extern const s8 TerrainDefenseLookupFlyer[];
+extern const s8 TerrainResistanceLookupFlyer[];
+
