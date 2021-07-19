@@ -41,9 +41,7 @@
 .rodata.removeTargetPortraitInTradeMenu : {*(.rodata.removeTargetPortraitInTradeMenu)}
 . = 0x8069b6c;
 .rodata.removePortraitInLevelUpAndClassChange : {*(.rodata.removePortraitInLevelUpAndClassChange)}
-/*. = 0x8c04cfd;
-.rodata.itemUseMenuPosY : {*(.rodata.itemUseMenuPosY)}*/
-. = 0x802265a;
+. = 0x801e2aa;
 .rodata.itemInfoPanelPosX : {*(.rodata.itemInfoPanelPosX)}
-. = 0x802265c;
+. = 0x801e2cc;
 .rodata.itemInfoPanelPosY : {*(.rodata.itemInfoPanelPosY)}

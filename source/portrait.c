@@ -227,8 +227,15 @@ cu32 removeTargetPortraitInTradeMenu = 0;
 cu32 removePortraitInLevelUpAndClassChange = 0;
 
 // Move item menu panel position to avoid overriding portrait
-//cu8 itemUseMenuPosY = 0; // must >= 1, otherwise its 1st sub-menu cannot disappear normally
-cu8 itemInfoPanelPosX = 1;
-//cu8 itemInfoPanelPosY = 12; // the whole panel can display in the screen
-cu8 itemInfoPanelPosY = 13; // the bottom border is out of screen
+
+// Force pos_x = 1
+// 17 1c: add r7,pos_x,#0x0 @ r7=pos_x
+// 01 27: add r7,pos_x,#0x0 @ r7=1
+cu16 itemInfoPanelPosX = 0x2701;
+
+// Force pos_y = 13
+// 98 46: mov r8,pos_y @ r8=pos_y
+// 41 46: mov r1,r8 @ r1=pos_y
+// 0d 21: mov r1, #13 @ r1=13
+cu16 itemInfoPanelPosY = 0x210d;
 
