@@ -235,6 +235,7 @@ def split_frame(image: Image):
                                       'hash': hash_image(image_crop_s(image, (x, y, x + obj['width'], y + obj['height'])))})
                     break
         clear_rectangle(im_rest, x, y, obj['width'], obj['height'])
+    part_list.sort(key=lambda part: part['width'] * part['height'], reverse=True)
     return part_list
 
 
