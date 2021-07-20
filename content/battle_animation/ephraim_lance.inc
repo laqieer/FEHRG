@@ -110,42 +110,42 @@ ephraim_lance_frame_r_9:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 24, 1, 2, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_10:
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 40, -65, -4, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 88, 56, -65, -4, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_11:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 16, -45, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 0, -20, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -56, -10, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, -11, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 56, -27, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 152, 48, -27, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -2, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_12:
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 48, -65, -4, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 56, -65, -4, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_13:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 168, 32, -45, -17, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, -27, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, -45, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 32, -27, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -56, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 48, -17, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 56, -8, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -7, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -6, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -5, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 32, -17, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -8, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -7, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -6, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -5, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -2, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_14:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 32, -45, -17, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -27, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -45, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 32, -27, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -56, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 32, -12, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 40, -12, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -2, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_15:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -45, -16, 0, 0, 0)
@@ -157,103 +157,106 @@ ephraim_lance_frame_r_15:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_16:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 16, -42, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 72, 0, -17, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 72, 32, -5, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -56, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -3, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 40, -65, -4, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_17:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 32, -42, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 88, 0, -17, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, -42, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, -17, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 32, -5, -13, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -56, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 48, 48, -8, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 0, -7, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 48, -7, -3, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 64, 0, -6, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 64, 48, -5, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -8, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 8, -8, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 16, -8, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 24, -7, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -7, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -7, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -6, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -6, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -6, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -6, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -5, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -5, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -5, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -5, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 32, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -3, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_18:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 120, 32, -41, -14, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 0, -16, -14, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, -56, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 16, -7, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 16, -7, -1, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 32, -6, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -5, -8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -7, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -6, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -6, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -6, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -6, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -5, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -5, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -5, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -5, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -3, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 32, -42, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -17, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -56, -10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, -8, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 16, -7, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 0, -7, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 16, -6, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -5, -10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, -8, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -8, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -8, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -7, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -7, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -7, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -6, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -6, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -6, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -6, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -5, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -5, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -5, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_19:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 8, -63, -4, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, -41, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 32, -16, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 32, -56, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 120, 48, -7, -10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, -7, -1, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -6, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 0, -5, -8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -7, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -6, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -6, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -6, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -6, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -5, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -5, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -5, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_20:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 0, -27, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 176, 32, -27, -2, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 48, -2, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 48, -1, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 192, 48, 0, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 48, 1, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, 2, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 16, -27, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 24, -27, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 32, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 40, -1, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, 3, -27, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 56, 4, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 8, -63, -4, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_21:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 16, -27, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 176, 48, -27, -2, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 0, -2, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 192, 0, -1, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 0, 0, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, 1, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 16, 2, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 32, -27, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 40, -27, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 56, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 0, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 8, 3, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 16, 4, -27, 0, 0, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_r_22:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -33, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -8, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 16, 32, 1, -27, 0, 0, 0)
@@ -269,7 +272,7 @@ ephraim_lance_frame_r_21:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 24, -30, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 32, -25, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_22:
+ephraim_lance_frame_r_23:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -22, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 48, 40, -4, -3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 56, -22, 6, 0, 0, 0)
@@ -278,14 +281,14 @@ ephraim_lance_frame_r_22:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 8, -15, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 64, 48, -6, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_23:
+ephraim_lance_frame_r_24:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 96, 32, -18, -26, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 112, 0, -18, -1, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 112, 16, -18, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 0, -18, 9, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 8, -18, 10, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_24:
+ephraim_lance_frame_r_25:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 24, -20, -23, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 48, -3, -6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, -2, -5, 0, 0, 0)
@@ -304,7 +307,7 @@ ephraim_lance_frame_r_24:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, 7, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, 8, -24, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_25:
+ephraim_lance_frame_r_26:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 0, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 40, -3, -3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 32, -2, -2, 0, 0, 0)
@@ -321,7 +324,7 @@ ephraim_lance_frame_r_25:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, 8, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_26:
+ephraim_lance_frame_r_27:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 32, -3, -3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 48, -2, -2, 0, 0, 0)
@@ -340,7 +343,7 @@ ephraim_lance_frame_r_26:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 40, 8, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_27:
+ephraim_lance_frame_r_28:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 16, -20, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 0, 5, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 48, 48, -2, -4, 0, 0, 0)
@@ -360,7 +363,7 @@ ephraim_lance_frame_r_27:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, 8, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 8, 9, -22, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_28:
+ephraim_lance_frame_r_29:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 16, -23, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, 2, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 104, 48, 3, 0, 0, 0, 0)
@@ -372,7 +375,7 @@ ephraim_lance_frame_r_28:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 136, 32, -15, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 136, 40, -6, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_29:
+ephraim_lance_frame_r_30:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 152, 0, -22, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 0, 3, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, 3, -13, 0, 0, 0)
@@ -395,7 +398,7 @@ ephraim_lance_frame_r_29:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 0, 9, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 8, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_30:
+ephraim_lance_frame_r_31:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 0, 0, -9, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, 16, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 32, -14, -11, 0, 0, 0)
@@ -405,7 +408,7 @@ ephraim_lance_frame_r_30:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -14, 5, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -14, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_31:
+ephraim_lance_frame_r_32:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 224, 0, -14, -25, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 216, 48, -14, 0, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 32, -14, -30, 0, 0, 0)
@@ -419,7 +422,7 @@ ephraim_lance_frame_r_31:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 32, 12, 5, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 40, 12, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_32:
+ephraim_lance_frame_r_33:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 32, -29, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -4, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 0, 5, -15, 0, 0, 0)
@@ -428,7 +431,7 @@ ephraim_lance_frame_r_32:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 72, 48, -12, 4, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 80, 0, -3, 3, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_33:
+ephraim_lance_frame_r_34:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 0, -29, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 104, 32, -4, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 120, 0, -29, -3, 0, 0, 0)
@@ -472,7 +475,7 @@ ephraim_lance_frame_r_33:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 24, 8, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, 8, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_34:
+ephraim_lance_frame_r_35:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -29, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -4, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 16, 32, 5, -27, 0, 0, 0)
@@ -486,7 +489,7 @@ ephraim_lance_frame_r_34:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 48, -6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 56, 3, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_35:
+ephraim_lance_frame_r_36:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 56, 0, -22, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 32, 3, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 88, 0, -22, 3, 0, 0, 0)
@@ -516,7 +519,7 @@ ephraim_lance_frame_r_35:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, 8, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_36:
+ephraim_lance_frame_r_37:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -33, -28, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, -16, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -33, -3, 0, 0, 0)
@@ -532,7 +535,7 @@ ephraim_lance_frame_r_36:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_37:
+ephraim_lance_frame_r_38:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -33, -35, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, -29, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 160, 32, -8, -35, 0, 0, 0)
@@ -550,7 +553,7 @@ ephraim_lance_frame_r_37:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 48, 8, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_38:
+ephraim_lance_frame_r_39:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -32, -35, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -16, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -7, -35, 0, 0, 0)
@@ -562,7 +565,7 @@ ephraim_lance_frame_r_38:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 16, -15, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 24, 6, -26, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_39:
+ephraim_lance_frame_r_40:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, -26, -25, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -1, -35, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 80, 32, -26, 0, 0, 0, 0)
@@ -574,7 +577,7 @@ ephraim_lance_frame_r_39:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 24, -12, -35, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_40:
+ephraim_lance_frame_r_41:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 0, -30, -35, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 32, -21, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 144, 0, 4, -31, 0, 0, 0)
@@ -596,7 +599,7 @@ ephraim_lance_frame_r_40:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 24, 7, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 32, 10, -23, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_41:
+ephraim_lance_frame_r_42:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 0, 0, -23, -44, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, -30, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 32, 2, -44, 0, 0, 0)
@@ -634,13 +637,13 @@ ephraim_lance_frame_r_41:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 40, 8, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 48, 8, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_42:
+ephraim_lance_frame_r_43:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 200, 0, -15, -44, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 232, 0, -30, -44, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 32, 10, -32, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, 10, -23, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_43:
+ephraim_lance_frame_r_44:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 200, 0, -16, -44, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 40, -23, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 8, 9, -22, 0, 0, 0)
@@ -648,7 +651,7 @@ ephraim_lance_frame_r_43:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, -23, -8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 40, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_44:
+ephraim_lance_frame_r_45:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -21, -36, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 32, -20, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 112, 0, 5, -30, 0, 0, 0)
@@ -661,7 +664,7 @@ ephraim_lance_frame_r_44:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 56, -10, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 48, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_45:
+ephraim_lance_frame_r_46:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 144, 0, -21, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 0, 4, -43, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 16, 4, -8, 0, 0, 0)
@@ -671,7 +674,7 @@ ephraim_lance_frame_r_45:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 176, 48, 4, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 176, 56, 4, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_46:
+ephraim_lance_frame_r_47:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -15, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, 2, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, 27, -31, 0, 0, 0)
@@ -683,7 +686,7 @@ ephraim_lance_frame_r_46:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, 19, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, 28, -10, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_47:
+ephraim_lance_frame_r_48:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, -15, -29, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 72, 0, 10, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 32, 28, -31, 0, 0, 0)
@@ -702,7 +705,7 @@ ephraim_lance_frame_r_47:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 32, -2, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, 0, -31, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_48:
+ephraim_lance_frame_r_49:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -15, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 192, 32, 12, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 208, 32, 22, -18, 0, 0, 0)
@@ -714,7 +717,7 @@ ephraim_lance_frame_r_48:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 0, -11, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 8, -2, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_49:
+ephraim_lance_frame_r_50:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -15, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 144, 0, 10, -30, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 160, 0, -15, -4, 0, 0, 0)
@@ -726,7 +729,7 @@ ephraim_lance_frame_r_49:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 32, -15, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 40, -11, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_50:
+ephraim_lance_frame_r_51:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -15, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, 2, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, 27, -31, 0, 0, 0)
@@ -738,7 +741,7 @@ ephraim_lance_frame_r_50:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, 19, -31, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, 28, -10, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_51:
+ephraim_lance_frame_r_52:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -19, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 32, -2, -3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 48, -1, -2, 0, 0, 0)
@@ -750,7 +753,7 @@ ephraim_lance_frame_r_51:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 40, -19, 6, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 48, -15, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_52:
+ephraim_lance_frame_r_53:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 0, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, 5, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 64, 32, -20, 5, 0, 0, 0)
@@ -760,7 +763,7 @@ ephraim_lance_frame_r_52:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 64, 56, 3, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 0, 14, -13, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_53:
+ephraim_lance_frame_r_54:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -19, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 96, 32, 6, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 112, 0, -19, 5, 0, 0, 0)
@@ -769,7 +772,7 @@ ephraim_lance_frame_r_53:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 16, -7, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 24, -6, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_54:
+ephraim_lance_frame_r_55:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 32, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 144, 0, 5, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 72, 8, 14, -14, 0, 0, 0)
@@ -778,7 +781,7 @@ ephraim_lance_frame_r_54:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 144, 48, -16, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, 15, -13, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_55:
+ephraim_lance_frame_r_56:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 160, 0, -20, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 176, 32, 5, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 16, 14, -14, 0, 0, 0)
@@ -787,7 +790,7 @@ ephraim_lance_frame_r_55:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 8, -12, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, 15, -13, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_56:
+ephraim_lance_frame_r_57:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -36, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -19, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -54, -21, 0, 0, 0)
@@ -799,7 +802,7 @@ ephraim_lance_frame_r_56:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 0, -22, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 8, -14, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_57:
+ephraim_lance_frame_r_58:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 16, -21, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 0, 4, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 32, 5, -19, 0, 0, 0)
@@ -817,7 +820,7 @@ ephraim_lance_frame_r_57:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 32, 10, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 40, 11, -21, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_58:
+ephraim_lance_frame_r_59:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 32, -21, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 120, 0, 4, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 128, 0, 5, -19, 0, 0, 0)
@@ -836,7 +839,7 @@ ephraim_lance_frame_r_58:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 24, 8, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, 9, -21, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_59:
+ephraim_lance_frame_r_60:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 168, 0, -21, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 168, 32, 4, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 176, 32, 5, -17, 0, 0, 0)
@@ -848,17 +851,17 @@ ephraim_lance_frame_r_59:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 56, -14, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, 10, -18, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_60:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 32, -21, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 240, 0, 4, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, 5, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 0, 6, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, 6, -7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 0, 7, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 248, 32, 8, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 248, 48, 9, -16, 0, 0, 0)
-	.word ANFRM_END_FRM
 ephraim_lance_frame_r_61:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 16, -21, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, 4, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 32, 5, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 48, 6, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, 6, -7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 48, 7, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 0, 8, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 48, 9, -16, 0, 0, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_r_62:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 16, -20, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 224, 0, 5, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 16, 14, -14, 0, 0, 0)
@@ -867,7 +870,7 @@ ephraim_lance_frame_r_61:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 224, 32, -12, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, 15, -13, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_62:
+ephraim_lance_frame_r_63:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 0, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 200, 32, 5, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 32, 14, -14, 0, 0, 0)
@@ -878,7 +881,7 @@ ephraim_lance_frame_r_62:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 0, 3, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 8, 15, -13, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_63:
+ephraim_lance_frame_r_64:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 224, 0, -19, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 32, 6, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 56, -19, 5, 0, 0, 0)
@@ -887,7 +890,7 @@ ephraim_lance_frame_r_63:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 32, -6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 40, 3, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_64:
+ephraim_lance_frame_r_65:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -33, -23, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -16, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 32, 0, -31, 7, 0, 0, 0)
@@ -906,7 +909,7 @@ ephraim_lance_frame_r_64:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 16, 7, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 24, 8, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_65:
+ephraim_lance_frame_r_66:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, -32, -30, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 64, 0, -15, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 32, -32, -5, 0, 0, 0)
@@ -923,7 +926,7 @@ ephraim_lance_frame_r_65:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 56, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_66:
+ephraim_lance_frame_r_67:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, -33, -30, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -16, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 0, -8, -30, 0, 0, 0)
@@ -939,7 +942,7 @@ ephraim_lance_frame_r_66:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_67:
+ephraim_lance_frame_r_68:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -26, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -1, -30, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 16, 32, -21, -30, 0, 0, 0)
@@ -981,7 +984,7 @@ ephraim_lance_frame_r_67:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, 8, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 56, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_68:
+ephraim_lance_frame_r_69:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 32, -20, -20, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 0, -3, -3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 0, -2, -2, 0, 0, 0)
@@ -994,7 +997,7 @@ ephraim_lance_frame_r_68:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 216, 16, -15, 7, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 24, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_69:
+ephraim_lance_frame_r_70:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 0, -22, -21, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 88, 32, 3, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 96, 32, 4, -22, 0, 0, 0)
@@ -1015,7 +1018,7 @@ ephraim_lance_frame_r_69:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 24, 9, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, 10, -22, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_70:
+ephraim_lance_frame_r_71:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, -14, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 40, -8, -33, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 144, 56, -14, 3, 0, 0, 0)
@@ -1030,7 +1033,7 @@ ephraim_lance_frame_r_70:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 8, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_71:
+ephraim_lance_frame_r_72:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 16, -14, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 0, 4, -37, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, 5, -37, 0, 0, 0)
@@ -1049,7 +1052,7 @@ ephraim_lance_frame_r_71:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 40, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_72:
+ephraim_lance_frame_r_73:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -21, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 0, 32, 4, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 8, 32, 5, -18, 0, 0, 0)
@@ -1063,7 +1066,7 @@ ephraim_lance_frame_r_72:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, 5, -19, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, 9, 7, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_73:
+ephraim_lance_frame_r_74:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, -14, -22, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 40, 32, -14, 3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 40, 40, -14, 4, 0, 0, 0)
@@ -1078,7 +1081,7 @@ ephraim_lance_frame_r_73:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, 6, 8, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 56, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_74:
+ephraim_lance_frame_r_75:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 96, 0, -14, -24, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 40, -14, 3, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 48, -14, 4, 0, 0, 0)
@@ -1095,145 +1098,145 @@ ephraim_lance_frame_r_74:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, 7, -27, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, 7, 8, 0, 0, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_r_75:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 8, -44, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 120, 0, -19, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 120, 32, -10, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 232, 40, -65, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 40, -56, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 16, -1, -15, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 80, 8, -1, -6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 40, 0, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 112, 40, 0, -3, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 0, 1, -8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 40, 1, 1, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 24, 1, 2, 0, 0, 0)
-	.word ANFRM_END_FRM
 ephraim_lance_frame_r_76:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, -45, -17, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, -20, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, -44, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, -19, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 0, -10, -18, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -65, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 16, -11, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 168, 32, -27, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 32, -56, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 48, -1, -15, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 48, -1, -6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 0, 0, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 16, 0, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 32, 1, -8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, 1, 1, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, 1, 2, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_77:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, -45, -17, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 32, -27, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -65, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 40, -17, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -8, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -7, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 48, -6, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, -5, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -45, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 192, 32, -20, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 32, -65, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 48, -56, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -11, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 224, 16, -27, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_78:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -45, -17, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -27, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -65, -11, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 32, -12, -18, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 32, -17, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -8, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -7, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -6, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 40, -5, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_79:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, -45, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, -20, -16, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 32, -11, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 8, -45, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -27, -16, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -65, -11, 0, 0, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 40, -12, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_80:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -42, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 232, 32, -17, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, -5, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, -65, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 40, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 40, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 48, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 32, -3, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -45, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -20, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 16, 32, -11, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, -65, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -56, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_81:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -42, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 32, -17, -13, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -65, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, -56, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 40, 40, -8, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 32, -7, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 48, -7, -3, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -6, -11, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 48, -5, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -8, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -8, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -8, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -7, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -7, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -7, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -6, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -6, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -6, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -6, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -5, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -5, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -5, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 48, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 56, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 0, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 8, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, -3, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, -42, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, -17, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 32, -5, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, -65, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -56, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 32, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_r_82:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -41, -14, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, -16, -14, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 0, -63, -12, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 16, -54, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 32, -7, -10, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 48, -7, -1, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 0, -6, -9, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 16, -5, -8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -7, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -6, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -6, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -6, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -6, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -5, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -5, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 8, -5, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -5, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 16, -4, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 24, -4, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 32, -4, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 0, -4, 8, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 40, -3, 5, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 48, -3, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, -3, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 0, -2, 6, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 8, -2, 7, 0, 0, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 16, -1, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 32, -42, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -17, -13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, -65, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -56, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, -8, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 16, -7, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 0, -7, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 16, -6, -11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -5, -10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, -8, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -8, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -8, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -7, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -7, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -7, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -6, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -6, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -6, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -6, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -5, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -5, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -5, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -1, 6, 0, 0, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_r_83:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, -41, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 32, -16, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 16, -63, -12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 232, 48, -54, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 120, 48, -7, -10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, -7, -1, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -6, -9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 0, -5, -8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -7, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -6, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -6, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -6, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -6, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -5, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -5, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -5, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -4, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -4, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -3, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -3, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -3, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -2, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -2, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -1, 6, 0, 0, 0)
 	.word ANFRM_END_FRM
 
 	.word ANFRM_END_ALL
@@ -1349,42 +1352,42 @@ ephraim_lance_frame_l_9:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 24, -9, 2, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_10:
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 40, 49, -4, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 88, 56, 49, -4, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_11:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 16, 13, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 0, 4, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 40, -10, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, -5, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 56, -5, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 152, 48, -5, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -6, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_12:
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 48, 49, -4, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 56, 49, -4, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_13:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 168, 32, 13, -17, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, -5, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, 13, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 32, -5, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 40, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 48, 1, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 56, 0, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -1, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -2, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -3, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 32, 1, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, 0, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -1, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -2, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -3, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -6, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_14:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 32, 13, -17, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -5, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, 13, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 32, -5, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 40, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 32, -4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 40, -4, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 0, -6, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_15:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 13, -16, 0, 1, 0)
@@ -1396,103 +1399,106 @@ ephraim_lance_frame_l_15:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_16:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 16, 10, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 72, 0, 1, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 72, 32, -3, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 40, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 40, 49, -4, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_17:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 32, 10, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 88, 0, 1, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, 10, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, 1, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 32, -3, -13, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 40, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 48, 48, 0, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 0, -1, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 48, -1, -3, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 64, 0, -2, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 64, 48, -3, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, 0, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 8, 0, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 16, 0, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 24, -1, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, -1, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -1, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -2, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -2, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -2, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -2, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -3, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -3, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -3, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -3, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 32, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -5, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_18:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 120, 32, 9, -14, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 0, 0, -14, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, 40, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 16, -1, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 16, -1, -1, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 32, -2, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -3, -8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -1, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -2, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 8, -2, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -2, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -2, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -3, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -3, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -3, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -3, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 32, 10, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, 1, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 40, -10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, 0, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 16, -1, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 0, -1, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 16, -2, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -3, -10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, 0, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, 0, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, 0, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -1, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -1, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -1, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -2, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -2, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -2, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -2, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -3, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -3, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -3, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_19:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 8, 55, -4, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, 9, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 32, 0, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 32, 40, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 120, 48, -1, -10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, -1, -1, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -2, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 0, -3, -8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -1, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -2, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -2, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -2, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -2, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -3, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -3, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -3, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_20:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 0, -5, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 176, 32, -5, -2, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 48, -6, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 48, -7, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 192, 48, -8, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 48, -9, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, -10, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 16, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 24, -5, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 32, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 40, -7, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -11, -27, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 56, -12, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 8, 55, -4, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_21:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 16, -5, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 176, 48, -5, -2, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 0, -6, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 192, 0, -7, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 0, -8, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, -9, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 16, -10, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 32, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 208, 40, -5, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 56, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 0, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 8, -11, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 16, -12, -27, 0, 1, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_l_22:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 1, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -8, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 16, 32, -9, -27, 0, 1, 0)
@@ -1508,7 +1514,7 @@ ephraim_lance_frame_l_21:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 24, -2, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 32, -7, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_22:
+ephraim_lance_frame_l_23:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -10, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 48, 40, -12, -3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 56, -10, 6, 0, 1, 0)
@@ -1517,14 +1523,14 @@ ephraim_lance_frame_l_22:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 8, -1, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 64, 48, -10, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_23:
+ephraim_lance_frame_l_24:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 96, 32, -14, -26, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 112, 0, -14, -1, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 112, 16, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 0, 10, 9, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 8, 10, 10, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_24:
+ephraim_lance_frame_l_25:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 24, -12, -23, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 48, -13, -6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 0, -14, -5, 0, 1, 0)
@@ -1543,7 +1549,7 @@ ephraim_lance_frame_l_24:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -15, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -16, -24, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_25:
+ephraim_lance_frame_l_26:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 40, -13, -3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 32, -14, -2, 0, 1, 0)
@@ -1560,7 +1566,7 @@ ephraim_lance_frame_l_25:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -16, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_26:
+ephraim_lance_frame_l_27:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 32, -13, -3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 48, -14, -2, 0, 1, 0)
@@ -1579,7 +1585,7 @@ ephraim_lance_frame_l_26:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 40, -16, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_27:
+ephraim_lance_frame_l_28:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 16, -12, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 0, -13, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 48, 48, -14, -4, 0, 1, 0)
@@ -1599,7 +1605,7 @@ ephraim_lance_frame_l_27:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 0, -16, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 8, -17, -22, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_28:
+ephraim_lance_frame_l_29:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 16, -9, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, -18, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 104, 48, -19, 0, 0, 1, 0)
@@ -1611,7 +1617,7 @@ ephraim_lance_frame_l_28:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 136, 32, -1, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 136, 40, -10, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_29:
+ephraim_lance_frame_l_30:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 152, 0, -10, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 0, -11, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, -11, -13, 0, 1, 0)
@@ -1634,7 +1640,7 @@ ephraim_lance_frame_l_29:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 0, -17, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 8, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_30:
+ephraim_lance_frame_l_31:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 0, 0, -23, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, -24, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 32, 6, -11, 0, 1, 0)
@@ -1644,7 +1650,7 @@ ephraim_lance_frame_l_30:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, 6, 5, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, 6, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_31:
+ephraim_lance_frame_l_32:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 224, 0, -18, -25, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 216, 48, -18, 0, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 32, -2, -30, 0, 1, 0)
@@ -1658,7 +1664,7 @@ ephraim_lance_frame_l_31:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 32, -20, 5, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 40, -20, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_32:
+ephraim_lance_frame_l_33:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 32, -3, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -12, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 0, -13, -15, 0, 1, 0)
@@ -1667,7 +1673,7 @@ ephraim_lance_frame_l_32:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 72, 48, -4, 4, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 80, 0, -5, 3, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_33:
+ephraim_lance_frame_l_34:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 0, -3, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 104, 32, -12, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 120, 0, -3, -3, 0, 1, 0)
@@ -1711,7 +1717,7 @@ ephraim_lance_frame_l_33:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 24, -16, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, -16, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_34:
+ephraim_lance_frame_l_35:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -3, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -12, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 16, 32, -13, -27, 0, 1, 0)
@@ -1725,7 +1731,7 @@ ephraim_lance_frame_l_34:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 48, -10, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 56, -11, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_35:
+ephraim_lance_frame_l_36:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 56, 0, -10, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 32, -19, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 88, 0, -10, 3, 0, 1, 0)
@@ -1755,7 +1761,7 @@ ephraim_lance_frame_l_35:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, -16, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_36:
+ephraim_lance_frame_l_37:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, 1, -28, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, -16, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, 17, -3, 0, 1, 0)
@@ -1771,7 +1777,7 @@ ephraim_lance_frame_l_36:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_37:
+ephraim_lance_frame_l_38:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, 1, -35, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, -3, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 160, 32, -8, -35, 0, 1, 0)
@@ -1789,7 +1795,7 @@ ephraim_lance_frame_l_37:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 48, -16, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_38:
+ephraim_lance_frame_l_39:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 0, -35, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -16, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, -9, -35, 0, 1, 0)
@@ -1801,7 +1807,7 @@ ephraim_lance_frame_l_38:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 16, -17, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 24, -14, -26, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_39:
+ephraim_lance_frame_l_40:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, -6, -25, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -15, -35, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 80, 32, -6, 0, 0, 1, 0)
@@ -1813,7 +1819,7 @@ ephraim_lance_frame_l_39:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 24, -4, -35, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_40:
+ephraim_lance_frame_l_41:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 0, -2, -35, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 32, -11, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 144, 0, -12, -31, 0, 1, 0)
@@ -1835,7 +1841,7 @@ ephraim_lance_frame_l_40:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 24, -15, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 32, -18, -23, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_41:
+ephraim_lance_frame_l_42:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 0, 0, -9, -44, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, 22, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 32, -10, -44, 0, 1, 0)
@@ -1873,13 +1879,13 @@ ephraim_lance_frame_l_41:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 40, -16, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 48, -16, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_42:
+ephraim_lance_frame_l_43:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 200, 0, -17, -44, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 232, 0, 14, -44, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 32, -18, -32, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, -18, -23, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_43:
+ephraim_lance_frame_l_44:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 200, 0, -16, -44, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 40, 15, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 8, -17, -22, 0, 1, 0)
@@ -1887,7 +1893,7 @@ ephraim_lance_frame_l_43:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, 15, -8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 40, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_44:
+ephraim_lance_frame_l_45:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -11, -36, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 32, -12, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 112, 0, -21, -30, 0, 1, 0)
@@ -1900,7 +1906,7 @@ ephraim_lance_frame_l_44:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 56, 2, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 48, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_45:
+ephraim_lance_frame_l_46:
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_32x64, 144, 0, -11, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 0, -20, -43, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 16, -20, -8, 0, 1, 0)
@@ -1910,7 +1916,7 @@ ephraim_lance_frame_l_45:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 176, 48, -20, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 176, 56, -20, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_46:
+ephraim_lance_frame_l_47:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -17, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -34, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, -35, -31, 0, 1, 0)
@@ -1922,7 +1928,7 @@ ephraim_lance_frame_l_46:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -27, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -36, -10, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_47:
+ephraim_lance_frame_l_48:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, -17, -29, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 72, 0, -26, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 32, -36, -31, 0, 1, 0)
@@ -1941,7 +1947,7 @@ ephraim_lance_frame_l_47:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 32, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -8, -31, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_48:
+ephraim_lance_frame_l_49:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -17, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 192, 32, -28, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 208, 32, -30, -18, 0, 1, 0)
@@ -1953,7 +1959,7 @@ ephraim_lance_frame_l_48:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 0, -5, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 224, 8, -14, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_49:
+ephraim_lance_frame_l_50:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -17, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 144, 0, -26, -30, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x16, 160, 0, -17, -4, 0, 1, 0)
@@ -1965,7 +1971,7 @@ ephraim_lance_frame_l_49:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 32, -17, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 40, -21, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_50:
+ephraim_lance_frame_l_51:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, -17, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, -34, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 0, -35, -31, 0, 1, 0)
@@ -1977,7 +1983,7 @@ ephraim_lance_frame_l_50:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -27, -31, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 8, -36, -10, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_51:
+ephraim_lance_frame_l_52:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -13, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 32, -14, -3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 0, 48, -15, -2, 0, 1, 0)
@@ -1989,7 +1995,7 @@ ephraim_lance_frame_l_51:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 40, 3, 6, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 48, -1, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_52:
+ephraim_lance_frame_l_53:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, -21, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 64, 32, -12, 5, 0, 1, 0)
@@ -1999,7 +2005,7 @@ ephraim_lance_frame_l_52:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 64, 56, -19, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 0, -22, -13, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_53:
+ephraim_lance_frame_l_54:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -13, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 96, 32, -22, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 112, 0, -13, 5, 0, 1, 0)
@@ -2008,7 +2014,7 @@ ephraim_lance_frame_l_53:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 16, -9, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 112, 24, -10, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_54:
+ephraim_lance_frame_l_55:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 112, 32, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 144, 0, -21, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 72, 8, -22, -14, 0, 1, 0)
@@ -2017,7 +2023,7 @@ ephraim_lance_frame_l_54:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 144, 48, -16, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, -23, -13, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_55:
+ephraim_lance_frame_l_56:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 160, 0, -12, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 176, 32, -21, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 16, -22, -14, 0, 1, 0)
@@ -2026,7 +2032,7 @@ ephraim_lance_frame_l_55:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 8, -20, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, -23, -13, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_56:
+ephraim_lance_frame_l_57:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 4, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -13, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 38, -21, 0, 1, 0)
@@ -2038,7 +2044,7 @@ ephraim_lance_frame_l_56:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 0, -10, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 48, 8, -18, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_57:
+ephraim_lance_frame_l_58:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 16, -11, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 32, -13, -19, 0, 1, 0)
@@ -2056,7 +2062,7 @@ ephraim_lance_frame_l_57:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 32, -18, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 40, -19, -21, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_58:
+ephraim_lance_frame_l_59:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 32, -11, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 120, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 128, 0, -13, -19, 0, 1, 0)
@@ -2075,7 +2081,7 @@ ephraim_lance_frame_l_58:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 24, -16, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 0, -17, -21, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_59:
+ephraim_lance_frame_l_60:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 168, 0, -11, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 168, 32, -12, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 176, 32, -13, -17, 0, 1, 0)
@@ -2087,17 +2093,17 @@ ephraim_lance_frame_l_59:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 56, -18, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -18, -18, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_60:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 32, -11, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 240, 0, -12, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, -13, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 0, -14, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, -14, -7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 0, -15, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 248, 32, -16, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 248, 48, -17, -16, 0, 1, 0)
-	.word ANFRM_END_FRM
 ephraim_lance_frame_l_61:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 16, -11, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, -12, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 32, -13, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 48, -14, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, -14, -7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 48, -15, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 0, -16, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 232, 48, -17, -16, 0, 1, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_l_62:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 16, -12, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 224, 0, -21, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 16, -22, -14, 0, 1, 0)
@@ -2106,7 +2112,7 @@ ephraim_lance_frame_l_61:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 224, 32, -20, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 24, -23, -13, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_62:
+ephraim_lance_frame_l_63:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 0, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 200, 32, -21, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 216, 32, -22, -14, 0, 1, 0)
@@ -2117,7 +2123,7 @@ ephraim_lance_frame_l_62:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 0, -19, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 8, -23, -13, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_63:
+ephraim_lance_frame_l_64:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 224, 0, -13, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 32, -22, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 160, 56, -13, 5, 0, 1, 0)
@@ -2126,7 +2132,7 @@ ephraim_lance_frame_l_63:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 32, -10, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 40, -19, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_64:
+ephraim_lance_frame_l_65:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 1, -23, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -16, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 32, 0, -1, 7, 0, 1, 0)
@@ -2145,7 +2151,7 @@ ephraim_lance_frame_l_64:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 16, -15, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 24, -16, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_65:
+ephraim_lance_frame_l_66:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 32, 0, -30, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 64, 0, -17, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 32, 16, -5, 0, 1, 0)
@@ -2162,7 +2168,7 @@ ephraim_lance_frame_l_65:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 56, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_66:
+ephraim_lance_frame_l_67:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, 1, -30, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, -16, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 0, -8, -30, 0, 1, 0)
@@ -2178,7 +2184,7 @@ ephraim_lance_frame_l_66:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_67:
+ephraim_lance_frame_l_68:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -6, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -15, -30, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 16, 32, 5, -30, 0, 1, 0)
@@ -2220,7 +2226,7 @@ ephraim_lance_frame_l_67:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, -16, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 56, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_68:
+ephraim_lance_frame_l_69:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 176, 32, -12, -20, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 176, 0, -13, -3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 0, -14, -2, 0, 1, 0)
@@ -2233,7 +2239,7 @@ ephraim_lance_frame_l_68:
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 216, 16, -1, 7, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 216, 24, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_69:
+ephraim_lance_frame_l_70:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 0, -10, -21, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 88, 32, -11, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 96, 32, -12, -22, 0, 1, 0)
@@ -2254,7 +2260,7 @@ ephraim_lance_frame_l_69:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 24, -17, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -18, -22, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_70:
+ephraim_lance_frame_l_71:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, -18, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 40, -8, -33, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 144, 56, -18, 3, 0, 1, 0)
@@ -2269,7 +2275,7 @@ ephraim_lance_frame_l_70:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 8, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_71:
+ephraim_lance_frame_l_72:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 16, -18, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 0, -12, -37, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 208, 0, -13, -37, 0, 1, 0)
@@ -2288,7 +2294,7 @@ ephraim_lance_frame_l_71:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 40, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_72:
+ephraim_lance_frame_l_73:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -11, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 0, 32, -12, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 8, 32, -13, -18, 0, 1, 0)
@@ -2302,7 +2308,7 @@ ephraim_lance_frame_l_72:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -13, -19, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -17, 7, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_73:
+ephraim_lance_frame_l_74:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, -18, -22, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 40, 32, -18, 3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 40, 40, -18, 4, 0, 1, 0)
@@ -2317,7 +2323,7 @@ ephraim_lance_frame_l_73:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, -14, 8, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 56, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_74:
+ephraim_lance_frame_l_75:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 96, 0, -18, -24, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 40, -18, 3, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 88, 48, -18, 4, 0, 1, 0)
@@ -2334,145 +2340,145 @@ ephraim_lance_frame_l_74:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, -15, -27, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, -15, 8, 0, 1, 0)
 	.word ANFRM_END_FRM
-ephraim_lance_frame_l_75:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 8, 12, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 120, 0, 3, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 120, 32, -6, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 232, 40, 49, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 40, 40, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 32, 16, -7, -15, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 80, 8, -7, -6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 40, -8, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 112, 40, -8, -3, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 0, -9, -8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 40, -9, 1, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 24, -9, 2, 0, 1, 0)
-	.word ANFRM_END_FRM
 ephraim_lance_frame_l_76:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, 13, -17, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, 4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 136, 0, 12, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, 3, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 0, -6, -18, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 49, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 16, -5, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 168, 32, -5, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 32, 40, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 48, -7, -15, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 176, 48, -7, -6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 0, -8, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 16, -8, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 184, 32, -9, -8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -9, 1, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -9, 2, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_77:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 0, 13, -17, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 200, 32, -5, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 49, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 40, 1, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, 0, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -1, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 48, -2, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, -3, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 0, 13, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 192, 32, 4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 32, 49, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 48, 40, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, -5, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 224, 16, -5, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_78:
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 13, -17, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 32, -5, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 49, -11, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 32, -4, -18, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 32, 32, 1, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, 0, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -1, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -2, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 40, -3, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_79:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, 13, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, 4, -16, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 32, -5, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 8, 13, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, -5, -16, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 49, -11, 0, 1, 0)
 	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 40, -4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 0, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_80:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, 10, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 232, 32, 1, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 248, 0, -3, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 48, 49, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 0, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 40, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 48, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 40, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 48, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 248, 32, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 32, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 32, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, 13, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, 4, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 16, 32, -5, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, 49, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, 40, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_81:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 80, 0, 10, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 32, 1, -13, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 0, 49, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 32, 16, 40, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 40, 40, 0, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 32, -1, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 48, -1, -3, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -2, -11, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 48, -3, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, 0, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, 0, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, 0, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -1, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -1, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -1, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -2, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -2, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -2, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -2, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -3, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -3, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -3, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 48, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 56, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 0, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 8, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 16, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 24, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 40, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 48, 0, 10, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 32, 1, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 32, -3, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, 49, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, 40, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 48, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 32, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 ephraim_lance_frame_l_82:
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 32, 9, -14, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, 0, -14, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 0, 47, -12, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 16, 38, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 32, -1, -10, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 48, -1, -1, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 0, -2, -9, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 168, 16, -3, -8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -1, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -2, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -2, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -2, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -2, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -3, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -3, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 8, -3, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -3, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 16, -4, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 24, -4, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 32, -4, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 0, -4, 8, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 40, -5, 5, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 48, -5, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 56, -5, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 0, -6, 6, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 8, -6, 7, 0, 1, 0)
-	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 16, -7, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 32, 10, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, 1, -13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 216, 48, 49, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 0, 40, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, 0, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 16, -1, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 0, -1, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 16, -2, -11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -3, -10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, 0, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 56, 0, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 0, 0, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 8, -1, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 16, -1, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -1, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 32, -2, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 40, -2, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 48, -2, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -2, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 0, -3, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 8, -3, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 16, -3, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 32, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 56, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 40, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 48, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 56, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 16, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 24, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 32, -7, 6, 0, 1, 0)
+	.word ANFRM_END_FRM
+ephraim_lance_frame_l_83:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 128, 0, 9, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 128, 32, 0, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 224, 16, 47, -12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 232, 48, 38, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 120, 48, -1, -10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 48, -1, -1, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 152, 48, -2, -9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 0, -3, -8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 24, -1, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 16, -2, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 24, -2, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 32, -2, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 112, 56, -2, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 40, -3, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 48, -3, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -3, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 24, -3, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -4, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 8, -4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 16, -4, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 24, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 24, -5, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 32, -5, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 40, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 48, -6, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 56, -6, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -7, 6, 0, 1, 0)
 	.word ANFRM_END_FRM
 
 	.word ANFRM_END_ALL
