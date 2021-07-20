@@ -104,11 +104,11 @@ eirik_sword_mode_2:
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x1F)
 	@2 p- 009.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 2)
 	@3 p- 010.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 012.png
 	.word ANINS_SHOW_FRAME(0, eirik_sword_sheet_0, eirik_sword_frame_r_0 - eirik_sword_frames_r, 3)
@@ -252,11 +252,11 @@ eirik_sword_mode_4:
 	.word ANINS_COMMAND_85(0x09)
 	.word ANINS_COMMAND_85(0x1F)
 	@2 p- 009.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 2)
 	@3 p- 010.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_0, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(11, eirik_sword_sheet_1, eirik_sword_frame_r_11 - eirik_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 012.png
 	.word ANINS_SHOW_FRAME(0, eirik_sword_sheet_0, eirik_sword_frame_r_0 - eirik_sword_frames_r, 3)
@@ -416,11 +416,11 @@ eirik_sword_mode_12:
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, eirik_sword_sheet_0, eirik_sword_frame_r_9 - eirik_sword_frames_r, 2)
 	@2 p- 044.png
-	.word ANINS_SHOW_FRAME(46, eirik_sword_sheet_1, eirik_sword_frame_r_46 - eirik_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(46, eirik_sword_sheet_5, eirik_sword_frame_r_46 - eirik_sword_frames_r, 2)
 	@3 p- 045.png
-	.word ANINS_SHOW_FRAME(47, eirik_sword_sheet_1, eirik_sword_frame_r_47 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(47, eirik_sword_sheet_5, eirik_sword_frame_r_47 - eirik_sword_frames_r, 3)
 	@3 p- 046.png
-	.word ANINS_SHOW_FRAME(48, eirik_sword_sheet_1, eirik_sword_frame_r_48 - eirik_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(48, eirik_sword_sheet_5, eirik_sword_frame_r_48 - eirik_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 012.png
 	.word ANINS_SHOW_FRAME(14, eirik_sword_sheet_1, eirik_sword_frame_r_14 - eirik_sword_frames_r, 3)
