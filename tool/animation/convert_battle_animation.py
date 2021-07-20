@@ -383,10 +383,14 @@ class Sheet:
     def remove(self, image: Image, x0=0, y0=0, width=0, height=0):
         clear_rectangle(self.image, x0, y0, width, height)
         clear_rectangle(self.image_ref, x0, y0, width, height)
-        del self.hash_dict[hash_image(image)]
-        del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))]
-        del self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))]
-        del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))]
+        if hash_image(image) in self.hash_dict:
+            del self.hash_dict[hash_image(image)]
+        if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT)) in self.hash_dict:
+            del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))]
+        if hash_image(image.transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
+            del self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))]
+        if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
+            del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))]
         for i in range(math.ceil(height / 8)):
             for j in range(math.ceil(width / 8)):
                 self.occupied_matrix[y0 // 8 + i][x0 // 8 + j] = 0
@@ -662,9 +666,9 @@ class Frame:
             self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2, sheet_id)
             if sheet_id != -1 and sheet_id != self.sheet_index:
                 if len(frame_ref.part_list_p1) > 0:
-                    self.sheets.remove_parts(frame_ref.image, frame_ref.part_list_p1, frame_ref.sheet_index)
+                    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p1, frame_ref.sheet_index)
                 if len(frame_ref.part_list_p2) > 0:
-                    self.sheets.remove_parts(frame_ref.image, frame_ref.part_list_p2, frame_ref.sheet_index)
+                    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p2, frame_ref.sheet_index)
                 self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2 + frame_ref.part_list_p1 + frame_ref.part_list_p2)
                 frame_ref.sheet_index = self.sheet_index
                 if len(frame_ref.part_list_p1) > 0:
