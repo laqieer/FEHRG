@@ -201,7 +201,7 @@ eltshan_sword_mode_2:
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(0, eltshan_sword_sheet_0, eltshan_sword_frame_r_0 - eltshan_sword_frames_r, 3)
 	@20 p- 028.png
-	.word ANINS_SHOW_FRAME(30, eltshan_sword_sheet_0, eltshan_sword_frame_r_30 - eltshan_sword_frames_r, 20)
+	.word ANINS_SHOW_FRAME(30, eltshan_sword_sheet_7, eltshan_sword_frame_r_30 - eltshan_sword_frames_r, 20)
 	.word ANINS_COMMAND_85(0x01)
 	.word ANINS_COMMAND_85(0x22)
 	@5 p- 029.png
@@ -455,7 +455,7 @@ eltshan_sword_mode_4:
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(0, eltshan_sword_sheet_0, eltshan_sword_frame_r_0 - eltshan_sword_frames_r, 3)
 	@20 p- 028.png
-	.word ANINS_SHOW_FRAME(30, eltshan_sword_sheet_0, eltshan_sword_frame_r_30 - eltshan_sword_frames_r, 20)
+	.word ANINS_SHOW_FRAME(30, eltshan_sword_sheet_7, eltshan_sword_frame_r_30 - eltshan_sword_frames_r, 20)
 	.word ANINS_COMMAND_85(0x01)
 	.word ANINS_COMMAND_85(0x22)
 	@5 p- 029.png
