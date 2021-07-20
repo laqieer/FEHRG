@@ -85,10 +85,10 @@ celise_sword_mode_1:
 	@4 p- 021.png
 	.word ANINS_SHOW_FRAME(24, celise_sword_sheet_5, celise_sword_frame_r_24 - celise_sword_frames_r, 4)
 	@2 p- 022.png
-	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_3, celise_sword_frame_r_25 - celise_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_0, celise_sword_frame_r_25 - celise_sword_frames_r, 2)
 	.word ANINS_COMMAND_85(0x06)
 	@2 p- 022.png
-	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_3, celise_sword_frame_r_25 - celise_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_0, celise_sword_frame_r_25 - celise_sword_frames_r, 2)
 	@4 p- 023.png
 	.word ANINS_SHOW_FRAME(26, celise_sword_sheet_5, celise_sword_frame_r_26 - celise_sword_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0D)
@@ -128,9 +128,9 @@ celise_sword_mode_2:
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x1F)
 	@3 p- 013.png
-	.word ANINS_SHOW_FRAME(15, celise_sword_sheet_0, celise_sword_frame_r_15 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(15, celise_sword_sheet_3, celise_sword_frame_r_15 - celise_sword_frames_r, 3)
 	@1 p- 014.png
-	.word ANINS_SHOW_FRAME(17, celise_sword_sheet_0, celise_sword_frame_r_17 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(17, celise_sword_sheet_3, celise_sword_frame_r_17 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@1 p- 015.png
 	.word ANINS_SHOW_FRAME(0, celise_sword_sheet_0, celise_sword_frame_r_0 - celise_sword_frames_r, 1)
@@ -203,9 +203,9 @@ celise_sword_mode_3:
 	@3 p- 041.png
 	.word ANINS_SHOW_FRAME(44, celise_sword_sheet_10, celise_sword_frame_r_44 - celise_sword_frames_r, 3)
 	@3 p- 042.png
-	.word ANINS_SHOW_FRAME(45, celise_sword_sheet_10, celise_sword_frame_r_45 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(46, celise_sword_sheet_10, celise_sword_frame_r_46 - celise_sword_frames_r, 3)
 	@1 p- 043.png
-	.word ANINS_SHOW_FRAME(46, celise_sword_sheet_11, celise_sword_frame_r_46 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(47, celise_sword_sheet_11, celise_sword_frame_r_47 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@1 p- 015.png
 	.word ANINS_SHOW_FRAME(18, celise_sword_sheet_4, celise_sword_frame_r_18 - celise_sword_frames_r, 1)
@@ -224,7 +224,7 @@ celise_sword_mode_3:
 	.word ANINS_SHOW_FRAME(24, celise_sword_sheet_5, celise_sword_frame_r_24 - celise_sword_frames_r, 4)
 	.word ANINS_COMMAND_85(0x06)
 	@4 p- 022.png
-	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_3, celise_sword_frame_r_25 - celise_sword_frames_r, 4)
+	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_0, celise_sword_frame_r_25 - celise_sword_frames_r, 4)
 	@4 p- 023.png
 	.word ANINS_SHOW_FRAME(26, celise_sword_sheet_5, celise_sword_frame_r_26 - celise_sword_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0D)
@@ -274,11 +274,11 @@ celise_sword_mode_4:
 	@3 p- 040.png
 	.word ANINS_SHOW_FRAME(0, celise_sword_sheet_0, celise_sword_frame_r_0 - celise_sword_frames_r, 3)
 	@3 p- 041.png
-	.word ANINS_SHOW_FRAME(17, celise_sword_sheet_0, celise_sword_frame_r_17 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(45, celise_sword_sheet_10, celise_sword_frame_r_45 - celise_sword_frames_r, 3)
 	@3 p- 042.png
-	.word ANINS_SHOW_FRAME(17, celise_sword_sheet_0, celise_sword_frame_r_17 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(45, celise_sword_sheet_10, celise_sword_frame_r_45 - celise_sword_frames_r, 3)
 	@1 p- 043.png
-	.word ANINS_SHOW_FRAME(17, celise_sword_sheet_0, celise_sword_frame_r_17 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(48, celise_sword_sheet_11, celise_sword_frame_r_48 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@1 p- 015.png
 	.word ANINS_SHOW_FRAME(0, celise_sword_sheet_0, celise_sword_frame_r_0 - celise_sword_frames_r, 1)
@@ -324,16 +324,16 @@ celise_sword_mode_5:
 	.word ANINS_SHOW_FRAME(33, celise_sword_sheet_7, celise_sword_frame_r_33 - celise_sword_frames_r, 2)
 	.word ANINS_COMMAND_85(0x22)
 	@2 p- 044.png
-	.word ANINS_SHOW_FRAME(47, celise_sword_sheet_8, celise_sword_frame_r_47 - celise_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(49, celise_sword_sheet_8, celise_sword_frame_r_49 - celise_sword_frames_r, 2)
 	.word ANINS_COMMAND_85(0x05)
 	@40 p- 032.png
 	.word ANINS_SHOW_FRAME(35, celise_sword_sheet_8, celise_sword_frame_r_35 - celise_sword_frames_r, 40)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 045.png
-	.word ANINS_SHOW_FRAME(48, celise_sword_sheet_11, celise_sword_frame_r_48 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(50, celise_sword_sheet_11, celise_sword_frame_r_50 - celise_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
 	@3 p- 046.png
-	.word ANINS_SHOW_FRAME(49, celise_sword_sheet_11, celise_sword_frame_r_49 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(51, celise_sword_sheet_11, celise_sword_frame_r_51 - celise_sword_frames_r, 3)
 	@3 p- 024.png
 	.word ANINS_SHOW_FRAME(27, celise_sword_sheet_5, celise_sword_frame_r_27 - celise_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x0D)
@@ -360,16 +360,16 @@ celise_sword_mode_6:
 	.word ANINS_SHOW_FRAME(33, celise_sword_sheet_7, celise_sword_frame_r_33 - celise_sword_frames_r, 2)
 	.word ANINS_COMMAND_85(0x22)
 	@2 p- 044.png
-	.word ANINS_SHOW_FRAME(47, celise_sword_sheet_8, celise_sword_frame_r_47 - celise_sword_frames_r, 2)
+	.word ANINS_SHOW_FRAME(49, celise_sword_sheet_8, celise_sword_frame_r_49 - celise_sword_frames_r, 2)
 	.word ANINS_COMMAND_85(0x05)
 	@40 p- 032.png
 	.word ANINS_SHOW_FRAME(35, celise_sword_sheet_8, celise_sword_frame_r_35 - celise_sword_frames_r, 40)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 045.png
-	.word ANINS_SHOW_FRAME(48, celise_sword_sheet_11, celise_sword_frame_r_48 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(50, celise_sword_sheet_11, celise_sword_frame_r_50 - celise_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
 	@3 p- 046.png
-	.word ANINS_SHOW_FRAME(49, celise_sword_sheet_11, celise_sword_frame_r_49 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(51, celise_sword_sheet_11, celise_sword_frame_r_51 - celise_sword_frames_r, 3)
 	@3 p- 024.png
 	.word ANINS_SHOW_FRAME(27, celise_sword_sheet_5, celise_sword_frame_r_27 - celise_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x0D)
@@ -380,18 +380,18 @@ celise_sword_mode_7:
 	@4 p- 000.png
 	.word ANINS_SHOW_FRAME(1, celise_sword_sheet_0, celise_sword_frame_r_1 - celise_sword_frames_r, 4)
 	@5 p- 047.png
-	.word ANINS_SHOW_FRAME(50, celise_sword_sheet_11, celise_sword_frame_r_50 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(52, celise_sword_sheet_11, celise_sword_frame_r_52 - celise_sword_frames_r, 5)
 	@5 p- 048.png
-	.word ANINS_SHOW_FRAME(51, celise_sword_sheet_12, celise_sword_frame_r_51 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(53, celise_sword_sheet_12, celise_sword_frame_r_53 - celise_sword_frames_r, 5)
 	@5 p- 049.png
-	.word ANINS_SHOW_FRAME(52, celise_sword_sheet_12, celise_sword_frame_r_52 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(54, celise_sword_sheet_12, celise_sword_frame_r_54 - celise_sword_frames_r, 5)
 	@1 p- 050.png
-	.word ANINS_SHOW_FRAME(53, celise_sword_sheet_12, celise_sword_frame_r_53 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(55, celise_sword_sheet_12, celise_sword_frame_r_55 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@5 p- 051.png
-	.word ANINS_SHOW_FRAME(54, celise_sword_sheet_9, celise_sword_frame_r_54 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(56, celise_sword_sheet_3, celise_sword_frame_r_56 - celise_sword_frames_r, 5)
 	@5 p- 052.png
-	.word ANINS_SHOW_FRAME(55, celise_sword_sheet_12, celise_sword_frame_r_55 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(57, celise_sword_sheet_12, celise_sword_frame_r_57 - celise_sword_frames_r, 5)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
@@ -400,18 +400,18 @@ celise_sword_mode_8:
 	@4 p- 000.png
 	.word ANINS_SHOW_FRAME(1, celise_sword_sheet_0, celise_sword_frame_r_1 - celise_sword_frames_r, 4)
 	@5 p- 047.png
-	.word ANINS_SHOW_FRAME(50, celise_sword_sheet_11, celise_sword_frame_r_50 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(52, celise_sword_sheet_11, celise_sword_frame_r_52 - celise_sword_frames_r, 5)
 	@5 p- 048.png
-	.word ANINS_SHOW_FRAME(51, celise_sword_sheet_12, celise_sword_frame_r_51 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(53, celise_sword_sheet_12, celise_sword_frame_r_53 - celise_sword_frames_r, 5)
 	@5 p- 049.png
-	.word ANINS_SHOW_FRAME(52, celise_sword_sheet_12, celise_sword_frame_r_52 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(54, celise_sword_sheet_12, celise_sword_frame_r_54 - celise_sword_frames_r, 5)
 	@1 p- 050.png
-	.word ANINS_SHOW_FRAME(53, celise_sword_sheet_12, celise_sword_frame_r_53 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(55, celise_sword_sheet_12, celise_sword_frame_r_55 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@5 p- 051.png
-	.word ANINS_SHOW_FRAME(54, celise_sword_sheet_9, celise_sword_frame_r_54 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(56, celise_sword_sheet_3, celise_sword_frame_r_56 - celise_sword_frames_r, 5)
 	@5 p- 052.png
-	.word ANINS_SHOW_FRAME(55, celise_sword_sheet_12, celise_sword_frame_r_55 - celise_sword_frames_r, 5)
+	.word ANINS_SHOW_FRAME(57, celise_sword_sheet_12, celise_sword_frame_r_57 - celise_sword_frames_r, 5)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
@@ -451,7 +451,7 @@ celise_sword_mode_12:
 	@1 p- 006.png
 	.word ANINS_SHOW_FRAME(7, celise_sword_sheet_1, celise_sword_frame_r_7 - celise_sword_frames_r, 1)
 	@1 p- 053.png
-	.word ANINS_SHOW_FRAME(56, celise_sword_sheet_12, celise_sword_frame_r_56 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(58, celise_sword_sheet_12, celise_sword_frame_r_58 - celise_sword_frames_r, 1)
 	@2 p- 007.png
 	.word ANINS_SHOW_FRAME(8, celise_sword_sheet_1, celise_sword_frame_r_8 - celise_sword_frames_r, 2)
 	@2 p- 008.png
@@ -466,9 +466,9 @@ celise_sword_mode_12:
 	@2 p- 012.png
 	.word ANINS_SHOW_FRAME(13, celise_sword_sheet_3, celise_sword_frame_r_13 - celise_sword_frames_r, 2)
 	@3 p- 054.png
-	.word ANINS_SHOW_FRAME(57, celise_sword_sheet_13, celise_sword_frame_r_57 - celise_sword_frames_r, 3)
+	.word ANINS_SHOW_FRAME(59, celise_sword_sheet_13, celise_sword_frame_r_59 - celise_sword_frames_r, 3)
 	@1 p- 055.png
-	.word ANINS_SHOW_FRAME(58, celise_sword_sheet_13, celise_sword_frame_r_58 - celise_sword_frames_r, 1)
+	.word ANINS_SHOW_FRAME(60, celise_sword_sheet_13, celise_sword_frame_r_60 - celise_sword_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	@1 p- 015.png
 	.word ANINS_SHOW_FRAME(18, celise_sword_sheet_4, celise_sword_frame_r_18 - celise_sword_frames_r, 1)
@@ -487,7 +487,7 @@ celise_sword_mode_12:
 	.word ANINS_SHOW_FRAME(24, celise_sword_sheet_5, celise_sword_frame_r_24 - celise_sword_frames_r, 4)
 	.word ANINS_COMMAND_85(0x06)
 	@4 p- 022.png
-	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_3, celise_sword_frame_r_25 - celise_sword_frames_r, 4)
+	.word ANINS_SHOW_FRAME(25, celise_sword_sheet_0, celise_sword_frame_r_25 - celise_sword_frames_r, 4)
 	@4 p- 023.png
 	.word ANINS_SHOW_FRAME(26, celise_sword_sheet_5, celise_sword_frame_r_26 - celise_sword_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0D)
