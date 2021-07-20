@@ -35,59 +35,59 @@ alfons_spring_mode_1:
 	@1 p- 000.png
 	.word ANINS_SHOW_FRAME(1, alfons_spring_sheet_0, alfons_spring_frame_r_1 - alfons_spring_frames_r, 1)
 	@4 p- 001.png
-	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 002.png
-	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 6)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_0, alfons_spring_frame_r_5 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 004.png
-	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_1, alfons_spring_frame_r_5 - alfons_spring_frames_r, 6)
 	@4 p- 005.png
-	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 4)
 	@17 p- 006.png
-	.word ANINS_SHOW_FRAME(8, alfons_spring_sheet_1, alfons_spring_frame_r_8 - alfons_spring_frames_r, 17)
+	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 17)
 	@5 p- 007.png
-	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(8, alfons_spring_sheet_2, alfons_spring_frame_r_8 - alfons_spring_frames_r, 5)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_2, alfons_spring_frame_r_13 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 20)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_2, alfons_spring_frame_r_13 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 20)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_3, alfons_spring_frame_r_13 - alfons_spring_frames_r, 4)
 	@4 p- 013.png
-	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 014.png
-	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_3, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 3)
 	@3 p- 015.png
-	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_4, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
 	@3 p- 016.png
-	.word ANINS_SHOW_FRAME(18, alfons_spring_sheet_4, alfons_spring_frame_r_18 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
 	.word ANINS_COMMAND_85(0x42)
 	@3 p- 017.png
-	.word ANINS_SHOW_FRAME(19, alfons_spring_sheet_5, alfons_spring_frame_r_19 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(18, alfons_spring_sheet_5, alfons_spring_frame_r_18 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x21)
 	@3 p- 018.png
-	.word ANINS_SHOW_FRAME(21, alfons_spring_sheet_4, alfons_spring_frame_r_21 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(20, alfons_spring_sheet_4, alfons_spring_frame_r_20 - alfons_spring_frames_r, 3)
 	@5 p- 019.png
-	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_5, alfons_spring_frame_r_22 - alfons_spring_frames_r, 5)
 	@1 p- 020.png
 	.word ANINS_SHOW_FRAME(24, alfons_spring_sheet_5, alfons_spring_frame_r_24 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
@@ -118,84 +118,84 @@ alfons_spring_mode_2:
 	.word ANINS_COMMAND_85(0x03)
 	.word ANINS_COMMAND_85(0x07)
 	@1 p- 000.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 1)
 	@4 p- 001.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 002.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 6)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 004.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 6)
 	@4 p- 005.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@17 p- 006.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 17)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 17)
 	@5 p- 007.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 5)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 20)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 20)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 013.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 014.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 015.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 016.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
 	.word ANINS_COMMAND_85(0x42)
 	@3 p- 017.png
-	.word ANINS_SHOW_FRAME(20, alfons_spring_sheet_0, alfons_spring_frame_r_20 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(19, alfons_spring_sheet_5, alfons_spring_frame_r_19 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x21)
 	@3 p- 018.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(21, alfons_spring_sheet_4, alfons_spring_frame_r_21 - alfons_spring_frames_r, 3)
 	@5 p- 019.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 5)
 	@1 p- 020.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 021.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@2 p- 022.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 2)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 2)
 	@3 p- 023.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 024.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 025.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1C)
 	@5 p- 026.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 5)
 	.word ANINS_COMMAND_85(0x06)
 	@5 p- 027.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 5)
 	@1 p- 000.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
@@ -205,19 +205,19 @@ alfons_spring_mode_3:
 	@1 p- 000.png
 	.word ANINS_SHOW_FRAME(1, alfons_spring_sheet_0, alfons_spring_frame_r_1 - alfons_spring_frames_r, 1)
 	@4 p- 001.png
-	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 002.png
-	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 6)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_0, alfons_spring_frame_r_5 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 004.png
-	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_1, alfons_spring_frame_r_5 - alfons_spring_frames_r, 6)
 	@4 p- 005.png
-	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 4)
 	@17 p- 006.png
-	.word ANINS_SHOW_FRAME(8, alfons_spring_sheet_1, alfons_spring_frame_r_8 - alfons_spring_frames_r, 17)
+	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 17)
 	@3 p- 028.png
 	.word ANINS_SHOW_FRAME(32, alfons_spring_sheet_2, alfons_spring_frame_r_32 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x38)
@@ -240,26 +240,26 @@ alfons_spring_mode_3:
 	.word ANINS_SHOW_FRAME(36, alfons_spring_sheet_9, alfons_spring_frame_r_36 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_3, alfons_spring_frame_r_13 - alfons_spring_frames_r, 4)
 	@4 p- 013.png
-	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 014.png
-	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_3, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 3)
 	@3 p- 015.png
-	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_4, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
 	@3 p- 016.png
-	.word ANINS_SHOW_FRAME(18, alfons_spring_sheet_4, alfons_spring_frame_r_18 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
 	.word ANINS_COMMAND_85(0x42)
 	@3 p- 017.png
-	.word ANINS_SHOW_FRAME(19, alfons_spring_sheet_5, alfons_spring_frame_r_19 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(18, alfons_spring_sheet_5, alfons_spring_frame_r_18 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x21)
 	@3 p- 018.png
-	.word ANINS_SHOW_FRAME(21, alfons_spring_sheet_4, alfons_spring_frame_r_21 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(20, alfons_spring_sheet_4, alfons_spring_frame_r_20 - alfons_spring_frames_r, 3)
 	@5 p- 019.png
-	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_5, alfons_spring_frame_r_22 - alfons_spring_frames_r, 5)
 	@1 p- 020.png
 	.word ANINS_SHOW_FRAME(24, alfons_spring_sheet_5, alfons_spring_frame_r_24 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
@@ -290,86 +290,86 @@ alfons_spring_mode_4:
 	.word ANINS_COMMAND_85(0x03)
 	.word ANINS_COMMAND_85(0x07)
 	@1 p- 000.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 1)
 	@4 p- 001.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 002.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 6)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 004.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 6)
 	@4 p- 005.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@17 p- 006.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 17)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 17)
 	@3 p- 028.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 029.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 030.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 031.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 032.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 029.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 030.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 031.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 032.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 013.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 014.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 015.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@3 p- 016.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
 	.word ANINS_COMMAND_85(0x42)
 	@3 p- 017.png
-	.word ANINS_SHOW_FRAME(20, alfons_spring_sheet_0, alfons_spring_frame_r_20 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(19, alfons_spring_sheet_5, alfons_spring_frame_r_19 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1A)
 	.word ANINS_COMMAND_85(0x21)
 	@3 p- 018.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(21, alfons_spring_sheet_4, alfons_spring_frame_r_21 - alfons_spring_frames_r, 3)
 	@5 p- 019.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 5)
 	@1 p- 020.png
-	.word ANINS_SHOW_FRAME(22, alfons_spring_sheet_0, alfons_spring_frame_r_22 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(23, alfons_spring_sheet_5, alfons_spring_frame_r_23 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x01)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 021.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	@2 p- 022.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 2)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 2)
 	@3 p- 023.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 024.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	@4 p- 025.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1C)
 	@5 p- 026.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 5)
 	.word ANINS_COMMAND_85(0x06)
 	@5 p- 027.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 5)
 	@1 p- 000.png
-	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 1)
+	.word ANINS_SHOW_FRAME(0, alfons_spring_sheet_0, alfons_spring_frame_r_0 - alfons_spring_frames_r, 1)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
@@ -453,49 +453,49 @@ alfons_spring_mode_12:
 	@1 p- 000.png
 	.word ANINS_SHOW_FRAME(1, alfons_spring_sheet_0, alfons_spring_frame_r_1 - alfons_spring_frames_r, 1)
 	@4 p- 001.png
-	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(2, alfons_spring_sheet_0, alfons_spring_frame_r_2 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 002.png
-	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(3, alfons_spring_sheet_0, alfons_spring_frame_r_3 - alfons_spring_frames_r, 6)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_0, alfons_spring_frame_r_5 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, alfons_spring_sheet_0, alfons_spring_frame_r_4 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1D)
 	@6 p- 004.png
-	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 6)
+	.word ANINS_SHOW_FRAME(5, alfons_spring_sheet_1, alfons_spring_frame_r_5 - alfons_spring_frames_r, 6)
 	@4 p- 005.png
-	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(6, alfons_spring_sheet_1, alfons_spring_frame_r_6 - alfons_spring_frames_r, 4)
 	@17 p- 006.png
-	.word ANINS_SHOW_FRAME(8, alfons_spring_sheet_1, alfons_spring_frame_r_8 - alfons_spring_frames_r, 17)
+	.word ANINS_SHOW_FRAME(7, alfons_spring_sheet_1, alfons_spring_frame_r_7 - alfons_spring_frames_r, 17)
 	@5 p- 007.png
-	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 5)
+	.word ANINS_SHOW_FRAME(8, alfons_spring_sheet_2, alfons_spring_frame_r_8 - alfons_spring_frames_r, 5)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_2, alfons_spring_frame_r_13 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 20)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, alfons_spring_sheet_2, alfons_spring_frame_r_9 - alfons_spring_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, alfons_spring_sheet_2, alfons_spring_frame_r_10 - alfons_spring_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, alfons_spring_sheet_2, alfons_spring_frame_r_11 - alfons_spring_frames_r, 4)
 	@20 p- 011.png
-	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_2, alfons_spring_frame_r_13 - alfons_spring_frames_r, 20)
+	.word ANINS_SHOW_FRAME(12, alfons_spring_sheet_2, alfons_spring_frame_r_12 - alfons_spring_frames_r, 20)
 	.word ANINS_COMMAND_85(0x1C)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, alfons_spring_sheet_3, alfons_spring_frame_r_13 - alfons_spring_frames_r, 4)
 	@4 p- 013.png
-	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 4)
+	.word ANINS_SHOW_FRAME(14, alfons_spring_sheet_3, alfons_spring_frame_r_14 - alfons_spring_frames_r, 4)
 	.word ANINS_COMMAND_85(0x38)
 	@3 p- 014.png
-	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_3, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(15, alfons_spring_sheet_3, alfons_spring_frame_r_15 - alfons_spring_frames_r, 3)
 	@3 p- 015.png
-	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(16, alfons_spring_sheet_4, alfons_spring_frame_r_16 - alfons_spring_frames_r, 3)
 	@3 p- 016.png
-	.word ANINS_SHOW_FRAME(18, alfons_spring_sheet_4, alfons_spring_frame_r_18 - alfons_spring_frames_r, 3)
+	.word ANINS_SHOW_FRAME(17, alfons_spring_sheet_4, alfons_spring_frame_r_17 - alfons_spring_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
 	.word ANINS_COMMAND_85(0x42)
 	@3 p- 036.png
