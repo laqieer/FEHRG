@@ -1,2 +1,4 @@
 MCID_RoyMasterLord,
 MCID_H_RoyMasterLord,
+MCID_MAMKUTE,
+MCID_H_MAMKUTE,

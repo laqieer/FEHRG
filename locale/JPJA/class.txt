@@ -1,3 +1,7 @@
 [MCID_RoyMasterLord] = "マスターロード",
 
 [MCID_H_RoyMasterLord] = "ロードが昇格する" TEXT_NEWLINE "『英雄』の名をつぐ大器",
+
+[MCID_MAMKUTE] = "マムクート",
+
+[MCID_H_MAMKUTE] = "普通とは違う雰囲気をもつ者" TEXT_NEWLINE "『人ならぬもの』とも言われる",

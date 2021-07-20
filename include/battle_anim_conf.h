@@ -74,3 +74,5 @@ extern const struct BattleAnimationConfig BattleAnimConf_UberSage[];
 
 extern const struct BattleAnimationConfig RoyAnimations[];
 extern const struct BattleAnimationConfig RoyLegendaryAnimations[];
+extern const struct BattleAnimationConfig MamkuteFireAnimations[];
+extern const struct BattleAnimationConfig MamkuteDivineAnimations[];

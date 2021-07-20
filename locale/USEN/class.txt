@@ -1,3 +1,7 @@
 [MCID_RoyMasterLord] = "Master Lord",
 
 [MCID_H_RoyMasterLord] = "A promoted Lord bearing the title" TEXT_NEWLINE "of the Champion of Elibe.",
+
+[MCID_MAMKUTE] = "Mamkute",
+
+[MCID_H_MAMKUTE] = "\"Humans not human\" who have a sinister" TEXT_NEWLINE "atmosphere about them.",

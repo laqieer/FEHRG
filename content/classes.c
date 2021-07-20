@@ -4656,6 +4656,7 @@ const struct Class Classes[] = {
 		0, // promotionRes
 		// attributes
 		CA_LOCK_3 |
+        CA_PROMOTED |
 		CA_NONE,
 		// baseRanks
 		{
@@ -6481,6 +6482,139 @@ const struct Class Classes[] = {
 		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
 		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Mamkute
+	{
+		MCID_MAMKUTE, // nameTextId
+		MCID_H_MAMKUTE, // descTextId
+		Mamkute, // id
+		0, // promotionClassId
+		SUIID_Mamkute, // standingUnitIconId
+		TRUE, // slowWalking
+		CCID_Mamkute, // classCardId
+		0, // _u0A
+		20, // baseHP
+		0, // basePow
+		0, // baseSkl
+		2, // baseSpd
+		1, // baseDef
+		1, // baseRes
+		5, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		95, // growthHP
+		40, // growthPow
+		30, // growthSkl
+		20, // growthSpd
+		0, // growthDef
+		10, // growthRes
+		25, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LOCK_3 |
+        CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		MamkuteFireAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f63, // standard
+			(const s8*)0x8c52f63, // rain
+			(const s8*)0x8c52f63, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Mamkute_F
+	{
+		MCID_MAMKUTE, // nameTextId
+		MCID_H_MAMKUTE, // descTextId
+		Mamkute_F, // id
+		0, // promotionClassId
+		SUIID_Mamkute_F, // standingUnitIconId
+		TRUE, // slowWalking
+		CCID_Mamkute, // classCardId
+		0, // _u0A
+		12, // baseHP
+		0, // basePow
+		0, // baseSkl
+		2, // baseSpd
+		1, // baseDef
+		1, // baseRes
+		1, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		2, // classRelativePower
+		95, // growthHP
+		40, // growthPow
+		30, // growthSkl
+		20, // growthSpd
+		0, // growthDef
+		10, // growthRes
+		25, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LOCK_3 |
+        CA_PROMOTED |
+        CA_FEMALE |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		MamkuteDivineAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f22, // standard
+			(const s8*)0x8c53373, // rain
+			(const s8*)0x8c53783, // snow
+		},
+		TerrainAvoidLookupFlyer, // pTerrainAvoidLookup
+		TerrainDefenseLookupFlyer, // pTerrainDefenseLookup
+		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
 };
