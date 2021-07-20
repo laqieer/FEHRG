@@ -89,9 +89,11 @@ def image_crop_s(image: Image, box=None):
     return image.crop((x1, y1, x2, y2))
 
 
-def hash_image(image: Image):
+def hash_image(image: Image, sheet_id=-1):
     s = [str(i) for i in list(image.getdata())]
     s = ''.join(s)
+    if sheet_id != -1:
+        s += str(sheet_id)
     return hash(s)
 
 
@@ -378,6 +380,18 @@ class Sheet:
                 self.occupied_matrix[y0 // 8 + i][x0 // 8 + j] = 1
         self.occupied_tiles += math.ceil(height / 8) * math.ceil(width / 8)
 
+    def remove(self, image: Image, x0=0, y0=0, width=0, height=0):
+        clear_rectangle(self.image, x0, y0, width, height)
+        clear_rectangle(self.image_ref, x0, y0, width, height)
+        del self.hash_dict[hash_image(image)]
+        del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))]
+        del self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))]
+        del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))]
+        for i in range(math.ceil(height / 8)):
+            for j in range(math.ceil(width / 8)):
+                self.occupied_matrix[y0 // 8 + i][x0 // 8 + j] = 0
+        self.occupied_tiles -= math.ceil(height / 8) * math.ceil(width / 8)
+
     def find_blank_area_row_first(self, width, height):
         """
         Find blank rectangle area in the sheet.
@@ -455,6 +469,14 @@ class Sheet:
                 self.add(image_crop_s(image, (space['x'], space['y'], space['x'] + space['width'],
                                               space['y'] + space['height'])),
                          image_crop_s(image_ref, (space['x'], space['y'], space['x'] + space['width'],
+                                              space['y'] + space['height'])),
+                         space['x0'], space['y0'],
+                         space['width'], space['height'])
+
+    def remove_parts(self, image: Image, space_list: list):
+        for space in space_list:
+            if space['hash'] in self.hash_dict:
+                self.remove(image_crop_s(image, (space['x'], space['y'], space['x'] + space['width'],
                                               space['y'] + space['height'])),
                          space['x0'], space['y0'],
                          space['width'], space['height'])
@@ -538,13 +560,20 @@ class SheetSet:
         for i, sheet in enumerate(self.sheet_list):
             sheet.save_as_image(prefix + str(sheet.index) + '.png')
 
-    def find_space_for_parts(self, part_list: list):
+    def find_space_for_parts(self, part_list: list, sheet_id=-1):
         s = sorted(self.sheet_list, key=methodcaller('get_duplicated_parts', part_list), reverse=True)
         s = sorted(s, key=methodcaller('get_duplicated_tiles', part_list), reverse=True)
+        if sheet_id != -1:
+            for i, sheet in enumerate(s):
+                if sheet.index == sheet_id:
+                    space_list = sheet.find_blank_rectangles(part_list)
+                    if space_list is not None:
+                        return sheet.index, space_list
         for i, sheet in enumerate(s):
-            space_list = sheet.find_blank_rectangles(part_list)
-            if space_list is not None:
-                return sheet.index, space_list
+            if sheet.index > sheet_id:
+                space_list = sheet.find_blank_rectangles(part_list)
+                if space_list is not None:
+                    return sheet.index, space_list
         self.append()
         return len(self.sheet_list) - 1, self.sheet_list[-1].find_blank_rectangles(part_list)
 
@@ -553,6 +582,10 @@ class SheetSet:
             space_list = self.sheet_list[sheet_id].find_blank_rectangles(space_list)
         self.sheet_list[sheet_id].add_parts(image, image_ref, space_list)
         return space_list
+
+    def remove_parts(self, image: Image, space_list: list, sheet_id):
+        if sheet_id != -1 and len(space_list) > 0:
+            self.sheet_list[sheet_id].remove_parts(image, space_list)
 
     def tostring(self, name=''):
         s = ''
@@ -589,11 +622,15 @@ class Frame:
     sheets = SheetSet([0] * 3 * 256)
     parsed_frames = {}
 
-    def __init__(self, image: Image):
+    def __init__(self, image: Image, frame_ref=None):
+        if frame_ref is None:
+            sheet_id = -1
+        else:
+            sheet_id = frame_ref.sheet_index
         self.image = standardize_image(image)
         self.bbox = self.image.getbbox()
         self.im_core = self.image.crop(self.bbox)
-        self.hash_core = hash_image(self.im_core)
+        self.hash_core = hash_image(self.im_core, sheet_id)
         if self.hash_core in self.parsed_frames:
             self.sheet_index = self.parsed_frames[self.hash_core]['sheet_index']
             self.space_list_p1 = self.parsed_frames[self.hash_core]['space_list_p1']
@@ -606,31 +643,51 @@ class Frame:
             if len(self.space_list_p2) > 0:
                 self.bbox_p2 = (bbox_p2[0] - bbox[0] + self.bbox[0], bbox_p2[1] - bbox[1] + self.bbox[1])
         else:
-            self.im_p1, self.im_p2, im_p2_ref = split_palette(self.image)
+            self.im_p1, self.im_p2, self.im_p2_ref = split_palette(self.image)
             self.bbox_p1 = self.im_p1.getbbox()
             self.im_p1 = self.im_p1.crop(self.bbox_p1)
             self.bbox_p2 = self.im_p2.getbbox()
             self.im_p2 = self.im_p2.crop(self.bbox_p2)
-            im_p2_ref = im_p2_ref.crop(self.bbox_p2)
+            self.im_p2_ref = self.im_p2_ref.crop(self.bbox_p2)
             if self.sheets.palette == [0] * 3 * 256:
                 self.sheets.palette = self.image.getpalette()
             if not is_transparent(self.im_p1):
-                part_list_p1 = split_frame(self.im_p1)
+                self.part_list_p1 = split_frame(self.im_p1)
             else:
-                part_list_p1 = []
+                self.part_list_p1 = []
             if not is_transparent(self.im_p2):
-                part_list_p2 = split_frame(self.im_p2)
+                self.part_list_p2 = split_frame(self.im_p2)
             else:
-                part_list_p2 = []
-            self.sheet_index, _ = self.sheets.find_space_for_parts(part_list_p1 + part_list_p2)
-            if len(part_list_p1) > 0:
-                self.space_list_p1 = self.sheets.add_parts(self.im_p1, self.im_p1, part_list_p1, self.sheet_index)
+                self.part_list_p2 = []
+            self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2, sheet_id)
+            if sheet_id != -1 and sheet_id != self.sheet_index:
+                if len(frame_ref.part_list_p1) > 0:
+                    self.sheets.remove_parts(frame_ref.image, frame_ref.part_list_p1, frame_ref.sheet_index)
+                if len(frame_ref.part_list_p2) > 0:
+                    self.sheets.remove_parts(frame_ref.image, frame_ref.part_list_p2, frame_ref.sheet_index)
+                self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2 + frame_ref.part_list_p1 + frame_ref.part_list_p2)
+                frame_ref.sheet_index = self.sheet_index
+                if len(frame_ref.part_list_p1) > 0:
+                    frame_ref.space_list_p1 = self.sheets.add_parts(frame_ref.im_p1, frame_ref.im_p1, frame_ref.part_list_p1, self.sheet_index)
+                else:
+                    frame_ref.space_list_p1 = []
+                if len(frame_ref.part_list_p2) > 0:
+                    frame_ref.space_list_p2 = self.sheets.add_parts(frame_ref.im_p2, frame_ref.im_p2_ref, frame_ref.part_list_p2, self.sheet_index)
+                else:
+                    frame_ref.space_list_p2 = []
+                self.parsed_frames[frame_ref.hash_core] = {'sheet_index': frame_ref.sheet_index,
+                                                       'space_list_p1': frame_ref.space_list_p1, 'space_list_p2': frame_ref.space_list_p2,
+                                                       'bbox': frame_ref.bbox, 'bbox_p1': frame_ref.bbox_p1, 'bbox_p2': frame_ref.bbox_p2}
+            if len(self.part_list_p1) > 0:
+                self.space_list_p1 = self.sheets.add_parts(self.im_p1, self.im_p1, self.part_list_p1, self.sheet_index)
             else:
                 self.space_list_p1 = []
-            if len(part_list_p2) > 0:
-                self.space_list_p2 = self.sheets.add_parts(self.im_p2, im_p2_ref, part_list_p2, self.sheet_index)
+            if len(self.part_list_p2) > 0:
+                self.space_list_p2 = self.sheets.add_parts(self.im_p2, self.im_p2_ref, self.part_list_p2, self.sheet_index)
             else:
                 self.space_list_p2 = []
+            if frame_ref is not None:
+                self.hash_core = hash_image(self.im_core, self.sheet_index)
             self.parsed_frames[self.hash_core] = {'sheet_index': self.sheet_index,
                                                    'space_list_p1': self.space_list_p1, 'space_list_p2': self.space_list_p2,
                                                    'bbox': self.bbox, 'bbox_p1': self.bbox_p1, 'bbox_p2': self.bbox_p2}
@@ -701,17 +758,27 @@ class FrameSet:
     def __init__(self):
         self.frame_list = []
 
-    def index(self, image: Image):
+    def index(self, image: Image, sheet_id=-1):
         image = standardize_image(image)
         for i, frame in enumerate(self.frame_list):
-            if hash_image(image) == hash_image(frame.image):
+            if sheet_id == -1:
+                if hash_image(image) == hash_image(frame.image):
+                    return i
+            if hash_image(image, sheet_id) == hash_image(frame.image, frame.sheet_index):
                 return i
         return None
 
-    def add(self, image: Image):
-        index = self.index(image)
+    def get(self, frame_id):
+        return self.frame_list[frame_id]
+
+    def add(self, image: Image, frame_ref=None):
+        if frame_ref is None:
+            sheet_id = -1
+        else:
+            sheet_id = frame_ref.sheet_index
+        index = self.index(image, sheet_id)
         if index is None:
-            self.frame_list.append(Frame(image))
+            self.frame_list.append(Frame(image, frame_ref))
             index = len(self.frame_list) - 1
         return index
 
@@ -837,8 +904,13 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                                 sheet_id = parsed_images[image_file]['sheet_id']
                                 is_pierce = parsed_images[image_file]['is_pierce']
                                 if(is_pierce):
+                                    #print('frame_id: %d, sheet_id: %d, frame_id_p: %d, sheet_id_p:%d' % (frame_id, sheet_id, frame_id_p, sheet_id_p))
                                     frame_id_p = parsed_images[image_file]['frame_id_p']
                                     sheet_id_p = parsed_images[image_file]['sheet_id_p']
+                                    if sheet_id_p < sheet_id:
+                                        print('Error: sheet_id_p(%d) < sheet_id(%d)' % (sheet_id_p, sheet_id))
+                                        sys.exit(1)
+                                    sheet_id = sheet_id_p
                             else:
                                 if script_file is not None and not os.path.isabs(image_file):
                                     image_file = os.path.join(os.path.dirname(script_file), image_file)
@@ -853,10 +925,17 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                                 sheet_id = frames.frame_list[frame_id].sheet_index
                                 parsed_images[image_file] = {'frame_id': frame_id, 'sheet_id': sheet_id, 'is_pierce': is_pierce}
                                 if is_pierce:
-                                    frame_id_p = frames.add(im_p)
+                                    #print('frame_id: %d, sheet_id: %d' % (frame_id, sheet_id))
+                                    frame_id_p = frames.add(im_p, frames.get(frame_id))
                                     sheet_id_p = frames.frame_list[frame_id_p].sheet_index
+                                    #print('frame_id_p: %d, sheet_id_p: %d' % (frame_id_p, sheet_id_p))
+                                    if sheet_id_p < sheet_id:
+                                        print('Error: sheet_id_p(%d) < sheet_id(%d)' % (sheet_id_p, sheet_id))
+                                        sys.exit(1)
                                     parsed_images[image_file]['frame_id_p'] = frame_id_p
                                     parsed_images[image_file]['sheet_id_p'] = sheet_id_p
+                                    sheet_id = sheet_id_p
+                                    parsed_images[image_file]['sheet_id'] = sheet_id
                             # frame 0 is empty (for mode 2 and mode 4)
                             s_out += '\t.word ANINS_SHOW_FRAME(%d, %s_sheet_%d, %s_frame_r_%d - %s_frames_r, %s)' % (
                                 frame_id + 1, name, sheet_id, name, frame_id + 1, name, duration)
