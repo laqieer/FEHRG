@@ -6,6 +6,7 @@ BattleAnimations:
 
     .word 0, 0, 0, mamkute_fire_modes, mamkute_fire_script_header, mamkute_fire_frames_r_header, mamkute_fire_frames_l_header, mamkute_fire_basic_pal
     .word 0, 0, 0, mamkute_divine_modes, mamkute_divine_script_header, mamkute_divine_frames_r_header, mamkute_divine_frames_l_header, mamkute_divine_basic_pal
+    .word 0, 0, 0, mamkute_tiki_modes, mamkute_tiki_script_header, mamkute_tiki_frames_r_header, mamkute_tiki_frames_l_header, mamkute_tiki_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_unarmed_modes, roy_unarmed_script_header, roy_unarmed_frames_r_header, roy_unarmed_frames_l_header, roy_unarmed_basic_pal

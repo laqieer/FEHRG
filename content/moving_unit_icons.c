@@ -120,7 +120,8 @@ const struct MovingUnitIcon MovingUnitIcons[] = {
     {moving_unit_icon_master_lord_royTiles, moving_unit_icon_motion_8_bin}, // RoyMasterLord
     {moving_unit_icon_mamkuteTiles, moving_unit_icon_motion_1_bin}, // Mamkute
     {moving_unit_icon_mamkute_fTiles, moving_unit_icon_motion_1_bin}, // Mamkute_F
-    {moving_unit_icon_divine_dragonTiles, moving_unit_icon_motion_10_bin}, // DivineDragon
+    {moving_unit_icon_mamkute_fTiles, moving_unit_icon_motion_1_bin}, // Mamkute_F
+    //{moving_unit_icon_divine_dragonTiles, moving_unit_icon_motion_10_bin}, // DivineDragon
     {moving_unit_icon_magic_dragonTiles, moving_unit_icon_motion_1_bin}, // MagicDragon
     {moving_unit_icon_kingTiles, moving_unit_icon_motion_1_bin}, // King
     // FE8

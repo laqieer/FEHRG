@@ -168,6 +168,7 @@ enum {
     // Class animations
     ANID_MAMKUTE_FIRE,
     ANID_MAMKUTE_DIVINE,
+    ANID_MAMKUTE_TIKI,
 
     ANID_ROY_SWORD,
     ANID_ROY_DISARMED,
