@@ -181,25 +181,22 @@ struct UnitDefinition
     /* 03 */ u8  allegiance : 2;
     /* 03 */ u8  level      : 5;
 
-    /* 04 */ u16 xPosition  : 6; /* 04:0 to 04:5 */
-    /* 04 */ u16 yPosition  : 6; /* 04:6 to 05:3 */
-    /* 05 */ u16 genMonster : 1; /* 05:4 */
-    /* 05 */ u16 itemDrop   : 1; /* 05:5 */
-    /* 05 */ u16 sumFlag    : 1; /* 05:6 */
-    /* 05 */ u16 extraData  : 9; /* 05:7 to 06:7 */
-    /* 07 */ u16 redaCount  : 8;
+    /* 04 */ u8 xPositionLoad;
+    /* 05 */ u8 yPositionLoad;
+    /* 06 */ u8 xPositionStart;
+    /* 07 */ u8 yPositionStart;
 
-    /* 08 */ const void* redas;
-
-    /* 0C */ u8 items[UNIT_DEFINITION_ITEM_COUNT];
+    /* 08 */ u8 items[UNIT_DEFINITION_ITEM_COUNT];
 
     struct {
-        /* 10 */ u8 ai1;
-        /* 11 */ u8 ai2;
-        /* 12 */ u8 ai3;
-        /* 13 */ u8 ai4;
+        /* 12 */ u8 ai1;
+        /* 13 */ u8 ai2;
+        /* 14 */ u8 ai3;
+        /* 15 */ u8 ai4;
     } ai;
 };
+
+#define UnitDefinitionEnd {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0}}
 
 enum
 {

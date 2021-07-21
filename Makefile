@@ -22,7 +22,7 @@ include $(DEVKITARM)/gba_rules
 #---------------------------------------------------------------------------------
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
-SOURCES		:= source content content/battle_animation
+SOURCES		:= source content content/battle_animation test
 INCLUDES	:= include
 DATA		:= content/moving_unit_icon_motion
 LDSCRIPTS	:= ../linkerscript

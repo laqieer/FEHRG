@@ -1,0 +1,40 @@
+#include <tonc.h>
+
+#include "common.h"
+
+#include "unit.h"
+
+#include "character_id.h"
+#include "class_id.h"
+#include "item_id.h"
+
+const struct UnitDefinition playerUnitsInPrologue[] = {
+    {
+        Tiki, // charIndex 
+        DivineDragon, // classIndex
+        0, // leaderCharIndex
+        TRUE, // autolevel
+        FACTION_BLUE, // allegiance
+        1, // level
+        14, // xPositionLoad
+        9, // yPositionLoad
+        13, // xPositionStart
+        7, // yPositionStart
+        // items
+        {
+            Flametongue,
+            0,
+            0,
+            0
+        },
+        // ai
+        {
+            0, // ai1
+            0, // ai2
+            0, // ai3
+            0 // ai4
+        }
+    },
+    UnitDefinitionEnd
+};
+

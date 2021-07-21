@@ -14,6 +14,7 @@ SECTIONS
 	. = 0x8000000;
 	.baserom : {KEEP(baserom.o(.baserom))}
     INCLUDE ../linkerscript/injectors.lds
+    INCLUDE ../linkerscript/test.lds
     . = 0x9000000;
 	.text : {*(.text.*)}
 	.rodata : {*(.rodata.*) . = ALIGN(4);}
