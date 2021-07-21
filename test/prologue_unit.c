@@ -38,3 +38,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
     UnitDefinitionEnd
 };
 
+const struct UnitDefinition * const pPlayerUnitsInPrologue1[4] = {playerUnitsInPrologue, playerUnitsInPrologue, playerUnitsInPrologue, playerUnitsInPrologue};
+const struct UnitDefinition * const pPlayerUnitsInPrologue2 = playerUnitsInPrologue;
+const struct UnitDefinition * const pPlayerUnitsInPrologue3 = playerUnitsInPrologue;
+const struct UnitDefinition * const pPlayerUnitsInPrologue4 = playerUnitsInPrologue;
