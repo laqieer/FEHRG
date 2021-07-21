@@ -45,6 +45,7 @@ struct PortraitSpace {
 
 #define MAX_PORTRAIT_AMOUNT 4
 
+extern struct PortraitProc *CurrentPortraits[MAX_PORTRAIT_AMOUNT];
 extern struct PortraitSpace PortraitSpaces[MAX_PORTRAIT_AMOUNT];
 
 #define PORTRAIT_OBJ_TILE_OFFSET 0x3000
@@ -66,6 +67,7 @@ void DecompressPortraitTiles(struct PortraitProc *proc);
 extern vu16 portraitObjTiles[];
 
 extern const struct ProcCmd SCRIPT_8bffa20[];
+extern const struct ProcCmd SCRIPT_MenuCallHelp[];
 
 extern cu8 MiniPortraitMap[];
 

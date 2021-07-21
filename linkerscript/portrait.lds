@@ -45,3 +45,8 @@
 .rodata.itemInfoPanelPosX : {*(.rodata.itemInfoPanelPosX)}
 . = 0x801e2cc;
 .rodata.itemInfoPanelPosY : {*(.rodata.itemInfoPanelPosY)}
+/*. = 0x8c04d18;
+.rodata.noHelpBoxInItemMenu : {*(.rodata.noHelpBoxInItemMenu)}*/
+. = 0x804b1b0;
+.text.menuCallHelp : {*(.text.menuCallHelp)}
+

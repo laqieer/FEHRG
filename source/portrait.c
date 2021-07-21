@@ -239,3 +239,26 @@ cu16 itemInfoPanelPosX = 0x2701;
 // 0d 21: mov r1, #13 @ r1=13
 cu16 itemInfoPanelPosY = 0x210d;
 
+// Fix portrait display bug when R button is pressed in item/attack menu
+
+// Forbid helpbox in item main menu
+/* void * const noHelpBoxInItemMenu = NULL; */
+// Forbid helpbox in item sub menu, attack menu, staff menu, ballista menu, dance menu and so on. That's troublesome and there is an alternative to that way.
+
+// Detect if active portrait exists when pressing R button to show helpbox in menu
+bool noAcitivePortrait()
+{
+    return !CurrentPortraits[0];
+}
+
+void menuCallHelpCore(struct Proc *proc)
+{
+    if(noAcitivePortrait())
+        ProcGotoScript(proc, SCRIPT_MenuCallHelp);
+}
+
+void menuCallHelp(struct Proc *proc)
+{
+    //menuCallHelpCore(proc);
+    TINY_CALL(menuCallHelpCore, 1);
+}
