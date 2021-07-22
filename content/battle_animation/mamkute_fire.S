@@ -24,7 +24,6 @@ mamkute_fire_script:
 	.extern mamkute_fire_sheet_5
 	.extern mamkute_fire_sheet_6
 	.extern mamkute_fire_sheet_7
-	.extern mamkute_fire_sheet_8
 
 mamkute_fire_mode_1:
 	@1 p- 000.png
@@ -208,13 +207,13 @@ mamkute_fire_mode_9:
 	@3 p- 006.png
 	.word ANINS_SHOW_FRAME(7, mamkute_fire_sheet_0, mamkute_fire_frame_r_7 - mamkute_fire_frames_r, 3)
 	@2 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_fire_sheet_6, mamkute_fire_frame_r_8 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(8, mamkute_fire_sheet_0, mamkute_fire_frame_r_8 - mamkute_fire_frames_r, 2)
 	@2 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_fire_sheet_6, mamkute_fire_frame_r_9 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(9, mamkute_fire_sheet_2, mamkute_fire_frame_r_9 - mamkute_fire_frames_r, 2)
 	@2 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_fire_sheet_7, mamkute_fire_frame_r_10 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(10, mamkute_fire_sheet_6, mamkute_fire_frame_r_10 - mamkute_fire_frames_r, 2)
 	@2 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_fire_sheet_8, mamkute_fire_frame_r_11 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(11, mamkute_fire_sheet_6, mamkute_fire_frame_r_11 - mamkute_fire_frames_r, 2)
 	@2 p- 011.png
 	.word ANINS_SHOW_FRAME(12, mamkute_fire_sheet_7, mamkute_fire_frame_r_12 - mamkute_fire_frames_r, 2)
 	@1 p- 000.png
@@ -231,13 +230,13 @@ mamkute_fire_mode_11:
 	@3 p- 006.png
 	.word ANINS_SHOW_FRAME(7, mamkute_fire_sheet_0, mamkute_fire_frame_r_7 - mamkute_fire_frames_r, 3)
 	@2 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_fire_sheet_6, mamkute_fire_frame_r_8 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(8, mamkute_fire_sheet_0, mamkute_fire_frame_r_8 - mamkute_fire_frames_r, 2)
 	@2 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_fire_sheet_6, mamkute_fire_frame_r_9 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(9, mamkute_fire_sheet_2, mamkute_fire_frame_r_9 - mamkute_fire_frames_r, 2)
 	@2 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_fire_sheet_7, mamkute_fire_frame_r_10 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(10, mamkute_fire_sheet_6, mamkute_fire_frame_r_10 - mamkute_fire_frames_r, 2)
 	@2 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_fire_sheet_8, mamkute_fire_frame_r_11 - mamkute_fire_frames_r, 2)
+	.word ANINS_SHOW_FRAME(11, mamkute_fire_sheet_6, mamkute_fire_frame_r_11 - mamkute_fire_frames_r, 2)
 	@2 p- 011.png
 	.word ANINS_SHOW_FRAME(12, mamkute_fire_sheet_7, mamkute_fire_frame_r_12 - mamkute_fire_frames_r, 2)
 	@1 p- 000.png
