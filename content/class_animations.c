@@ -77,3 +77,27 @@ const struct BattleAnimationConfig MamkuteTikiAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig MagicDragonAnimations[] = {
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_IDUNN_DRAGON
+    },
+    {
+        ITYPE_DRAGN,
+        true,
+        ANID_IDUNN_DRAGON
+    },
+    {
+        ITYPE_12,
+        true,
+        ANID_IDUNN_DRAGON
+    },
+    {
+        FlameTongue,
+        false,
+        ANID_IDUNN_DRAGON
+    },
+    ANCFG_END
+};
+

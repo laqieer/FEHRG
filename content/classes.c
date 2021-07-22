@@ -6684,4 +6684,70 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// MagicDragon
+	{
+		MCID_MAMKUTE, // nameTextId
+		MCID_H_MAMKUTE, // descTextId
+		MagicDragon, // id
+		0, // promotionClassId
+		SUIID_MagicDragon, // standingUnitIconId
+		TRUE, // slowWalking
+		CCID_Mamkute, // classCardId
+		0, // _u0A
+		40, // baseHP
+		25, // basePow
+		20, // baseSkl
+		5, // baseSpd
+		32, // baseDef
+		21, // baseRes
+		25, // baseCon
+		2, // baseMov
+		80, // maxHP
+		30, // maxPow
+		30, // maxSkl
+		30, // maxSpd
+		30, // maxDef
+		30, // maxRes
+		25, // maxCon
+		5, // classRelativePower
+		10, // growthHP
+		0, // growthPow
+		0, // growthSkl
+		0, // growthSpd
+		0, // growthDef
+		0, // growthRes
+		0, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LOCK_3 |
+        CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		MagicDragonAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f63, // standard
+			(const s8*)0x8c52f63, // rain
+			(const s8*)0x8c52f63, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };
