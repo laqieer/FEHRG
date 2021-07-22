@@ -176,8 +176,8 @@ def find_rectangle_col_first(image: Image, width=8, height=8, threshold=0):
     :param: threshold: allowed blank tile number
     :return: x, y (unit: pixel). -1, -1 if fails.
     """
-    for i in range(max(image.width - width, 0) + 1):
-        for j in range(max(image.height - height, 0) + 1):
+    for i in range(0, max(image.width - width, 0) + 1, 8):
+        for j in range(0, max(image.height - height, 0) + 1, 8):
             blank_tiles = 0
             for x in range(i, i + width, 8):
                 for y in range(j, j + height, 8):
@@ -234,8 +234,13 @@ def split_frame(image: Image):
                     part_list.append({'x': x, 'y': y, 'width': obj['width'], 'height': obj['height'],
                                       'hash': hash_image(image_crop_s(image, (x, y, x + obj['width'], y + obj['height'])))})
                     break
-        clear_rectangle(im_rest, x, y, obj['width'], obj['height'])
+        if x >= 0 and y >= 0:
+            clear_rectangle(im_rest, x, y, obj['width'], obj['height'])
+        else:
+            break
+        #print('w: %d, h: %d, x: %d, y: %d' % (obj['width'], obj['height'], x, y))
     part_list.sort(key=lambda part: part['width'] * part['height'], reverse=True)
+    print(part_list)
     return part_list
 
 
@@ -370,6 +375,9 @@ class Sheet:
         return transparent_tiles
 
     def add(self, image: Image, image_ref: Image, x0=0, y0=0, width=0, height=0):
+        if self.occupied_tiles + math.ceil(height / 8) * math.ceil(width / 8) > 32 * 8:
+            print("Error: no free space in sheet to add the part")
+            sys.exit(3)
         self.image.paste(image, box=(x0, y0))
         self.image_ref.paste(image_ref, box=(x0, y0))
         self.hash_dict[hash_image(image)] = (x0, y0, 0, 0)
