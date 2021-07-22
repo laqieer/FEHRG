@@ -241,6 +241,7 @@ def split_frame(image: Image):
         #print('w: %d, h: %d, x: %d, y: %d' % (obj['width'], obj['height'], x, y))
     part_list.sort(key=lambda part: part['width'] * part['height'], reverse=True)
     print(part_list)
+    print('\n')
     return part_list
 
 
