@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Tiki, // charIndex 
-        Mamkute, // classIndex
+        Alfons_pair01, // charIndex 
+        Sage, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,7 +22,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            Flametongue,
+            Fire,
             0,
             0,
             0
