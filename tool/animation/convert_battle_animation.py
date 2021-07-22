@@ -176,8 +176,8 @@ def find_rectangle_col_first(image: Image, width=8, height=8, threshold=0):
     :param: threshold: allowed blank tile number
     :return: x, y (unit: pixel). -1, -1 if fails.
     """
-    for i in range(max(image.width - width, 0) + 1):
-        for j in range(max(image.height - height, 0) + 1):
+    for i in range(0, image.width, width):
+        for j in range(0, image.height, height):
             blank_tiles = 0
             for x in range(i, i + width, 8):
                 for y in range(j, j + height, 8):
