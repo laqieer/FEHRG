@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Alfons_pair01, // charIndex 
-        Sage, // classIndex
+        Alfons_spring02, // charIndex 
+        Paladin, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,7 +22,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            Fire,
+            IronAxe,
             0,
             0,
             0
