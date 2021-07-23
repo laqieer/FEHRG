@@ -14,7 +14,7 @@ const struct BattleAnimationConfig AlfonsAnimations[] = {
     {
         ITYPE_ITEM,
         true,
-        ANID_ALFONS_DISARMED
+        ANID_ALFONS_SWORD
     },
     ANCFG_END
 };
@@ -38,7 +38,7 @@ const struct BattleAnimationConfig AnnaAnimations[] = {
     {
         ITYPE_ITEM,
         true,
-        ANID_ANNA_DISARMED
+        ANID_ANNA_AXE
     },
     ANCFG_END
 };
@@ -52,7 +52,7 @@ const struct BattleAnimationConfig SharonAnimations[] = {
     {
         ITYPE_ITEM,
         true,
-        ANID_SHARON_DISARMED
+        ANID_SHARON_LANCE
     },
     ANCFG_END
 };
