@@ -382,9 +382,9 @@ class Sheet:
         self.image.paste(image, box=(x0, y0))
         self.image_ref.paste(image_ref, box=(x0, y0))
         self.hash_dict[hash_image(image)] = (x0, y0, 0, 0)
-        self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))] = (x0, y0, 1, 0)
-        self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))] = (x0, y0, 0, 1)
-        self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))] = (x0, y0, 1, 1)
+        #self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))] = (x0, y0, 1, 0)
+        #self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))] = (x0, y0, 0, 1)
+        #self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))] = (x0, y0, 1, 1)
         for i in range(math.ceil(height / 8)):
             for j in range(math.ceil(width / 8)):
                 self.occupied_matrix[y0 // 8 + i][x0 // 8 + j] = 1
@@ -395,12 +395,12 @@ class Sheet:
         clear_rectangle(self.image_ref, x0, y0, width, height)
         if hash_image(image) in self.hash_dict:
             del self.hash_dict[hash_image(image)]
-        if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT)) in self.hash_dict:
-            del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))]
-        if hash_image(image.transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
-            del self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))]
-        if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
-            del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))]
+        #if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT)) in self.hash_dict:
+        #    del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT))]
+        #if hash_image(image.transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
+        #    del self.hash_dict[hash_image(image.transpose(Image.FLIP_TOP_BOTTOM))]
+        #if hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM)) in self.hash_dict:
+        #    del self.hash_dict[hash_image(image.transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM))]
         for i in range(math.ceil(height / 8)):
             for j in range(math.ceil(width / 8)):
                 self.occupied_matrix[y0 // 8 + i][x0 // 8 + j] = 0
