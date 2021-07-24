@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Olwen, // charIndex 
-        Valkyrie, // classIndex
+        Rackesis, // charIndex 
+        Cleric, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,7 +22,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            Fire,
+            Sleep,
             0,
             0,
             0
