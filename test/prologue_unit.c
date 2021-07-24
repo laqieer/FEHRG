@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Klein, // charIndex 
-        1, // classIndex
+        Tiki, // charIndex 
+        DivineDragon, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,10 +22,10 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            IronSword,
-            IronLance,
-            IronAxe,
-            IronBow
+            Flametongue,
+            0,
+            0,
+            0
         },
         // ai
         {
