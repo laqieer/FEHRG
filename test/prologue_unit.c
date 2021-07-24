@@ -18,7 +18,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         1, // level
         14, // xPositionLoad
         9, // yPositionLoad
-        13, // xPositionStart
+        7, // xPositionStart
         7, // yPositionStart
         // items
         {
