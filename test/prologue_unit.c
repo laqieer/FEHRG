@@ -10,7 +10,7 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Ephraim, // charIndex 
+        Klein, // charIndex 
         1, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
@@ -22,10 +22,10 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
+            IronSword,
             IronLance,
-            0,
-            0,
-            0
+            IronAxe,
+            IronBow
         },
         // ai
         {
