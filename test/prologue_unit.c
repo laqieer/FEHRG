@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Aqua_dance, // charIndex 
-        1, // classIndex
+        Aqua_newyear01, // charIndex 
+        PegasusKnight, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
