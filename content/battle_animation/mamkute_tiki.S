@@ -19,7 +19,6 @@ mamkute_tiki_script:
 	.extern mamkute_tiki_sheet_0
 	.extern mamkute_tiki_sheet_1
 	.extern mamkute_tiki_sheet_2
-	.extern mamkute_tiki_sheet_3
 
 mamkute_tiki_mode_1:
 	.word ANINS_COMMAND_85(0x03)
@@ -30,9 +29,9 @@ mamkute_tiki_mode_1:
 	@4 p- 001.png
 	.word ANINS_SHOW_FRAME(2, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_2 - mamkute_tiki_frames_r, 4)
 	@4 p- 002.png
-	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
 	@15 p- 004.png
 	.word ANINS_SHOW_FRAME(5, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_5 - mamkute_tiki_frames_r, 15)
 	@4 p- 005.png
@@ -40,23 +39,23 @@ mamkute_tiki_mode_1:
 	@S0314
 
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	@6 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 6)
+	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 6)
 	@6 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 6)
+	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 6)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
 	@3 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
 	@3 p- 000.png
 	.word ANINS_SHOW_FRAME(1, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_1 - mamkute_tiki_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
@@ -112,9 +111,9 @@ mamkute_tiki_mode_3:
 	@3 p- 001.png
 	.word ANINS_SHOW_FRAME(2, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_2 - mamkute_tiki_frames_r, 3)
 	@3 p- 002.png
-	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 3)
 	@3 p- 003.png
-	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 3)
 	@15 p- 004.png
 	.word ANINS_SHOW_FRAME(5, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_5 - mamkute_tiki_frames_r, 15)
 	@4 p- 005.png
@@ -123,28 +122,28 @@ mamkute_tiki_mode_3:
 
 	.word ANINS_COMMAND_85(0x4A)
 	@10 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 10)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 10)
 	@4 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x51)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
 	@3 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
@@ -202,9 +201,9 @@ mamkute_tiki_mode_5:
 	@4 p- 001.png
 	.word ANINS_SHOW_FRAME(2, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_2 - mamkute_tiki_frames_r, 4)
 	@4 p- 002.png
-	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
 	@15 p- 004.png
 	.word ANINS_SHOW_FRAME(5, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_5 - mamkute_tiki_frames_r, 15)
 	@4 p- 005.png
@@ -212,23 +211,23 @@ mamkute_tiki_mode_5:
 	@S0314
 
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	@6 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 6)
+	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 6)
 	@6 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 6)
+	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 6)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
 	@3 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
 	@3 p- 000.png
 	.word ANINS_SHOW_FRAME(1, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_1 - mamkute_tiki_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
@@ -242,9 +241,9 @@ mamkute_tiki_mode_6:
 	@3 p- 001.png
 	.word ANINS_SHOW_FRAME(2, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_2 - mamkute_tiki_frames_r, 3)
 	@3 p- 002.png
-	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 3)
 	@3 p- 003.png
-	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 3)
 	@15 p- 004.png
 	.word ANINS_SHOW_FRAME(5, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_5 - mamkute_tiki_frames_r, 15)
 	@4 p- 005.png
@@ -253,28 +252,28 @@ mamkute_tiki_mode_6:
 
 	.word ANINS_COMMAND_85(0x4A)
 	@10 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 10)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 10)
 	.word ANINS_COMMAND_85(0x51)
 	@4 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
 	@3 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
@@ -282,26 +281,26 @@ mamkute_tiki_mode_6:
 mamkute_tiki_mode_7:
 	.word ANINS_COMMAND_85(0x02)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0E)
 	@16 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 16)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 16)
 	.word ANINS_COMMAND_85(0x01)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
 mamkute_tiki_mode_8:
 	.word ANINS_COMMAND_85(0x02)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0E)
 	@16 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 16)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 16)
 	.word ANINS_COMMAND_85(0x01)
 	@4 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
 
@@ -332,9 +331,9 @@ mamkute_tiki_mode_12:
 	@4 p- 001.png
 	.word ANINS_SHOW_FRAME(2, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_2 - mamkute_tiki_frames_r, 4)
 	@4 p- 002.png
-	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(3, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_3 - mamkute_tiki_frames_r, 4)
 	@4 p- 003.png
-	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(4, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_4 - mamkute_tiki_frames_r, 4)
 	@15 p- 004.png
 	.word ANINS_SHOW_FRAME(5, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_5 - mamkute_tiki_frames_r, 15)
 	@4 p- 005.png
@@ -342,23 +341,23 @@ mamkute_tiki_mode_12:
 	@S0314
 
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	@4 p- 007.png
-	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(8, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_8 - mamkute_tiki_frames_r, 4)
 	@4 p- 008.png
-	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(9, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_9 - mamkute_tiki_frames_r, 4)
 	@4 p- 009.png
-	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(10, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_10 - mamkute_tiki_frames_r, 4)
 	@4 p- 010.png
-	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(11, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_11 - mamkute_tiki_frames_r, 4)
 	@4 p- 006.png
-	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
+	.word ANINS_SHOW_FRAME(7, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_7 - mamkute_tiki_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
 	.word ANINS_COMMAND_85(0x01)
 	@3 p- 011.png
-	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_1, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(12, mamkute_tiki_sheet_0, mamkute_tiki_frame_r_12 - mamkute_tiki_frames_r, 3)
 	@3 p- 012.png
-	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_3, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
+	.word ANINS_SHOW_FRAME(13, mamkute_tiki_sheet_2, mamkute_tiki_frame_r_13 - mamkute_tiki_frames_r, 3)
 	.word ANINS_COMMAND_85(0x06)
 	.word ANINS_COMMAND_85(0x0D)
 	.word ANINS_END_MODE
