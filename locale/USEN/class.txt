@@ -5,3 +5,7 @@
 [MCID_MAMKUTE] = "Mamkute",
 
 [MCID_H_MAMKUTE] = "\"Humans not human\" who have a sinister" TEXT_NEWLINE "atmosphere about them.",
+
+[MCID_King] = "King",
+
+[MCID_H_King] = "The talented and powerful king of Bern" TEXT_NEWLINE "with high stats all around.",

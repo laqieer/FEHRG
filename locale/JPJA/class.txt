@@ -5,3 +5,7 @@
 [MCID_MAMKUTE] = "マムクート",
 
 [MCID_H_MAMKUTE] = "普通とは違う雰囲気をもつ者" TEXT_NEWLINE "『人ならぬもの』とも言われる",
+
+[MCID_King] = "国王",
+
+[MCID_H_King] = "世界を動かす強国の王" TEXT_NEWLINE "きわめて高い能\力をほこる",

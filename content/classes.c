@@ -6750,4 +6750,69 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// King
+	{
+		MCID_King, // nameTextId
+		MCID_H_King, // descTextId
+		King, // id
+		Knight, // promotionClassId
+		SUIID_King, // standingUnitIconId
+		TRUE, // slowWalking
+		0, // classCardId
+		14, // _u0A
+		35, // baseHP
+		14, // basePow
+		5, // baseSkl
+		5, // baseSpd
+		15, // baseDef
+		10, // baseRes
+		17, // baseCon
+		5, // baseMov
+		80, // maxHP
+		30, // maxPow
+		30, // maxSkl
+		30, // maxSpd
+		30, // maxDef
+		30, // maxRes
+		20, // maxCon
+		5, // classRelativePower
+		10, // growthHP
+		0, // growthPow
+		0, // growthSkl
+		0, // growthSpd
+		0, // growthDef
+		0, // growthRes
+		0, // growthLck
+		4, // promotionHP
+		2, // promotionPow
+		2, // promotionSkl
+		3, // promotionSpd
+		2, // promotionDef
+		3, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_A, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		KingZephielAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c16, // standard
+			(const s8*)0x8c53067, // rain
+			(const s8*)0x8c53477, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };

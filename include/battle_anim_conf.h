@@ -78,4 +78,5 @@ extern const struct BattleAnimationConfig MamkuteFireAnimations[];
 extern const struct BattleAnimationConfig MamkuteDivineAnimations[];
 extern const struct BattleAnimationConfig MamkuteTikiAnimations[];
 extern const struct BattleAnimationConfig MagicDragonAnimations[];
+extern const struct BattleAnimationConfig KingZephielAnimations[];
 

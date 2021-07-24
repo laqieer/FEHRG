@@ -8,6 +8,7 @@ BattleAnimations:
     .word 0, 0, 0, mamkute_divine_modes, mamkute_divine_script_header, mamkute_divine_frames_r_header, mamkute_divine_frames_l_header, mamkute_divine_basic_pal
     .word 0, 0, 0, mamkute_tiki_modes, mamkute_tiki_script_header, mamkute_tiki_frames_r_header, mamkute_tiki_frames_l_header, mamkute_tiki_basic_pal
     .word 0, 0, 0, idunn_dragon_modes, idunn_dragon_script_header, idunn_dragon_frames_r_header, idunn_dragon_frames_l_header, idunn_dragon_basic_pal
+    .word 0, 0, 0, king_zephiel_modes, king_zephiel_script_header, king_zephiel_frames_r_header, king_zephiel_frames_l_header, king_zephiel_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_legendary_modes, roy_legendary_script_header, roy_legendary_frames_r_header, roy_legendary_frames_l_header, roy_legendary_basic_pal

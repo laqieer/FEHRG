@@ -5,3 +5,7 @@
 [MCID_MAMKUTE] = "龙人",
 
 [MCID_H_MAMKUTE] = "拥有与常人不一般感觉的人" TEXT_NEWLINE "也被称为『非人之人』",
+
+[MCID_King] = "国王",
+
+[MCID_H_King] = "撼动世界的强国之王" TEXT_NEWLINE "拥有极高的能力",

@@ -101,3 +101,17 @@ const struct BattleAnimationConfig MagicDragonAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig KingZephielAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_KING_ZEPHIEL
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_KING_ZEPHIEL
+    },
+    ANCFG_END
+};
+
