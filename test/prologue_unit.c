@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Eirik, // charIndex 
-        1, // classIndex
+        Eltshan, // charIndex 
+        Paladin, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
