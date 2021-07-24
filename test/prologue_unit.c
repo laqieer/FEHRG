@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Aqua_newyear01, // charIndex 
-        PegasusKnight, // classIndex
+        Arden, // charIndex 
+        General, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,7 +22,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            IronAxe,
+            IronSword,
             0,
             0,
             0
