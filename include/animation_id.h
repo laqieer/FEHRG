@@ -176,7 +176,6 @@ enum {
 
     // New animations
     ANID_ANNA_AXE,
-    ANID_ANNA_HAND_AXE,
     ANID_ALFONS_SWORD,
     ANID_SHARON_LANCE,
     ANID_ALFONS_SHARON,

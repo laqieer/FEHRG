@@ -26,16 +26,6 @@ const struct BattleAnimationConfig AnnaAnimations[] = {
         ANID_ANNA_AXE
     },
     {
-        HandAxe,
-        false,
-        ANID_ANNA_HAND_AXE
-    },
-    {
-        Tomahawk,
-        false,
-        ANID_ANNA_HAND_AXE
-    },
-    {
         ITYPE_ITEM,
         true,
         ANID_ANNA_AXE
