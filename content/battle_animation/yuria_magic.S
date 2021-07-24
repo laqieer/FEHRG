@@ -46,7 +46,7 @@ yuria_magic_mode_1:
 	.word ANINS_SHOW_FRAME(8, yuria_magic_sheet_0, yuria_magic_frame_r_8 - yuria_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1B)
 	.word ANINS_COMMAND_85(0x05)
-	@Invalid Loop
+	@Loop start
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 2)
 	@2 p- 009.png
@@ -63,7 +63,7 @@ yuria_magic_mode_1:
 	.word ANINS_SHOW_FRAME(11, yuria_magic_sheet_1, yuria_magic_frame_r_11 - yuria_magic_frames_r, 2)
 	@4 p- 011.png
 	.word ANINS_SHOW_FRAME(12, yuria_magic_sheet_1, yuria_magic_frame_r_12 - yuria_magic_frames_r, 4)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(8)
 	@1 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 1)
 	@4 p- 012.png
@@ -247,7 +247,7 @@ yuria_magic_mode_3:
 	.word ANINS_SHOW_FRAME(8, yuria_magic_sheet_0, yuria_magic_frame_r_8 - yuria_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1B)
 	.word ANINS_COMMAND_85(0x05)
-	@Invalid Loop
+	@Loop start
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 2)
 	@2 p- 009.png
@@ -264,7 +264,7 @@ yuria_magic_mode_3:
 	.word ANINS_SHOW_FRAME(11, yuria_magic_sheet_1, yuria_magic_frame_r_11 - yuria_magic_frames_r, 2)
 	@4 p- 011.png
 	.word ANINS_SHOW_FRAME(12, yuria_magic_sheet_1, yuria_magic_frame_r_12 - yuria_magic_frames_r, 4)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(8)
 	@1 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 1)
 	@4 p- 012.png
@@ -448,7 +448,7 @@ yuria_magic_mode_5:
 	.word ANINS_SHOW_FRAME(8, yuria_magic_sheet_0, yuria_magic_frame_r_8 - yuria_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1B)
 	.word ANINS_COMMAND_85(0x05)
-	@Invalid Loop
+	@Loop start
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 2)
 	@2 p- 009.png
@@ -465,7 +465,7 @@ yuria_magic_mode_5:
 	.word ANINS_SHOW_FRAME(11, yuria_magic_sheet_1, yuria_magic_frame_r_11 - yuria_magic_frames_r, 2)
 	@4 p- 011.png
 	.word ANINS_SHOW_FRAME(12, yuria_magic_sheet_1, yuria_magic_frame_r_12 - yuria_magic_frames_r, 4)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(8)
 	@1 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 1)
 	@4 p- 012.png
@@ -566,7 +566,7 @@ yuria_magic_mode_6:
 	.word ANINS_SHOW_FRAME(8, yuria_magic_sheet_0, yuria_magic_frame_r_8 - yuria_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1B)
 	.word ANINS_COMMAND_85(0x05)
-	@Invalid Loop
+	@Loop start
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 2)
 	@2 p- 009.png
@@ -583,7 +583,7 @@ yuria_magic_mode_6:
 	.word ANINS_SHOW_FRAME(11, yuria_magic_sheet_1, yuria_magic_frame_r_11 - yuria_magic_frames_r, 2)
 	@4 p- 011.png
 	.word ANINS_SHOW_FRAME(12, yuria_magic_sheet_1, yuria_magic_frame_r_12 - yuria_magic_frames_r, 4)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(8)
 	@1 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 1)
 	@4 p- 012.png
@@ -697,7 +697,7 @@ yuria_magic_mode_12:
 	.word ANINS_SHOW_FRAME(8, yuria_magic_sheet_0, yuria_magic_frame_r_8 - yuria_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x1B)
 	.word ANINS_COMMAND_85(0x05)
-	@Invalid Loop
+	@Loop start
 	@2 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 2)
 	@2 p- 009.png
@@ -714,7 +714,7 @@ yuria_magic_mode_12:
 	.word ANINS_SHOW_FRAME(11, yuria_magic_sheet_1, yuria_magic_frame_r_11 - yuria_magic_frames_r, 2)
 	@4 p- 011.png
 	.word ANINS_SHOW_FRAME(12, yuria_magic_sheet_1, yuria_magic_frame_r_12 - yuria_magic_frames_r, 4)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(8)
 	@1 p- 008.png
 	.word ANINS_SHOW_FRAME(9, yuria_magic_sheet_0, yuria_magic_frame_r_9 - yuria_magic_frames_r, 1)
 	@4 p- 012.png

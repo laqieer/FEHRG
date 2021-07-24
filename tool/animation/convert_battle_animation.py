@@ -968,7 +968,7 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                         index_loop = lines.index('\t@Loop begin\n')
                         if '\t.word ANINS_COMMAND_85(0x01)\n' in lines[index_loop:]:
                             index_c01 = index_loop + lines[index_loop:].index('\t.word ANINS_COMMAND_85(0x01)\n')
-                            if '\t@Loop begin\n' in lines[index_loop:index_c01]:
+                            if '\t@Loop begin\n' in lines[index_loop + 1:index_c01]:
                                 lines[index_loop] = '\t@Invalid Loop\n'
                             else:
                                 loop_count = 0
