@@ -11,7 +11,7 @@
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
         Roy_popularity01, // charIndex 
-        RoyMasterLord, // classIndex
+        RoyLord, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
