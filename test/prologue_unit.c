@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Reinhardt, // charIndex 
-        Valkyrie, // classIndex
+        Roy_popularity01, // charIndex 
+        RoyMasterLord, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,7 +22,7 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            Fire,
+            IronSword,
             0,
             0,
             0
