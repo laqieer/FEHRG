@@ -554,6 +554,9 @@ class SheetSet:
     def append(self):
         self.sheet_list.append(Sheet(self.palette, len(self.sheet_list)))
 
+    def get(self, sheet_id):
+        return self.sheet_list[sheet_id]
+
     def add(self, image: Image, width=0, height=0, start_sheet_number=0):
         for i, sheet in enumerate(self.sheet_list[start_sheet_number: ]):
             x0, y0 = sheet.try_to_add(image, width, height)
@@ -647,6 +650,8 @@ class Frame:
         self.hash_core = hash_image(self.im_core, sheet_id)
         if self.hash_core in self.parsed_frames:
             self.sheet_index = self.parsed_frames[self.hash_core]['sheet_index']
+            self.part_list_p1 = self.parsed_frames[self.hash_core]['part_list_p1']
+            self.part_list_p2 = self.parsed_frames[self.hash_core]['part_list_p2']
             self.space_list_p1 = self.parsed_frames[self.hash_core]['space_list_p1']
             self.space_list_p2 = self.parsed_frames[self.hash_core]['space_list_p2']
             bbox = self.parsed_frames[self.hash_core]['bbox']
@@ -675,10 +680,10 @@ class Frame:
                 self.part_list_p2 = []
             self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2, sheet_id)
             if sheet_id != -1 and sheet_id != self.sheet_index:
-                if len(frame_ref.part_list_p1) > 0:
-                    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p1, frame_ref.sheet_index)
-                if len(frame_ref.part_list_p2) > 0:
-                    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p2, frame_ref.sheet_index)
+                #if len(frame_ref.part_list_p1) > 0:
+                #    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p1, frame_ref.sheet_index)
+                #if len(frame_ref.part_list_p2) > 0:
+                #    self.sheets.remove_parts(frame_ref.image, frame_ref.space_list_p2, frame_ref.sheet_index)
                 self.sheet_index, _ = self.sheets.find_space_for_parts(self.part_list_p1 + self.part_list_p2 + frame_ref.part_list_p1 + frame_ref.part_list_p2)
                 frame_ref.sheet_index = self.sheet_index
                 if len(frame_ref.part_list_p1) > 0:
@@ -690,6 +695,7 @@ class Frame:
                 else:
                     frame_ref.space_list_p2 = []
                 self.parsed_frames[frame_ref.hash_core] = {'sheet_index': frame_ref.sheet_index,
+                                                       'part_list_p1': frame_ref.part_list_p1, 'part_list_p2': frame_ref.part_list_p2,
                                                        'space_list_p1': frame_ref.space_list_p1, 'space_list_p2': frame_ref.space_list_p2,
                                                        'bbox': frame_ref.bbox, 'bbox_p1': frame_ref.bbox_p1, 'bbox_p2': frame_ref.bbox_p2}
             if len(self.part_list_p1) > 0:
@@ -703,8 +709,12 @@ class Frame:
             if frame_ref is not None:
                 self.hash_core = hash_image(self.im_core, self.sheet_index)
             self.parsed_frames[self.hash_core] = {'sheet_index': self.sheet_index,
+                                                   'part_list_p1': self.part_list_p1, 'part_list_p2': self.part_list_p2,
                                                    'space_list_p1': self.space_list_p1, 'space_list_p2': self.space_list_p2,
                                                    'bbox': self.bbox, 'bbox_p1': self.bbox_p1, 'bbox_p2': self.bbox_p2}
+
+    def get_sheet(self):
+        return self.sheets.get(self.sheet_index)
 
     def tostring(self, side='right'):
         s = ''
@@ -889,6 +899,10 @@ def print_asm_data(name: str, palette: list):
 
 def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr=''):
     if f_text is not None and f_asm is not None:
+        if script_file is not None:
+            path = os.path.dirname(script_file)
+        else:
+            path = ''
         lines_behind = []
         frames = FrameSet()
         mode = 1
@@ -913,6 +927,8 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                             [duration, image_file] = s.split('p-', 1)
                             duration = duration.strip()
                             image_file = image_file.strip()
+                            if script_file is not None and not os.path.isabs(image_file):
+                                image_file = os.path.join(path, image_file)
                             if image_file in parsed_images:
                                 frame_id = parsed_images[image_file]['frame_id']
                                 sheet_id = parsed_images[image_file]['sheet_id']
@@ -926,8 +942,6 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                                         sys.exit(1)
                                     sheet_id = sheet_id_p
                             else:
-                                if script_file is not None and not os.path.isabs(image_file):
-                                    image_file = os.path.join(os.path.dirname(script_file), image_file)
                                 im = Image.open(image_file)
                                 is_pierce = False
                                 if im.width >= 480:
@@ -950,6 +964,7 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
                                     parsed_images[image_file]['sheet_id_p'] = sheet_id_p
                                     sheet_id = sheet_id_p
                                     parsed_images[image_file]['sheet_id'] = sheet_id
+                                #frames.get(frame_id).get_sheet().save_as_image(os.path.join(path, 'debug_image_%s_sheet_%d_frame_%d.png' % (os.path.splitext(os.path.basename(image_file))[0], sheet_id, frame_id)))
                             # frame 0 is empty (for mode 2 and mode 4)
                             s_out += '\t.word ANINS_SHOW_FRAME(%d, %s_sheet_%d, %s_frame_r_%d - %s_frames_r, %s)' % (
                                 frame_id + 1, name, sheet_id, name, frame_id + 1, name, duration)
@@ -990,10 +1005,6 @@ def parse_modes(name, f_text, f_asm, script_file=None, include_file=None, abbr='
             f_oam.writelines(frames.tostring_r(name))
             f_oam.write('\t.section .rodata\n')
             f_oam.writelines(frames.tostring_l(name))
-        if script_file is not None:
-            path = os.path.dirname(script_file)
-        else:
-            path = ''
         print_asm_data(name, frames.frame_list[0].sheets.palette)
         frames.frame_list[0].sheets.save_as_images(os.path.join(path, 'sheet_'))
         if include_file is not None:
