@@ -6815,4 +6815,138 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// EphraimLord
+	{
+		MCID_EphraimLord, // nameTextId
+		MCID_H_EphraimLord, // descTextId
+		EphraimLord, // id
+		EphraimMasterLord, // promotionClassId
+		SUIID_EphraimLord, // standingUnitIconId
+		FALSE, // slowWalking
+		0, // classCardId
+		1, // _u0A
+		18, // baseHP
+		6, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		6, // baseDef
+		0, // baseRes
+		8, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		90, // growthHP
+		45, // growthPow
+		40, // growthSkl
+		45, // growthSpd
+		15, // growthDef
+		15, // growthRes
+		40, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LORD |
+		CA_LOCK_5 |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_D, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		EphraimAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// EirikaLord
+	{
+		MCID_EirikaLord, // nameTextId
+		MCID_H_EirikaLord, // descTextId
+		EirikaLord, // id
+		EirikaMasterLord, // promotionClassId
+		SUIID_EirikaLord, // standingUnitIconId
+		FALSE, // slowWalking
+		0, // classCardId
+		1, // _u0A
+		16, // baseHP
+		4, // basePow
+		8, // baseSkl
+		9, // baseSpd
+		3, // baseDef
+		1, // baseRes
+		5, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		90, // growthHP
+		45, // growthPow
+		40, // growthSkl
+		45, // growthSpd
+		15, // growthDef
+		20, // growthRes
+		40, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LORD |
+		CA_FEMALE |
+        CA_LOCK_2 |
+		CA_LOCK_4 |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_E, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		EirikAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };

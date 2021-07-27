@@ -80,3 +80,6 @@ extern const struct BattleAnimationConfig MamkuteTikiAnimations[];
 extern const struct BattleAnimationConfig MagicDragonAnimations[];
 extern const struct BattleAnimationConfig KingZephielAnimations[];
 
+extern const struct BattleAnimationConfig EphraimAnimations[];
+extern const struct BattleAnimationConfig EirikAnimations[];
+
