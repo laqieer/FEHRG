@@ -10,8 +10,8 @@
 
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
-        Dorcas, // charIndex 
-        EirikaLord, // classIndex
+        Zefhyr, // charIndex 
+        King, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
