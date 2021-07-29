@@ -115,3 +115,31 @@ const struct BattleAnimationConfig KingZephielAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig EirikaMasterLordAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_EIRIK_KNIGHT
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_EIRIK_KNIGHT
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig EphraimMasterLordAnimations[] = {
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_EPHRAIM_KNIGHT
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_EPHRAIM_KNIGHT
+    },
+    ANCFG_END
+};
+

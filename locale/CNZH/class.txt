@@ -9,3 +9,11 @@
 [MCID_King] = "国王",
 
 [MCID_H_King] = "撼动世界的强国之王" TEXT_NEWLINE "拥有极高的能力",
+
+[MCID_EphraimMasterLord] = "王子骑士",
+
+[MCID_H_EphraimMasterLord] = "拥有王者资质的人才被赋予的称号" TEXT_NEWLINE "驾马驰骋在战场上的鲁内斯骑士",
+
+[MCID_EirikaMasterLord] = "公主骑士",
+
+[MCID_H_EirikaMasterLord] = "拥有公主资质的人才被赋予的称号" TEXT_NEWLINE "驾马驰骋在战场上的鲁内斯骑士",

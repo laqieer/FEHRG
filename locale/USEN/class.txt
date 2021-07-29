@@ -9,3 +9,11 @@
 [MCID_King] = "King",
 
 [MCID_H_King] = "The talented and powerful king of Bern" TEXT_NEWLINE "with high stats all around.",
+
+[MCID_EphraimMasterLord] = "Great Lord",
+
+[MCID_H_EphraimMasterLord] = "Mounted lords whose fine qualities" TEXT_NEWLINE "set them apart from their peers.",
+
+[MCID_EirikaMasterLord] = "Great Lord",
+
+[MCID_H_EirikaMasterLord] = "Mounted lords whose fine qualities" TEXT_NEWLINE "set them apart from their peers.",

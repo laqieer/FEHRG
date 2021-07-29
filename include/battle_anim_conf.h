@@ -82,4 +82,5 @@ extern const struct BattleAnimationConfig KingZephielAnimations[];
 
 extern const struct BattleAnimationConfig EphraimAnimations[];
 extern const struct BattleAnimationConfig EirikAnimations[];
-
+extern const struct BattleAnimationConfig EirikaMasterLordAnimations[];
+extern const struct BattleAnimationConfig EphraimMasterLordAnimations[];

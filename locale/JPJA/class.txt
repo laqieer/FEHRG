@@ -9,3 +9,11 @@
 [MCID_King] = "国王",
 
 [MCID_H_King] = "世界を動かす強国の王" TEXT_NEWLINE "きわめて高い能\力をほこる",
+
+[MCID_EphraimMasterLord] = "マスターロード",
+
+[MCID_H_EphraimMasterLord] = "王たる資質を備えた者の称号" TEXT_NEWLINE "騎馬を駆って戦う　ルネスの騎士",
+
+[MCID_EirikaMasterLord] = "マスターロード",
+
+[MCID_H_EirikaMasterLord] = "王女たる資質を備えた者の称号" TEXT_NEWLINE "騎馬を駆って戦う　ルネスの騎士",
