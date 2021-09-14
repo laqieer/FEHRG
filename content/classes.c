@@ -7091,4 +7091,71 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// Manakete
+	{
+		MCID_MANAKETE, // nameTextId
+		MCID_H_MANAKETE, // descTextId
+		Manakete, // id
+		0, // promotionClassId
+		SUIID_Manakete, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Mamkute, // classCardId
+		0, // _u0A
+		12, // baseHP
+		0, // basePow
+		0, // baseSkl
+		2, // baseSpd
+		2, // baseDef
+		2, // baseRes
+		5, // baseCon
+		6, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		2, // classRelativePower
+		95, // growthHP
+		40, // growthPow
+		30, // growthSkl
+		20, // growthSpd
+		0, // growthDef
+		10, // growthRes
+		25, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_LOCK_3 |
+        CA_PROMOTED |
+        CA_FEMALE |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		ManaketeMyrrhAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f22, // standard
+			(const s8*)0x8c53373, // rain
+			(const s8*)0x8c53783, // snow
+		},
+		TerrainAvoidLookupFlyer, // pTerrainAvoidLookup
+		TerrainDefenseLookupFlyer, // pTerrainDefenseLookup
+		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},	
 };

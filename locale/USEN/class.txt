@@ -17,3 +17,7 @@
 [MCID_EirikaMasterLord] = "Great Lord",
 
 [MCID_H_EirikaMasterLord] = "Mounted lords whose fine qualities" TEXT_NEWLINE "set them apart from their peers.",
+
+[MCID_MANAKETE] = "Manakete",
+
+[MCID_H_MANAKETE] = "Mysterious tribesmen who can turn" TEXT_NEWLINE "into dragons. Equip: Dragonstone.",

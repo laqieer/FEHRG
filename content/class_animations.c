@@ -143,3 +143,26 @@ const struct BattleAnimationConfig EphraimMasterLordAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig ManaketeMyrrhAnimations[] = {
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_MANAKETE_MYRRH
+    },
+    {
+        ITYPE_DRAGN,
+        true,
+        ANID_MANAKETE_MYRRH
+    },
+    {
+        ITYPE_12,
+        true,
+        ANID_MANAKETE_MYRRH
+    },
+    {
+        FlameTongue,
+        false,
+        ANID_MANAKETE_MYRRH
+    },
+    ANCFG_END
+};

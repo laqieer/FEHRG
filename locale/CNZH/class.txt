@@ -17,3 +17,7 @@
 [MCID_EirikaMasterLord] = "公主骑士",
 
 [MCID_H_EirikaMasterLord] = "拥有公主资质的人才被赋予的称号" TEXT_NEWLINE "驾马驰骋在战场上的鲁内斯骑士",
+
+[MCID_MANAKETE] = "龙人",
+
+[MCID_H_MANAKETE] = "可变身为龙，使用强力的吐息" TEXT_NEWLINE "装备『龙石』",

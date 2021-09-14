@@ -17,3 +17,7 @@
 [MCID_EirikaMasterLord] = "マスターロード",
 
 [MCID_H_EirikaMasterLord] = "王女たる資質を備えた者の称号" TEXT_NEWLINE "騎馬を駆って戦う　ルネスの騎士",
+
+[MCID_MANAKETE] = "マムクート",
+
+[MCID_H_MANAKETE] = "竜の姿になり　強力なブレスで攻撃" TEXT_NEWLINE "装備『竜石』",
