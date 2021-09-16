@@ -21,3 +21,7 @@
 [MCID_MANAKETE] = "龙人",
 
 [MCID_H_MANAKETE] = "可变身为龙，使用强力的吐息" TEXT_NEWLINE "装备『龙石』",
+
+[MCID_WyvernRider] = "翼龙骑士",
+
+[MCID_H_WyvernRider] = "可以放出将敌人防御破坏的一击" TEXT_NEWLINE "装备『枪』",

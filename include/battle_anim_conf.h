@@ -85,3 +85,4 @@ extern const struct BattleAnimationConfig EirikAnimations[];
 extern const struct BattleAnimationConfig EirikaMasterLordAnimations[];
 extern const struct BattleAnimationConfig EphraimMasterLordAnimations[];
 extern const struct BattleAnimationConfig ManaketeMyrrhAnimations[];
+extern const struct BattleAnimationConfig WyvernRiderAnimations[];

@@ -21,3 +21,7 @@
 [MCID_MANAKETE] = "マムクート",
 
 [MCID_H_MANAKETE] = "竜の姿になり　強力なブレスで攻撃" TEXT_NEWLINE "装備『竜石』",
+
+[MCID_WyvernRider] = "ワイバーンナイト",
+
+[MCID_H_WyvernRider] = "敵の防御を貫く　一撃を放つ" TEXT_NEWLINE "装備『槍』",

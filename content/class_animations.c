@@ -166,3 +166,19 @@ const struct BattleAnimationConfig ManaketeMyrrhAnimations[] = {
     },
     ANCFG_END
 };
+
+const struct BattleAnimationConfig WyvernRiderAnimations[] = {
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_WYVERN_KNIGHT
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_WYVERN_KNIGHT
+    },
+    ANCFG_END
+};
+
+

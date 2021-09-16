@@ -7158,4 +7158,140 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},	
+	// WyvernRider
+	{
+		MCID_WyvernRider, // nameTextId
+		MCID_H_WyvernRider, // descTextId
+		WyvernRider, // id
+		WyvernKnight, // promotionClassId
+		SUIID_WyvernRider, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_WyvernRider, // classCardId
+		15, // _u0A
+		20, // baseHP
+		7, // basePow
+		7, // baseSkl
+		8, // baseSpd
+		7, // baseDef
+		1, // baseRes
+		10, // baseCon
+		8, // baseMov
+		60, // maxHP
+		25, // maxPow
+		26, // maxSkl
+		28, // maxSpd
+		24, // maxDef
+		25, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		65, // growthHP
+		35, // growthPow
+		30, // growthSkl
+		30, // growthSpd
+		15, // growthDef
+		17, // growthRes
+		25, // growthLck
+		3, // promotionHP
+		1, // promotionPow
+		2, // promotionSkl
+		3, // promotionSpd
+		0, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_WYVERN |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_C, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		WyvernRiderAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f22, // standard
+			(const s8*)0x8c53373, // rain
+			(const s8*)0x8c53783, // snow
+		},
+		TerrainAvoidLookupFlyer, // pTerrainAvoidLookup
+		TerrainDefenseLookupFlyer, // pTerrainDefenseLookup
+		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// WyvernRider_F
+	{
+		MCID_WyvernRider, // nameTextId
+		MCID_H_WyvernRider, // descTextId
+		WyvernRider_F, // id
+		WyvernKnight_F, // promotionClassId
+		SUIID_WyvernRider, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_WyvernRider_F, // classCardId
+		15, // _u0A
+		19, // baseHP
+		6, // basePow
+		8, // baseSkl
+		9, // baseSpd
+		6, // baseDef
+		2, // baseRes
+		9, // baseCon
+		8, // baseMov
+		60, // maxHP
+		24, // maxPow
+		27, // maxSkl
+		29, // maxSpd
+		23, // maxDef
+		23, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		65, // growthHP
+		35, // growthPow
+		30, // growthSkl
+		30, // growthSpd
+		15, // growthDef
+		20, // growthRes
+		25, // growthLck
+		3, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		2, // promotionSpd
+		1, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_WYVERN |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_C, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		WyvernRiderAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52f22, // standard
+			(const s8*)0x8c53373, // rain
+			(const s8*)0x8c53783, // snow
+		},
+		TerrainAvoidLookupFlyer, // pTerrainAvoidLookup
+		TerrainDefenseLookupFlyer, // pTerrainDefenseLookup
+		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };

@@ -12,6 +12,7 @@ BattleAnimations:
     .word 0, 0, 0, eirik_knight_modes, eirik_knight_script_header, eirik_knight_frames_r_header, eirik_knight_frames_l_header, eirik_knight_basic_pal
     .word 0, 0, 0, ephraim_knight_modes, ephraim_knight_script_header, ephraim_knight_frames_r_header, ephraim_knight_frames_l_header, ephraim_knight_basic_pal
     .word 0, 0, 0, manakete_myrrh_modes, manakete_myrrh_script_header, manakete_myrrh_frames_r_header, manakete_myrrh_frames_l_header, manakete_myrrh_basic_pal
+    .word 0, 0, 0, wyvern_rider_modes, wyvern_rider_script_header, wyvern_rider_frames_r_header, wyvern_rider_frames_l_header, wyvern_rider_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_legendary_modes, roy_legendary_script_header, roy_legendary_frames_r_header, roy_legendary_frames_l_header, roy_legendary_basic_pal
