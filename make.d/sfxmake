@@ -116,7 +116,7 @@ $(SFXHDR) : $(OFILES)
 ifeq ($(DPCM),disabled)
 	$(SILENTCMD)$(SE2M4A) $< $@
 else
-	$(SILENTCMD)$(SE2M4A) $< $@ -c -s=$(SNR)
+	$(SILENTCMD)$(SE2M4A) $< $@ -c -s=$(SNR) -cr=$(SCR)
 endif
 
 %.s %.h : %.aif
@@ -124,7 +124,7 @@ endif
 ifeq ($(DPCM),disabled)
 	$(SILENTCMD)$(SE2M4A) $< $@
 else
-	$(SILENTCMD)$(SE2M4A) $< $@ -c -s=$(SNR)
+	$(SILENTCMD)$(SE2M4A) $< $@ -c -s=$(SNR) -cr=$(SCR)
 endif
 
 # ---------------------------------------------------------------------

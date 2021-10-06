@@ -2,7 +2,7 @@
 
 """
 Convert SE audio to .s for GBA m4a engine.
-Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?]
+Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?] [-cr/--compress-ratio=?]
 Author: laqieer
 Email: laqieer@126.com
 """
@@ -55,8 +55,8 @@ def calculate_SNR(uncompressed_data, decompressed_data) :
     return 10 * math.log10(float(sum_son) / float(sum_mum))
 
 def main():
-    if len(sys.argv) < 2 or len(sys.argv) > 6:
-        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?]")
+    if len(sys.argv) < 2 or len(sys.argv) > 7:
+        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?] [-cr/--compress-ratio=?]")
     input_file = sys.argv[1]
     audio_path, audio_ext = os.path.splitext(input_file)
     symbol = os.path.basename(audio_path)
@@ -73,19 +73,35 @@ def main():
     else:
         audio_module = aifc
     enable_compress = False
-    if len(sys.argv) >= 3 and (sys.argv[-1] in ('-c', '--compress') or sys.argv[-2] in ('-c', '--compress')):
+    if len(sys.argv) >= 3 and (sys.argv[-1] in ('-c', '--compress') or sys.argv[-2] in ('-c', '--compress') or sys.argv[-3] in ('-c', '--compress')):
         enable_compress = True
     limit_SNR = True
     min_SNR = 5.0
-    if enable_compress and len(sys.argv) >= 4 and (sys.argv[-1][:3] == '-s=' or sys.argv[-1][:6] == '--snr='):
-        min_SNR_str = sys.argv[-1].split('=')[-1]
+    min_SNR_str = ''
+    if enable_compress and len(sys.argv) >= 4:
+        if sys.argv[-1].startswith('-s=') or sys.argv[-1].startswith('--snr='):
+            min_SNR_str = sys.argv[-1].split('=')[-1]
+        if sys.argv[-2].startswith('-s=') or sys.argv[-2].startswith('--snr='):
+            min_SNR_str = sys.argv[-2].split('=')[-1]
         if min_SNR_str == 'no':
             limit_SNR = False
         else:
-            if min_SNR_str[-2:] == 'dB':
+            if min_SNR_str.endswith('dB'):
                 min_SNR_str = min_SNR_str[:-2]
             if len(min_SNR_str) > 0:
                 min_SNR = float(min_SNR_str)
+    limit_CR = True
+    max_CR = 0.8
+    max_CR_str = ''
+    if enable_compress and len(sys.argv) >= 4:
+        if sys.argv[-1].startswith('-cr=') or sys.argv[-1].startswith('--compress-rate='):
+            max_CR_str = sys.argv[-1].split('=')[-1]
+        if sys.argv[-2].startswith('-cr=') or sys.argv[-2].startswith('--compress-rate='):
+            max_CR_str = sys.argv[-2].split('=')[-1]
+        if max_CR_str == 'no':
+            limit_CR = False
+        elif len(max_CR_str) > 0:
+            max_CR = float(max_CR_str)
     with audio_module.open(input_file, 'rb') as audio, open(output_asm, 'w') as asm, open(output_header, 'w') as header:
         if audio.getnchannels() > 1:
             sys.exit(input_file + " has more than 1 channels. Convert it to mono pls.")
@@ -117,10 +133,16 @@ def main():
                 asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
                 asm.write("\n\t.byte " + ', '.join(['%d' % b for b in uncompressed_data]))
             else:
-                print("SNR: %.2f dB" % SNR)
-                asm.write("\t.hword 1, 0\n")
-                asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
-                asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
+                CR = len(compressed_data) / float(frames)
+                if limit_CR and CR > max_CR:
+                    asm.write("\t.hword 0, 0\n")
+                    asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
+                    asm.write("\n\t.byte " + ', '.join(['%d' % b for b in uncompressed_data]))
+                else:
+                    print("SNR: %.2fdB CR: %.3f" % (SNR, CR))
+                    asm.write("\t.hword 1, 0\n")
+                    asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
+                    asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
         else:
             asm.write("\t.hword 0, 0\n")
             asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
