@@ -67,11 +67,10 @@ def main():
         symbol_track = symbol + "_track"
         asm.write(symbol_track + ":\n")
         asm.write("\t.byte KEYSH, 0\n")
-        asm.write("\t.byte TEMPO, 60\n")
         asm.write("\t.byte VOICE, 0\n")
         asm.write("\t.byte VOL, mxv // Volume\n")
         asm.write("\t.byte PAN, c_v\n")
-        asm.write("\t.byte N72, Cn3, v127, W96\n")
+        asm.write("\t.byte N96, Cn3, v127, W96\n")
         asm.write("\t.byte FINE\n")
         asm.write("\n\t.align 2\n")
         asm.write(symbol + ":\n")
