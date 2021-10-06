@@ -2,7 +2,7 @@
 
 """
 Convert SE audio to .s for GBA m4a engine.
-Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress]
+Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?]
 Author: laqieer
 Email: laqieer@126.com
 """
@@ -55,8 +55,8 @@ def calculate_SNR(uncompressed_data, decompressed_data) :
     return 10 * math.log10(float(sum_son) / float(sum_mum))
 
 def main():
-    if len(sys.argv) < 2 or len(sys.argv) > 5:
-        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress]")
+    if len(sys.argv) < 2 or len(sys.argv) > 6:
+        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?]")
     input_file = sys.argv[1]
     audio_path, audio_ext = os.path.splitext(input_file)
     symbol = os.path.basename(audio_path)
@@ -73,8 +73,19 @@ def main():
     else:
         audio_module = aifc
     enable_compress = False
-    if len(sys.argv) >= 3 and sys.argv[-1] in ('-c', '--compress'):
+    if len(sys.argv) >= 3 and (sys.argv[-1] in ('-c', '--compress') or sys.argv[-2] in ('-c', '--compress')):
         enable_compress = True
+    limit_SNR = True
+    min_SNR = 5.0
+    if enable_compress and len(sys.argv) >= 4 and (sys.argv[-1][:3] == '-s=' or sys.argv[-1][:6] == '--snr='):
+        min_SNR_str = sys.argv[-1].split('=')[-1]
+        if min_SNR_str == 'no':
+            limit_SNR = False
+        else:
+            if min_SNR_str[-2:] == 'dB':
+                min_SNR_str = min_SNR_str[:-2]
+            if len(min_SNR_str) > 0:
+                min_SNR = float(min_SNR_str)
     with audio_module.open(input_file, 'rb') as audio, open(output_asm, 'w') as asm, open(output_header, 'w') as header:
         if audio.getnchannels() > 1:
             sys.exit(input_file + " has more than 1 channels. Convert it to mono pls.")
@@ -90,12 +101,7 @@ def main():
         asm.write("\n\t.align 2\n")
         symbol_wave = symbol + "_wave"
         asm.write(symbol_wave + ":\n")
-        if enable_compress:
-            asm.write("\t.hword 1, 0\n")
-        else:
-            asm.write("\t.hword 0, 0\n")
         frames = audio.getnframes()
-        asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
         raw = audio.readframes(frames)
         if enable_compress:
             if audio_ext in ('.wav', '.WAV'):
@@ -106,9 +112,18 @@ def main():
                 uncompressed_data = np.append(uncompressed_data, [0] * (blk_size - frames % blk_size))
             compressed_data, decompressed_data = compress(uncompressed_data)
             SNR = calculate_SNR(uncompressed_data, decompressed_data)
-            print("SNR: %.2f dB" % SNR)
-            asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
+            if limit_SNR and SNR < min_SNR:
+                asm.write("\t.hword 0, 0\n")
+                asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
+                asm.write("\n\t.byte " + ', '.join(['%d' % b for b in uncompressed_data]))
+            else:
+                print("SNR: %.2f dB" % SNR)
+                asm.write("\t.hword 1, 0\n")
+                asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
+                asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
         else:
+            asm.write("\t.hword 0, 0\n")
+            asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
             if type(raw) == bytes:
                 if audio_ext in ('.wav', '.WAV'):  # formats: wav can't encode Signed Integer PCM to 8-bit
                     asm.write("\n\t.byte " + ', '.join(['%d' % (b - 0x80) for b in raw]))
