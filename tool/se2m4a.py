@@ -32,11 +32,9 @@ def compress_blk(uncompressed_data):
         else:
             compressed_data[-1] |= quantized_value & 0xF
         decompressed_data.append(decompressed_data[index - 1] + quantized_table[quantized_value])
-        #print("%d: %d %d %d %d" % (index, uncompressed_data[index], diff_value[index], quantized_value, compressed_data[-1]))
     return compressed_data, decompressed_data
 
 def compress(uncompressed_data):
-    #print("index: value delta quantized compressed")
     compressed_data = []
     decompressed_data = []
     blks = np.split(uncompressed_data, len(uncompressed_data) / blk_size)
@@ -91,7 +89,6 @@ def main():
         raw = audio.readframes(frames)
         if enable_compress:
             if audio_ext in ('.wav', '.WAV'):
-                #uncompressed_data = np.frombuffer(raw, dtype = np.ubyte).astype(np.byte) + 0x80
                 uncompressed_data = (np.frombuffer(raw, dtype = np.ubyte) - 0x80).astype(np.byte)
             else:
                 uncompressed_data = np.frombuffer(raw, dtype = np.byte)
