@@ -2,7 +2,7 @@
 
 """
 Convert SE audio to .s for GBA m4a engine.
-Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)]
+Usage: ./se2m4a.py input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress]
 Author: laqieer
 Email: laqieer@126.com
 """
@@ -10,21 +10,53 @@ import os
 import sys
 import wave
 import aifc
+import numpy as np
 
 magic_rates = (5734, 7884, 10512, 13379, 15768, 18157, 21024, 26758, 31536, 36314, 40137, 42048)
+blk_size = 64
+quantized_table = [0, 1, 4, 9, 16, 25, 36, 49, -64, -49, -36, -25, -16, -9, -4, -1]
+quantized_array = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 12, 12, 13, 13, 13, 13, 13, 13, 14, 14, 14, 14, 15, 15, 0, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
 
+def compress_blk(uncompressed_data):
+    diff_value = [uncompressed_data[0]]
+    compressed_data = [uncompressed_data[0]]
+    decompressed_data = [uncompressed_data[0]]
+    for index in range(len(uncompressed_data)) :
+        if index == 0 :
+            compressed_data.append(0)
+            continue
+        diff_value.append(np.int(uncompressed_data[index]) - np.int(decompressed_data[index - 1]))
+        quantized_value = quantized_array[diff_value[index] + 255]
+        if index % 2 == 0:
+            compressed_data.append((quantized_value & 0xF) << 4)
+        else:
+            compressed_data[-1] |= quantized_value & 0xF
+        decompressed_data.append(decompressed_data[index - 1] + quantized_table[quantized_value])
+        #print("%d: %d %d %d %d" % (index, uncompressed_data[index], diff_value[index], quantized_value, compressed_data[-1]))
+    return compressed_data, decompressed_data
+
+def compress(uncompressed_data):
+    #print("index: value delta quantized compressed")
+    compressed_data = []
+    decompressed_data = []
+    blks = np.split(uncompressed_data, len(uncompressed_data) / blk_size)
+    for blk in blks:
+        compressed_blk, decompressed_blk = compress_blk(blk)
+        compressed_data += compressed_blk
+        decompressed_data += decompressed_blk
+    return compressed_data, decompressed_data
 
 def main():
-    if len(sys.argv) < 2 or len(sys.argv) > 4:
-        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)]")
+    if len(sys.argv) < 2 or len(sys.argv) > 5:
+        sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress]")
     input_file = sys.argv[1]
     audio_path, audio_ext = os.path.splitext(input_file)
     symbol = os.path.basename(audio_path)
-    if len(sys.argv) == 3:
+    if len(sys.argv) >= 3 and sys.argv[2] not in ('-c', '--compress'):
         output_asm = sys.argv[2]
     else:
         output_asm = audio_path + '.s'
-    if len(sys.argv) == 4:
+    if len(sys.argv) >= 4 and sys.argv[3] not in ('-c', '--compress'):
         output_header = sys.argv[3]
     else:
         output_header = output_asm[:-2] + '.h'
@@ -32,6 +64,9 @@ def main():
         audio_module = wave
     else:
         audio_module = aifc
+    enable_compress = False
+    if len(sys.argv) >= 3 and sys.argv[-1] in ('-c', '--compress'):
+        enable_compress = True
     with audio_module.open(input_file, 'rb') as audio, open(output_asm, 'w') as asm, open(output_header, 'w') as header:
         if audio.getnchannels() > 1:
             sys.exit(input_file + " has more than 1 channels. Convert it to mono pls.")
@@ -47,17 +82,31 @@ def main():
         asm.write("\n\t.align 2\n")
         symbol_wave = symbol + "_wave"
         asm.write(symbol_wave + ":\n")
-        asm.write("\t.hword 0, 0\n")
+        if enable_compress:
+            asm.write("\t.hword 1, 0\n")
+        else:
+            asm.write("\t.hword 0, 0\n")
         frames = audio.getnframes()
         asm.write("\t.word " + str(rate * 1024) + ", 0, " + str(frames))
         raw = audio.readframes(frames)
-        if type(raw) == bytes:
-            if audio_ext in ('.wav', '.WAV'):  # formats: wav can't encode Signed Integer PCM to 8-bit
-                asm.write("\n\t.byte " + ', '.join(['%d' % (b - 0x80) for b in raw]))
-            else:  # formats: aiff can't encode Unsigned Integer PCM
-                asm.write("\n\t.byte " + ', '.join(['%d' % b for b in raw]))
+        if enable_compress:
+            if audio_ext in ('.wav', '.WAV'):
+                #uncompressed_data = np.frombuffer(raw, dtype = np.ubyte).astype(np.byte) + 0x80
+                uncompressed_data = (np.frombuffer(raw, dtype = np.ubyte) - 0x80).astype(np.byte)
+            else:
+                uncompressed_data = np.frombuffer(raw, dtype = np.byte)
+            if frames % blk_size > 0:
+                uncompressed_data = np.append(uncompressed_data, [0] * (blk_size - frames % blk_size))
+            compressed_data, decompressed_data = compress(uncompressed_data)
+            asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
         else:
-            asm.write("\n\t.string \"" + raw + "\"")
+            if type(raw) == bytes:
+                if audio_ext in ('.wav', '.WAV'):  # formats: wav can't encode Signed Integer PCM to 8-bit
+                    asm.write("\n\t.byte " + ', '.join(['%d' % (b - 0x80) for b in raw]))
+                else:  # formats: aiff can't encode Unsigned Integer PCM
+                    asm.write("\n\t.byte " + ', '.join(['%d' % b for b in raw]))
+            else:
+                asm.write("\n\t.string \"" + raw + "\"")
         asm.write("\n\t.align 2\n")
         symbol_tone = symbol + "_tone"
         asm.write(symbol_tone + ":\n")

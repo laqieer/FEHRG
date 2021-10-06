@@ -14,3 +14,4 @@ INCLUDE ../linkerscript/character.lds
 INCLUDE ../linkerscript/class.lds
 INCLUDE ../linkerscript/standing_unit_icon.lds
 INCLUDE ../linkerscript/moving_unit_icon.lds
+INCLUDE ../linkerscript/improved_sound_mixer.lds

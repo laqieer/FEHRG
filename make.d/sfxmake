@@ -113,11 +113,19 @@ $(SFXHDR) : $(OFILES)
 
 %.s %.h : %.wav
 	$(SILENTMSG) $(<F)
+ifeq ($(DPCM),disabled)
 	$(SILENTCMD)$(SE2M4A) $< $@
+else
+	$(SILENTCMD)$(SE2M4A) $< $@ -c
+endif
 
 %.s %.h : %.aif
 	$(SILENTMSG) $(<F)
+ifeq ($(DPCM),disabled)
 	$(SILENTCMD)$(SE2M4A) $< $@
+else
+	$(SILENTCMD)$(SE2M4A) $< $@ -c
+endif
 
 # ---------------------------------------------------------------------
 # (4) SPECIAL RULES 

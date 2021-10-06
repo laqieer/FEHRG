@@ -112,4 +112,6 @@ CurrentSelectedItemInOptionMenu = 0x202016a;
 
 CurrentChapterTitleImageTileId = 0x0203e672;
 
+/* Improved sound mixer. */
 
+SoundMainRAM_MixBuffer = 0x3002378;

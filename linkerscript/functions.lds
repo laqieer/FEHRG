@@ -7986,3 +7986,5 @@ FUN_08fe0ddc = 1 | 0x8fe0ddc;
 FUN_08ff1f74 = 1 | 0x8ff1f74;
 FUN_08ff879e = 1 | 0x8ff879e;
 FUN_08ffe88a = 1 | 0x8ffe88a;
+
+SoundMainRAMFunc = 1 | 0x3005DA0;
