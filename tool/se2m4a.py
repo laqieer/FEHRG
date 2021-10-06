@@ -10,6 +10,7 @@ import os
 import sys
 import wave
 import aifc
+import math
 import numpy as np
 
 magic_rates = (5734, 7884, 10512, 13379, 15768, 18157, 21024, 26758, 31536, 36314, 40137, 42048)
@@ -43,6 +44,15 @@ def compress(uncompressed_data):
         compressed_data += compressed_blk
         decompressed_data += decompressed_blk
     return compressed_data, decompressed_data
+
+def calculate_SNR(uncompressed_data, decompressed_data) :
+    sum_son = np.int64(0)
+    sum_mum = np.int64(0)
+    for i in range(len(decompressed_data)) :
+        sum_son += int(decompressed_data[i]) * int(decompressed_data[i])
+        sub = decompressed_data[i] - uncompressed_data[i]
+        sum_mum += sub * sub
+    return 10 * math.log10(float(sum_son) / float(sum_mum))
 
 def main():
     if len(sys.argv) < 2 or len(sys.argv) > 5:
@@ -95,6 +105,8 @@ def main():
             if frames % blk_size > 0:
                 uncompressed_data = np.append(uncompressed_data, [0] * (blk_size - frames % blk_size))
             compressed_data, decompressed_data = compress(uncompressed_data)
+            SNR = calculate_SNR(uncompressed_data, decompressed_data)
+            print("SNR: %.2f dB" % SNR)
             asm.write("\n\t.byte " + ', '.join(['%d' % b for b in compressed_data]))
         else:
             if type(raw) == bytes:
