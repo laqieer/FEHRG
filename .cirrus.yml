@@ -1,6 +1,8 @@
 container:
   image: devkitpro/devkitarm
 task:
+  env:
+    CIRRUS_CLONE_SUBMODULES: true
   baserom_script:
     - head -c 16MB /dev/urandom > baserom.gba
   make_script:

@@ -9,6 +9,8 @@ jobs:
     working_directory: ~/FEHRG
     steps:
     - checkout
+    - run: git submodule sync
+    - run: git submodule update --init
     - run:
         name: Baserom
         command: |
