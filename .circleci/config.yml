@@ -16,7 +16,7 @@ jobs:
     - run:
         name: Dependancy
         command: |
-          apt-get install -y python3-pip && python3 -m pip install numpy
+          add-apt-repository universe && apt-get update && apt-get install -y python3-pip && python3 -m pip install numpy
     - run:
           name: Make
           command: |
