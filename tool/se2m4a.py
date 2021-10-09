@@ -11,7 +11,7 @@ import sys
 import wave
 import aifc
 import math
-import numpy as np
+import array
 
 magic_rates = (5734, 7884, 10512, 13379, 15768, 18157, 21024, 26758, 31536, 36314, 40137, 42048)
 blk_size = 64
@@ -26,7 +26,7 @@ def compress_blk(uncompressed_data):
         if index == 0 :
             compressed_data.append(0)
             continue
-        diff_value.append(np.int(uncompressed_data[index]) - np.int(decompressed_data[index - 1]))
+        diff_value.append(uncompressed_data[index] - decompressed_data[index - 1])
         quantized_value = quantized_array[diff_value[index] + 255]
         if index % 2 == 0:
             compressed_data.append((quantized_value & 0xF) << 4)
@@ -38,7 +38,7 @@ def compress_blk(uncompressed_data):
 def compress(uncompressed_data):
     compressed_data = []
     decompressed_data = []
-    blks = np.split(uncompressed_data, len(uncompressed_data) / blk_size)
+    blks = [uncompressed_data[i:i + blk_size] for i in range(0, len(uncompressed_data), blk_size)]
     for blk in blks:
         compressed_blk, decompressed_blk = compress_blk(blk)
         compressed_data += compressed_blk
@@ -46,8 +46,8 @@ def compress(uncompressed_data):
     return compressed_data, decompressed_data
 
 def calculate_SNR(uncompressed_data, decompressed_data) :
-    sum_son = np.int64(0)
-    sum_mum = np.int64(0)
+    sum_son = 0
+    sum_mum = 0
     for i in range(len(decompressed_data)) :
         sum_son += int(decompressed_data[i]) * int(decompressed_data[i])
         sub = decompressed_data[i] - uncompressed_data[i]
@@ -121,11 +121,11 @@ def main():
         raw = audio.readframes(frames)
         if enable_compress:
             if audio_ext in ('.wav', '.WAV'):
-                uncompressed_data = (np.frombuffer(raw, dtype = np.ubyte) - 0x80).astype(np.byte)
+                uncompressed_data = [b - 0x80 for b in raw]
             else:
-                uncompressed_data = np.frombuffer(raw, dtype = np.byte)
+                uncompressed_data = array.array("b").fromstring(raw).tolist()
             if frames % blk_size > 0:
-                uncompressed_data = np.append(uncompressed_data, [0] * (blk_size - frames % blk_size))
+                uncompressed_data += [0] * (blk_size - frames % blk_size)
             compressed_data, decompressed_data = compress(uncompressed_data)
             SNR = calculate_SNR(uncompressed_data, decompressed_data)
             if limit_SNR and SNR < min_SNR:
