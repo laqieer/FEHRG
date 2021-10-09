@@ -14,6 +14,10 @@ jobs:
         command: |
           head -c 16MB /dev/urandom > baserom.gba
     - run:
+        name: Dependancy
+        command: |
+          pip3 install numpy
+    - run:
           name: Make
           command: |
             make
