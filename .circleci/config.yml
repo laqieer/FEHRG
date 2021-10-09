@@ -16,7 +16,7 @@ jobs:
     - run:
         name: Dependancy
         command: |
-          apt-get install -y python3-distutils && curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py && python3 -m pip install numpy
+          apt-get install -y libpython3.7-stdlib && curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py && python3 -m pip install numpy
     - run:
           name: Make
           command: |
