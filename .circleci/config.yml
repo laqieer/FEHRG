@@ -16,7 +16,7 @@ jobs:
     - run:
         name: Dependancy
         command: |
-          pip3 install numpy
+          python3 -m pip install numpy
     - run:
           name: Make
           command: |
