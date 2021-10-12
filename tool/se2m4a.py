@@ -49,7 +49,7 @@ def calculate_SNR(uncompressed_data, decompressed_data) :
     sum_son = 0
     sum_mum = 0
     for i in range(len(decompressed_data)) :
-        sum_son += int(decompressed_data[i]) * int(decompressed_data[i])
+        sum_son += int(decompressed_data[i] + 128) * int(decompressed_data[i] + 128)
         sub = decompressed_data[i] - uncompressed_data[i]
         sum_mum += sub * sub
     return 10 * math.log10(float(sum_son) / float(sum_mum))
@@ -76,7 +76,7 @@ def main():
     if len(sys.argv) >= 3 and (sys.argv[-1] in ('-c', '--compress') or sys.argv[-2] in ('-c', '--compress') or sys.argv[-3] in ('-c', '--compress')):
         enable_compress = True
     limit_SNR = True
-    min_SNR = 5.0
+    min_SNR = 15.0
     min_SNR_str = ''
     if enable_compress and len(sys.argv) >= 4:
         if sys.argv[-1].startswith('-s=') or sys.argv[-1].startswith('--snr='):
