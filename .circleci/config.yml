@@ -14,7 +14,7 @@ jobs:
     - run:
         name: Dependancy
         command: |
-          apt-get -y install sox
+          tool/install_sox_from_source.sh
     - run:
         name: Baserom
         command: |
