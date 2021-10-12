@@ -34,7 +34,7 @@ SFXDIRS     := voice
 SFXLIB      ?= libsfx.a
 SFXHDR      ?= all_sfx.h
 
-SFXEXTS     := wav aif
+SFXEXTS     := wav aif ckb
 
 # ---------------------------------------------------------------------
 # BUILD FLAGS
@@ -47,6 +47,12 @@ CFLAGS      :=
 CXXFLAGS    := $(CFLAGS) -fno-rtti -fno-exceptions
 ASFLAGS     := 
 
+# ---------------------------------------------------------------------
+# Others
+# ---------------------------------------------------------------------
+
+SOX         ?= sox
+FREQ        ?= 10512
 
 # ---------------------------------------------------------------------
 # (2) BUILD PROCEDURE
@@ -110,6 +116,10 @@ $(SFXHDR) : $(OFILES)
 # ---------------------------------------------------------------------
 # (3) BASE CONVERSION RULES
 # ---------------------------------------------------------------------
+
+%.wav: %_extracted.wave
+	$(SILENTMSG) $(<F)
+	$(SILENTCMD)$(SOX) --norm $< -r $(FREQ) -b 8 -c 1 $@
 
 %.s %.h : %.wav
 	$(SILENTMSG) $(<F)

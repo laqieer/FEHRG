@@ -1,12 +1,15 @@
+CKTOOL	?= cktool
+SOX		?= sox
+
 ckbs = $(wildcard *.ckb)
-waves = $(ckbs:.ckb=.wav)
+waves = $(ckbs:.ckb=_extracted.wave)
 
 all: $(waves)
 
-$(waves): %.wav: %.ckb
-	cktool extract $<
-	sox $*_extracted.wav -r 5734 -b 8 -c 1 $*.wav
+$(waves): %_extracted.wave: %.ckb
+	$(CKTOOL) extract $<
+	$(SOX) --norm $*_extracted.wav -t wav $@
 	rm $*_extracted.wav
 
 clean:
-	rm -f *.wav
+	rm -f *.wav *.wave

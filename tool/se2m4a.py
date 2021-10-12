@@ -59,7 +59,6 @@ def main():
         sys.exit(sys.argv[0] + " input_file(audio) [output_asm(.s) output_header(.h)] [-c/--compress] [-s/--snr=?] [-cr/--compress-ratio=?]")
     input_file = sys.argv[1]
     audio_path, audio_ext = os.path.splitext(input_file)
-    symbol = os.path.basename(audio_path)
     if len(sys.argv) >= 3 and sys.argv[2] not in ('-c', '--compress'):
         output_asm = sys.argv[2]
     else:
@@ -68,6 +67,7 @@ def main():
         output_header = sys.argv[3]
     else:
         output_header = output_asm[:-2] + '.h'
+    symbol = os.path.splitext(os.path.basename(output_header))[0]
     if audio_ext in ('.wav', '.WAV'):
         audio_module = wave
     else:
