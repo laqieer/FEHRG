@@ -3,6 +3,8 @@ container:
 task:
   env:
     CIRRUS_CLONE_SUBMODULES: true
+  dependancy_script:
+    - apt-get -y install sox
   baserom_script:
     - head -c 16MB /dev/urandom > baserom.gba
   make_script:

@@ -12,6 +12,10 @@ jobs:
     - run: git submodule sync
     - run: git submodule update --init
     - run:
+        name: Dependancy
+        command: |
+          apt-get -y install sox
+    - run:
         name: Baserom
         command: |
           head -c 16MB /dev/urandom > baserom.gba
