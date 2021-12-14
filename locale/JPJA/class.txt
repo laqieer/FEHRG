@@ -25,3 +25,7 @@
 [MCID_WyvernRider] = "ワイバーンナイト",
 
 [MCID_H_WyvernRider] = "敵の防御を貫く　一撃を放つ" TEXT_NEWLINE "装備『槍』",
+
+[MCID_Ranger] = "フォレストナイト",
+
+[MCID_H_Ranger] = "弓と剣を使い分け　移動力にすぐれる" TEXT_NEWLINE "装備『剣・弓』",

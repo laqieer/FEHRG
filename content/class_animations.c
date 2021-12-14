@@ -181,4 +181,22 @@ const struct BattleAnimationConfig WyvernRiderAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig RangerAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_RANGER_SWORD
+    },
+    {
+        ITYPE_BOW,
+        true,
+        ANID_RANGER_BOW
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_RANGER_BOW
+    },
+    ANCFG_END
+};
 

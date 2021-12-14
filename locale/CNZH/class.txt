@@ -25,3 +25,7 @@
 [MCID_WyvernRider] = "翼龙骑士",
 
 [MCID_H_WyvernRider] = "可以放出将敌人防御破坏的一击" TEXT_NEWLINE "装备『枪』",
+
+[MCID_Ranger] = "丛林骑士",
+
+[MCID_H_Ranger] = "可弓与剑并使，移动力优秀" TEXT_NEWLINE "装备『剑·弓』",

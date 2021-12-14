@@ -7294,4 +7294,140 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupFlyer, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
+	// Ranger
+	{
+		MCID_Ranger, // nameTextId
+		MCID_H_Ranger, // descTextId
+		Ranger, // id
+		Nomad, // promotionClassId
+		SUIID_Ranger, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Ranger, // classCardId
+		12, // _u0A
+		21, // baseHP
+		7, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		6, // baseDef
+		3, // baseRes
+		9, // baseCon
+		7, // baseMov
+		60, // maxHP
+		25, // maxPow
+		28, // maxSkl
+		30, // maxSpd
+		24, // maxDef
+		23, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		60, // growthHP
+		25, // growthPow
+		30, // growthSkl
+		35, // growthSpd
+		15, // growthDef
+		15, // growthRes
+		25, // growthLck
+		3, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		1, // promotionSpd
+		3, // promotionDef
+		3, // promotionRes
+		// attributes
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_MOUNTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_D, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_D, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RangerAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52ee1, // standard
+			(const s8*)0x8c53332, // rain
+			(const s8*)0x8c53742, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Ranger_F
+	{
+		MCID_Ranger, // nameTextId
+		MCID_H_Ranger, // descTextId
+		Ranger_F, // id
+		Nomad_F, // promotionClassId
+		SUIID_Ranger_F, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Ranger, // classCardId
+		12, // _u0A
+		21, // baseHP
+		6, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		5, // baseDef
+		4, // baseRes
+		8, // baseCon
+		7, // baseMov
+		60, // maxHP
+		23, // maxPow
+		28, // maxSkl
+		30, // maxSpd
+		22, // maxDef
+		25, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		60, // growthHP
+		25, // growthPow
+		30, // growthSkl
+		35, // growthSpd
+		15, // growthDef
+		20, // growthRes
+		25, // growthLck
+		2, // promotionHP
+		2, // promotionPow
+		2, // promotionSkl
+		1, // promotionSpd
+		3, // promotionDef
+		3, // promotionRes
+		// attributes
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_MOUNTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_D, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_D, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RangerAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52ee1, // standard
+			(const s8*)0x8c53332, // rain
+			(const s8*)0x8c53742, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
 };

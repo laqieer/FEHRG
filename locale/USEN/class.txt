@@ -25,3 +25,7 @@
 [MCID_WyvernRider] = "Wyvern Kn.",
 
 [MCID_H_WyvernRider] = "Wyvern riders who can pierce enemy" TEXT_NEWLINE "defenses. Equip: Lances.",
+
+[MCID_Ranger] = "Ranger",
+
+[MCID_H_Ranger] = "Fighters skilled in both sword and bow." TEXT_NEWLINE "Equip: Swords, bows.",
