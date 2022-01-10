@@ -165,7 +165,7 @@ def main():
         asm.write("\t.byte VOICE, 0\n")
         asm.write("\t.byte VOL, mxv // Volume\n")
         asm.write("\t.byte PAN, c_v\n")
-        asm.write("\t.byte N96, Cn3, v127, W96\n")
+        asm.write("\t.byte TIE, Cn3, v127, W96, W96, W96, EOT\n")
         asm.write("\t.byte FINE\n")
         asm.write("\n\t.align 2\n")
         asm.write(symbol + ":\n")
