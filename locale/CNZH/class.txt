@@ -29,3 +29,7 @@
 [MCID_Ranger] = "丛林骑士",
 
 [MCID_H_Ranger] = "可弓与剑并使，移动力优秀" TEXT_NEWLINE "装备『剑·弓』",
+
+[MCID_Summoner] = "召唤士",
+
+[MCID_H_Summoner] = "可使用高位暗魔法、召唤亡灵战士" TEXT_NEWLINE "装备『暗·杖』 特技『召唤』",

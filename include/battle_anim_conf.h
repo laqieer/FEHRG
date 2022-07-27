@@ -87,3 +87,4 @@ extern const struct BattleAnimationConfig EphraimMasterLordAnimations[];
 extern const struct BattleAnimationConfig ManaketeMyrrhAnimations[];
 extern const struct BattleAnimationConfig WyvernRiderAnimations[];
 extern const struct BattleAnimationConfig RangerAnimations[];
+extern const struct BattleAnimationConfig SummonerAnimations[];

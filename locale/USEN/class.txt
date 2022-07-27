@@ -29,3 +29,7 @@
 [MCID_Ranger] = "Ranger",
 
 [MCID_H_Ranger] = "Fighters skilled in both sword and bow." TEXT_NEWLINE "Equip: Swords, bows.",
+
+[MCID_Summoner] = "Summoner",
+
+[MCID_H_Summoner] = "Master sorcerers who summon fighters." TEXT_NEWLINE "Equip: Dark, staves. Skill: Summon.",

@@ -200,3 +200,32 @@ const struct BattleAnimationConfig RangerAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig SummonerAnimations[] = {
+    {
+        ITYPE_STAFF,
+        true,
+        ANID_SUMMONER_STAFF
+    },
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_SUMMONER_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_SUMMONER_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_SUMMONER_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_SUMMONER_MAGIC
+    },
+    ANCFG_END
+};
+
