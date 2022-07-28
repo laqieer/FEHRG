@@ -7503,7 +7503,7 @@ const struct Class Classes[] = {
 		Shaman_F, // promotionClassId
 		SUIID_Summoner_F, // standingUnitIconId
 		FALSE, // slowWalking
-		CCID_Summoner, // classCardId
+		CCID_Summoner_F, // classCardId
 		29, // _u0A
 		18, // baseHP
 		5, // basePow
@@ -7554,6 +7554,537 @@ const struct Class Classes[] = {
 			(const s8*)0x8c52d9c, // standard
 			(const s8*)0x8c531ed, // rain
 			(const s8*)0x8c535fd, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Rogue
+	{
+		MCID_Rogue, // nameTextId
+		MCID_H_Rogue, // descTextId
+		Rogue, // id
+		Thief, // promotionClassId
+		SUIID_Rogue, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Rogue, // classCardId
+		9, // _u0A
+		16, // baseHP
+		3, // basePow
+		1, // baseSkl
+		9, // baseSpd
+		2, // baseDef
+		0, // baseRes
+		7, // baseCon
+		6, // baseMov
+		60, // maxHP
+		20, // maxPow
+		30, // maxSkl
+		30, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		50, // growthHP
+		10, // growthPow
+		45, // growthSkl
+		35, // growthSpd
+		5, // growthDef
+		20, // growthRes
+		40, // growthLck
+		2, // promotionHP
+		1, // promotionPow
+		1, // promotionSkl
+		0, // promotionSpd
+		2, // promotionDef
+		2, // promotionRes
+		// attributes
+		CA_STEAL |
+		CA_THIEF |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_E, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RogueAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52d5b, // standard
+			(const s8*)0x8c531ac, // rain
+			(const s8*)0x8c535bc, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// GreatKnight
+	{
+		MCID_GreatKnight, // nameTextId
+		MCID_H_GreatKnight, // descTextId
+		GreatKnight, // id
+		Knight, // promotionClassId
+		SUIID_GreatKnight, // standingUnitIconId
+		TRUE, // slowWalking
+		CCID_GreatKnight, // classCardId
+		34, // _u0A
+		21, // baseHP
+		8, // basePow
+		4, // baseSkl
+		6, // baseSpd
+		11, // baseDef
+		3, // baseRes
+		13, // baseCon
+		6, // baseMov
+		60, // maxHP
+		28, // maxPow
+		24, // maxSkl
+		24, // maxSpd
+		29, // maxDef
+		25, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		70, // growthHP
+		30, // growthPow
+		20, // growthSkl
+		15, // growthSpd
+		21, // growthDef
+		20, // growthRes
+		20, // growthLck
+		3, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		2, // promotionSpd
+		2, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_MOUNTED |
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_E, // Sword
+			WPN_EXP_D, // Lance
+			WPN_EXP_D, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		GreatKnightAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c16, // standard
+			(const s8*)0x8c53067, // rain
+			(const s8*)0x8c53477, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// GreatKnight_F
+	{
+		MCID_GreatKnight, // nameTextId
+		MCID_H_GreatKnight, // descTextId
+		GreatKnight_F, // id
+		Knight_F, // promotionClassId
+		SUIID_GreatKnight, // standingUnitIconId
+		TRUE, // slowWalking
+		CCID_GreatKnight_F, // classCardId
+		34, // _u0A
+		20, // baseHP
+		6, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		9, // baseDef
+		3, // baseRes
+		10, // baseCon
+		6, // baseMov
+		60, // maxHP
+		26, // maxPow
+		25, // maxSkl
+		23, // maxSpd
+		28, // maxDef
+		26, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		70, // growthHP
+		30, // growthPow
+		25, // growthSkl
+		20, // growthSpd
+		21, // growthDef
+		22, // growthRes
+		20, // growthLck
+		3, // promotionHP
+		1, // promotionPow
+		1, // promotionSkl
+		2, // promotionSpd
+		2, // promotionDef
+		2, // promotionRes
+		// attributes
+		CA_MOUNTED |
+		CA_MOUNTEDAID |
+		CA_CANTO |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_E, // Sword
+			WPN_EXP_D, // Lance
+			WPN_EXP_D, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		GreatKnightAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c16, // standard
+			(const s8*)0x8c53067, // rain
+			(const s8*)0x8c53477, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Recruit
+	{
+		MCID_Recruit, // nameTextId
+		MCID_H_Recruit, // descTextId
+		Recruit, // id
+		Soldier, // promotionClassId
+		SUIID_Recruit, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Soldier, // classCardId
+		40, // _u0A
+		23, // baseHP
+		6, // basePow
+		6, // baseSkl
+		11, // baseSpd
+		7, // baseDef
+		6, // baseRes
+		6, // baseCon
+		6, // baseMov
+		60, // maxHP
+		28, // maxPow
+		30, // maxSkl
+		29, // maxSpd
+		27, // maxDef
+		27, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		75, // growthHP
+		45, // growthPow
+		40, // growthSkl
+		40, // growthSpd
+		25, // growthDef
+		35, // growthRes
+		40, // growthLck
+		2, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		1, // promotionSpd
+		2, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_CRITBONUS |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_C, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		RecruitAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52bd5, // standard
+			(const s8*)0x8c53026, // rain
+			(const s8*)0x8c53436, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Journeyman
+	{
+		MCID_Journeyman, // nameTextId
+		MCID_H_Journeyman, // descTextId
+		Journeyman, // id
+		Fighter, // promotionClassId
+		SUIID_Journeyman, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Fighter, // classCardId
+		39, // _u0A
+		28, // baseHP
+		8, // basePow
+		5, // baseSkl
+		6, // baseSpd
+		5, // baseDef
+		0, // baseRes
+		8, // baseCon
+		6, // baseMov
+		60, // maxHP
+		30, // maxPow
+		28, // maxSkl
+		26, // maxSpd
+		30, // maxDef
+		24, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		85, // growthHP
+		55, // growthPow
+		40, // growthSkl
+		32, // growthSpd
+		18, // growthDef
+		20, // growthRes
+		40, // growthLck
+		4, // promotionHP
+		1, // promotionPow
+		2, // promotionSkl
+		2, // promotionSpd
+		2, // promotionDef
+		2, // promotionRes
+		// attributes
+		CA_CRITBONUS |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_C, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		JourneymanAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c57, // standard
+			(const s8*)0x8c530a8, // rain
+			(const s8*)0x8c534b8, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Pupil
+	{
+		MCID_Pupil, // nameTextId
+		MCID_H_Pupil, // descTextId
+		Pupil, // id
+		Mage, // promotionClassId
+		SUIID_Pupil, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Mage, // classCardId
+		41, // _u0A
+		20, // baseHP
+		5, // basePow
+		4, // baseSkl
+		4, // baseSpd
+		5, // baseDef
+		5, // baseRes
+		5, // baseCon
+		6, // baseMov
+		60, // maxHP
+		29, // maxPow
+		29, // maxSkl
+		26, // maxSpd
+		24, // maxDef
+		30, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		55, // growthHP
+		55, // growthPow
+		40, // growthSkl
+		35, // growthSpd
+		10, // growthDef
+		30, // growthRes
+		40, // growthLck
+		4, // promotionHP
+		2, // promotionPow
+		0, // promotionSkl
+		1, // promotionSpd
+		3, // promotionDef
+		3, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_C, // Anima
+			WPN_EXP_E, // Light
+			WPN_EXP_D, // Dark
+		},
+		PupilAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52d9c, // standard
+			(const s8*)0x8c531ed, // rain
+			(const s8*)0x8c535fd, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Necromancer
+	{
+		MCID_Necromancer, // nameTextId
+		MCID_H_Necromancer, // descTextId
+		Necromancer, // id
+		Shaman, // promotionClassId
+		SUIID_Necromancer, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Druid, // classCardId
+		43, // _u0A
+		18, // baseHP
+		9, // basePow
+		4, // baseSkl
+		5, // baseSpd
+		3, // baseDef
+		8, // baseRes
+		7, // baseCon
+		6, // baseMov
+		60, // maxHP
+		30, // maxPow
+		25, // maxSkl
+		25, // maxSpd
+		30, // maxDef
+		30, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		45, // growthHP
+		55, // growthPow
+		30, // growthSkl
+		25, // growthSpd
+		10, // growthDef
+		35, // growthRes
+		20, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_S, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_S, // Dark
+		},
+		NecromancerAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52d9c, // standard
+			(const s8*)0x8c531ed, // rain
+			(const s8*)0x8c535fd, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Mauthedoog
+	{
+		MCID_Mauthedoog, // nameTextId
+		MCID_H_Mauthedoog, // descTextId
+		Mauthedoog, // id
+		Mauthedoog, // promotionClassId
+		SUIID_Mauthedoog, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Mauthedoog, // classCardId
+		0, // _u0A
+		21, // baseHP
+		6, // basePow
+		12, // baseSkl
+		12, // baseSpd
+		5, // baseDef
+		2, // baseRes
+		8, // baseCon
+		8, // baseMov
+		60, // maxHP
+		24, // maxPow
+		29, // maxSkl
+		30, // maxSpd
+		22, // maxDef
+		23, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		65, // growthHP
+		28, // growthPow
+		35, // growthSkl
+		35, // growthSpd
+		16, // growthDef
+		22, // growthRes
+		25, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_LOCK_3 |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		MauthedoogAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52bd5, // standard
+			(const s8*)0x8c53026, // rain
+			(const s8*)0x8c53436, // snow
 		},
 		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
 		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
