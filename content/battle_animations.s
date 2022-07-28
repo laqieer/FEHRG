@@ -17,6 +17,18 @@ BattleAnimations:
     .word 0, 0, 0, ranger_bow_modes, ranger_bow_script_header, ranger_bow_frames_r_header, ranger_bow_frames_l_header, ranger_bow_basic_pal
     .word 0, 0, 0, summoner_magic_modes, summoner_magic_script_header, summoner_magic_frames_r_header, summoner_magic_frames_l_header, summoner_magic_basic_pal
     .word 0, 0, 0, summoner_staff_modes, summoner_staff_script_header, summoner_staff_frames_r_header, summoner_staff_frames_l_header, summoner_staff_basic_pal
+    .word 0, 0, 0, greatknight_axe_modes, greatknight_axe_script_header, greatknight_axe_frames_r_header, greatknight_axe_frames_l_header, greatknight_axe_basic_pal
+    .word 0, 0, 0, greatknight_handaxe_modes, greatknight_handaxe_script_header, greatknight_handaxe_frames_r_header, greatknight_handaxe_frames_l_header, greatknight_handaxe_basic_pal
+    .word 0, 0, 0, greatknight_lance_modes, greatknight_lance_script_header, greatknight_lance_frames_r_header, greatknight_lance_frames_l_header, greatknight_lance_basic_pal
+    .word 0, 0, 0, greatknight_sword_modes, greatknight_sword_script_header, greatknight_sword_frames_r_header, greatknight_sword_frames_l_header, greatknight_sword_basic_pal
+    .word 0, 0, 0, journeyman_axe_modes, journeyman_axe_script_header, journeyman_axe_frames_r_header, journeyman_axe_frames_l_header, journeyman_axe_basic_pal
+    .word 0, 0, 0, journeyman_handaxe_modes, journeyman_handaxe_script_header, journeyman_handaxe_frames_r_header, journeyman_handaxe_frames_l_header, journeyman_handaxe_basic_pal
+    .word 0, 0, 0, mauthe_doog_modes, mauthe_doog_script_header, mauthe_doog_frames_r_header, mauthe_doog_frames_l_header, mauthe_doog_basic_pal
+    .word 0, 0, 0, necromancer_magic_modes, necromancer_magic_script_header, necromancer_magic_frames_r_header, necromancer_magic_frames_l_header, necromancer_magic_basic_pal
+    .word 0, 0, 0, necromancer_staff_modes, necromancer_staff_script_header, necromancer_staff_frames_r_header, necromancer_staff_frames_l_header, necromancer_staff_basic_pal
+    .word 0, 0, 0, pupil_magic_modes, pupil_magic_script_header, pupil_magic_frames_r_header, pupil_magic_frames_l_header, pupil_magic_basic_pal
+    .word 0, 0, 0, recruit_lance_modes, recruit_lance_script_header, recruit_lance_frames_r_header, recruit_lance_frames_l_header, recruit_lance_basic_pal
+    .word 0, 0, 0, rogue_sword_modes, rogue_sword_script_header, rogue_sword_frames_r_header, rogue_sword_frames_l_header, rogue_sword_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_legendary_modes, roy_legendary_script_header, roy_legendary_frames_r_header, roy_legendary_frames_l_header, roy_legendary_basic_pal

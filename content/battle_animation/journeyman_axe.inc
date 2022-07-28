@@ -1,0 +1,502 @@
+@This file is made by convert_battle_animation.py automatically. Don't edit it.
+	.align 4
+journeyman_axe_frames_r_header:
+	.word COMP_HEAD(journeyman_axe_frames_l_header - journeyman_axe_frames_r)
+journeyman_axe_frames_r:
+journeyman_axe_frame_r_0:
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_1:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 0, -8, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 0, 32, 8, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 32, -8, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 8, 40, 8, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_2:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 16, 0, -8, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 24, 32, 8, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 32, -8, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 8, 40, 8, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_3:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 0, -6, -25, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 32, 10, -25, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 8, 48, -6, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 40, 32, 10, 7, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_4:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -5, -20, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 40, 48, 11, -20, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 32, -5, 12, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 16, 40, 11, 4, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 40, 11, 12, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_5:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 0, -4, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 56, 40, 12, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 56, -4, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 64, 32, 12, -7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 32, 12, 9, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_6:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -4, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 72, 40, 12, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 56, -4, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 32, 12, -8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 40, 12, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_7:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 32, -50, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 96, 0, -18, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 0, -34, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 16, -18, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 32, -50, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 40, -34, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 48, -18, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, -2, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 56, -2, 13, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_8:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 0, -52, -8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_9:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, -32, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 136, 32, -16, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 32, -48, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 16, -8, 2, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -48, 2, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_10:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 48, -52, -5, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_11:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 152, 0, -27, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 160, 0, -19, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 48, -51, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 32, -11, 0, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 56, -35, -8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, -35, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_12:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 8, -31, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 184, 0, -15, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 40, -47, -17, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 56, -31, 15, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -7, 7, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_13:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 32, -37, -37, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 0, -21, -5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 16, -37, 11, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 24, -29, 3, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_14:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 216, 24, -14, -22, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 0, -30, -6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 216, 56, -30, 10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 200, 24, -30, -14, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_15:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -30, -20, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 0, 32, -30, 12, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_16:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 232, 0, -12, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 240, 0, -4, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, 4, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 32, -20, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 224, 16, -20, -16, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 40, -20, 0, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, -4, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_17:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 0, -11, -25, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 32, 5, -25, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 0, 40, -11, 7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 0, 48, 5, 7, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_18:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 32, -10, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 0, 56, -10, 9, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_19:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -8, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 0, 8, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 48, -8, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 16, 40, 8, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 24, 40, 16, -23, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_20:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 0, -7, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 32, -7, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 24, 48, 9, 9, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_21:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 32, -5, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 40, -5, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 48, 11, 9, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_22:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 0, -5, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 56, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, 11, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_23:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 120, 32, -7, -27, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 0, -7, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 16, 9, 5, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_24:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, -21, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 16, 11, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 32, -5, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 40, -13, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 48, 11, 0, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 56, 11, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_25:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 32, -8, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 40, 8, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 0, -8, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, 8, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 8, 8, 13, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_26:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 16, -8, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 48, -8, 14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, 8, 14, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_27:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -7, -30, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 200, 0, -7, 2, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 48, 9, 2, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_28:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -29, -39, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, 3, -39, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 16, 32, 3, -7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 16, 48, -5, -7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 24, 48, -13, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 24, 56, 3, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 0, 19, -31, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 8, 19, -23, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_29:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 16, -11, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, 5, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 40, 48, -27, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 32, -11, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 40, 5, 13, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_30:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 216, 32, 4, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 232, 32, -4, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 240, 32, -28, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 48, 4, 14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 8, -12, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, -12, 6, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -4, 14, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_31:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 0, -12, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 32, 4, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 0, -28, -18, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 80, 16, 4, 14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 0, -4, 14, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_32:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 24, -9, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 24, -1, -19, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 40, -1, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 48, -17, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, -9, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 80, 56, -1, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 8, -9, 13, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_33:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 0, -12, -24, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 96, 56, -12, 8, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 16, 4, 8, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_34:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 112, 32, -10, -23, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, 6, -7, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 128, 32, -10, 9, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, 6, -15, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 40, 6, 9, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_35:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, -8, -22, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 144, 32, 8, -22, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 128, 48, -8, 10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, 8, 10, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 40, 16, -22, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_36:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, -52, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, -20, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 32, -36, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 48, -20, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 0, -52, -3, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 8, -36, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 16, -20, 13, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 24, -4, 5, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 56, -4, -35, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, -4, 13, 0, 0, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_r_37:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, -52, -14, 0, 0, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 200, 0, -20, -14, 0, 0, 0)
+	.word ANFRM_END_FRM
+
+	.word ANFRM_END_ALL
+	.section .rodata
+	.align 4
+journeyman_axe_frames_l_header:
+	.word COMP_HEAD(journeyman_axe_frames_l_header - journeyman_axe_frames_r)
+journeyman_axe_frames_l:
+journeyman_axe_frame_l_0:
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_1:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 0, -8, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 0, 32, -16, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 32, -8, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 8, 40, -16, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_2:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 16, 0, -8, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 24, 32, -16, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 32, -8, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 8, 40, -16, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_3:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 0, -10, -25, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 32, -18, -25, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 8, 48, -10, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 40, 32, -18, 7, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_4:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -11, -20, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 40, 48, -27, -20, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 32, -11, 12, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 16, 40, -19, 4, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 48, 40, -19, 12, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_5:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 0, -12, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 56, 40, -28, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 56, 56, -12, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 64, 32, -20, -7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 32, -20, 9, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_6:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 80, 0, -12, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 72, 40, -20, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 56, -12, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 32, -20, -8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 40, -20, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_7:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 32, 18, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 96, 0, 2, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 0, 18, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 112, 16, 2, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 32, 34, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 40, 18, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 120, 48, 2, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, -6, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 120, 56, -6, 13, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_8:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 0, 44, -8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_9:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, 16, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 136, 32, 8, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 144, 32, 32, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 128, 16, 0, 2, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, 40, 2, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_10:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 48, 44, -5, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_11:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 152, 0, 19, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 160, 0, 11, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 152, 48, 35, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 32, 3, 0, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 144, 56, 27, -8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 168, 0, 27, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_12:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 8, 15, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 184, 0, 7, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 40, 31, -17, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 168, 56, 15, 15, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 176, 0, -1, 7, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_13:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 32, 5, -37, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 192, 0, 5, -5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 192, 16, 5, 11, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 24, 21, 3, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_14:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 216, 24, -2, -22, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 208, 0, 14, -6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 216, 56, -2, 10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 200, 24, 14, -14, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_15:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -2, -20, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 0, 32, -2, 12, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_16:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 232, 0, 4, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 240, 0, -4, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 224, 0, -12, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 232, 32, 4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 224, 16, 12, -16, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 40, 12, 0, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 232, 48, -4, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_17:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 0, -5, -25, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 32, 32, -13, -25, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 0, 40, -5, 7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 0, 48, -13, 7, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_18:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 40, 32, -22, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_32x8, 0, 56, -22, 9, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_19:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -8, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 64, 0, -16, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 8, 48, -8, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 16, 40, -16, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 24, 40, -24, -23, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_20:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 72, 0, -25, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 32, -9, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 24, 48, -17, 9, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_21:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 88, 32, -27, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 40, -11, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 72, 48, -19, 9, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_22:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 0, -27, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 72, 56, -11, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 80, 48, -19, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_23:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 120, 32, -25, -27, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 136, 0, -9, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 136, 16, -17, 5, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_24:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, -11, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 144, 16, -19, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 152, 32, -11, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 40, 5, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 48, -19, 0, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 152, 56, -19, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_25:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 168, 32, -8, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 160, 40, -16, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 0, -8, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 160, 56, -16, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 8, -16, 13, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_26:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 184, 16, -24, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 48, -8, 14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 56, -16, 14, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_27:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 216, 0, -25, -30, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 200, 0, -9, 2, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 200, 48, -17, 2, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_28:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 0, 0, -3, -39, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 0, 32, -19, -39, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 16, 32, -19, -7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 16, 48, -3, -7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 24, 48, -3, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 24, 56, -19, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 0, -27, -31, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 32, 8, -27, -23, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_29:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 32, 16, -5, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 48, 0, -21, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 40, 48, 11, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 32, -5, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 48, 40, -21, 13, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_30:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 216, 32, -20, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 232, 32, -4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 240, 32, 12, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 240, 48, -20, 14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 8, 4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 192, 56, 4, 6, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 208, 48, -4, 14, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_31:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 0, -4, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 64, 32, -20, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 80, 0, 12, -18, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 80, 16, -20, 14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 0, -4, 14, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_32:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 80, 24, 1, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 24, -15, -19, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 88, 40, -15, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 56, 48, 9, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 96, 0, 1, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 80, 56, -15, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 40, 8, 1, 13, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_33:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 104, 0, -20, -24, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 96, 56, -4, 8, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 96, 16, -12, 8, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_34:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 112, 32, -6, -23, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x16, 104, 32, -14, -7, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 128, 32, -6, 9, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 104, 48, -14, -15, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 40, -14, 9, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_35:
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 136, 0, -8, -22, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_8x32, 144, 32, -16, -22, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 128, 48, -8, 10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 128, 56, -16, 10, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 40, -24, -22, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_36:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 152, 0, 20, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 152, 32, 4, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 32, 20, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_16x16, 168, 48, 4, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 0, 36, -3, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 8, 20, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 16, 4, 13, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_WIDE, ATTR1_SIZE_16x8, 184, 24, -12, 5, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 136, 56, -4, -35, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_8x8, 184, 32, -4, 13, 0, 1, 0)
+	.word ANFRM_END_FRM
+journeyman_axe_frame_l_37:
+	.hword ANFRM_OBJ(ATTR0_SQUARE, ATTR1_SIZE_32x32, 192, 32, 20, -14, 0, 1, 0)
+	.hword ANFRM_OBJ(ATTR0_TALL, ATTR1_SIZE_16x32, 200, 0, 4, -14, 0, 1, 0)
+	.word ANFRM_END_FRM
+
+	.word ANFRM_END_ALL

@@ -229,3 +229,160 @@ const struct BattleAnimationConfig SummonerAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig RogueAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_ROGUE_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ROGUE_SWORD
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig GreatKnightAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_GREAT_KNIGHT_SWORD
+    },
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_GREAT_KNIGHT_LANCE
+    },
+    {
+        ITYPE_AXE,
+        true,
+        ANID_GREAT_KNIGHT_AXE
+    },
+    {
+        HandAxe,
+        false,
+        ANID_GREAT_KNIGHT_HAND_AXE
+    },
+    {
+        Tomahawk,
+        false,
+        ANID_GREAT_KNIGHT_HAND_AXE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_GREAT_KNIGHT_AXE
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig RecruitAnimations[] = {
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_RECRUIT_LANCE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_RECRUIT_LANCE
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig JourneymanAnimations[] = {
+    {
+        ITYPE_AXE,
+        true,
+        ANID_JOURNEYMAN_AXE
+    },
+    {
+        HandAxe,
+        false,
+        ANID_JOURNEYMAN_HANDAXE
+    },
+    {
+        Tomahawk,
+        false,
+        ANID_JOURNEYMAN_HANDAXE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_JOURNEYMAN_AXE
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig PupilAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_PUPIL_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_PUPIL_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_PUPIL_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_PUPIL_MAGIC
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig NecromancerAnimations[] = {
+    {
+        ITYPE_STAFF,
+        true,
+        ANID_NECROMANCER_STAFF
+    },
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_NECROMANCER_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_NECROMANCER_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_NECROMANCER_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_NECROMANCER_MAGIC
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig MauthedoogAnimations[] = {
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_MAUTHE_DOOG
+    },
+    {
+        ITYPE_DRAGN,
+        true,
+        ANID_MAUTHE_DOOG
+    },
+    {
+        ITYPE_12,
+        true,
+        ANID_MAUTHE_DOOG
+    },
+    ANCFG_END
+};
