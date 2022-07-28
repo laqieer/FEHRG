@@ -33,3 +33,31 @@
 [MCID_Summoner] = "Summoner",
 
 [MCID_H_Summoner] = "Master sorcerers who summon fighters." TEXT_NEWLINE "Equip: Dark, staves. Skill: Summon.",
+
+[MCID_Rogue] = "Rogue",
+
+[MCID_H_Rogue] = "Knaves who need no tools or keys to" TEXT_NEWLINE "open locks. Equip: Swords. Skill: Pick.",
+
+[MCID_GreatKnight] = "Great Knight",
+
+[MCID_H_GreatKnight] = "Knights with great mobility and" TEXT_NEWLINE "defense. Equip: Swords, lances, axes.",
+
+[MCID_Recruit] = "Recruit",
+
+[MCID_H_Recruit] = "Unproven knights with dreams" TEXT_NEWLINE "of glory. Equip: Lances.",
+
+[MCID_Journeyman] = "Journeyman",
+
+[MCID_H_Journeyman] = "Young fighters with high" TEXT_NEWLINE "expectations. Equip: Axes.",
+
+[MCID_Pupil] = "Pupil",
+
+[MCID_H_Pupil] = "Mages in training with lofty" TEXT_NEWLINE "aspirations. Equip: Anima.",
+
+[MCID_Necromancer] = "Necromancer",
+
+[MCID_H_Necromancer] = "Master of the Dark Stone who uses" TEXT_NEWLINE "dark magic to command corpses.",
+
+[MCID_Mauthedoog] = "Mauthe Doog",
+
+[MCID_H_Mauthedoog] = "Blood-hungry demon dogs that attack" TEXT_NEWLINE "with keen-edged fangs.",

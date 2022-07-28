@@ -33,3 +33,31 @@
 [MCID_Summoner] = "サマナー",
 
 [MCID_H_Summoner] = "高位闇魔法と亡霊戦士の召喚を行う" TEXT_NEWLINE "装備『闇・杖』　スキル『召喚』",
+
+[MCID_Rogue] = "ローグ",
+
+[MCID_H_Rogue] = "かぎを持たず　宝箱をあける" TEXT_NEWLINE "装備『剣』　スキル『かぎ開』",
+
+[MCID_GreatKnight] = "グレートナイト",
+
+[MCID_H_GreatKnight] = "高い守備力と機動力を誇る騎士" TEXT_NEWLINE "装備『剣・槍・斧』",
+
+[MCID_Recruit] = "新人兵士",
+
+[MCID_H_Recruit] = "これからの成長が期待される騎士" TEXT_NEWLINE "装備『槍』",
+
+[MCID_Journeyman] = "かけだし戦士",
+
+[MCID_H_Journeyman] = "これからの成長が期待される戦士" TEXT_NEWLINE "装備『斧』",
+
+[MCID_Pupil] = "魔道士見習い",
+
+[MCID_H_Pupil] = "これからの成長が期待される魔道士" TEXT_NEWLINE "装備『理』",
+
+[MCID_Necromancer] = "ネクロマンサー",
+
+[MCID_H_Necromancer] = "【魔石】の強大な力を得て" TEXT_NEWLINE "最高位の闇魔道と屍をあやつる",
+
+[MCID_Mauthedoog] = "ﾓｰｻﾄﾞｩｰｸﾞ",
+
+[MCID_H_Mauthedoog] = "血に飢えた　凶暴\な魔獣" TEXT_NEWLINE "鋭い牙で襲い掛かる",
