@@ -29,7 +29,7 @@ C1B
 4 p- 021.png
 4 p- 022.png
 C05
-C47
+L
 3 p- 023.png
 3 p- 024.png
 3 p- 025.png
@@ -83,7 +83,7 @@ C1B
 4 p- 021.png
 4 p- 022.png
 C05
-C47
+L
 3 p- 023.png
 3 p- 024.png
 3 p- 025.png
@@ -129,7 +129,7 @@ C1B
 4 p- 021.png
 4 p- 022.png
 C05
-C47
+L
 3 p- 023.png
 3 p- 024.png
 3 p- 025.png
@@ -182,7 +182,7 @@ C1B
 4 p- 021.png
 4 p- 022.png
 C05
-C47
+L
 3 p- 023.png
 3 p- 024.png
 3 p- 025.png
@@ -261,7 +261,7 @@ C1B
 4 p- 021.png
 4 p- 022.png
 C05
-C47
+L
 3 p- 023.png
 3 p- 024.png
 3 p- 025.png

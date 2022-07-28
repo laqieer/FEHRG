@@ -74,7 +74,7 @@ pupil_magic_mode_1:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(23, pupil_magic_sheet_1, pupil_magic_frame_r_23 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop start
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(24, pupil_magic_sheet_1, pupil_magic_frame_r_24 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -85,7 +85,7 @@ pupil_magic_mode_1:
 	.word ANINS_SHOW_FRAME(27, pupil_magic_sheet_1, pupil_magic_frame_r_27 - pupil_magic_frames_r, 3)
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(28, pupil_magic_sheet_1, pupil_magic_frame_r_28 - pupil_magic_frames_r, 3)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(5)
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(26, pupil_magic_sheet_1, pupil_magic_frame_r_26 - pupil_magic_frames_r, 3)
 	@6 p- 028.png
@@ -156,7 +156,7 @@ pupil_magic_mode_2:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(0, pupil_magic_sheet_0, pupil_magic_frame_r_0 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop begin
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(0, pupil_magic_sheet_0, pupil_magic_frame_r_0 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -249,7 +249,7 @@ pupil_magic_mode_3:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(23, pupil_magic_sheet_1, pupil_magic_frame_r_23 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop start
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(24, pupil_magic_sheet_1, pupil_magic_frame_r_24 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -260,7 +260,7 @@ pupil_magic_mode_3:
 	.word ANINS_SHOW_FRAME(27, pupil_magic_sheet_1, pupil_magic_frame_r_27 - pupil_magic_frames_r, 3)
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(28, pupil_magic_sheet_1, pupil_magic_frame_r_28 - pupil_magic_frames_r, 3)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(5)
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(26, pupil_magic_sheet_1, pupil_magic_frame_r_26 - pupil_magic_frames_r, 3)
 	@6 p- 028.png
@@ -342,7 +342,7 @@ pupil_magic_mode_4:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(0, pupil_magic_sheet_0, pupil_magic_frame_r_0 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop begin
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(0, pupil_magic_sheet_0, pupil_magic_frame_r_0 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -423,7 +423,7 @@ pupil_magic_mode_5:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(23, pupil_magic_sheet_1, pupil_magic_frame_r_23 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop start
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(24, pupil_magic_sheet_1, pupil_magic_frame_r_24 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -434,7 +434,7 @@ pupil_magic_mode_5:
 	.word ANINS_SHOW_FRAME(27, pupil_magic_sheet_1, pupil_magic_frame_r_27 - pupil_magic_frames_r, 3)
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(28, pupil_magic_sheet_1, pupil_magic_frame_r_28 - pupil_magic_frames_r, 3)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(5)
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(26, pupil_magic_sheet_1, pupil_magic_frame_r_26 - pupil_magic_frames_r, 3)
 	@6 p- 028.png
@@ -515,7 +515,7 @@ pupil_magic_mode_6:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(23, pupil_magic_sheet_1, pupil_magic_frame_r_23 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop start
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(24, pupil_magic_sheet_1, pupil_magic_frame_r_24 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -526,7 +526,7 @@ pupil_magic_mode_6:
 	.word ANINS_SHOW_FRAME(27, pupil_magic_sheet_1, pupil_magic_frame_r_27 - pupil_magic_frames_r, 3)
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(28, pupil_magic_sheet_1, pupil_magic_frame_r_28 - pupil_magic_frames_r, 3)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(5)
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(26, pupil_magic_sheet_1, pupil_magic_frame_r_26 - pupil_magic_frames_r, 3)
 	@6 p- 028.png
@@ -645,7 +645,7 @@ pupil_magic_mode_12:
 	@4 p- 022.png
 	.word ANINS_SHOW_FRAME(23, pupil_magic_sheet_1, pupil_magic_frame_r_23 - pupil_magic_frames_r, 4)
 	.word ANINS_COMMAND_85(0x05)
-	.word ANINS_COMMAND_85(0x47)
+	@Loop start
 	@3 p- 023.png
 	.word ANINS_SHOW_FRAME(24, pupil_magic_sheet_1, pupil_magic_frame_r_24 - pupil_magic_frames_r, 3)
 	@3 p- 024.png
@@ -656,7 +656,7 @@ pupil_magic_mode_12:
 	.word ANINS_SHOW_FRAME(27, pupil_magic_sheet_1, pupil_magic_frame_r_27 - pupil_magic_frames_r, 3)
 	@3 p- 027.png
 	.word ANINS_SHOW_FRAME(28, pupil_magic_sheet_1, pupil_magic_frame_r_28 - pupil_magic_frames_r, 3)
-	.word ANINS_COMMAND_85(0x01)
+	.word ANINS_COMMAND_LOOP(5)
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(26, pupil_magic_sheet_1, pupil_magic_frame_r_26 - pupil_magic_frames_r, 3)
 	@6 p- 028.png
