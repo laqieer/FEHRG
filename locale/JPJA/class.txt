@@ -58,6 +58,6 @@
 
 [MCID_H_Necromancer] = "y–‚Îz‚Ì‹­‘å‚È—Í‚ð“¾‚Ä" TEXT_NEWLINE "Å‚ˆÊ‚ÌˆÅ–‚“¹‚ÆŽr‚ð‚ ‚â‚Â‚é",
 
-[MCID_Mauthedoog] = "Ó°»ÄÞ©°¸Þ",
+[MCID_Mauthedoog] = "ƒ‚[ƒTƒhƒD[ƒO",
 
 [MCID_H_Mauthedoog] = "ŒŒ‚É‹Q‚¦‚½@‹¥–\\‚È–‚b" TEXT_NEWLINE "‰s‚¢‰å‚ÅP‚¢Š|‚©‚é",
