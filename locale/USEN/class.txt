@@ -61,3 +61,23 @@
 [MCID_Mauthedoog] = "Mauthe Doog",
 
 [MCID_H_Mauthedoog] = "Blood-hungry demon dogs that attack" TEXT_NEWLINE "with keen-edged fangs.",
+
+[MCID_AnnaLord] = "Captain",
+
+[MCID_H_AnnaLord] = "A veteran fighter who leads the " TEXT_NEWLINE "Order of Heroes. Equip: Axes.",
+
+[MCID_AnnaMasterLord] = "Commander",
+
+[MCID_H_AnnaMasterLord] = "An outstanding commander who leads the " TEXT_NEWLINE "Order of Heroes. Equip: Axes.",
+
+[MCID_Halberdier] = "Halberdier",
+
+[MCID_H_Halberdier] = "The promoted form of the Soldier." TEXT_NEWLINE "Equip: Lances.",
+
+[MCID_IkeLord] = "Ranger",
+
+[MCID_H_IkeLord] = "A yound leader of the Greil’s" TEXT_NEWLINE "mercenaries. Equip: Swords.",
+
+[MCID_IkeMasterLord] = "Vanguard",
+
+[MCID_H_IkeMasterLord] = "An experienced leader of the Greil’s" TEXT_NEWLINE "mercenaries. Equip: Swords, axes.",

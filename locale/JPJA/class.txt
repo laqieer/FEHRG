@@ -61,3 +61,23 @@
 [MCID_Mauthedoog] = "モーサドゥーグ",
 
 [MCID_H_Mauthedoog] = "血に飢えた　凶暴\な魔獣" TEXT_NEWLINE "鋭い牙で襲い掛かる",
+
+[MCID_AnnaLord] = "キャプテン",
+
+[MCID_H_AnnaLord] = "ヴァイス・ブレイヴ所属の部隊長" TEXT_NEWLINE "装備『斧』",
+
+[MCID_AnnaMasterLord] = "コマンダー",
+
+[MCID_H_AnnaMasterLord] = "ヴァイス・ブレイヴ所属の司令官" TEXT_NEWLINE "装備『斧』",
+
+[MCID_Halberdier] = "ハルバーディア",
+
+[MCID_H_Halberdier] = "ソ\ルジャーからから昇格した槍闘士" TEXT_NEWLINE "装備『槍』",
+
+[MCID_IkeLord] = "レンジャー",
+
+[MCID_H_IkeLord] = "グレイル傭兵団の若い代理団長" TEXT_NEWLINE "装備『剣』",
+
+[MCID_IkeMasterLord] = "ヴァンガード",
+
+[MCID_H_IkeMasterLord] = "レイル傭兵団の神将団長" TEXT_NEWLINE "装備『剣・斧』",

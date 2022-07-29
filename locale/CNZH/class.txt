@@ -61,3 +61,23 @@
 [MCID_Mauthedoog] = "魔刹犬",
 
 [MCID_H_Mauthedoog] = "极度嗜血的凶暴魔兽" TEXT_NEWLINE "速度飞快并使用利牙袭击人类",
+
+[MCID_AnnaLord] = "队长",
+
+[MCID_H_AnnaLord] = "隶属于特务机关【纯白义勇队】的队长" TEXT_NEWLINE "装备『斧』",
+
+[MCID_AnnaMasterLord] = "机关长",
+
+[MCID_H_AnnaMasterLord] = "统帅特务机关【纯白义勇队】的司令官" TEXT_NEWLINE "装备『斧』",
+
+[MCID_Halberdier] = "枪圣",
+
+[MCID_H_Halberdier] = "身经百战的士兵升格而来" TEXT_NEWLINE "装备『枪』",
+
+[MCID_IkeLord] = "游侠",
+
+[MCID_H_IkeLord] = "格雷尔佣兵团年轻的代理团长" TEXT_NEWLINE "装备『剑』",
+
+[MCID_IkeMasterLord] = "神将",
+
+[MCID_H_IkeMasterLord] = "带领格雷尔佣兵团取得诸多胜利" TEXT_NEWLINE "的老团长 装备『剑·枪·斧』",
