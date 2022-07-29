@@ -386,3 +386,60 @@ const struct BattleAnimationConfig MauthedoogAnimations[] = {
     },
     ANCFG_END
 };
+
+const struct BattleAnimationConfig HalberdierAnimations[] = {
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_HALBERDIER_LANCE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_HALBERDIER_LANCE
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig RangerIkeAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_RANGER2_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_RANGER2_SWORD
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig VanguardAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_VANGUARD_SWORD
+    },
+    {
+        ITYPE_AXE,
+        true,
+        ANID_VANGUARD_AXE
+    },
+    {
+        HandAxe,
+        false,
+        ANID_VANGUARD_HAND_AXE
+    },
+    {
+        Tomahawk,
+        false,
+        ANID_VANGUARD_HAND_AXE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_VANGUARD_SWORD
+    },
+    ANCFG_END
+};

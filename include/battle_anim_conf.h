@@ -95,3 +95,6 @@ extern const struct BattleAnimationConfig JourneymanAnimations[];
 extern const struct BattleAnimationConfig PupilAnimations[];
 extern const struct BattleAnimationConfig NecromancerAnimations[];
 extern const struct BattleAnimationConfig MauthedoogAnimations[];
+extern const struct BattleAnimationConfig HalberdierAnimations[];
+extern const struct BattleAnimationConfig RangerIkeAnimations[];
+extern const struct BattleAnimationConfig VanguardAnimations[];

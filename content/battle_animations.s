@@ -29,6 +29,11 @@ BattleAnimations:
     .word 0, 0, 0, pupil_magic_modes, pupil_magic_script_header, pupil_magic_frames_r_header, pupil_magic_frames_l_header, pupil_magic_basic_pal
     .word 0, 0, 0, recruit_lance_modes, recruit_lance_script_header, recruit_lance_frames_r_header, recruit_lance_frames_l_header, recruit_lance_basic_pal
     .word 0, 0, 0, rogue_sword_modes, rogue_sword_script_header, rogue_sword_frames_r_header, rogue_sword_frames_l_header, rogue_sword_basic_pal
+    .word 0, 0, 0, halberdier_lance_modes, halberdier_lance_script_header, halberdier_lance_frames_r_header, halberdier_lance_frames_l_header, halberdier_lance_basic_pal
+    .word 0, 0, 0, ranger2_sword_modes, ranger2_sword_script_header, ranger2_sword_frames_r_header, ranger2_sword_frames_l_header, ranger2_sword_basic_pal
+    .word 0, 0, 0, vanguard_axe_modes, vanguard_axe_script_header, vanguard_axe_frames_r_header, vanguard_axe_frames_l_header, vanguard_axe_basic_pal
+    .word 0, 0, 0, vanguard_handaxe_modes, vanguard_handaxe_script_header, vanguard_handaxe_frames_r_header, vanguard_handaxe_frames_l_header, vanguard_handaxe_basic_pal
+    .word 0, 0, 0, vanguard_sword_modes, vanguard_sword_script_header, vanguard_sword_frames_r_header, vanguard_sword_frames_l_header, vanguard_sword_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_legendary_modes, roy_legendary_script_header, roy_legendary_frames_r_header, roy_legendary_frames_l_header, roy_legendary_basic_pal
