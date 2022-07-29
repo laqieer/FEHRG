@@ -18,11 +18,21 @@ A hack based on Fire Emblem 7 Japanese version.
 ## Build
 1. Put `baserom.gba` in project directory
 1. `make`
-make options:
-- `DPCM=disabled`: not to compress sound samples
-- `SNR=no/?`: to control compressed sound quality (default: 5[dB])
-- `SCR=no/?`: to control sound compression rate (default: 0.8)
-- `FREQ=?`: to control sound sampling frequency/rate (valid: 5734, 7884, 10512, 13379, 15768, 18157, 21024, 26758, 31536, 36314, 40137, 42048) (default: 10512)
+
+<details>
+
+<summary>Make Options</summary>
+
+`DPCM=disabled`: not to compress sound samples
+
+`SNR=no/?`: to control compressed sound quality (default: 5[dB])
+
+`SCR=no/?`: to control sound compression rate (default: 0.8)
+
+`FREQ=?`: to control sound sampling frequency/rate (valid: 5734, 7884, 10512, 13379, 15768, 18157, 21024, 26758, 31536, 36314, 40137, 42048) (default: 10512)
+
+</details>
+
 
 ## Credit
 **Greentea/qiuzf007**
