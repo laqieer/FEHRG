@@ -11,7 +11,7 @@
 const struct UnitDefinition playerUnitsInPrologue[] = {
     {
         Zefhyr, // charIndex 
-        Summoner, // classIndex
+        Vanguard, // classIndex
         0, // leaderCharIndex
         TRUE, // autolevel
         FACTION_BLUE, // allegiance
@@ -22,10 +22,10 @@ const struct UnitDefinition playerUnitsInPrologue[] = {
         7, // yPositionStart
         // items
         {
-            Flux,
-            Heal,
-            0,
-            0
+            IronSword,
+            IronLance,
+            IronAxe,
+            HandAxe
         },
         // ai
         {
