@@ -64,11 +64,11 @@
 
 [MCID_AnnaLord] = "Captain",
 
-[MCID_H_AnnaLord] = "A veteran fighter who leads the " TEXT_NEWLINE "Order of Heroes. Equip: Axes.",
+[MCID_H_AnnaLord] = "A veteran fighter who leads" TEXT_NEWLINE "the Order of Heroes. Equip: Axes.",
 
 [MCID_AnnaMasterLord] = "Commander",
 
-[MCID_H_AnnaMasterLord] = "An outstanding commander who leads the " TEXT_NEWLINE "Order of Heroes. Equip: Axes.",
+[MCID_H_AnnaMasterLord] = "An outstanding commander who leads" TEXT_NEWLINE "the Order of Heroes. Equip: Axes.",
 
 [MCID_Halberdier] = "Halberdier",
 
@@ -76,8 +76,8 @@
 
 [MCID_IkeLord] = "Ranger",
 
-[MCID_H_IkeLord] = "A yound leader of the Greil’s" TEXT_NEWLINE "mercenaries. Equip: Swords.",
+[MCID_H_IkeLord] = "A yound leader of the Greil" TEXT_NEWLINE "mercenaries. Equip: Swords.",
 
 [MCID_IkeMasterLord] = "Vanguard",
 
-[MCID_H_IkeMasterLord] = "An experienced leader of the Greil’s" TEXT_NEWLINE "mercenaries. Equip: Swords, axes.",
+[MCID_H_IkeMasterLord] = "An experienced leader of the Greil" TEXT_NEWLINE "mercenaries. Equip: Swords, axes.",

@@ -64,11 +64,11 @@
 
 [MCID_AnnaLord] = "队长",
 
-[MCID_H_AnnaLord] = "隶属于特务机关【纯白义勇队】的队长" TEXT_NEWLINE "装备『斧』",
+[MCID_H_AnnaLord] = "隶属于特务机关【纯白义勇队】" TEXT_NEWLINE "的队长 装备『斧』",
 
 [MCID_AnnaMasterLord] = "机关长",
 
-[MCID_H_AnnaMasterLord] = "统帅特务机关【纯白义勇队】的司令官" TEXT_NEWLINE "装备『斧』",
+[MCID_H_AnnaMasterLord] = "统帅特务机关【纯白义勇队】的" TEXT_NEWLINE "司令官 装备『斧』",
 
 [MCID_Halberdier] = "枪圣",
 
@@ -80,4 +80,4 @@
 
 [MCID_IkeMasterLord] = "神将",
 
-[MCID_H_IkeMasterLord] = "带领格雷尔佣兵团取得诸多胜利" TEXT_NEWLINE "的老团长 装备『剑·枪·斧』",
+[MCID_H_IkeMasterLord] = "带领格雷尔佣兵团取得诸多" TEXT_NEWLINE "胜利的老团长 装备『剑·斧』",
