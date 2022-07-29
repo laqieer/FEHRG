@@ -104,7 +104,8 @@ const struct MovingUnitIcon MovingUnitIcons[] = {
     {MovingUnitIconSheetPrinceFacingUpward, MovingUnitIconMotionPrinceFacingUpward},
     {MovingUnitIconSheetFallenNinian, MovingUnitIconMotionFallenNinian},
     {MovingUnitIconSheetFallenIceDragon, MovingUnitIconMotionFallenIceDragon},
-    {MovingUnitIconSheetFallenWarrior, MovingUnitIconMotionFallenWarrior},
+    //{MovingUnitIconSheetFallenWarrior, MovingUnitIconMotionFallenWarrior},
+    {MovingUnitIconSheetMercenary, MovingUnitIconMotionMercenary}, // RangerIke
     {MovingUnitIconSheetChild_2, MovingUnitIconMotionChild_2},
     {MovingUnitIconSheetChild_2_F, MovingUnitIconMotionChild_2_F},
     {MovingUnitIconSheetTransporterHorse, MovingUnitIconMotionTransporterHorse},
