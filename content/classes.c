@@ -3707,7 +3707,7 @@ const struct Class Classes[] = {
 		MCID_Soldier, // nameTextId
 		MCID_H_Soldier, // descTextId
 		Soldier, // id
-		0, // promotionClassId
+		Halberdier, // promotionClassId
 		SUIID_Soldier, // standingUnitIconId
 		FALSE, // slowWalking
 		CCID_Soldier, // classCardId
@@ -5642,39 +5642,39 @@ const struct Class Classes[] = {
 		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
 		NULL, // _pU50
 	},
-	// FallenWarrior
+	// RangerIke
 	{
-		MCID_FallenWarrior, // nameTextId
-		0, // descTextId
-		FallenWarrior, // id
-		0, // promotionClassId
-		SUIID_FallenWarrior, // standingUnitIconId
+		MCID_IkeLord, // nameTextId
+		MCID_H_IkeLord, // descTextId
+		RangerIke, // id
+		Vanguard, // promotionClassId
+		SUIID_Mercenary, // standingUnitIconId
 		FALSE, // slowWalking
-		CCID_FallenWarrior, // classCardId
+		CCID_Mercenary, // classCardId
 		0, // _u0A
-		28, // baseHP
-		8, // basePow
-		5, // baseSkl
-		6, // baseSpd
+		18, // baseHP
+		3, // basePow
+		3, // baseSkl
+		4, // baseSpd
 		5, // baseDef
 		0, // baseRes
-		13, // baseCon
-		6, // baseMov
+		9, // baseCon
+		5, // baseMov
 		60, // maxHP
-		30, // maxPow
-		28, // maxSkl
-		26, // maxSpd
-		26, // maxDef
-		22, // maxRes
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
 		20, // maxCon
 		3, // classRelativePower
-		80, // growthHP
+		90, // growthHP
 		45, // growthPow
-		25, // growthSkl
-		20, // growthSpd
-		16, // growthDef
-		17, // growthRes
-		15, // growthLck
+		30, // growthSkl
+		45, // growthSpd
+		15, // growthDef
+		20, // growthRes
+		40, // growthLck
 		0, // promotionHP
 		0, // promotionPow
 		0, // promotionSkl
@@ -5685,16 +5685,16 @@ const struct Class Classes[] = {
 		CA_NONE,
 		// baseRanks
 		{
-			WPN_EXP_0, // Sword
+			WPN_EXP_E, // Sword
 			WPN_EXP_0, // Lance
-			WPN_EXP_C, // Axe
-			WPN_EXP_E, // Bow
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
 			WPN_EXP_0, // Staff
 			WPN_EXP_0, // Anima
 			WPN_EXP_0, // Light
 			WPN_EXP_0, // Dark
 		},
-		NULL, // pBattleAnimConf
+		RangerIkeAnimations, // pBattleAnimConf
 		// pMovCostTable
 		{
 			(const s8*)0x8c52c57, // standard
@@ -8085,6 +8085,332 @@ const struct Class Classes[] = {
 			(const s8*)0x8c52bd5, // standard
 			(const s8*)0x8c53026, // rain
 			(const s8*)0x8c53436, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// AnnaLord
+	{
+		MCID_AnnaLord, // nameTextId
+		MCID_H_AnnaLord, // descTextId
+		AnnaLord, // id
+		AnnaMasterLord, // promotionClassId
+		SUIID_AnnaLord, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Fighter, // classCardId
+		10, // _u0A
+		20, // baseHP
+		4, // basePow
+		2, // baseSkl
+		6, // baseSpd
+		1, // baseDef
+		1, // baseRes
+		10, // baseCon
+		5, // baseMov
+		60, // maxHP
+		20, // maxPow
+		20, // maxSkl
+		20, // maxSpd
+		20, // maxDef
+		20, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		85, // growthHP
+		50, // growthPow
+		35, // growthSkl
+		35, // growthSpd
+		10, // growthDef
+		20, // growthRes
+		15, // growthLck
+		0, // promotionHP
+		0, // promotionPow
+		0, // promotionSkl
+		0, // promotionSpd
+		0, // promotionDef
+		0, // promotionRes
+		// attributes
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_D, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		BattleAnimConf_Fighter, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c57, // standard
+			(const s8*)0x8c530a8, // rain
+			(const s8*)0x8c534b8, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// AnnaMasterLord
+	{
+		MCID_AnnaMasterLord, // nameTextId
+		MCID_H_AnnaMasterLord, // descTextId
+		AnnaMasterLord, // id
+		AnnaLord, // promotionClassId
+		SUIID_AnnaLord, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Warrior, // classCardId
+		11, // _u0A
+		28, // baseHP
+		7, // basePow
+		5, // baseSkl
+		8, // baseSpd
+		3, // baseDef
+		2, // baseRes
+		12, // baseCon
+		6, // baseMov
+		60, // maxHP
+		29, // maxPow
+		28, // maxSkl
+		28, // maxSpd
+		24, // maxDef
+		24, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		80, // growthHP
+		40, // growthPow
+		25, // growthSkl
+		25, // growthSpd
+		14, // growthDef
+		19, // growthRes
+		15, // growthLck
+		3, // promotionHP
+		1, // promotionPow
+		1, // promotionSkl
+		1, // promotionSpd
+		3, // promotionDef
+		3, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_B, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		BattleAnimConf_Warrior, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c57, // standard
+			(const s8*)0x8c530a8, // rain
+			(const s8*)0x8c534b8, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Halberdier
+	{
+		MCID_Halberdier, // nameTextId
+		MCID_H_Halberdier, // descTextId
+		Halberdier, // id
+		Soldier, // promotionClassId
+		SUIID_Halberdier, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Halberdier, // classCardId
+		8, // _u0A
+		24, // baseHP
+		6, // basePow
+		6, // baseSkl
+		6, // baseSpd
+		6, // baseDef
+		2, // baseRes
+		11, // baseCon
+		6, // baseMov
+		60, // maxHP
+		25, // maxPow
+		28, // maxSkl
+		26, // maxSpd
+		28, // maxDef
+		25, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		75, // growthHP
+		45, // growthPow
+		45, // growthSkl
+		40, // growthSpd
+		45, // growthDef
+		40, // growthRes
+		25, // growthLck
+		4, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		0, // promotionSpd
+		2, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_CRITBONUS |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_C, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		HalberdierAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Halberdier_F
+	{
+		MCID_Halberdier, // nameTextId
+		MCID_H_Halberdier, // descTextId
+		Halberdier_F, // id
+		Soldier, // promotionClassId
+		SUIID_Halberdier_F, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Halberdier, // classCardId
+		8, // _u0A
+		22, // baseHP
+		4, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		5, // baseDef
+		3, // baseRes
+		9, // baseCon
+		6, // baseMov
+		60, // maxHP
+		25, // maxPow
+		28, // maxSkl
+		26, // maxSpd
+		28, // maxDef
+		25, // maxRes
+		20, // maxCon
+		3, // classRelativePower
+		75, // growthHP
+		40, // growthPow
+		45, // growthSkl
+		45, // growthSpd
+		40, // growthDef
+		40, // growthRes
+		25, // growthLck
+		3, // promotionHP
+		2, // promotionPow
+		1, // promotionSkl
+		1, // promotionSpd
+		2, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_CRITBONUS |
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_0, // Sword
+			WPN_EXP_C, // Lance
+			WPN_EXP_0, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		HalberdierAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52b94, // standard
+			(const s8*)0x8c52fe5, // rain
+			(const s8*)0x8c533f5, // snow
+		},
+		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
+		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
+		TerrainResistanceLookupNormal, // pTerrainResistanceLookup
+		NULL, // _pU50
+	},
+	// Vanguard
+	{
+		MCID_IkeMasterLord, // nameTextId
+		MCID_H_IkeMasterLord, // descTextId
+		Vanguard, // id
+		RangerIke, // promotionClassId
+		SUIID_Vanguard, // standingUnitIconId
+		FALSE, // slowWalking
+		CCID_Vanguard, // classCardId
+		0, // _u0A
+		21, // baseHP
+		10, // basePow
+		6, // baseSkl
+		7, // baseSpd
+		9, // baseDef
+		1, // baseRes
+		12, // baseCon
+		6, // baseMov
+		60, // maxHP
+		30, // maxPow
+		25, // maxSkl
+		25, // maxSpd
+		26, // maxDef
+		24, // maxRes
+		25, // maxCon
+		3, // classRelativePower
+		80, // growthHP
+		50, // growthPow
+		70, // growthSkl
+		40, // growthSpd
+		40, // growthDef
+		15, // growthRes
+		30, // growthLck
+		3, // promotionHP
+		2, // promotionPow
+		2, // promotionSkl
+		1, // promotionSpd
+		1, // promotionDef
+		1, // promotionRes
+		// attributes
+		CA_PROMOTED |
+		CA_NONE,
+		// baseRanks
+		{
+			WPN_EXP_D, // Sword
+			WPN_EXP_0, // Lance
+			WPN_EXP_E, // Axe
+			WPN_EXP_0, // Bow
+			WPN_EXP_0, // Staff
+			WPN_EXP_0, // Anima
+			WPN_EXP_0, // Light
+			WPN_EXP_0, // Dark
+		},
+		VanguardAnimations, // pBattleAnimConf
+		// pMovCostTable
+		{
+			(const s8*)0x8c52c57, // standard
+			(const s8*)0x8c530a8, // rain
+			(const s8*)0x8c534b8, // snow
 		},
 		TerrainAvoidLookupNormal, // pTerrainAvoidLookup
 		TerrainDefenseLookupNormal, // pTerrainDefenseLookup
