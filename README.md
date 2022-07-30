@@ -34,7 +34,14 @@ A hack based on Fire Emblem 7 Japanese version.
 </details>
 
 
+<details>
+
+<summary>
+
 ## Credit
+
+</summary>
+
 **Greentea/qiuzf007**
 
 Circleseverywhere
@@ -106,3 +113,5 @@ Khrene Kleaver
 FlyingAce24
 
 Primefusion
+
+</details>
