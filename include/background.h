@@ -22,5 +22,7 @@ struct Background128Color
     cu16 *pal;
 };
 
+#define BACKGROUND(name) {name##_1Tiles, name##_2Tiles, name##_1Pal},
+
 extern const struct Background Backgrounds[];
 extern const struct Background128Color newBackgrounds[];

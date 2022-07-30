@@ -1,0 +1,21 @@
+# select distinct value from bg where key like 'X%_IMAGE' order by value;
+
+           value            
+----------------------------
+ 001_Brave
+ 002_PlainForest
+ 005_Castle
+ 013_ChristmasForest
+ 022_ByakuyaSummer
+ 022_DreameInvisibleKingdom
+ 024_Valentine
+ 026_MuspelTemple
+ EvBg_Beach
+ EvBg_BrideChurch_Outside
+ EvBg_CastleJPWedding
+ EvBg_Chapter3_Hell
+ EvBg_Easter2
+ EvBg_SeisenDancehall
+ EvBg_TreasureIsland
+ EvBg__Plain30th
+(16 rows)
