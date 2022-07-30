@@ -55,6 +55,10 @@ void CopyToPaletteBuffer(u16 *src,u32 offset,u32 size);
 void PutSpriteExt(int layer,u32 xOam1,u32 yOam0,u16 *object,u32 oam2);
 void PutRegularBgMap(u16 *mapBuffer, u16 baseVal, u8 widthByTile, u8 heightByTile);
 void SyncBgByFlag(u8 flag);
+int GetBgChrOffset(int bg);
+void SetBgChrOffset(int bg, int offset);
+void WriteTSA(u16 *mapBuffer, cu8 *tsa, u16 tileRef);
+void SetBgPosition(u16 bg, u16 positionX, u16 positionY);
 
 /* Portrait. */
 void SetPortraitSprite(struct Proc *proc);
@@ -62,6 +66,7 @@ void DrawPortraitInBg(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePa
 void LoadMiniPortraitGfx(int portraitId, u32 baseTileNum, u8 basePaletteSlot);
 void LoadMiniPortraitMap(u16 *mapBuffer, cu8 *map, u16 baseVal, bool flag);
 void DrawMiniPortraitInObj(int portraitId, u32 baseTileNum, u8 basePaletteSlot);
+void ClearTalk();
 
 /* Text. */
 

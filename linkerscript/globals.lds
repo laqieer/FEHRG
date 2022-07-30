@@ -43,14 +43,15 @@ BG3YBuffer = 0x30027F4;
 
 /* Video. */
 
-BG0MapBuffer = 0x2022C60;
-BG1MapBuffer = 0x2023460;
-BG2MapBuffer = 0x2023C60;
-BG3MapBuffer = 0x2024460;
 BG0MapAddr = 0x2024C60;
 BG1MapAddr = 0x2024C64;
 BG2MapAddr = 0x2024C68;
 BG3MapAddr = 0x2024C6C;
+BG0MapBuffer = 0x2022C60;
+BG1MapBuffer = 0x2023460;
+BG2MapBuffer = 0x2023C60;
+BG3MapBuffer = 0x2024460;
+PalBuffer = 0x2022860;
 
 /* Map BGM. */
 

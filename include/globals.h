@@ -49,10 +49,11 @@ extern vu16 *BG0MapAddr;
 extern vu16 *BG1MapAddr;
 extern vu16 *BG2MapAddr;
 extern vu16 *BG3MapAddr;
-extern vu16 BG0MapBuffer[0x400];
-extern vu16 BG1MapBuffer[0x400];
-extern vu16 BG2MapBuffer[0x400];
-extern vu16 BG3MapBuffer[0x400];
+extern u16 BG0MapBuffer[0x400];
+extern u16 BG1MapBuffer[0x400];
+extern u16 BG2MapBuffer[0x400];
+extern u16 BG3MapBuffer[0x400];
+extern u16 PalBuffer[0x200];
 
 /* Proc. */
 

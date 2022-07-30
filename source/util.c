@@ -53,6 +53,27 @@ void putBgMap256BySize(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 base
     }
 }
 
+void putBgMap256BySize2(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseTileNum)
+{
+    if(mapBuffer && widthByTile && heightByTile)
+    {
+        for(int i = 0; i < heightByTile; i++)
+        {
+            for(int j = 0; j < widthByTile; j++)
+            {
+                mapBuffer[j + i * TILES_PER_LINE_16_COLOR] = baseTileNum + j + i * TILES_PER_LINE_16_COLOR;
+            }
+        }
+        for(int i = heightByTile; i < widthByTile; i++)
+        {
+            for(int j = 0; j < widthByTile; j++)
+            {
+                mapBuffer[j + i * TILES_PER_LINE_16_COLOR] = baseTileNum + TILES_PER_LINE_16_COLOR - 1;
+            }
+        }
+    }
+}
+
 void syncBgById(u8 n)
 {
     SyncBgByFlag(1 << n);
