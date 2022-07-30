@@ -34,7 +34,7 @@ ARCH	:=	-mthumb -mthumb-interwork
 
 HACK	:=	-ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline -fomit-frame-pointer -ffast-math -mlong-calls
 
-CFLAGS	:=	-g -Wall -O2\
+CFLAGS	:=	-g -Wall -Werror -O2\
 		-mcpu=arm7tdmi -mtune=arm7tdmi\
 		$(ARCH)
 
