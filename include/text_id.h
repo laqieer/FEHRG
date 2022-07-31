@@ -193,4 +193,3 @@ enum TEXT_ID {
 #define MCID_H_EphraimLord 0x22f
 #define MCID_EirikaLord 0x494
 #define MCID_H_EirikaLord 0x22f
-

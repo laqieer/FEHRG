@@ -106,5 +106,3 @@ extern const unsigned char StandingUnitIconSheetArcherInKillerBallista[];
 extern const unsigned char StandingUnitIconSheetEmptyBallista[];
 extern const unsigned char StandingUnitIconSheetEmptyIronBallista[];
 extern const unsigned char StandingUnitIconSheetEmptyKillerBallista[];
-
-

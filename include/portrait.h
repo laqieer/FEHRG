@@ -80,4 +80,3 @@ extern cu8 MiniPortraitMap[];
 #define DEFINE_CLASS_CARD(className) { NULL, NULL, class_card_##className##Pal, NULL, class_card_##className##Tiles, 0, 0, 0, 0, NULL },
 
 #define NULL_CLASS_CARD NULL_FACE
-

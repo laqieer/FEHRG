@@ -171,4 +171,3 @@ Ref: `include/moving_unit_icon.h`
 
 - Weird unused moving anim in FE6 & FE7
 - Weird unused moving anim in FE6 & FE7 (F)
-

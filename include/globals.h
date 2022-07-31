@@ -82,5 +82,3 @@ extern u16 CurrentSelectedItemInOptionMenu;
 /* Chapter title. */
 
 extern u16 CurrentChapterTitleImageTileId;
-
-

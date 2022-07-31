@@ -52,4 +52,3 @@ struct OptionMenuItem {
     u16 pad3; // 38
     int (*func)(u32 procParent); // 40
 };
-

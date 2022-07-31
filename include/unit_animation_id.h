@@ -23,4 +23,3 @@ enum
     UANID_RACKESIS,
     UANID_ELTSHAN,
 };
-

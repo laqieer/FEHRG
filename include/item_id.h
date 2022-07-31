@@ -495,4 +495,3 @@
 #define ３０００Ｇ 0x97
 #define ５０００Ｇ 0x98
 #define 风之剑 0x99
-

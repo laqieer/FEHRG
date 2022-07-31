@@ -376,4 +376,3 @@ extern const s8 TerrainResistanceLookupNormal[];
 extern const s8 TerrainAvoidLookupFlyer[];
 extern const s8 TerrainDefenseLookupFlyer[];
 extern const s8 TerrainResistanceLookupFlyer[];
-

@@ -88,4 +88,3 @@ int OptionMenuItemWindowColorHandler(u32 procParent);
 int GetOptionMenuItemCurrentValue(u8 item, int pad, int defaultValue);
 void DisplayItemAlternativesInOptionMenu(int param_1,int param_2,int param_3);
 int GetOptionMenuId();
-

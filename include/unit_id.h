@@ -513,4 +513,3 @@ enum {
     PID_WALL,
     PID_SNAG,
 };
-

@@ -169,4 +169,3 @@ enum {
 #define WPN_EXP_赤獣 WPN_EXP_無獣
 #define WPN_EXP_青獣 WPN_EXP_無獣
 #define WPN_EXP_緑獣 WPN_EXP_無獣
-

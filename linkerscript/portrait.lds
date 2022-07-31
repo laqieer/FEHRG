@@ -49,4 +49,3 @@
 .rodata.noHelpBoxInItemMenu : {*(.rodata.noHelpBoxInItemMenu)}*/
 . = 0x804b1b0;
 .text.menuCallHelp : {*(.text.menuCallHelp)}
-
