@@ -1,0 +1,241 @@
+#include <tonc.h>
+#include "music.h"
+
+extern const struct WaveData Voice000;
+extern const struct WaveData Voice001;
+extern const struct WaveData Voice002;
+extern const struct WaveData Voice003;
+extern const struct WaveData Voice004;
+extern const struct WaveData Voice005;
+extern const struct WaveData Voice006;
+extern const struct WaveData Voice007;
+extern const struct WaveData Voice008;
+extern const struct WaveData Voice009;
+extern const struct WaveData Voice010;
+extern const struct WaveData Voice011;
+extern const struct WaveData Voice012;
+extern const struct WaveData Voice013;
+extern const struct WaveData Voice014;
+extern const struct WaveData Voice015;
+extern const struct WaveData Voice016;
+extern const struct WaveData Voice017;
+extern const struct WaveData Voice018;
+extern const struct WaveData Voice019;
+extern const struct WaveData Voice020;
+extern const struct WaveData Voice021;
+extern const struct WaveData Voice022;
+extern const struct WaveData Voice023;
+extern const struct WaveData Voice027;
+extern const struct WaveData Voice028;
+extern const struct WaveData Voice029;
+extern const struct WaveData Voice030;
+extern const struct WaveData Voice031;
+extern const struct WaveData Voice032;
+extern const struct WaveData Voice033;
+extern const struct WaveData Voice034;
+extern const struct WaveData Voice036;
+extern const struct WaveData Voice038;
+extern const struct WaveData Voice039;
+extern const struct WaveData Voice040;
+extern const struct WaveData Voice041;
+extern const struct WaveData Voice042;
+extern const struct WaveData Voice043;
+extern const struct WaveData Voice044;
+extern const struct WaveData Voice045;
+extern const struct WaveData Voice046;
+extern const struct WaveData Voice047;
+extern const struct WaveData Voice048;
+extern const struct WaveData Voice049;
+extern const struct WaveData Voice050;
+extern const struct WaveData Voice051;
+extern const struct WaveData Voice052;
+extern const struct WaveData Voice053;
+extern const struct WaveData Voice054;
+extern const struct WaveData Voice055;
+extern const struct WaveData Voice056;
+extern const struct WaveData Voice057;
+extern const struct WaveData Voice058;
+extern const struct WaveData Voice059;
+extern const struct WaveData Voice060;
+extern const struct WaveData Voice061;
+extern const struct WaveData Voice062;
+extern const struct WaveData Voice063;
+extern const struct WaveData Voice067;
+extern const struct WaveData Voice068;
+extern const struct WaveData Voice069;
+extern const struct WaveData Voice070;
+extern const struct WaveData Voice071;
+extern const struct WaveData Voice072;
+extern const struct WaveData Voice073;
+extern const struct WaveData Voice074;
+extern const struct WaveData Voice075;
+extern const struct WaveData Voice076;
+extern const struct WaveData Voice078;
+extern const struct WaveData Voice079;
+extern const struct WaveData Voice080;
+extern const struct WaveData Voice081;
+extern const struct WaveData Voice082;
+extern const struct WaveData Voice084;
+extern const struct WaveData Voice085;
+extern const struct WaveData Voice087;
+extern const struct WaveData Voice089;
+extern const struct WaveData Voice090;
+extern const struct WaveData Voice091;
+extern const struct WaveData Voice092;
+extern const struct WaveData Voice093;
+extern const struct WaveData Voice094;
+extern const struct WaveData Voice095;
+extern const struct WaveData Voice096;
+extern const struct WaveData Voice097;
+extern const struct WaveData Voice098;
+extern const struct WaveData Voice099;
+extern const struct WaveData Voice100;
+extern const struct WaveData Voice101;
+extern const struct WaveData Voice102;
+extern const struct WaveData Voice103;
+extern const struct WaveData Voice104;
+extern const struct WaveData Voice105;
+extern const struct WaveData Voice106;
+extern const struct WaveData Voice107;
+extern const struct WaveData Voice108;
+extern const struct WaveData Voice109;
+extern const struct WaveData Voice110;
+extern const struct ToneData VoiceGroup001[];
+extern const struct ToneData VoiceGroup002[];
+extern const struct ToneData VoiceGroup003[];
+extern const struct ToneData VoiceGroup004[];
+extern const struct ToneData VoiceGroup005[];
+extern const struct ToneData VoiceGroup006[];
+extern const struct WaveData Voice126;
+extern const struct ToneData VoiceGroup007[];
+
+const struct ToneData voicegroup000[] = {
+    DIRECT_SOUND(&Voice000, 255, 250, 0, 204)
+    DIRECT_SOUND(&Voice001, 255, 250, 0, 204)
+    DIRECT_SOUND(&Voice002, 255, 0, 255, 149)
+    DIRECT_SOUND(&Voice003, 255, 253, 0, 204)
+    DIRECT_SOUND(&Voice004, 255, 253, 0, 204)
+    DIRECT_SOUND(&Voice005, 64, 0, 255, 127)
+    DIRECT_SOUND(&Voice006, 255, 250, 0, 165)
+    DIRECT_SOUND(&Voice007, 255, 249, 0, 196)
+    DIRECT_SOUND(&Voice008, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice009, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice010, 255, 226, 255, 226)
+    DIRECT_SOUND(&Voice011, 255, 242, 255, 226)
+    DIRECT_SOUND(&Voice012, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice013, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice014, 255, 250, 0, 204)
+    DIRECT_SOUND(&Voice015, 255, 0, 255, 127)
+    DIRECT_SOUND(&Voice016, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice017, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice018, 255, 0, 255, 149)
+    DIRECT_SOUND(&Voice019, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice020, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice021, 64, 0, 255, 127)
+    DIRECT_SOUND(&Voice022, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice023, 64, 0, 255, 127)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice027, 255, 188, 128, 165)
+    DIRECT_SOUND(&Voice028, 255, 0, 255, 149)
+    DIRECT_SOUND(&Voice029, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice030, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice031, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice032, 255, 0, 255, 149)
+    DIRECT_SOUND(&Voice033, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice034, 255, 0, 255, 149)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice036, 255, 250, 0, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice038, 255, 252, 0, 165)
+    DIRECT_SOUND(&Voice039, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice040, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice041, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice042, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice043, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice044, 255, 242, 0, 165)
+    DIRECT_SOUND(&Voice045, 128, 0, 255, 178)
+    DIRECT_SOUND(&Voice046, 128, 242, 0, 178)
+    DIRECT_SOUND(&Voice047, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice048, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice049, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice050, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice051, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice052, 255, 0, 255, 178)
+    DIRECT_SOUND(&Voice053, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice054, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice055, 255, 250, 0, 89)
+    DIRECT_SOUND(&Voice056, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice057, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice058, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice059, 64, 0, 255, 165)
+    DIRECT_SOUND(&Voice060, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice061, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice062, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice063, 255, 0, 255, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice067, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice068, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice069, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice070, 255, 0, 255, 178)
+    DIRECT_SOUND(&Voice071, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice072, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice073, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice074, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice075, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice076, 255, 0, 255, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice078, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice079, 255, 0, 255, 188)
+    DIRECT_SOUND(&Voice080, 255, 0, 255, 127)
+    DIRECT_SOUND(&Voice081, 255, 0, 255, 0)
+    DIRECT_SOUND(&Voice082, 255, 0, 255, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice084, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice085, 255, 0, 255, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice087, 255, 0, 255, 165)
+    SQUARE(2, 0, 0, 15, 0)
+    DIRECT_SOUND(&Voice089, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice090, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice091, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice092, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice093, 128, 0, 255, 89)
+    DIRECT_SOUND(&Voice094, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice095, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice096, 255, 0, 255, 89)
+    DIRECT_SOUND(&Voice097, 64, 0, 255, 165)
+    DIRECT_SOUND(&Voice098, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice099, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice100, 255, 253, 0, 204)
+    DIRECT_SOUND(&Voice101, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice102, 255, 0, 255, 204)
+    DIRECT_SOUND(&Voice103, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice104, 255, 250, 0, 165)
+    DIRECT_SOUND(&Voice105, 255, 0, 255, 149)
+    DIRECT_SOUND(&Voice106, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice107, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice108, 64, 0, 255, 89)
+    DIRECT_SOUND(&Voice109, 255, 0, 255, 165)
+    DIRECT_SOUND(&Voice110, 255, 242, 0, 188)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    SQUARE(2, 0, 0, 15, 0)
+    KEYSPLIT_ALL(&VoiceGroup001)
+    KEYSPLIT_ALL(&VoiceGroup002)
+    KEYSPLIT_ALL(&VoiceGroup003)
+    KEYSPLIT_ALL(&VoiceGroup004)
+    KEYSPLIT_ALL(&VoiceGroup005)
+    KEYSPLIT_ALL(&VoiceGroup006)
+    DIRECT_SOUND(&Voice126, 255, 0, 255, 0)
+    KEYSPLIT_ALL(&VoiceGroup007)
+};
