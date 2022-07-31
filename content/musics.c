@@ -1002,4 +1002,6 @@ const struct Song Songs[] = {
     {&Song997, MUSIC_PLAYER_0},
     {&Song998, MUSIC_PLAYER_0},
     {&Song999, MUSIC_PLAYER_0},
+    
+    {&bgm_map_FE01_01, MUSIC_PLAYER_MAP},
 };

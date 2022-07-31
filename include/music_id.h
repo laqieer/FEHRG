@@ -1000,3 +1000,5 @@
 #define SONG997 997
 #define SONG998 998
 #define SONG999 999
+
+#define BGM_EVENT_MAP_FE01_01 1000
