@@ -1190,3 +1190,10 @@ extern const struct SongHeader Song998;
 extern const struct SongHeader Song999;
 
 extern const struct SongHeader bgm_map_FE01_01;
+extern const struct SongHeader bgm_event_plain1;
+extern const struct SongHeader bgm_map_fes_01;
+extern const struct SongHeader bgm_mns_FE04_01;
+extern const struct SongHeader bgm_mns_FE08_04;
+extern const struct SongHeader bgm_mns_FE15_01_1;
+extern const struct SongHeader bgm_mns_FE15_01_2;
+extern const struct SongHeader bgm_mns_FE16_02;
