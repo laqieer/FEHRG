@@ -1,0 +1,199 @@
+[TID_Song092Name] = "歴史を語りて～オープニング",
+
+[TID_Song090Name] = "Ｆｉｒｅ　Ｅｍｂｌｅｍ　”Ｔｈｅｍｅ”",
+
+[TID_Song037Name] = "始まりの予\感",
+
+[TID_Song038Name] = "更なる試練の道",
+
+[TID_Song039Name] = "畏怖なる宿命",
+
+[TID_Song048Name] = "草原の風",
+
+[TID_Song001Name] = "大切なもの",
+
+[TID_Song002Name] = "そして友と",
+
+[TID_Song003Name] = "友情と使命と勇気と",
+
+[TID_Song010Name] = "はるかなる旅路",
+
+[TID_Song011Name] = "課せられた運命とともに",
+
+[TID_Song004Name] = "竜の門Ⅰ",
+
+[TID_Song009Name] = "Ｗｉｎｎｉｎｇ　Ｒｏａｄ（烈火Ｖｅｒ）",
+
+[TID_Song008Name] = "むすばれた約束（烈火Ｖｅｒ）",
+
+[TID_Song005Name] = "人竜戦役のきずあと（烈火Ｖｅｒ）",
+
+[TID_Song006Name] = "気軽にいこうぜ！",
+
+[TID_Song007Name] = "せまりくる影（烈火Ｖｅｒ）",
+
+[TID_Song012Name] = "現れし敵",
+
+[TID_Song013Name] = "現れし使者",
+
+[TID_Song014Name] = "現れし闇",
+
+[TID_Song016Name] = "Ｇａｔｅ　ｏｆ　Ｄｒａｇｏｎ",
+
+[TID_Song015Name] = "ナバタを彷徨う使者",
+
+[TID_Song017Name] = "伝説の遺産（烈火Ｖｅｒ）",
+
+[TID_Song018Name] = "敵襲来",
+
+[TID_Song019Name] = "闇からの使者（烈火Ｖｅｒ）",
+
+[TID_Song031Name] = "攻撃",
+
+[TID_Song032Name] = "防御",
+
+[TID_Song020Name] = "いざ、勝負！",
+
+[TID_Song021Name] = "挑まれた戦い",
+
+[TID_Song022Name] = "静かに、そしてしなやかに",
+
+[TID_Song023Name] = "すべてが闇へ",
+
+[TID_Song024Name] = "火炎の征戦",
+
+[TID_Song028Name] = "八神将の恵みあれⅠ",
+
+[TID_Song025Name] = "Ｈｅａｌｉｎｇ（烈火Ｖｅｒ）",
+
+[TID_Song026Name] = "Ｃｕｒｉｎｇ（烈火Ｖｅｒ）",
+
+[TID_Song029Name] = "水の恩恵を受け、おだやかに",
+
+[TID_Song030Name] = "風吹いて、気高まる",
+
+[TID_Song027Name] = "更なる高みへ（烈火Ｖｅｒ）",
+
+[TID_Song050Name] = "突然の来訪者（烈火Ｖｅｒ）",
+
+[TID_Song051Name] = "躍進のときを（烈火Ｖｅｒ）",
+
+[TID_Song034Name] = "砂塵の大地",
+
+[TID_Song078Name] = "街並み",
+
+[TID_Song079Name] = "静寂の地",
+
+[TID_Song107Name] = "酒場",
+
+[TID_Song065Name] = "Ｇｏｉｎｇ　Ｍｙ　Ｗａｙ",
+
+[TID_Song066Name] = "Ｌｅｔ’ｓ　ｇｏ　ｔｏｇｅｔｈｅｒ！",
+
+[TID_Song067Name] = "騎士の誓い",
+
+[TID_Song068Name] = "愉快な面々（烈火Ｖｅｒ）",
+
+[TID_Song076Name] = "マリナス",
+
+[TID_Song064Name] = "永遠の別れ",
+
+[TID_Song033Name] = "レクイエム",
+
+[TID_Song081Name] = "ひとひらの記憶",
+
+[TID_Song052Name] = "運命の歯車",
+
+[TID_Song055Name] = "八神将",
+
+[TID_Song060Name] = "大賢者アトス",
+
+[TID_Song093Name] = "はるかなる理想郷（烈火Ｖｅｒ）",
+
+[TID_Song082Name] = "闇より生まれしもの",
+
+[TID_Song080Name] = "黒い牙",
+
+[TID_Song074Name] = "災いを招く者～ネルガルのテーマ",
+
+[TID_Song059Name] = "怒りのネルガル",
+
+[TID_Song083Name] = "策略",
+
+[TID_Song035Name] = "大国ベルン",
+
+[TID_Song036Name] = "ベルン～母の思い",
+
+[TID_Song053Name] = "驚愕の事実Ⅰ",
+
+[TID_Song054Name] = "驚愕の事実Ⅱ",
+
+[TID_Song056Name] = "勝利（烈火Ｖｅｒ）",
+
+[TID_Song057Name] = "勝利の影に（烈火Ｖｅｒ）",
+
+[TID_Song069Name] = "メインテーマ　アレンジ",
+
+[TID_Song110Name] = "八神将の恵みあれⅡ",
+
+[TID_Song063Name] = "草原の少女～リンのテーマ",
+
+[TID_Song084Name] = "リンの想い",
+
+[TID_Song075Name] = "明日への光",
+
+[TID_Song061Name] = "心ひとつに～エリウッドのテーマ",
+
+[TID_Song086Name] = "憂いの瞳",
+
+[TID_Song087Name] = "揺るがぬ信念",
+
+[TID_Song062Name] = "友を信じて～ヘクトルのテーマ",
+
+[TID_Song088Name] = "憂いの心",
+
+[TID_Song058Name] = "ＲＥＭＩＮＩＳＣＥＮＣＥ",
+
+[TID_Song104Name] = "絶たれた命",
+
+[TID_Song105Name] = "悲嘆",
+
+[TID_Song106Name] = "戦いの中のひととき",
+
+[TID_Song073Name] = "進撃準備（烈火Ｖｅｒ）",
+
+[TID_Song077Name] = "武器屋",
+
+[TID_Song070Name] = "お店",
+
+[TID_Song094Name] = "占い",
+
+[TID_Song071Name] = "闘技場～受付",
+
+[TID_Song072Name] = "闘技場～バトル",
+
+[TID_Song045Name] = "闘技場～勝利！",
+
+[TID_Song046Name] = "闘技場～勝敗はいかに",
+
+[TID_Song044Name] = "悲しみの中で",
+
+[TID_Song043Name] = "Ｇａｍｅ　Ｏｖｅｒ",
+
+[TID_Song115Name] = "Ｌｅｇｅｎｄ　ｏｆ　ＡＴＯＳ",
+
+[TID_Song041Name] = "戦績（烈火Ｖｅｒ）",
+
+[TID_Song042Name] = "ちりばめた希望",
+
+[TID_Song112Name] = "新たなる光の下へ",
+
+[TID_Song113Name] = "「神将」をつぐ道",
+
+[TID_Song114Name] = "ベルンの名のもとに",
+
+[TID_Song116Name] = "かわされた宿縁",
+
+[TID_Song117Name] = "神竜伝説",
+
+[TID_Song118Name] = "シレジア王宮",

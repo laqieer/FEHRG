@@ -9,6 +9,7 @@ enum TEXT_ID {
     #include "../locale/key/skill.txt"
     #include "../locale/key/stage.txt"
     #include "../locale/key/class.txt"
+    #include "../locale/key/music.txt"
 };
 
 #define MPID_WALL 0x555
