@@ -197,3 +197,17 @@
 [TID_Song117Name] = "Legend of the Dragon God",
 
 [TID_Song118Name] = "Royal Palace of Silezha",
+
+[MID_MUSIC_NAME_BGM_MNS_FE01_02] = "Opening Title (Demo)",
+
+[MID_MUSIC_NAME_BGM_EVENT_PLAIN_01] = "Order of Heroes",
+
+[MID_MUSIC_NAME_BGM_MAP_FES_01] = "Fan Fest",
+
+[MID_MUSIC_NAME_BGM_MNS_FE04_01] = "Glory to Grannvale",
+
+[MID_MUSIC_NAME_BGM_MNS_FE08_04] = "Reunion",
+
+[MID_MUSIC_NAME_BGM_MNS_FE15_01] = "Sea Winds and Travelers",
+
+[MID_MUSIC_NAME_BGM_MNS_FE16_02] = "Life at Garreg Mach Monastery",

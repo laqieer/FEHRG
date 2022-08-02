@@ -197,3 +197,17 @@
 [TID_Song117Name] = "神龙传说",
 
 [TID_Song118Name] = "希连希亚王宫",
+
+[MID_MUSIC_NAME_BGM_MNS_FE01_02] = "Opening Title～Demo",
+
+[MID_MUSIC_NAME_BGM_EVENT_PLAIN_01] = "纯白义勇队",
+
+[MID_MUSIC_NAME_BGM_MAP_FES_01] = "Fan Fest",
+
+[MID_MUSIC_NAME_BGM_MNS_FE04_01] = "格兰贝鲁的荣耀",
+
+[MID_MUSIC_NAME_BGM_MNS_FE08_04] = "重逢",
+
+[MID_MUSIC_NAME_BGM_MNS_FE15_01] = "海风与旅人",
+
+[MID_MUSIC_NAME_BGM_MNS_FE16_02] = "加尔古玛库大修道院日常",
