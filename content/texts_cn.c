@@ -11,4 +11,5 @@ const char * const textsCN[] = {
     #include "../locale/CNZH/skill.txt"
     #include "../locale/CNZH/stage.txt"
     #include "../locale/CNZH/class.txt"
+    #include "../locale/CNZH/music.txt"
 };
