@@ -1,0 +1,199 @@
+[TID_Song092Name] = "述说历史～OPENING",
+
+[TID_Song090Name] = "Fire Emblem Theme",
+
+[TID_Song037Name] = "起始的预感",
+
+[TID_Song038Name] = "更高的试炼",
+
+[TID_Song039Name] = "畏惧的宿命",
+
+[TID_Song048Name] = "草原之风",
+
+[TID_Song001Name] = "珍贵的事物",
+
+[TID_Song002Name] = "与亲友一起",
+
+[TID_Song003Name] = "友情 使命 勇气",
+
+[TID_Song010Name] = "遥远的旅途",
+
+[TID_Song011Name] = "与注定的命运一起",
+
+[TID_Song004Name] = "龙之门Ⅰ",
+
+[TID_Song009Name] = "Winning Road（烈火Ver）",
+
+[TID_Song008Name] = "定下的约定（烈火Ver）",
+
+[TID_Song005Name] = "人龙战役之伤（烈火Ver）",
+
+[TID_Song006Name] = "轻松地前进吧！",
+
+[TID_Song007Name] = "迫近的影子（烈火Ver）",
+
+[TID_Song012Name] = "敌人出现",
+
+[TID_Song013Name] = "使者登场",
+
+[TID_Song014Name] = "黑暗浮现",
+
+[TID_Song016Name] = "Gate of Dragon",
+
+[TID_Song015Name] = "彷徨于纳巴塔的使者",
+
+[TID_Song017Name] = "传说的遗产（烈火Ver）",
+
+[TID_Song018Name] = "敌袭",
+
+[TID_Song019Name] = "来自黑暗的使者（烈火Ver）",
+
+[TID_Song031Name] = "攻击",
+
+[TID_Song032Name] = "防御",
+
+[TID_Song020Name] = "决胜负吧！",
+
+[TID_Song021Name] = "挑战",
+
+[TID_Song022Name] = "安静地，并且柔和地",
+
+[TID_Song023Name] = "一切归于黑暗",
+
+[TID_Song024Name] = "火焰的征战",
+
+[TID_Song028Name] = "八神将的恩惠Ⅰ",
+
+[TID_Song025Name] = "Healing（烈火Ver）",
+
+[TID_Song026Name] = "Curing（烈火Ver）",
+
+[TID_Song029Name] = "静静地接受水之恩惠吧",
+
+[TID_Song030Name] = "风清气爽",
+
+[TID_Song027Name] = "更上一层楼（烈火Ver）",
+
+[TID_Song050Name] = "突然的来访者（烈火Ver）",
+
+[TID_Song051Name] = "跃进之时（烈火Ver）",
+
+[TID_Song034Name] = "沙尘的大地",
+
+[TID_Song078Name] = "街道",
+
+[TID_Song079Name] = "静寂之地",
+
+[TID_Song107Name] = "酒馆",
+
+[TID_Song065Name] = "Going My Way",
+
+[TID_Song066Name] = "Let’s go together！",
+
+[TID_Song067Name] = "骑士的誓言",
+
+[TID_Song068Name] = "愉快的人们（烈火Ver）",
+
+[TID_Song076Name] = "马利纳斯",
+
+[TID_Song064Name] = "永远的分别",
+
+[TID_Song033Name] = "镇魂曲",
+
+[TID_Song081Name] = "记忆的破片",
+
+[TID_Song052Name] = "命运的齿轮",
+
+[TID_Song055Name] = "八神将",
+
+[TID_Song060Name] = "大贤者阿特斯",
+
+[TID_Song093Name] = "遥远的理想乡（烈火Ver）",
+
+[TID_Song082Name] = "黑暗的诞生物",
+
+[TID_Song080Name] = "黑之牙",
+
+[TID_Song074Name] = "灾难的招致者～奈哥尔主题",
+
+[TID_Song059Name] = "愤怒的奈哥尔",
+
+[TID_Song083Name] = "策略",
+
+[TID_Song035Name] = "大国伯尔尼",
+
+[TID_Song036Name] = "伯尔尼～母亲的思念",
+
+[TID_Song053Name] = "惊愕的事实Ⅰ",
+
+[TID_Song054Name] = "惊愕的事实Ⅱ",
+
+[TID_Song056Name] = "胜利（烈火Ver）",
+
+[TID_Song057Name] = "胜利的背后（烈火Ver）",
+
+[TID_Song069Name] = "主旋律 Arrange",
+
+[TID_Song110Name] = "八神将的恩惠Ⅱ",
+
+[TID_Song063Name] = "草原的少女～琳主题",
+
+[TID_Song084Name] = "琳的思念",
+
+[TID_Song075Name] = "明日之光",
+
+[TID_Song061Name] = "万众一心～艾利乌德主题",
+
+[TID_Song086Name] = "忧郁的眼神",
+
+[TID_Song087Name] = "坚定的信念",
+
+[TID_Song062Name] = "坚信朋友～赫克托耳主题",
+
+[TID_Song088Name] = "善良之心",
+
+[TID_Song058Name] = "REMINISCENCE",
+
+[TID_Song104Name] = "终止的生命",
+
+[TID_Song105Name] = "悲叹",
+
+[TID_Song106Name] = "战斗中的小憩",
+
+[TID_Song073Name] = "出击准备（烈火Ver）",
+
+[TID_Song077Name] = "武器店",
+
+[TID_Song070Name] = "商店",
+
+[TID_Song094Name] = "占卜",
+
+[TID_Song071Name] = "斗技场～报名",
+
+[TID_Song072Name] = "斗技场～战斗",
+
+[TID_Song045Name] = "斗技场～胜利！",
+
+[TID_Song046Name] = "斗技场～胜负难测",
+
+[TID_Song044Name] = "悲伤之中",
+
+[TID_Song043Name] = "Game Over",
+
+[TID_Song115Name] = "Legend of ATOS",
+
+[TID_Song041Name] = "战绩（烈火Ver）",
+
+[TID_Song042Name] = "装饰起来的希望",
+
+[TID_Song112Name] = "面对新一轮的阳光",
+
+[TID_Song113Name] = "循着「神将」之路",
+
+[TID_Song114Name] = "以伯尔尼之名",
+
+[TID_Song116Name] = "交错的因缘",
+
+[TID_Song117Name] = "神龙传说",
+
+[TID_Song118Name] = "希连希亚王宫",
