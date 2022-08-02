@@ -15,4 +15,3 @@ const char * const textsJP[] = {
 };
 
 u32 maxTextId = sizeof(textsJP) / sizeof(textsJP[0]);
-

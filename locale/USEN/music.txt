@@ -1,0 +1,199 @@
+[TID_Song092Name] = "Opening: History Unveiled",
+
+[TID_Song090Name] = "Fire Emblem Theme",
+
+[TID_Song037Name] = "A Hint of Things to Come",
+
+[TID_Song038Name] = "Road of Trials",
+
+[TID_Song039Name] = "Destiny Enlaced by Fear",
+
+[TID_Song048Name] = "Winds across the Plains",
+
+[TID_Song001Name] = "Precious Things",
+
+[TID_Song002Name] = "Companions",
+
+[TID_Song003Name] = "Friendship and Adventure",
+
+[TID_Song010Name] = "Distant Travels",
+
+[TID_Song011Name] = "Inescapable Fate",
+
+[TID_Song004Name] = "Dragon's Gate II",
+
+[TID_Song009Name] = "Winning Road",
+
+[TID_Song008Name] = "Binding Ties",
+
+[TID_Song005Name] = "Scars of the Scouring",
+
+[TID_Song006Name] = "Raise Your Spirits",
+
+[TID_Song007Name] = "Shadow Approaches",
+
+[TID_Song012Name] = "Enemies Appear",
+
+[TID_Song013Name] = "The Messenger",
+
+[TID_Song014Name] = "Darkness Comes",
+
+[TID_Song016Name] = "Dragon's Gate I",
+
+[TID_Song015Name] = "Nabata's Wandering Messenger",
+
+[TID_Song017Name] = "Legendary Inheritance",
+
+[TID_Song018Name] = "Raid!",
+
+[TID_Song019Name] = "Messenger from the Darkness",
+
+[TID_Song031Name] = "Strike",
+
+[TID_Song032Name] = "Safeguard",
+
+[TID_Song020Name] = "Victory Now!",
+
+[TID_Song021Name] = "Rise to the Challenge",
+
+[TID_Song022Name] = "Softly with Grace",
+
+[TID_Song023Name] = "Everything into the Dark",
+
+[TID_Song024Name] = "Campaign of Fire",
+
+[TID_Song028Name] = "Blessing of the 8 Generals I",
+
+[TID_Song025Name] = "Healing",
+
+[TID_Song026Name] = "Curing",
+
+[TID_Song029Name] = "Receive the Blessings of Water",
+
+[TID_Song030Name] = "Ride the Wind",
+
+[TID_Song027Name] = "To the Heights",
+
+[TID_Song050Name] = "An Unexpected Caller",
+
+[TID_Song051Name] = "When the Rush Comes",
+
+[TID_Song034Name] = "Land of Swirling Sands",
+
+[TID_Song078Name] = "Ships and Homes",
+
+[TID_Song079Name] = "Silent Ground",
+
+[TID_Song107Name] = "The Inn",
+
+[TID_Song065Name] = "Going My Way",
+
+[TID_Song066Name] = "Together, We Ride!",
+
+[TID_Song067Name] = "A Knight's Oath",
+
+[TID_Song068Name] = "Happiness Abounds",
+
+[TID_Song076Name] = "Merlinus",
+
+[TID_Song064Name] = "Final Farewell",
+
+[TID_Song033Name] = "Requiem",
+
+[TID_Song081Name] = "Recollection of a Petal",
+
+[TID_Song052Name] = "The Cogs of Fate",
+
+[TID_Song055Name] = "The Eight Generals",
+
+[TID_Song060Name] = "The Archsage Athos",
+
+[TID_Song093Name] = "Distant Utopia",
+
+[TID_Song082Name] = "What Comes from Darkness",
+
+[TID_Song080Name] = "Black Fang",
+
+[TID_Song074Name] = "Calamity Bringer: Nergal's Theme",
+
+[TID_Song059Name] = "Nergal's Wrath",
+
+[TID_Song083Name] = "Stratagem",
+
+[TID_Song035Name] = "The Kingdom of Bern",
+
+[TID_Song036Name] = "Bern - A Mother's Wish",
+
+[TID_Song053Name] = "Shocking Truth I",
+
+[TID_Song054Name] = "Shocking Truth II",
+
+[TID_Song056Name] = "Triumph",
+
+[TID_Song057Name] = "Into the Shadow of Triumph",
+
+[TID_Song069Name] = "Main Theme Arrangement",
+
+[TID_Song110Name] = "Blessing of the 8 Generals II",
+
+[TID_Song063Name] = "Girl of the Plains: Lyn's Theme",
+
+[TID_Song084Name] = "Lyn's Desire",
+
+[TID_Song075Name] = "Light to Tomorrow",
+
+[TID_Song061Name] = "One Heart: Eliwood's Theme",
+
+[TID_Song086Name] = "Eyes of Sorrow",
+
+[TID_Song087Name] = "Unshakable Faith",
+
+[TID_Song062Name] = "Loyalty: Hector's Theme",
+
+[TID_Song088Name] = "The Grieving Heart",
+
+[TID_Song058Name] = "Reminiscence",
+
+[TID_Song104Name] = "Shattered Life",
+
+[TID_Song105Name] = "Anguish",
+
+[TID_Song106Name] = "Respite in Battle",
+
+[TID_Song073Name] = "Prepare to Charge",
+
+[TID_Song077Name] = "Armory",
+
+[TID_Song070Name] = "Shop",
+
+[TID_Song094Name] = "Fortune-Telling",
+
+[TID_Song071Name] = "Arena Entrance",
+
+[TID_Song072Name] = "Arena Battle",
+
+[TID_Song045Name] = "Arena Victory",
+
+[TID_Song046Name] = "Arena Tactics",
+
+[TID_Song044Name] = "Within Sadness",
+
+[TID_Song043Name] = "Game Over",
+
+[TID_Song115Name] = "Legend of Athos",
+
+[TID_Song041Name] = "Results",
+
+[TID_Song042Name] = "Treasured Hope",
+
+[TID_Song112Name] = "Beneath a New Light",
+
+[TID_Song113Name] = "The Path to Greatness",
+
+[TID_Song114Name] = "In the Name of Bern",
+
+[TID_Song116Name] = "Avoided Fate",
+
+[TID_Song117Name] = "Legend of the Dragon God",
+
+[TID_Song118Name] = "Royal Palace of Silezha",

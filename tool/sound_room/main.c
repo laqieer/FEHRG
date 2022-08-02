@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include "music_names_en.h"
+
 #define ENTRY_NUM 100
 #define BUFFER_SIZE 100
 #define ROM_BASE 0x8000000
@@ -31,13 +33,20 @@ void handleNameText(char *filename, int offset)
 }
 
 int main() {
-    handleNameText("../../baserom.gba", OFFSET_JP);
-    printf("--- sound room ---\n\n");
-    for (int i = 0; i < ENTRY_NUM; i++)
-        printf("{SONG%03d, MUSIC_DURATION(%d, %d), NULL, TID_Song%03dName},\n", soundRoomEntries[i].musicId, soundRoomEntries[i].musicDuration / 3600, (soundRoomEntries[i].musicDuration / 60) % 60, soundRoomEntries[i].musicId);
-    printf("\n");
+    printf("\n--- Name Keys ---\n\n");
     for (int i = 0; i < ENTRY_NUM; i++)
         printf("TID_Song%03dName,\n", soundRoomEntries[i].musicId);
+
+    printf("\n--- Name Texts (Japanese) ---\n\n");
+    handleNameText("../../baserom.gba", OFFSET_JP);
+
+    printf("\n--- Name Texts (English) ---\n\n");
+    for (int i = 0; i < ENTRY_NUM; i++)
+        printf("[TID_Song%03dName] = \"%s\",\n\n", soundRoomEntries[i].musicId, musicNames[i]);
+
+    printf("\n--- sound room ---\n\n");
+    for (int i = 0; i < ENTRY_NUM; i++)
+        printf("{SONG%03d, MUSIC_DURATION(%d, %d), NULL, TID_Song%03dName},\n", soundRoomEntries[i].musicId, soundRoomEntries[i].musicDuration / 3600, (soundRoomEntries[i].musicDuration / 60) % 60, soundRoomEntries[i].musicId);
 
    return 0;
 }
