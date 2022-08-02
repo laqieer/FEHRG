@@ -1,5 +1,6 @@
 #include <tonc.h>
 
+#include "util.h"
 #include "common.h"
 
 #include "font.h"
@@ -16,12 +17,20 @@ const struct Glyph *getAsciiGlyph(char a)
     return CurrentFont->glyphs[a + 0xC0];
 }
 
+const char *getTextByIdCore(u32 textId);
+
 int getStringTextWidthCore(const char *str)
 {
     int width = 0;
     const struct Glyph *glyph;
     char byte1;
     char byte2;
+
+    // allow to replace raw text in game with text ID directly for multilingual support
+    if(isPtrInvalid((void *)str))
+    {
+        str = getTextByIdCore((u32)str);
+    }
 
     while (*str != '\0' && *str != CHAR_NEWLINE)
     {
@@ -142,6 +151,12 @@ void appendStringCore(struct TextHandle *th, const char* str)
     const struct Glyph *glyph;
     char byte1;
     char byte2;
+
+    // allow to replace raw text in game with text ID directly for multilingual support
+    if(isPtrInvalid((void *)str))
+    {
+        str = getTextByIdCore((u32)str);
+    }
 
     while (*str != '\0' && *str != CHAR_NEWLINE)
     {

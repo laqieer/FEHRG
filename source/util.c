@@ -78,3 +78,8 @@ void syncBgById(u8 n)
 {
     SyncBgByFlag(1 << n);
 }
+
+int isPtrInvalid(void *ptr)
+{
+    return (u32)ptr < MEM_EWRAM;
+}

@@ -23,3 +23,4 @@ void putBgMap16BySize(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseT
 void putBgMap256BySize(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseTileNum);
 void putBgMap256BySize2(u16 *mapBuffer, u8 widthByTile, u8 heightByTile, u16 baseTileNum);
 void syncBgById(u8 n);
+int isPtrInvalid(void *ptr);
