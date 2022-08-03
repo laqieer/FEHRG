@@ -2,7 +2,7 @@
 #include <string.h>
 
 #include "music_names_en.h"
-#include "decoding_tbl_cn.h"
+#include "../text/decoding_tbl_cn.h"
 
 #define ENTRY_NUM 100
 #define BUFFER_SIZE 100
@@ -19,30 +19,6 @@ struct SoundRoomEntry {
 
 struct SoundRoomEntry soundRoomEntries[ENTRY_NUM];
 unsigned char buffer[BUFFER_SIZE];
-
-void decodeCN()
-{
-    int length = strlen(buffer);
-    for (int i = 0; i < length && buffer[i] > 2; i++)
-    {
-        if (buffer[i] > 0x80)
-        {
-            int code = (buffer[i] << 8) + buffer[i + 1] - 0x8180;
-            if (code >= 0)
-            {
-                buffer[i] = decodingTbl[code][0];
-                if (decodingTbl[code][1])
-                    buffer[++i] = decodingTbl[code][1];
-                else
-                {
-                    if (i < length - 1)
-                        memmove(&buffer[i + 1], &buffer[i + 2], length-- - i - 2);
-                }
-            }
-        }
-    }
-    buffer[length] = 0;
-}
 
 void handleNameText(const char *filename, int offset, int isCN)
 {
@@ -69,7 +45,7 @@ int main() {
         printf("[TID_Song%03dName] = \"%s\",\n\n", soundRoomEntries[i].musicId, musicNames[i]);
 
     printf("\n--- Name Texts (Chinese) ---\n\n");
-    handleNameText("0033 - Fire Emblem - Rekka no Ken (Japan)[Wolf & Chinafe](v20050417) [CHS].gba", OFFSET_JP, 1);
+    handleNameText("../0033 - Fire Emblem - Rekka no Ken (Japan)[Wolf & Chinafe](v20050417) [CHS].gba", OFFSET_JP, 1);
 
     printf("\n--- Name Keys ---\n\n");
     for (int i = 0; i < ENTRY_NUM; i++)

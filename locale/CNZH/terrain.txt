@@ -1,0 +1,129 @@
+[TID_Terrain00Name] = "——",
+
+[TID_Terrain01Name] = "平地",
+
+[TID_Terrain02Name] = "道路",
+
+[TID_Terrain03Name] = "村庄",
+
+[TID_Terrain04Name] = "已关闭",
+
+[TID_Terrain05Name] = "民房",
+
+[TID_Terrain06Name] = "武器店",
+
+[TID_Terrain07Name] = "道具店",
+
+[TID_Terrain08Name] = "斗技场",
+
+[TID_Terrain09Name] = "寄存处",
+
+[TID_Terrain10Name] = "要塞",
+
+[TID_Terrain11Name] = "城门",
+
+[TID_Terrain12Name] = "森林",
+
+[TID_Terrain13Name] = "密林",
+
+[TID_Terrain14Name] = "沙地",
+
+[TID_Terrain15Name] = "沙漠",
+
+[TID_Terrain16Name] = "河",
+
+[TID_Terrain17Name] = "山",
+
+[TID_Terrain18Name] = "高山",
+
+[TID_Terrain19Name] = "桥",
+
+[TID_Terrain20Name] = "吊桥",
+
+[TID_Terrain21Name] = "海",
+
+[TID_Terrain22Name] = "湖",
+
+[TID_Terrain23Name] = "地板",
+
+[TID_Terrain24Name] = "地板",
+
+[TID_Terrain25Name] = "围墙",
+
+[TID_Terrain26Name] = "墙壁",
+
+[TID_Terrain27Name] = "墙壁",
+
+[TID_Terrain28Name] = "破壁",
+
+[TID_Terrain29Name] = "柱子",
+
+[TID_Terrain30Name] = "门",
+
+[TID_Terrain31Name] = "宝座",
+
+[TID_Terrain32Name] = "空宝箱",
+
+[TID_Terrain33Name] = "宝箱",
+
+[TID_Terrain34Name] = "屋顶",
+
+[TID_Terrain35Name] = "大门",
+
+[TID_Terrain36Name] = "教会",
+
+[TID_Terrain37Name] = "废墟",
+
+[TID_Terrain38Name] = "悬崖",
+
+[TID_Terrain39Name] = "弩",
+
+[TID_Terrain40Name] = "远程",
+
+[TID_Terrain41Name] = "必杀",
+
+[TID_Terrain42Name] = "荒地",
+
+[TID_Terrain43Name] = "破屋",
+
+[TID_Terrain44Name] = "——",
+
+[TID_Terrain45Name] = "楼梯",
+
+[TID_Terrain46Name] = "——",
+
+[TID_Terrain47Name] = "冰川",
+
+[TID_Terrain48Name] = "通信斗技",
+
+[TID_Terrain49Name] = "山谷",
+
+[TID_Terrain50Name] = "围墙",
+
+[TID_Terrain51Name] = "古树",
+
+[TID_Terrain52Name] = "圆木桥",
+
+[TID_Terrain53Name] = "天空",
+
+[TID_Terrain54Name] = "深海",
+
+[TID_Terrain55Name] = "遗迹",
+
+[TID_Terrain56Name] = "酒馆",
+
+[TID_Terrain57Name] = "桶",
+
+[TID_Terrain58Name] = "骨",
+
+[TID_Terrain59Name] = "暗",
+
+[TID_Terrain60Name] = "水",
+
+[TID_Terrain61Name] = "船舷",
+
+[TID_Terrain62Name] = "甲板",
+
+[TID_Terrain63Name] = "支柱",
+
+[TID_Terrain64Name] = "桅杆",

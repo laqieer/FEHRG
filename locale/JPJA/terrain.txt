@@ -1,0 +1,129 @@
+[TID_Terrain00Name] = "[[",
+
+[TID_Terrain01Name] = "•½’n",
+
+[TID_Terrain02Name] = "“¹",
+
+[TID_Terrain03Name] = "‘º",
+
+[TID_Terrain04Name] = "•Â‚¶‘º",
+
+[TID_Terrain05Name] = "–¯‰Æ",
+
+[TID_Terrain06Name] = "•Ší‰®",
+
+[TID_Terrain07Name] = "“¹‹ï‰®",
+
+[TID_Terrain08Name] = "“¬‹Zê",
+
+[TID_Terrain09Name] = "—a‚èŠ",
+
+[TID_Terrain10Name] = "Ô",
+
+[TID_Terrain11Name] = "é–å",
+
+[TID_Terrain12Name] = "X",
+
+[TID_Terrain13Name] = "[‚¢X",
+
+[TID_Terrain14Name] = "»’n",
+
+[TID_Terrain15Name] = "»”™",
+
+[TID_Terrain16Name] = "ì",
+
+[TID_Terrain17Name] = "R",
+
+[TID_Terrain18Name] = "‚‚¢R",
+
+[TID_Terrain19Name] = "‹´",
+
+[TID_Terrain20Name] = "‚Í‚Ë‹´",
+
+[TID_Terrain21Name] = "ŠC",
+
+[TID_Terrain22Name] = "ŒÎ",
+
+[TID_Terrain23Name] = "°",
+
+[TID_Terrain24Name] = "°",
+
+[TID_Terrain25Name] = "•»",
+
+[TID_Terrain26Name] = "•Ç",
+
+[TID_Terrain27Name] = "•Ç",
+
+[TID_Terrain28Name] = "‰ó‚ê‚½•Ç",
+
+[TID_Terrain29Name] = "’Œ",
+
+[TID_Terrain30Name] = "”à",
+
+[TID_Terrain31Name] = "‹ÊÀ",
+
+[TID_Terrain32Name] = "‹ó•ó” ",
+
+[TID_Terrain33Name] = "•ó” ",
+
+[TID_Terrain34Name] = "‰®ª",
+
+[TID_Terrain35Name] = "–å",
+
+[TID_Terrain36Name] = "‹³‰ï",
+
+[TID_Terrain37Name] = "”pšĞ",
+
+[TID_Terrain38Name] = "‚ª‚¯",
+
+[TID_Terrain39Name] = "ƒA[ƒ`",
+
+[TID_Terrain40Name] = "ƒƒ“ƒO",
+
+[TID_Terrain41Name] = "ƒLƒ‰[",
+
+[TID_Terrain42Name] = "r’n",
+
+[TID_Terrain43Name] = "‰ó‚ê‚½‰Æ",
+
+[TID_Terrain44Name] = "[[",
+
+[TID_Terrain45Name] = "ŠK’i",
+
+[TID_Terrain46Name] = "[[",
+
+[TID_Terrain47Name] = "•X‰Í",
+
+[TID_Terrain48Name] = "’ÊM“¬‹Z",
+
+[TID_Terrain49Name] = "’J",
+
+[TID_Terrain50Name] = "•»",
+
+[TID_Terrain51Name] = "ŒÃ–Ø",
+
+[TID_Terrain52Name] = "ŠÛ‘¾‹´",
+
+[TID_Terrain53Name] = "‹ó",
+
+[TID_Terrain54Name] = "[ŠC",
+
+[TID_Terrain55Name] = "ˆâÕ",
+
+[TID_Terrain56Name] = "ğê",
+
+[TID_Terrain57Name] = "ƒ^ƒ‹",
+
+[TID_Terrain58Name] = "œ",
+
+[TID_Terrain59Name] = "ˆÅ",
+
+[TID_Terrain60Name] = "…",
+
+[TID_Terrain61Name] = "Œ½",
+
+[TID_Terrain62Name] = "b”Â",
+
+[TID_Terrain63Name] = "x’Œ",
+
+[TID_Terrain64Name] = "ƒ}ƒXƒg",

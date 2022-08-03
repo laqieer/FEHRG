@@ -2675,3 +2675,32 @@ const char *decodingTbl[] = {
     [0x9798 - 0x8180] = "÷Ï",
     [0x9799 - 0x8180] = "÷â",
 };
+
+extern unsigned char buffer[];
+
+void decodeCN()
+{
+    int length = strlen(buffer);
+    for (int i = 0; i < length && buffer[i] > 2; i++)
+    {
+        if (buffer[i] > 0x80)
+        {
+            int code = (buffer[i] << 8) + buffer[i + 1] - 0x8180;
+            if (code < 0 || decodingTbl[code] == 0)
+            {
+                i++;
+                break;
+            }
+
+            buffer[i] = decodingTbl[code][0];
+            if (decodingTbl[code][1])
+                buffer[++i] = decodingTbl[code][1];
+            else
+            {
+                if (i < length - 1)
+                    memmove(&buffer[i + 1], &buffer[i + 2], length-- - i - 2);
+            }
+        }
+    }
+    buffer[length] = 0;
+}

@@ -12,6 +12,7 @@ const char * const textsJP[] = {
     #include "../locale/JPJA/stage.txt"
     #include "../locale/JPJA/class.txt"
     #include "../locale/JPJA/music.txt"
+    #include "../locale/JPJA/terrain.txt"
 };
 
 u32 maxTextId = sizeof(textsJP) / sizeof(textsJP[0]);

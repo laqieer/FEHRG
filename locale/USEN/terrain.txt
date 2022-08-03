@@ -1,0 +1,129 @@
+[TID_Terrain00Name] = "",
+
+[TID_Terrain01Name] = "Plain",
+
+[TID_Terrain02Name] = "Road",
+
+[TID_Terrain03Name] = "Village",
+
+[TID_Terrain04Name] = "Village",
+
+[TID_Terrain05Name] = "House",
+
+[TID_Terrain06Name] = "Armory",
+
+[TID_Terrain07Name] = "Vendor",
+
+[TID_Terrain08Name] = "Arena",
+
+[TID_Terrain09Name] = "C.Room",
+
+[TID_Terrain10Name] = "Fort",
+
+[TID_Terrain11Name] = "Gate",
+
+[TID_Terrain12Name] = "Forest",
+
+[TID_Terrain13Name] = "Thicket",
+
+[TID_Terrain14Name] = "Sand",
+
+[TID_Terrain15Name] = "Desert",
+
+[TID_Terrain16Name] = "River",
+
+[TID_Terrain17Name] = "Mntn",
+
+[TID_Terrain18Name] = "Peak",
+
+[TID_Terrain19Name] = "Bridge",
+
+[TID_Terrain20Name] = "Bridge",
+
+[TID_Terrain21Name] = "Sea",
+
+[TID_Terrain22Name] = "Lake",
+
+[TID_Terrain23Name] = "Floor",
+
+[TID_Terrain24Name] = "Floor",
+
+[TID_Terrain25Name] = "Fence",
+
+[TID_Terrain26Name] = "Wall",
+
+[TID_Terrain27Name] = "Wall",
+
+[TID_Terrain28Name] = "Rubble",
+
+[TID_Terrain29Name] = "Pillar",
+
+[TID_Terrain30Name] = "Door",
+
+[TID_Terrain31Name] = "Throne",
+
+[TID_Terrain32Name] = "Chest",
+
+[TID_Terrain33Name] = "Chest",
+
+[TID_Terrain34Name] = "Roof",
+
+[TID_Terrain35Name] = "Gate",
+
+[TID_Terrain36Name] = "Church",
+
+[TID_Terrain37Name] = "Ruins",
+
+[TID_Terrain38Name] = "Cliff",
+
+[TID_Terrain39Name] = "Ballista",
+
+[TID_Terrain40Name] = "Long B",
+
+[TID_Terrain41Name] = "Killer B",
+
+[TID_Terrain42Name] = "Flat",
+
+[TID_Terrain43Name] = "Wreck",
+
+[TID_Terrain44Name] = "",
+
+[TID_Terrain45Name] = "Stairs",
+
+[TID_Terrain46Name] = "",
+
+[TID_Terrain47Name] = "Glacier",
+
+[TID_Terrain48Name] = "Arena",
+
+[TID_Terrain49Name] = "Valley",
+
+[TID_Terrain50Name] = "Fence",
+
+[TID_Terrain51Name] = "Snag",
+
+[TID_Terrain52Name] = "Bridge",
+
+[TID_Terrain53Name] = "Sky",
+
+[TID_Terrain54Name] = "Deeps",
+
+[TID_Terrain55Name] = "Ruins",
+
+[TID_Terrain56Name] = "Inn",
+
+[TID_Terrain57Name] = "Barrel",
+
+[TID_Terrain58Name] = "Bone",
+
+[TID_Terrain59Name] = "Dark",
+
+[TID_Terrain60Name] = "Water",
+
+[TID_Terrain61Name] = "Gunnel",
+
+[TID_Terrain62Name] = "Deck",
+
+[TID_Terrain63Name] = "Brace",
+
+[TID_Terrain64Name] = "Mast",

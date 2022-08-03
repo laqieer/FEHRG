@@ -18,3 +18,4 @@ INCLUDE ../linkerscript/improved_sound_mixer.lds
 INCLUDE ../linkerscript/background.lds
 INCLUDE ../linkerscript/music.lds
 INCLUDE ../linkerscript/sound_room.lds
+INCLUDE ../linkerscript/terrain_name.lds
