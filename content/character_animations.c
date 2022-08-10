@@ -339,6 +339,34 @@ const struct BattleAnimationConfig RoyLegendaryAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig ChromAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_CHROM_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_CHROM_SWORD
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig LucinaAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_LUCINA_SWORD
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_LUCINA_SWORD
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -360,5 +388,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &OlwenAnimations[0],
     &RackesisAnimations[0],
     &EltshanAnimations[0],
+    &ChromAnimations[0],
+    &LucinaAnimations[0],
 };
-
