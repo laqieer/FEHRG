@@ -17,3 +17,5 @@
 [TID_OPTION_LANGUAGE_EN_NARROW_HELP] = "Change game language to English (narrow font)",
 
 [TID_ENEMY] = "Enemy",
+
+[TID_SAVE_MENU_CHOICES] = "Save      Quit",

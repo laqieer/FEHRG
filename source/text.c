@@ -5,6 +5,7 @@
 
 #include "font.h"
 #include "text.h"
+#include "text_id.h"
 #include "option.h"
 
 const struct Glyph *getAsciiGlyph(char a)
@@ -336,3 +337,4 @@ const char *getTextById(u32 textId)
     return getTextByIdCore(textId);
 }
 
+cu32 textIdSaveMenuChoices = TID_SAVE_MENU_CHOICES;
