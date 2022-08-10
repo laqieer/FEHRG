@@ -226,6 +226,7 @@ cu16 removeSelfPortraitInTradeMenuHighHword = 0;
 cu32 removeTargetPortraitInTradeMenu = 0;
 
 cu32 removePortraitInLevelUpAndClassChange = 0;
+cu32 removePortraitInLevelUpOnMap = 0;
 
 // Move item menu panel position to avoid overriding portrait
 
