@@ -1,5 +1,8 @@
 /* Original const data. */
 
+/* Event. */
+SCRIPT_GameOver = 0x8d6f71c;
+
 /* Portrait. */
 
 Portraits = 0x8d5e23c;

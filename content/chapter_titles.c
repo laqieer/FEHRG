@@ -3,6 +3,7 @@
 #include "all_gfx.h"
 
 const u8 * const chapterTitleImagesEN[] = {
+    USEN_MID_STAGE_XX001Tiles,
     USEN_MID_STAGE_X0001Tiles,
     USEN_MID_STAGE_X0002Tiles,
     USEN_MID_STAGE_X0003Tiles,
@@ -21,6 +22,7 @@ const u8 * const chapterTitleImagesEN[] = {
     USEN_MID_STAGE_X0051Tiles,
     USEN_MID_STAGE_X0052Tiles,
     USEN_MID_STAGE_X0053Tiles,
+    USEN_MID_STAGE_XX002Tiles,
     USEN_MID_STAGE_X0061Tiles,
     USEN_MID_STAGE_X0062Tiles,
     USEN_MID_STAGE_X0063Tiles,
@@ -57,6 +59,7 @@ const u8 * const chapterTitleImagesEN[] = {
     USEN_MID_STAGE_X0171Tiles,
     USEN_MID_STAGE_X0172Tiles,
     USEN_MID_STAGE_X0173Tiles,
+    USEN_MID_STAGE_XX003Tiles,
     USEN_MID_STAGE_X0181Tiles,
     USEN_MID_STAGE_X0182Tiles,
     USEN_MID_STAGE_X0183Tiles,
@@ -84,6 +87,7 @@ const u8 * const chapterTitleImagesEN[] = {
     USEN_MID_STAGE_X0261Tiles,
     USEN_MID_STAGE_X0262Tiles,
     USEN_MID_STAGE_X0263Tiles,
+    USEN_MID_STAGE_XX004Tiles,
     USEN_MID_STAGE_X0271Tiles,
     USEN_MID_STAGE_X0272Tiles,
     USEN_MID_STAGE_X0273Tiles,
@@ -153,15 +157,12 @@ const u8 * const chapterTitleImagesEN[] = {
     USEN_MID_STAGE_X0491Tiles,
     USEN_MID_STAGE_X0492Tiles,
     USEN_MID_STAGE_X0493Tiles,
-    USEN_MID_STAGE_XX001Tiles,
-    USEN_MID_STAGE_XX002Tiles,
-    USEN_MID_STAGE_XX003Tiles,
-    USEN_MID_STAGE_XX004Tiles,
 
     [0xff] = USEN_MID_STAGE_NO_DATATiles,
 };
 
 const u8 * const chapterTitleImagesJP[] = {
+    JPJA_MID_STAGE_XX001Tiles,
     JPJA_MID_STAGE_X0001Tiles,
     JPJA_MID_STAGE_X0002Tiles,
     JPJA_MID_STAGE_X0003Tiles,
@@ -180,6 +181,7 @@ const u8 * const chapterTitleImagesJP[] = {
     JPJA_MID_STAGE_X0051Tiles,
     JPJA_MID_STAGE_X0052Tiles,
     JPJA_MID_STAGE_X0053Tiles,
+    JPJA_MID_STAGE_XX002Tiles,
     JPJA_MID_STAGE_X0061Tiles,
     JPJA_MID_STAGE_X0062Tiles,
     JPJA_MID_STAGE_X0063Tiles,
@@ -216,6 +218,7 @@ const u8 * const chapterTitleImagesJP[] = {
     JPJA_MID_STAGE_X0171Tiles,
     JPJA_MID_STAGE_X0172Tiles,
     JPJA_MID_STAGE_X0173Tiles,
+    JPJA_MID_STAGE_XX003Tiles,
     JPJA_MID_STAGE_X0181Tiles,
     JPJA_MID_STAGE_X0182Tiles,
     JPJA_MID_STAGE_X0183Tiles,
@@ -243,6 +246,7 @@ const u8 * const chapterTitleImagesJP[] = {
     JPJA_MID_STAGE_X0261Tiles,
     JPJA_MID_STAGE_X0262Tiles,
     JPJA_MID_STAGE_X0263Tiles,
+    JPJA_MID_STAGE_XX004Tiles,
     JPJA_MID_STAGE_X0271Tiles,
     JPJA_MID_STAGE_X0272Tiles,
     JPJA_MID_STAGE_X0273Tiles,
@@ -312,15 +316,12 @@ const u8 * const chapterTitleImagesJP[] = {
     JPJA_MID_STAGE_X0491Tiles,
     JPJA_MID_STAGE_X0492Tiles,
     JPJA_MID_STAGE_X0493Tiles,
-    JPJA_MID_STAGE_XX001Tiles,
-    JPJA_MID_STAGE_XX002Tiles,
-    JPJA_MID_STAGE_XX003Tiles,
-    JPJA_MID_STAGE_XX004Tiles,
 
     [0xff] = USEN_MID_STAGE_NO_DATATiles,
 };
 
 const u8 * const chapterTitleImagesCN[] = {
+    CNZH_MID_STAGE_XX001Tiles,
     CNZH_MID_STAGE_X0001Tiles,
     CNZH_MID_STAGE_X0002Tiles,
     CNZH_MID_STAGE_X0003Tiles,
@@ -339,6 +340,7 @@ const u8 * const chapterTitleImagesCN[] = {
     CNZH_MID_STAGE_X0051Tiles,
     CNZH_MID_STAGE_X0052Tiles,
     CNZH_MID_STAGE_X0053Tiles,
+    CNZH_MID_STAGE_XX002Tiles,
     CNZH_MID_STAGE_X0061Tiles,
     CNZH_MID_STAGE_X0062Tiles,
     CNZH_MID_STAGE_X0063Tiles,
@@ -375,6 +377,7 @@ const u8 * const chapterTitleImagesCN[] = {
     CNZH_MID_STAGE_X0171Tiles,
     CNZH_MID_STAGE_X0172Tiles,
     CNZH_MID_STAGE_X0173Tiles,
+    CNZH_MID_STAGE_XX003Tiles,
     CNZH_MID_STAGE_X0181Tiles,
     CNZH_MID_STAGE_X0182Tiles,
     CNZH_MID_STAGE_X0183Tiles,
@@ -402,6 +405,7 @@ const u8 * const chapterTitleImagesCN[] = {
     CNZH_MID_STAGE_X0261Tiles,
     CNZH_MID_STAGE_X0262Tiles,
     CNZH_MID_STAGE_X0263Tiles,
+    CNZH_MID_STAGE_XX004Tiles,
     CNZH_MID_STAGE_X0271Tiles,
     CNZH_MID_STAGE_X0272Tiles,
     CNZH_MID_STAGE_X0273Tiles,
@@ -471,11 +475,6 @@ const u8 * const chapterTitleImagesCN[] = {
     CNZH_MID_STAGE_X0491Tiles,
     CNZH_MID_STAGE_X0492Tiles,
     CNZH_MID_STAGE_X0493Tiles,
-    CNZH_MID_STAGE_XX001Tiles,
-    CNZH_MID_STAGE_XX002Tiles,
-    CNZH_MID_STAGE_XX003Tiles,
-    CNZH_MID_STAGE_XX004Tiles,
 
     [0xff] = USEN_MID_STAGE_NO_DATATiles,
 };
-

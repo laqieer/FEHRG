@@ -1,0 +1,54 @@
+{
+    "activeFile": "XX001.tmj",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "X0001.tmj": {
+            "expandedObjectLayers": [
+                4,
+                3
+            ],
+            "scale": 2.173125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 119.87345412712105,
+                "y": 135.9792924935289
+            }
+        },
+        "X0001.tsj": {
+            "scaleInDock": 1
+        },
+        "XX001.tmj": {
+            "expandedObjectLayers": [
+                3,
+                2
+            ],
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 60.75,
+                "y": 96.75
+            }
+        },
+        "XX001.tsj": {
+            "scaleInDock": 1
+        },
+        "unit/ally.tsx": {
+            "scaleInDock": 1
+        },
+        "unit/enemy.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "XX001.tmj",
+        "X0001.tmj"
+    ],
+    "project": "chapters.tiled-project",
+    "property.type": "Unit",
+    "recentFiles": [
+        "X0001.tmj",
+        "XX001.tmj"
+    ]
+}

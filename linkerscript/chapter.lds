@@ -1,0 +1,12 @@
+. = 0x8031a6c;
+.rodata.pChapters1 : {*(.rodata.pChapters1)}
+. = 0x80b71f4;
+.rodata.pChapters2 : {*(.rodata.pChapters2)}
+. = 0x80b7324;
+.rodata.pChapters3 : {*(.rodata.pChapters3)}
+. = 0x80b753c;
+.rodata.pChapters4 : {*(.rodata.pChapters4)}
+. = 0x80b76a0;
+.rodata.pChapters5 : {*(.rodata.pChapters5)}
+. = 0x80b787c;
+.rodata.pChapters6 : {*(.rodata.pChapters6)}

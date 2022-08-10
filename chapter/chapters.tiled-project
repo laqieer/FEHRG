@@ -1,0 +1,53 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ffa0a0a4",
+            "id": 1,
+            "members": [
+                {
+                    "name": "autoLevel",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "guard",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "heal",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "items",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "level",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "pursue",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "name": "Unit",
+            "type": "class",
+            "useAs": [
+                "property",
+                "object"
+            ]
+        }
+    ]
+}

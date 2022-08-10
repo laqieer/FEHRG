@@ -22,7 +22,7 @@ include $(DEVKITARM)/gba_rules
 #---------------------------------------------------------------------------------
 TARGET		:= $(notdir $(CURDIR))
 BUILD		:= build
-SOURCES		:= source source/gba-hq-mixer content content/music content/battle_animation test
+SOURCES		:= source source/gba-hq-mixer content content/music content/battle_animation content/chapter_terrain content/chapter_map content/chapter_event test
 INCLUDES	:= include
 DATA		:= content/moving_unit_icon_motion
 LDSCRIPTS	:= ../linkerscript
@@ -34,15 +34,17 @@ ARCH	:=	-mthumb -mthumb-interwork
 
 HACK	:=	-ffunction-sections -fdata-sections -fno-reorder-functions -fno-inline -fomit-frame-pointer -ffast-math -mlong-calls
 
+LOCALE	:= -fextended-identifiers
+
 CFLAGS	:=	-g -Wall -Werror -O2\
 		-mcpu=arm7tdmi -mtune=arm7tdmi\
-		$(ARCH)
+		$(ARCH) $(LOCALE)
 
 CFLAGS	+=	$(INCLUDE) $(HACK)
 
 CXXFLAGS	:=	$(CFLAGS) -fno-rtti -fno-exceptions
 
-ASFLAGS	:=	-g $(ARCH) $(INCLUDE)
+ASFLAGS	:=	-g $(ARCH) $(LOCALE) $(INCLUDE)
 LDFLAGS	=	-g $(ARCH) -Wl,-Map,$(notdir $(OUTPUT).map) -nostartfiles
 
 LIBTONC	:= $(DEVKITPRO)/libtonc

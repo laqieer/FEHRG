@@ -59,6 +59,12 @@ extern u16 PalBuffer[0x200];
 
 extern struct Proc* ProcTreeRoots[8];
 
+/* Chapter. */
+
+extern u16 ChapterTilesetConfig[];
+extern s16 ChapterMapCameraMaxOffsetX, ChapterMapCameraMaxOffsetY;
+extern s16 ChapterMapWidth, ChapterMapHeight;
+
 /* Map BGM. */
 
 extern u32 CurrentBgmId;

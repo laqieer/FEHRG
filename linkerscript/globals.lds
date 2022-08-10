@@ -53,6 +53,14 @@ BG2MapBuffer = 0x2023C60;
 BG3MapBuffer = 0x2024460;
 PalBuffer = 0x2022860;
 
+/* Chapter. */
+
+ChapterTilesetConfig = 0x2030A8C;
+ChapterMapCameraMaxOffsetX = 0x202BBDC;
+ChapterMapCameraMaxOffsetY = 0x202BBDE;
+ChapterMapWidth = 0x202e3d4;
+ChapterMapHeight = 0x202e3d6;
+
 /* Map BGM. */
 
 CurrentBgmId = 0x2024E14;

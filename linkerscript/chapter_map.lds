@@ -1,0 +1,10 @@
+. = 0x8019618;
+.rodata.pChapterTilesetTiles : {*(.rodata.pChapterTilesetTiles)}
+. = 0x801964C;
+.rodata.pChapterTilesetPals : {*(.rodata.pChapterTilesetPals)}
+. = 0x8031ABC;
+.rodata.pChapterMaps : {*(.rodata.pChapterMaps)}
+. = 0x801955C;
+.text.LoadChapterMap : {*(.text.LoadChapterMap)}
+. = 0x80195BC;
+.text.LoadChapterTileset : {*(.text.LoadChapterTileset)}
