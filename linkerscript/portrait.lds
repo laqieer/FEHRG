@@ -21,7 +21,9 @@
 . = 0x8007d24;
 .rodata.textBoxPalette1 : {*(.rodata.textBoxPalette1)}
 . = 0x8008444;
-.rodata.textBoxPalette2 : {*(.rodata.textBoxPalette2)}
+.rodata.textBoxPalette2 : {*(.rodata.textBoxPalette2)} 	
+. = 0x8009d28;
+.rodata.textBoxPosY : {*(.rodata.textBoxPosY)}
 . = 0x8007354;
 .text.displayPortraitInStatScreen : {*(.text.displayPortraitInStatScreen)}
 . = 0x8080600;

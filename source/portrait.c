@@ -132,6 +132,10 @@ cu32 * const textBoxTiles2 = text_boxTiles;
 cu16 * const textBoxPalette1 = text_boxPal;
 cu16 * const textBoxPalette2 = text_boxPal;
 
+// Move text box position to avoid overriding portrait
+// Y: 8 -> 5
+cu8 textBoxPosY = 5;
+
 void drawPortraitInBg64(u16 *mapBuffer, u16 portraitId, u32 baseTileNum, u8 basePaletteSlot)
 {
     const struct Portrait *portrait = getPortraitByIdCore(portraitId);
