@@ -5,8 +5,8 @@
 
 const char * const textsJP[] = {
     [TID_START] = NULL,
-    #include "../locale/JPJA/misc.txt"
     #include "../locale/JPJA/scenario.txt"
+    #include "../locale/JPJA/misc.txt"
     #include "../locale/JPJA/unit.txt"
     #include "../locale/JPJA/skill.txt"
     #include "../locale/JPJA/stage.txt"

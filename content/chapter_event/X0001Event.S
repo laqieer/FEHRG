@@ -7,6 +7,7 @@
 	#include "background_id.h"
 	#include "music_id.h"
 
+	#include "event_text_id.h"
 	.section .rodata
 	.align 2
 	.global X0001Event
@@ -24,12 +25,18 @@ MiscBasedEvents:
 	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
+	ShowBG(BG001_Brave)
+	MUSC BGM_EVENT_PLAIN_01
+	TEX1 EvTx_X0001_MID_SCENARIO_OPENING
 	LOU1 EnemyUnits
 	ENUN
 	LOU1 AllyUnits
 	ENUN
+	MUSC BGM_MAP_FES_01
+	TEX1 EvTx_X0001_MID_SCENARIO_MAP_BEGIN
 	ENDB
 EndingScene:
+	TEX1 EvTx_X0001_MID_SCENARIO_MAP_END
 	MNCH X0001Next
 	ENDA
 AllyUnits:

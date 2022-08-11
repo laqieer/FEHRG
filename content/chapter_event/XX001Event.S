@@ -7,6 +7,7 @@
 	#include "background_id.h"
 	#include "music_id.h"
 
+	#include "event_text_id.h"
 	.section .rodata
 	.align 2
 	.global XX001Event
@@ -28,8 +29,14 @@ BeginningScene:
 	ENUN
 	LOU1 AllyUnits
 	ENUN
+	MUSC BGM_EVENT_SERIOUS_02
+	TEX1 EvTx_XX001_MID_SCENARIO_MAP_BEGIN
 	ENDB
 EndingScene:
+	TEX1 EvTx_XX001_MID_SCENARIO_MAP_END
+	ShowBG(BG005_Castle)
+	MUSC BGM_EVENT_SERIOUS_03
+	TEX1 EvTx_XX001_MID_SCENARIO_ENDING
 	MNCH XX001Next
 	ENDA
 AllyUnits:
