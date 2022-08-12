@@ -59,3 +59,5 @@ BattleAnimations:
     .word 0, 0, eltshan_sword_extra_pal, eltshan_sword_modes, eltshan_sword_script_header, eltshan_sword_frames_r_header, eltshan_sword_frames_l_header, eltshan_sword_basic_pal
     .word 0, 0, chrom_sword_extra_pal, chrom_sword_modes, chrom_sword_script_header, chrom_sword_frames_r_header, chrom_sword_frames_l_header, chrom_sword_basic_pal
     .word 0, 0, 0, lucina_sword_modes, lucina_sword_script_header, lucina_sword_frames_r_header, lucina_sword_frames_l_header, lucina_sword_basic_pal
+    .word 0, 0, elise_staff_extra_pal, elise_staff_modes, elise_staff_script_header, elise_staff_frames_r_header, elise_staff_frames_l_header, elise_staff_basic_pal
+    .word 0, 0, leo_magic_extra_pal, leo_magic_modes, leo_magic_script_header, leo_magic_frames_r_header, leo_magic_frames_l_header, leo_magic_basic_pal

@@ -287,12 +287,12 @@ const struct BattleAnimationConfig RackesisAnimations[] = {
     {
         ITYPE_STAFF,
         true,
-        ANID_RACKESIS_MAGIC
+        ANID_RACKESIS_STAFF
     },
     {
         ITYPE_ITEM,
         true,
-        ANID_RACKESIS_MAGIC
+        ANID_RACKESIS_STAFF
     },
     ANCFG_END
 };
@@ -367,6 +367,44 @@ const struct BattleAnimationConfig LucinaAnimations[] = {
     ANCFG_END
 };
 
+const struct BattleAnimationConfig EliseAnimations[] = {
+    {
+        ITYPE_STAFF,
+        true,
+        ANID_ELISE_STAFF
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_ELISE_STAFF
+    },
+    ANCFG_END
+};
+
+const struct BattleAnimationConfig LeoAnimations[] = {
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_LEO_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_LEO_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_LEO_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_LEO_MAGIC
+    },
+    ANCFG_END
+};
+
 const struct BattleAnimationConfig * const CharacterAnimations[] = {
     NULL,
     &AlfonsAnimations[0],
@@ -390,4 +428,6 @@ const struct BattleAnimationConfig * const CharacterAnimations[] = {
     &EltshanAnimations[0],
     &ChromAnimations[0],
     &LucinaAnimations[0],
+    &EliseAnimations[0],
+    &LeoAnimations[0],
 };

@@ -24,4 +24,6 @@ enum
     UANID_ELTSHAN,
     UANID_CHROM,
     UANID_LUCINA,
+    UANID_ELISE,
+    UANID_LEO,
 };
