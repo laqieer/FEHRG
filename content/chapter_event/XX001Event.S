@@ -48,7 +48,7 @@ EnemyUnits:
 	ENEMY_UNIT(クロム, 1, 1, AUTO_LEVEL, 0, 2, 钢剑, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(ルキナ, 1, 1, AUTO_LEVEL, 3, 1, 细身剑, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(エリーゼ, 44, 1, AUTO_LEVEL, 14, 0, 回复之杖, 0, 0, 0, HealAllies, 0, 0, 0)
-	ENEMY_UNIT(レオン, 36, 1, AUTO_LEVEL, 14, 1, 熔流, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(レオン, 44, 1, AUTO_LEVEL, 14, 1, 熔流, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(エフラム, 104, 1, AUTO_LEVEL, 13, 16, 铁枪, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(エイリーク, 105, 1, AUTO_LEVEL, 14, 16, 铁剑, 0, 0, 0, 0, 0, 0, 0)
 	END_UNIT
