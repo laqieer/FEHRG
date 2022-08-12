@@ -57,5 +57,5 @@ BattleAnimations:
     .word 0, 0, olwen_magic_extra_pal, olwen_magic_modes, olwen_magic_script_header, olwen_magic_frames_r_header, olwen_magic_frames_l_header, olwen_magic_basic_pal
     .word 0, 0, rackesis_staff_extra_pal, rackesis_staff_modes, rackesis_staff_script_header, rackesis_staff_frames_r_header, rackesis_staff_frames_l_header, rackesis_staff_basic_pal
     .word 0, 0, eltshan_sword_extra_pal, eltshan_sword_modes, eltshan_sword_script_header, eltshan_sword_frames_r_header, eltshan_sword_frames_l_header, eltshan_sword_basic_pal
-    .word 0, 0, 0, chrom_sword_modes, chrom_sword_script_header, chrom_sword_frames_r_header, chrom_sword_frames_l_header, chrom_sword_basic_pal
+    .word 0, 0, chrom_sword_extra_pal, chrom_sword_modes, chrom_sword_script_header, chrom_sword_frames_r_header, chrom_sword_frames_l_header, chrom_sword_basic_pal
     .word 0, 0, 0, lucina_sword_modes, lucina_sword_script_header, lucina_sword_frames_r_header, lucina_sword_frames_l_header, lucina_sword_basic_pal
