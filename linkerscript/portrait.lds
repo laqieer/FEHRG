@@ -53,3 +53,7 @@
 .rodata.noHelpBoxInItemMenu : {*(.rodata.noHelpBoxInItemMenu)}*/
 . = 0x804b1b0;
 .text.menuCallHelp : {*(.text.menuCallHelp)}
+. = 0x80073ac;
+.text.startFaceFadeIn : {*(.text.startFaceFadeIn)}
+. = 0x80073f4;
+.text.startFaceFadeOut : {*(.text.startFaceFadeOut)}

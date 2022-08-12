@@ -59,6 +59,9 @@ int GetBgChrOffset(int bg);
 void SetBgChrOffset(int bg, int offset);
 void WriteTSA(u16 *mapBuffer, cu8 *tsa, u16 tileRef);
 void SetBgPosition(u16 bg, u16 positionX, u16 positionY);
+void SetBlackPal(int palid);
+void *StartPalFade(u16 const* colors, int pal, int duration, ProcPtr parent);
+void StartPalFadeToBlack(int palid, int duration, ProcPtr parent);
 
 /* Portrait. */
 void SetPortraitSprite(struct Proc *proc);

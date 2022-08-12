@@ -63,6 +63,7 @@ extern const struct Portrait newClassCards[];
 
 void PlayMouthAnimation(struct MouthAnimationProc *proc);
 void DecompressPortraitTiles(struct PortraitProc *proc);
+void EndFaceIn8Frames(struct PortraitProc *proc);
 
 extern vu16 portraitObjTiles[];
 

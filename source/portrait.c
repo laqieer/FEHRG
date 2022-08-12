@@ -268,3 +268,40 @@ void menuCallHelp(struct Proc *proc)
     //menuCallHelpCore(proc);
     TINY_CALL(menuCallHelpCore, 1);
 }
+
+void startFaceFadeInCore(struct PortraitProc *proc)
+{
+    // struct Portrait const* portrait = getPortraitByIdCore(proc->portaritId);
+    // int paletteSlot = 0x10 + PortraitSpaces[proc->portraitSlot].paletteSlot;
+
+    // SetBlackPal(paletteSlot);
+    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
+    // SetBlackPal(paletteSlot);
+    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
+    // SetBlackPal(paletteSlot);
+    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
+    // SetBlackPal(paletteSlot);
+    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
+}
+
+void startFaceFadeOutCore(struct PortraitProc *proc)
+{
+    // struct Portrait const* portrait = getPortraitByIdCore(proc->portaritId);
+    // int paletteSlot = 0x10 + PortraitSpaces[proc->portraitSlot].paletteSlot;
+
+    // StartPalFadeToBlack(paletteSlot++, 12, proc);
+    // StartPalFadeToBlack(paletteSlot++, 12, proc);
+    // StartPalFadeToBlack(paletteSlot++, 12, proc);
+    // StartPalFadeToBlack(paletteSlot++, 12, proc);
+    EndFaceIn8Frames(proc);
+}
+
+void startFaceFadeIn(struct PortraitProc *proc)
+{
+    startFaceFadeInCore(proc);
+}
+
+void startFaceFadeOut(struct PortraitProc *proc)
+{
+    startFaceFadeOutCore(proc);
+}
