@@ -772,7 +772,7 @@ print('\tENUN')
 print('\tLOU1 AllyUnits')
 print('\tENUN')
 load_scenario(Scenario.MAP_BEGIN)
-print('\tENDB')
+print('\tENDA')
 
 print('EndingScene:')
 load_scenario(Scenario.MAP_END)
