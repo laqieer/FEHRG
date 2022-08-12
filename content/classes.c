@@ -2942,7 +2942,7 @@ const struct Class Classes[] = {
 			WPN_EXP_0, // Lance
 			WPN_EXP_0, // Axe
 			WPN_EXP_0, // Bow
-			WPN_EXP_D, // Staff
+			WPN_EXP_0, // Staff
 			WPN_EXP_0, // Anima
 			WPN_EXP_0, // Light
 			WPN_EXP_0, // Dark

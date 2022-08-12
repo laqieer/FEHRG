@@ -22,3 +22,4 @@ INCLUDE ../linkerscript/terrain_name.lds
 INCLUDE ../linkerscript/chapter.lds
 INCLUDE ../linkerscript/chapter_map.lds
 INCLUDE ../linkerscript/chapter_event.lds
+INCLUDE ../linkerscript/unit.lds
