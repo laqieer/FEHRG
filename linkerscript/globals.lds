@@ -71,6 +71,9 @@ DAT_0202bbb8 = 0x202bbb8;
 PortraitSpaces = 0x202a580;
 CurrentPortraits = 0x30040e0;
 portraitObjTiles = 0x6013000;
+mainMenuObjTilesLo = 0x6010800;
+mainMenuObjTilesHi = 0x6016800;
+extraMenuObjTiles = 0x6013800;
 
 /* Battle. */
 

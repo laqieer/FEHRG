@@ -83,14 +83,25 @@ u32 GetGoldAmount();
 void SetGoldAmount(u32 goldAmount);
 void AddGoldAmount(int goldAmount);
 
-/* Option. */
+/* Menu. */
 
+// Option Menu
 int OptionMenuItemHandler(u32 procParent);
 int OptionMenuItemBgmHandler(u32 procParent);
 int OptionMenuItemWindowColorHandler(u32 procParent);
 int GetOptionMenuItemCurrentValue(u8 item, int pad, int defaultValue);
 void DisplayItemAlternativesInOptionMenu(int param_1,int param_2,int param_3);
 int GetOptionMenuId();
+// Main Menu
+void LoadMainMenu1(struct Proc *proc);
+void LoadMainMenu2(struct Proc *proc);
+void LoadMainMenu3(struct Proc *proc);
+void LoadMainMenuAndExtraMenu1(struct Proc *proc);
+void LoadMainMenuAndExtraMenu2(struct Proc *proc);
+// Extra Menu
+void LoadExtraMenu1(struct Proc *proc);
+void LoadExtraMenu2(struct Proc *proc);
+void LoadExtraMenu3(struct Proc *proc);
 
 /* Chapter. */
 

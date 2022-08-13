@@ -1,5 +1,9 @@
 /* Original const data. */
 
+/* Menu. */
+Main_menu_jpTiles = 0x842ff00;
+Extra_menu_jpTiles = 0x843165c;
+
 /* Event. */
 SCRIPT_GameOver = 0x8d6f71c;
 
