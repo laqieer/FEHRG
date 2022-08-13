@@ -127,10 +127,10 @@ void playMouthAnimation(struct MouthAnimationProc *proc)
 const struct ProcCmd playMouthAnimationCmd = PROC_REPEAT(playMouthAnimation);
 
 // Remove sharp corner of text box.
-cu32 * const textBoxTiles1 = text_boxTiles;
-cu32 * const textBoxTiles2 = text_boxTiles;
-cu16 * const textBoxPalette1 = text_boxPal;
-cu16 * const textBoxPalette2 = text_boxPal;
+cu32 * const textBoxTiles = text_boxTiles;
+cu32 * const textBoxAnimationTiles[] = {text_boxTiles, text_boxTiles};
+cu16 * const textBoxPalette = text_boxPal;
+cu16 * const textBoxAnimationPalette = text_boxPal;
 
 // Move text box position to avoid overriding portrait
 // Y: 8 -> 5
