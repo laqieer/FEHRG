@@ -19,3 +19,7 @@
 [TID_ENEMY] = "ìGï∫",
 
 [TID_SAVE_MENU_CHOICES] = "ãLò^Å@Å@Å@Ç‚ÇﬂÇÈ",
+
+[TID_ACTION_MENU_RIDE_BALLISTA] = "èÊÇÈ",
+
+[TID_ACTION_MENU_EXIT_BALLISTA] = "ç~ÇËÇÈ",

@@ -19,3 +19,7 @@
 [TID_ENEMY] = "敌人",
 
 [TID_SAVE_MENU_CHOICES] = "保存　　　不要",
+
+[TID_ACTION_MENU_RIDE_BALLISTA] = "乘坐",
+
+[TID_ACTION_MENU_EXIT_BALLISTA] = "下来",

@@ -8,5 +8,3 @@
 .text.appendChar : {*(.text.appendChar)}
 . = 0x8013318;
 .text.getTextById : {*(.text.getTextById)}
-. = 0x8dadac4;
-.rodata.textIdSaveMenuChoices : {*(.rodata.textIdSaveMenuChoices)}

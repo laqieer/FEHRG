@@ -5161,748 +5161,742 @@
 
 [13+0x07A6] =
 "Female",
-/*
-[0x109F] =
+
+[0x1093] =
 "Save",
 
-[0x10A0] =
+[0x1094] =
 "Start"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10A1] =
+[0x1095] =
 "Copy",
 
-[0x10A2] =
+[0x1096] =
 "Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10A3] =
+[0x1097] =
 "Back",
 
-[0x10A4] =
+[0x1098] =
 "Quit",
 
-[0x10A5] =
+[0x1099] =
 "Drop?"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10A6] =
+[0x109A] =
 "Play Music",
 
-[0x10A7] =
+[0x109B] =
 "Stop",
 
-[0x10A8] =
+[0x109C] =
 "End"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10A9] =
+[0x109D] =
 "Normal",
 
-[0x10AA] =
+[0x109E] =
 "Hard",
 
-[0x10AB] =
+[0x109F] =
 "Anim."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10AC] =
+[0x10A0] =
 "Left",
 
-[0x10AD] =
+[0x10A1] =
 "Nothing"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10AE] =
+[0x10A2] =
 "Trans"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10AF] =
+[0x10A3] =
 "Give",
 
-[0x10B0] =
+[0x10A4] =
 "Take",
 
-[0x10B1] =
+[0x10A5] =
 "Drop",
 
-[0x10B2] =
+[0x10A6] =
 "Is this map OK?"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10B3] =
+[0x10A7] =
 "Sent "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10B4] =
+[0x10A8] =
 "Cont. Tutorial",
 
-[0x10B5] =
+[0x10A9] =
 "Quit Tutorial"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10B6] =
+[0x10AA] =
 "Erase"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10B7] =
+[0x10AB] =
 "File?"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10B8] =
+[0x10AC] =
 "Erased files are",
 
-[0x10B9] =
+[0x10AD] =
 "gone forever!"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10BA] =
+[0x10AE] =
 "OK",
 
-[0x10BB] =
+[0x10AF] =
 "Release Entry"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10BC] =
+[0x10B0] =
 "Continue Chp."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10BD] =
+[0x10B1] =
 "Initialize File"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10BE] =
+[0x10B3] =
 "Manual Save"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10BF] =
+[0x10B4] =
 "Manual Cont.",
 
-[0x10C0] =
+[0x10B5] =
 "Map"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10C1] =
+[0x10B6] =
 "D.Info",
 
-[0x10C2] =
+[0x10B7] =
 "Weather"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10C3] =
+[0x10B8] =
 "Fog"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10C4] =
+[0x10B9] =
 "Clears",
 
-[0x10C5] =
+[0x10BA] =
 "Erased",
 
-[0x10C6] =
+[0x10BB] =
 "G'Night!",
 
-[0x10C7] =
+[0x10BC] =
 "M"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10C8] =
-"Ride",
-
-[0x10C9] =
-"Exit",
-
-[0x10CA] =
+[0x10BD] =
 "Seize"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10CB] =
+[0x10BE] =
 "Attack",
 
-[0x10CC] =
+[0x10BF] =
 "Staff"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10CD] =
+[0x10C0] =
 "Play",
 
-[0x10CE] =
+[0x10C1] =
 "Dance"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10CF] =
+[0x10C2] =
 "Steal"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10D0] =
+[0x10C3] =
 "Talk",
 
-[0x10D1] =
+[0x10C4] =
 "Support"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10D2] =
+[0x10C5] =
 "Visit"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10D3] =
+[0x10C6] =
 "Chest"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10D4] =
+[0x10C7] =
 "Door",
 
-[0x10D5] =
+[0x10C8] =
 "Armory",
 
-[0x10D6] =
+[0x10C9] =
 "Vendor",
 
-[0x10D7] =
+[0x10CA] =
 "Secret",
 
-[0x10D8] =
+[0x10CB] =
 "Arena"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10D9] =
+[0x10CC] =
 "Rescue",
 
-[0x10DA] =
+[0x10CD] =
 "Drop",
 
-[0x10DB] =
+[0x10CE] =
 "Take",
 
-[0x10DC] =
+[0x10CF] =
 "Give",
 
-[0x10DD] =
+[0x10D0] =
 "Item",
 
-[0x10DE] =
+[0x10D1] =
 "Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10DF] =
+[0x10D2] =
 "Merch"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10E0] =
+[0x10D3] =
 "Wait",
 
-[0x10E1] =
+[0x10D4] =
 "Sally"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10E2] =
+[0x10D5] =
 "Unit",
 
-[0x10E3] =
+[0x10D6] =
 "Status",
 
-[0x10E4] =
+[0x10D7] =
 "Options"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10E5] =
-"Suspend"TEXT_PAUSE_SHORT_WITH_SFX"",
+[0x10D8] =
+"Suspen"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10E6] =
+[0x10D9] =
 "Lead",
 
-[0x10E7] =
-"Debug"TEXT_PAUSE_SHORT_WITH_SFX"",
+//[0x10E7] =
+//"Debug"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10E8] =
+[0x10DB] =
 "M.Save",
 
-[0x10E9] =
+[0x10DC] =
 "End"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10EA] =
+[0x10DD] =
 "Use"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10EB] =
+[0x10DE] =
 "Equip"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10EC] =
+[0x10DF] =
 "Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10ED] =
+[0x10E0] =
 "Discard"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10EE] =
+[0x10E1] =
 "Yes"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10EF] =
+[0x10E2] =
 "No",
 
-[0x10F0] =
+[0x10E3] =
 "Bllsta",
 
-[0x10F1] =
+[0x10E4] =
 "Normal",
 
-[0x10F2] =
+[0x10E5] =
 "Name",
 
-[0x10F3] =
+[0x10E6] =
 "Lv",
 
-[0x10F4] =
+[0x10E7] =
 "HP",
 
-[0x10F5] =
+[0x10E8] =
 "Max"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10F6] =
+[0x10EA] =
 "Exp"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10F7] =
+[0x10EB] =
 "Class"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10F8] =
+[0x10EC] =
 "Str"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10F9] =
+[0x10ED] =
 "Mag"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10FA] =
+[0x10EE] =
 "S/M"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10FB] =
+[0x10EF] =
 "Skill"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10FC] =
+[0x10F0] =
 "Spd"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10FD] =
+[0x10F1] =
 "Luck",
 
-[0x10FE] =
+[0x10F2] =
 "Def"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x10FF] =
+[0x10F3] =
 "Res"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1100] =
+[0x10F4] =
 "Div"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1101] =
+[0x10F5] =
 "Affin"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1102] =
+[0x10F6] =
 "Equip"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1103] =
+[0x10F7] =
 "Atk"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1104] =
+[0x10F8] =
 "Hit"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1105] =
+[0x10F9] =
 "Avoid"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1106] =
+[0x10FA] =
 "Move",
 
-[0x1107] =
+[0x10FB] =
 "Con"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1108] =
+[0x10FC] =
 "Aid"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1109] =
+[0x10FD] =
 "Trv"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x110A] =
+[0x10FE] =
 "Cond",
 
-[0x110B] =
+[0x10FF] =
 "Ally",
 
-[0x110C] =
+[0x1100] =
 "Rng"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x110D] =
+[0x1101] =
 "Crit",
 
-[0x110E] =
+[0x1102] =
 "Wt",
 
-[0x110F] =
+[0x1103] =
 "Mt",
 
-[0x1110] =
+[0x1104] =
 "AS",
 
-[0x1111] =
+[0x1105] =
 "Sword"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1112] =
+[0x1106] =
 "Lance"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1113] =
+[0x1107] =
 "Axe"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1114] =
+[0x1108] =
 "Bow"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1115] =
+[0x1109] =
 "Staff"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1116] =
+[0x110A] =
 "Nature",
 
-[0x1117] =
+[0x110B] =
 "Light"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1118] =
+[0x110C] =
 "Dark",
 
-[0x1119] =
+[0x110D] =
 "Item",
 
-[0x111A] =
+[0x110E] =
 "Bllsta",
 
-[0x111B] =
+[0x110F] =
 "Dragon",
 
-[0x111C] =
+[0x1110] =
 "",
 
-[0x111D] =
+[0x1111] =
 "E"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x111E] =
+[0x1112] =
 "D"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x111F] =
+[0x1113] =
 "C"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1120] =
+[0x1114] =
 "B"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1121] =
+[0x1115] =
 "A"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1122] =
+[0x1116] =
 "S"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1123] =
+[0x1117] =
 "Fire",
 
-[0x1124] =
+[0x1118] =
 "Thunder"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1125] =
+[0x1119] =
 "Wind",
 
-[0x1126] =
+[0x111A] =
 "Ice"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1127] =
+[0x111B] =
 "Dark",
 
-[0x1128] =
+[0x111C] =
 "Light"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1129] =
+[0x111D] =
 "Nature",
 
-[0x112A] =
+[0x111E] =
 "",
 
-[0x112B] =
+[0x111F] =
 "Poison",
 
-[0x112C] =
+[0x1120] =
 "Sleep"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x112D] =
+[0x1121] =
 "Silence"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x112E] =
+[0x1122] =
 "Berserk"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x112F] =
+[0x1123] =
 "MP/2",
 
-[0x1130] =
+[0x1124] =
 "    1"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1131] =
+[0x1125] =
 " 12"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1132] =
+[0x1126] =
 " 13"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1133] =
+[0x1127] =
 "    2"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1134] =
+[0x1128] =
 " 23"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1135] =
+[0x1129] =
 "3"TEXT_PAUSE_SHORT_WITH_SFX"10",
 
-[0x1136] =
+[0x112A] =
 "3"TEXT_PAUSE_SHORT_WITH_SFX"15",
 
-[0x1137] =
+[0x112B] =
 "Total"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1138] =
+[0x112C] =
 "   "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1139] =
+[0x112D] =
 "Goal:"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x113A] =
+[0x112E] =
 "Turn:"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x113B] =
+[0x112F] =
 "Funds:",
 
-[0x113C] =
+[0x1130] =
 "Play",
 
-[0x113D] =
+[0x1131] =
 "Pick Units",
 
-[0x113E] =
+[0x1132] =
 "Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x113F] =
+[0x1133] =
 "Exit",
 
-[0x1140] =
+[0x1134] =
 "Save",
 
-[0x1141] =
+[0x1135] =
 "Check Map"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1142] =
+[0x1136] =
 "Trade"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1143] =
+[0x1137] =
 "Drop",
 
-[0x1144] =
+[0x1138] =
 "Merlinus",
 
-[0x1145] =
+[0x1139] =
 "View List"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1146] =
+[0x113A] =
 "Fortune"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1147] =
+[0x113B] =
 "Unit List"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1148] =
+[0x113C] =
 "Armory",
 
-[0x1149] =
+[0x113D] =
 "Form Team"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x114A] =
+[0x113E] =
 "Deploy",
 
-[0x114B] =
+[0x113F] =
 "Merlinus",
 
-[0x114C] =
+[0x1140] =
 "Options"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x114D] =
+[0x1141] =
 "Conditions",
 
-[0x114E] =
+[0x1142] =
 "Formation"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x114F] =
+[0x1143] =
 "View Map",
 
-[0x1150] =
+[0x1144] =
 "Return",
 
-[0x1151] =
+[0x1145] =
 "Begin"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1152] =
+[0x1146] =
 "Cancel",
 
-[0x1153] =
+[0x1147] =
 "Tprt On"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1154] =
+[0x1148] =
 "Tprt Off",
 
-[0x1155] =
+[0x114A] =
 "Breath of Destiny"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1156] =
+[0x114B] =
 "Princess of Bern",
 
-[0x1157] =
+[0x114C] =
 "The Latecomer"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1158] =
+[0x114D] =
 "Federation Crumbling",
 
-[0x1159] =
+[0x114E] =
 "Flame Crest"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x115A] =
+[0x114F] =
 "The Trap Is Sprung",
 
-[0x115B] =
+[0x1150] =
 "Ostia's Rebellion"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x115C] =
+[0x1151] =
 "Reunion"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x115D] =
+[0x1152] =
 "Island of Mists"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x115E] =
+[0x1153] =
 "Fighters",
 
-[0x115F] =
+[0x1154] =
 "Hero of the West",
 
-[0x1160] =
+[0x1155] =
 "The True Enemy",
 
-[0x1161] =
+[0x1156] =
 "Rescue Mission",
 
-[0x1162] =
+[0x1157] =
 "Arcadia"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1163] =
+[0x1158] =
 "Dragon Girl"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1164] =
+[0x1159] =
 "Reclaim the Capital"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1165] =
+[0x115A] =
 "Ocean Road",
 
-[0x1166] =
+[0x115B] =
 "Frozen River",
 
-[0x1167] =
+[0x115C] =
 "General Winter",
 
-[0x1168] =
+[0x115D] =
 "Liberation of Ilia",
 
-[0x1169] =
+[0x115E] =
 "Sword of Seals",
 
-[0x116A] =
+[0x115F] =
 "Unfulfilled Dream"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x116B] =
+[0x1160] =
 "Apparitions of Bern"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x116C] =
+[0x1161] =
 "Truth of Legends",
 
-[0x116D] =
+[0x1162] =
 "Beyond Darkness"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x116E] =
+[0x1163] =
 "The Space Between"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x116F] =
+[0x1164] =
 "Escape to Freedom"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1170] =
+[0x1165] =
 "Cleric's Teachings",
 
-[0x1171] =
+[0x1166] =
 "The Laws of Sacae"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1172] =
+[0x1167] =
 "Bulgar's Arms & Armor"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1173] =
+[0x1168] =
 "The Silver Wolf"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1174] =
+[0x1169] =
 "The Blazing Blade"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1175] =
+[0x116A] =
 "Thunder Axe"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1176] =
+[0x116B] =
 "Hellfire's Truth",
 
-[0x1177] =
+[0x116C] =
 "Light of Supremacy",
 
-[0x1178] =
+[0x116D] =
 "Lance of Ice and snow"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1179] =
+[0x116E] =
 "Bow of Hurricanes"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x117A] =
+[0x116F] =
 "Darkness of Oblivion",
 
-[0x117B] =
+[0x1170] =
 " 0 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x117C] =
+[0x1171] =
 " 1 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x117D] =
+[0x1172] =
 " 2 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x117E] =
+[0x1173] =
 " 3 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x117F] =
+[0x1174] =
 " 4 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1180] =
+[0x1175] =
 " 5 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1181] =
+[0x1176] =
 " 6 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1182] =
+[0x1177] =
 " 7 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1183] =
+[0x1178] =
 " 8 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1184] =
+[0x1179] =
 " 9 "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1185] =
+[0x117A] =
 "Ch."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1186] =
+[0x117D] =
 "Final"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1187] =
+[0x117E] =
 "Prologue",
 
-[0x1188] =
+[0x117F] =
 "x"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1189] =
+[0x1180] =
 "x pt 2",
 
-[0x118A] =
+[0x1181] =
 "Turn",
 
-[0x118B] =
+[0x1182] =
 " "TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x118C] =
+[0x1183] =
 "No Data"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x118D] =
+[0x1184] =
 "Linking. Please wait."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x118E] =
+[0x1185] =
 "End"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x118F] =
+[0x1186] =
 "Load",
 
-[0x1190] =
+[0x1187] =
 "Master Load"TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1191] =
+[0x1188] =
 "Is this data OK?",
 
-[0x1192] =
+[0x1189] =
 "Loading..."TEXT_NEWLINE
 "Please wait.",
 
-[0x1193] =
+[0x118A] =
 "Sword of Seals Game Pak"TEXT_PAUSE_SHORT_WITH_SFX""TEXT_NEWLINE
 "could not be found."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1194] =
+[0x118B] =
 "There is no Clear data."TEXT_PAUSE_SHORT_WITH_SFX"",
 
-[0x1195] =
+[0x118C] =
 "Data loaded successfully."TEXT_PAUSE_SHORT_WITH_SFX"",
 
 [0x1196] =
@@ -5937,7 +5931,7 @@
 
 [0x11A0] =
 "",
-*/
+
 [16+0x11A1] =
 ""TEXT_TOGGLE_SMILE"Superb! That must be"TEXT_NEWLINE
 "the best record around."TEXT_PAUSE_SHORT_WITH_SFX"",

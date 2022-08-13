@@ -19,3 +19,7 @@
 [TID_ENEMY] = "Enemy",
 
 [TID_SAVE_MENU_CHOICES] = "Save      Quit",
+
+[TID_ACTION_MENU_RIDE_BALLISTA] = "Ride",
+
+[TID_ACTION_MENU_EXIT_BALLISTA] = "Exit",

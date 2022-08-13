@@ -178,13 +178,13 @@
 
 [TID_OtherText089] = "Res",
 
-[TID_OtherText090] = "��",
+[TID_OtherText090] = "→",
 
 [TID_OtherText091] = "Hit",
 
 [TID_OtherText092] = "None",
 
-[TID_OtherText093] = "Spd",
+[TID_OtherText093] = "AS",
 
 [TID_OtherText094] = "Def",
 
