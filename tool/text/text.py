@@ -60,6 +60,8 @@ def make_source(table, locale, where):
             text = convert_text(v, locale)
             print(locale, k, ' | ', text)
             f.write(format_text(k, text))
+            if table == "scenario":
+                f.write('TEXT_CLEAR_FACE')
 
 
 def make_source_by_key_file(table, key, locale):
@@ -79,6 +81,3 @@ def make_source_by_key_file(table, key, locale):
                 if text == "":
                     text = "\"\""
                 f_v.write(format_text(k, text))
-
-
-
