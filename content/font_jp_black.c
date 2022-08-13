@@ -31363,7 +31363,7 @@ const struct Glyph blackFontSjis6381 = { // …
 		0x0, // 5
 		0x0, // 6
 		0x0, // 7
-		0x1c0f034, // 8
+		0x3c0f03c, // 8
 		0x3c0f03c, // 9
 		0x0, // 10
 		0x0, // 11
