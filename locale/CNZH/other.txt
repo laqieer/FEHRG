@@ -342,7 +342,7 @@
 
 [TID_OtherText171] = "———",
 
-[TID_OtherText172] = "配合",
+[TID_OtherText172] = "",
 
 [TID_OtherText173] = "状态",
 
@@ -384,11 +384,11 @@
 
 [TID_OtherText192] = "动画",
 
-[TID_OtherText193] = "装备",
+[TID_OtherText193] = "",
 
-[TID_OtherText194] = "职业",
+[TID_OtherText194] = "",
 
-[TID_OtherText195] = "名字",
+[TID_OtherText195] = "",
 
 [TID_OtherText196] = "金钱数",
 
