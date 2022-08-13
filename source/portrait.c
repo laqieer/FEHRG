@@ -271,28 +271,32 @@ void menuCallHelp(struct Proc *proc)
 
 void startFaceFadeInCore(struct PortraitProc *proc)
 {
-    // struct Portrait const* portrait = getPortraitByIdCore(proc->portaritId);
-    // int paletteSlot = 0x10 + PortraitSpaces[proc->portraitSlot].paletteSlot;
+    struct Portrait const* portrait = getPortraitByIdCore(proc->portaritId);
+    int paletteSlot = 16 + PortraitSpaces[proc->portraitSlot].paletteSlot;
+    cu16 *palette = portrait->palette;
 
-    // SetBlackPal(paletteSlot);
-    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
-    // SetBlackPal(paletteSlot);
-    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
-    // SetBlackPal(paletteSlot);
-    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
-    // SetBlackPal(paletteSlot);
-    // StartPalFade(portrait->palette, paletteSlot++, 12, proc);
+    SetBlackPal(paletteSlot);
+    StartPalFade(palette, paletteSlot++, 12, proc);
+    palette += COLORS_PER_PALETTE_SLOT;
+    SetBlackPal(paletteSlot);
+    StartPalFade(palette, paletteSlot++, 12, proc);
+    palette += COLORS_PER_PALETTE_SLOT;
+    SetBlackPal(paletteSlot);
+    StartPalFade(palette, paletteSlot++, 12, proc);
+    palette += COLORS_PER_PALETTE_SLOT;
+    SetBlackPal(paletteSlot);
+    StartPalFade(palette, paletteSlot++, 12, proc);
 }
 
 void startFaceFadeOutCore(struct PortraitProc *proc)
 {
     // struct Portrait const* portrait = getPortraitByIdCore(proc->portaritId);
-    // int paletteSlot = 0x10 + PortraitSpaces[proc->portraitSlot].paletteSlot;
+    int paletteSlot = 16 + PortraitSpaces[proc->portraitSlot].paletteSlot;
 
-    // StartPalFadeToBlack(paletteSlot++, 12, proc);
-    // StartPalFadeToBlack(paletteSlot++, 12, proc);
-    // StartPalFadeToBlack(paletteSlot++, 12, proc);
-    // StartPalFadeToBlack(paletteSlot++, 12, proc);
+    StartPalFadeToBlack(paletteSlot++, 12, proc);
+    StartPalFadeToBlack(paletteSlot++, 12, proc);
+    StartPalFadeToBlack(paletteSlot++, 12, proc);
+    StartPalFadeToBlack(paletteSlot++, 12, proc);
     EndFaceIn8Frames(proc);
 }
 
