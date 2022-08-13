@@ -725,6 +725,7 @@ def load_scenario(scenario: Scenario):
         print('\tMUSC ' + bgm)
     if text in texts:
         print('\tTEX1 EvTx_' + text)
+        print('\tREMA')
 
 map_name = get_filename(sys.argv[1])
 map_file = Path(sys.argv[1])
