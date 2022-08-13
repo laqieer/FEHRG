@@ -1,0 +1,511 @@
+[TID_OtherText000] = "Mag",
+
+[TID_OtherText001] = "Str",
+
+[TID_OtherText002] = "Lv",
+
+[TID_OtherText003] = "Lv",
+
+[TID_OtherText004] = "Ex",
+
+[TID_OtherText005] = "Ex",
+
+[TID_OtherText006] = "HP",
+
+[TID_OtherText007] = "HP",
+
+[TID_OtherText008] = "Str",
+
+[TID_OtherText009] = "str",
+
+[TID_OtherText010] = "Mag",
+
+[TID_OtherText011] = "mag",
+
+[TID_OtherText012] = "Skill",
+
+[TID_OtherText013] = "tech",
+
+[TID_OtherText014] = " Spd",
+
+[TID_OtherText015] = "quick",
+
+[TID_OtherText016] = " Def",
+
+[TID_OtherText017] = "def",
+
+[TID_OtherText018] = " Res",
+
+[TID_OtherText019] = "mdef",
+
+[TID_OtherText020] = " Luck",
+
+[TID_OtherText021] = "luck",
+
+[TID_OtherText022] = "Con",
+
+[TID_OtherText023] = "build",
+
+[TID_OtherText024] = "Aid",
+
+[TID_OtherText025] = "res",
+
+[TID_OtherText026] = "Move",
+
+[TID_OtherText027] = "mob",
+
+[TID_OtherText028] = "Trv",
+
+[TID_OtherText029] = "save",
+
+[TID_OtherText030] = "Affin",
+
+[TID_OtherText031] = "attr",
+
+[TID_OtherText032] = "Rng",
+
+[TID_OtherText033] = "rng",
+
+[TID_OtherText034] = "Atk",
+
+[TID_OtherText035] = "pow",
+
+[TID_OtherText036] = "Hit",
+
+[TID_OtherText037] = "hit",
+
+[TID_OtherText038] = "Crit",
+
+[TID_OtherText039] = "crit",
+
+[TID_OtherText040] = "Avoid",
+
+[TID_OtherText041] = "avoid",
+
+[TID_OtherText042] = "Cond",
+
+[TID_OtherText043] = "cond",
+
+[TID_OtherText044] = "Mt",
+
+[TID_OtherText045] = "pow",
+
+[TID_OtherText046] = "Wt",
+
+[TID_OtherText047] = "wgt",
+
+[TID_OtherText048] = "Swd",
+
+[TID_OtherText049] = "Sword",
+
+[TID_OtherText050] = "Lnc",
+
+[TID_OtherText051] = "Lance",
+
+[TID_OtherText052] = "Axe",
+
+[TID_OtherText053] = "Axe",
+
+[TID_OtherText054] = "Bow",
+
+[TID_OtherText055] = "Bow",
+
+[TID_OtherText056] = "Stf",
+
+[TID_OtherText057] = "Wand",
+
+[TID_OtherText058] = "Anm",
+
+[TID_OtherText059] = "Magic",
+
+[TID_OtherText060] = "Lit",
+
+[TID_OtherText061] = "Lightning",
+
+[TID_OtherText062] = "Drk",
+
+[TID_OtherText063] = "Darkness",
+
+[TID_OtherText064] = "Rng",
+
+[TID_OtherText065] = "Wt",
+
+[TID_OtherText066] = "Mt",
+
+[TID_OtherText067] = "Hit",
+
+[TID_OtherText068] = "Crit",
+
+[TID_OtherText069] = "Staff",
+
+[TID_OtherText070] = "Div",
+
+[TID_OtherText071] = "Gen",
+
+[TID_OtherText072] = "Name",
+
+[TID_OtherText073] = "Left",
+
+[TID_OtherText074] = "Final",
+
+[TID_OtherText075] = "Turn",
+
+[TID_OtherText076] = "-",
+
+[TID_OtherText077] = "Fire",
+
+[TID_OtherText078] = "Thunder",
+
+[TID_OtherText079] = "Wind",
+
+[TID_OtherText080] = "Ice",
+
+[TID_OtherText081] = "Dark",
+
+[TID_OtherText082] = "Light",
+
+[TID_OtherText083] = "Nature",
+
+[TID_OtherText084] = "HP",
+
+[TID_OtherText085] = "/",
+
+[TID_OtherText086] = "Con",
+
+[TID_OtherText087] = "Aid",
+
+[TID_OtherText088] = "Cond",
+
+[TID_OtherText089] = "Res",
+
+[TID_OtherText090] = "��",
+
+[TID_OtherText091] = "Hit",
+
+[TID_OtherText092] = "None",
+
+[TID_OtherText093] = "Spd",
+
+[TID_OtherText094] = "Def",
+
+[TID_OtherText095] = "Atk",
+
+[TID_OtherText096] = "Crit",
+
+[TID_OtherText097] = "Hit",
+
+[TID_OtherText098] = "Pow",
+
+[TID_OtherText099] = "Hide Units",
+
+[TID_OtherText100] = "Victory Cond",
+
+[TID_OtherText101] = "Point",
+
+[TID_OtherText102] = "Survival",
+
+[TID_OtherText103] = "AutoWeapon",
+
+[TID_OtherText104] = "ON",
+
+[TID_OtherText105] = "OFF",
+
+[TID_OtherText106] = "Connecting",
+
+[TID_OtherText107] = "Done",
+
+[TID_OtherText108] = "Link Error",
+
+[TID_OtherText109] = "Now Loading",
+
+[TID_OtherText110] = "Not Linked",
+
+[TID_OtherText111] = "Build Team",
+
+[TID_OtherText112] = "Team",
+
+[TID_OtherText113] = "Unit List",
+
+[TID_OtherText114] = "Swap",
+
+[TID_OtherText115] = "Disband",
+
+[TID_OtherText116] = "Link Menu",
+
+[TID_OtherText117] = "Unused",
+
+[TID_OtherText118] = "Empty",
+
+[TID_OtherText119] = "Erase   Quit",
+
+[TID_OtherText120] = "Return  Quit",
+
+[TID_OtherText121] = "",
+
+[TID_OtherText122] = "",
+
+[TID_OtherText123] = "Name",
+
+[TID_OtherText124] = "Points",
+
+[TID_OtherText125] = "Rank",
+
+[TID_OtherText126] = "Players",
+
+[TID_OtherText127] = "Sending",
+
+[TID_OtherText128] = "Receiving",
+
+[TID_OtherText129] = "Now Loading",
+
+[TID_OtherText130] = "Get Point",
+
+[TID_OtherText131] = "illegal",
+
+[TID_OtherText132] = "  Unhealth",
+
+[TID_OtherText133] = "1-M.Pow",
+
+[TID_OtherText134] = "1-Mag",
+
+[TID_OtherText135] = "   1",
+
+[TID_OtherText136] = "   1",
+
+[TID_OtherText137] = " 1-2",
+
+[TID_OtherText138] = " 1-2",
+
+[TID_OtherText139] = " 1-3",
+
+[TID_OtherText140] = " 1-3",
+
+[TID_OtherText141] = "   2",
+
+[TID_OtherText142] = "   2",
+
+[TID_OtherText143] = " 2-3",
+
+[TID_OtherText144] = " 2-3",
+
+[TID_OtherText145] = "3-10",
+
+[TID_OtherText146] = "3-10",
+
+[TID_OtherText147] = "3-15",
+
+[TID_OtherText148] = "3-15",
+
+[TID_OtherText149] = "---",
+
+[TID_OtherText150] = "---",
+
+[TID_OtherText151] = "Poison",
+
+[TID_OtherText152] = "Poisoned",
+
+[TID_OtherText153] = "Sleep",
+
+[TID_OtherText154] = "Asleep",
+
+[TID_OtherText155] = "Silence",
+
+[TID_OtherText156] = "Silenced",
+
+[TID_OtherText157] = "Berserk",
+
+[TID_OtherText158] = "Panicked",
+
+[TID_OtherText159] = "No Tactician",
+
+[TID_OtherText160] = "-",
+
+[TID_OtherText161] = "----",
+
+[TID_OtherText162] = "Left",
+
+[TID_OtherText163] = "--",
+
+[TID_OtherText164] = "--",
+
+[TID_OtherText165] = "/",
+
+[TID_OtherText166] = "Name",
+
+[TID_OtherText167] = "----",
+
+[TID_OtherText168] = "1",
+
+[TID_OtherText169] = "2",
+
+[TID_OtherText170] = "Off",
+
+[TID_OtherText171] = "---",
+
+[TID_OtherText172] = "",
+
+[TID_OtherText173] = "Cond",
+
+[TID_OtherText174] = "Trv",
+
+[TID_OtherText175] = "Aid",
+
+[TID_OtherText176] = "Con",
+
+[TID_OtherText177] = "Move",
+
+[TID_OtherText178] = "Avoid",
+
+[TID_OtherText179] = "Hit",
+
+[TID_OtherText180] = "Atk",
+
+[TID_OtherText181] = "Affin",
+
+[TID_OtherText182] = "Res",
+
+[TID_OtherText183] = "Def",
+
+[TID_OtherText184] = "Luck",
+
+[TID_OtherText185] = "Spd",
+
+[TID_OtherText186] = "Skill",
+
+[TID_OtherText187] = "S/M",
+
+[TID_OtherText188] = "Max",
+
+[TID_OtherText189] = "HP",
+
+[TID_OtherText190] = "Exp",
+
+[TID_OtherText191] = "Lv",
+
+[TID_OtherText192] = "Anim",
+
+[TID_OtherText193] = "",
+
+[TID_OtherText194] = "",
+
+[TID_OtherText195] = "",
+
+[TID_OtherText196] = "Funds",
+
+[TID_OtherText197] = "Merch",
+
+[TID_OtherText198] = "Give All",
+
+[TID_OtherText199] = "Choose ",
+
+[TID_OtherText200] = "unit",
+
+[TID_OtherText201] = "Trd",
+
+[TID_OtherText202] = "List",
+
+[TID_OtherText203] = "Use",
+
+[TID_OtherText204] = "Sell",
+
+[TID_OtherText205] = "Choose unit ",
+
+[TID_OtherText206] = "to trade with",
+
+[TID_OtherText207] = "HP",
+
+[TID_OtherText208] = "Mag",
+
+[TID_OtherText209] = "Str",
+
+[TID_OtherText210] = "Skill",
+
+[TID_OtherText211] = "Spd",
+
+[TID_OtherText212] = "Luck",
+
+[TID_OtherText213] = "Def",
+
+[TID_OtherText214] = "Res",
+
+[TID_OtherText215] = "Con",
+
+[TID_OtherText216] = "Will you really use it?",
+
+[TID_OtherText217] = "Yes",
+
+[TID_OtherText218] = "No",
+
+[TID_OtherText219] = "I'll take it.",
+
+[TID_OtherText220] = "I'll take it.",
+
+[TID_OtherText221] = "What'll you do?",
+
+[TID_OtherText222] = "Nothing",
+
+[TID_OtherText223] = "Give",
+
+[TID_OtherText224] = "Take",
+
+[TID_OtherText225] = "Stock",
+
+[TID_OtherText226] = "Owner: ",
+
+[TID_OtherText227] = "---",
+
+[TID_OtherText228] = "Merch",
+
+[TID_OtherText229] = "Is this acceptable?",
+
+[TID_OtherText230] = "Unneeded items will be sold.",
+
+[TID_OtherText231] = "Sell",
+
+[TID_OtherText232] = "Quit",
+
+[TID_OtherText233] = "Sell?",
+
+[TID_OtherText234] = "Price",
+
+[TID_OtherText235] = "Funds",
+
+[TID_OtherText236] = "Merch",
+
+[TID_OtherText237] = "Hector's Tale",
+
+[TID_OtherText238] = "Hector's Tale",
+
+[TID_OtherText239] = "Hector's Tale",
+
+[TID_OtherText240] = "Assets",
+
+[TID_OtherText241] = "Time",
+
+[TID_OtherText242] = "Total",
+
+[TID_OtherText243] = "Normal",
+
+[TID_OtherText244] = "Hard",
+
+[TID_OtherText245] = "All",
+
+[TID_OtherText246] = "Screens",
+
+[TID_OtherText247] = "Tactician",
+
+[TID_OtherText248] = "Completion",
+
+[TID_OtherText249] = "%",
+
+[TID_OtherText250] = "Left",
+
+[TID_OtherText251] = "",
+
+[TID_OtherText252] = "Test Message 1",
+
+[TID_OtherText253] = "Test Message 2",
+
+[TID_OtherText254] = "Test Message 3",
+
+[TID_OtherText255] = "AGB-FE7",

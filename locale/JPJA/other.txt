@@ -1,0 +1,511 @@
+[TID_OtherText000] = "魔力",
+
+[TID_OtherText001] = "力",
+
+[TID_OtherText002] = "ＬＶ",
+
+[TID_OtherText003] = "Lv",
+
+[TID_OtherText004] = "ＥＸ",
+
+[TID_OtherText005] = "Ex",
+
+[TID_OtherText006] = "ＨＰ",
+
+[TID_OtherText007] = "HP",
+
+[TID_OtherText008] = "力",
+
+[TID_OtherText009] = "str",
+
+[TID_OtherText010] = "魔力",
+
+[TID_OtherText011] = "mag",
+
+[TID_OtherText012] = "技",
+
+[TID_OtherText013] = "tech",
+
+[TID_OtherText014] = "速さ",
+
+[TID_OtherText015] = "quick",
+
+[TID_OtherText016] = "守備",
+
+[TID_OtherText017] = "def",
+
+[TID_OtherText018] = "魔防",
+
+[TID_OtherText019] = "mdef",
+
+[TID_OtherText020] = "幸運",
+
+[TID_OtherText021] = "luck",
+
+[TID_OtherText022] = "体格",
+
+[TID_OtherText023] = "build",
+
+[TID_OtherText024] = "救出",
+
+[TID_OtherText025] = "res",
+
+[TID_OtherText026] = "移動",
+
+[TID_OtherText027] = "mob",
+
+[TID_OtherText028] = "同行",
+
+[TID_OtherText029] = "save",
+
+[TID_OtherText030] = "属性",
+
+[TID_OtherText031] = "attr",
+
+[TID_OtherText032] = "射程",
+
+[TID_OtherText033] = "rng",
+
+[TID_OtherText034] = "攻撃",
+
+[TID_OtherText035] = "pow",
+
+[TID_OtherText036] = "命中",
+
+[TID_OtherText037] = "hit",
+
+[TID_OtherText038] = "必殺",
+
+[TID_OtherText039] = "crit",
+
+[TID_OtherText040] = "回避",
+
+[TID_OtherText041] = "avoid",
+
+[TID_OtherText042] = "状態",
+
+[TID_OtherText043] = "cond",
+
+[TID_OtherText044] = "威力",
+
+[TID_OtherText045] = "pow",
+
+[TID_OtherText046] = "重さ",
+
+[TID_OtherText047] = "wgt",
+
+[TID_OtherText048] = "剣",
+
+[TID_OtherText049] = "Sword",
+
+[TID_OtherText050] = "槍",
+
+[TID_OtherText051] = "Lance",
+
+[TID_OtherText052] = "斧",
+
+[TID_OtherText053] = "Axe",
+
+[TID_OtherText054] = "弓",
+
+[TID_OtherText055] = "Bow",
+
+[TID_OtherText056] = "杖",
+
+[TID_OtherText057] = "Wand",
+
+[TID_OtherText058] = "理",
+
+[TID_OtherText059] = "Magic",
+
+[TID_OtherText060] = "光",
+
+[TID_OtherText061] = "Lightning",
+
+[TID_OtherText062] = "闇",
+
+[TID_OtherText063] = "Darkness",
+
+[TID_OtherText064] = "射程",
+
+[TID_OtherText065] = "重さ",
+
+[TID_OtherText066] = "威力",
+
+[TID_OtherText067] = "命中",
+
+[TID_OtherText068] = "必殺",
+
+[TID_OtherText069] = "杖",
+
+[TID_OtherText070] = "属性",
+
+[TID_OtherText071] = "性別",
+
+[TID_OtherText072] = "名前",
+
+[TID_OtherText073] = "残り",
+
+[TID_OtherText074] = "最終ターン",
+
+[TID_OtherText075] = "ターン",
+
+[TID_OtherText076] = "ー",
+
+[TID_OtherText077] = "炎",
+
+[TID_OtherText078] = "雷",
+
+[TID_OtherText079] = "風",
+
+[TID_OtherText080] = "氷",
+
+[TID_OtherText081] = "闇",
+
+[TID_OtherText082] = "光",
+
+[TID_OtherText083] = "理",
+
+[TID_OtherText084] = "ＨＰ",
+
+[TID_OtherText085] = "／",
+
+[TID_OtherText086] = "体格",
+
+[TID_OtherText087] = "救出",
+
+[TID_OtherText088] = "状態",
+
+[TID_OtherText089] = "魔防",
+
+[TID_OtherText090] = "→",
+
+[TID_OtherText091] = "命中",
+
+[TID_OtherText092] = "何もありません",
+
+[TID_OtherText093] = "攻速",
+
+[TID_OtherText094] = "守備",
+
+[TID_OtherText095] = "攻撃",
+
+[TID_OtherText096] = "必殺",
+
+[TID_OtherText097] = "命中",
+
+[TID_OtherText098] = "威力",
+
+[TID_OtherText099] = "ユニットを隠す",
+
+[TID_OtherText100] = "対戦勝利条件",
+
+[TID_OtherText101] = "ポイント",
+
+[TID_OtherText102] = "サバイバル",
+
+[TID_OtherText103] = "自動武器選択",
+
+[TID_OtherText104] = "オン",
+
+[TID_OtherText105] = "オフ",
+
+[TID_OtherText106] = "ＮＯＷ　ＬＯＡＤＩＮＧ",
+
+[TID_OtherText107] = "接続　成功",
+
+[TID_OtherText108] = "接続エラー",
+
+[TID_OtherText109] = "準　備　中",
+
+[TID_OtherText110] = "未　接　続",
+
+[TID_OtherText111] = "チーム作成",
+
+[TID_OtherText112] = "対戦チーム",
+
+[TID_OtherText113] = "部隊表\",
+
+[TID_OtherText114] = "チーム入替え",
+
+[TID_OtherText115] = "チーム削除",
+
+[TID_OtherText116] = "通信メニュー",
+
+[TID_OtherText117] = "未　使　用",
+
+[TID_OtherText118] = "未選択",
+
+[TID_OtherText119] = "消す　　　やめる",
+
+[TID_OtherText120] = "戻る　　　やめる",
+
+[TID_OtherText121] = "位",
+
+[TID_OtherText122] = "人",
+
+[TID_OtherText123] = "チーム名",
+
+[TID_OtherText124] = "得点",
+
+[TID_OtherText125] = "順位",
+
+[TID_OtherText126] = "人数",
+
+[TID_OtherText127] = "送信中",
+
+[TID_OtherText128] = "受信中",
+
+[TID_OtherText129] = "準備中",
+
+[TID_OtherText130] = "ＧＥＴ　ＰＯＩＮＴ",
+
+[TID_OtherText131] = "illegal",
+
+[TID_OtherText132] = "　　異常",
+
+[TID_OtherText133] = "1-M.Pow",
+
+[TID_OtherText134] = "１－魔力",
+
+[TID_OtherText135] = "   1",
+
+[TID_OtherText136] = "　　　１",
+
+[TID_OtherText137] = " 1-2",
+
+[TID_OtherText138] = "　１－２",
+
+[TID_OtherText139] = " 1-3",
+
+[TID_OtherText140] = "　１－３",
+
+[TID_OtherText141] = "   2",
+
+[TID_OtherText142] = "　　　２",
+
+[TID_OtherText143] = " 2-3",
+
+[TID_OtherText144] = "　２－３",
+
+[TID_OtherText145] = "3-10",
+
+[TID_OtherText146] = "３－１０",
+
+[TID_OtherText147] = "3-15",
+
+[TID_OtherText148] = "３－１５",
+
+[TID_OtherText149] = "---",
+
+[TID_OtherText150] = "ーーー",
+
+[TID_OtherText151] = "Poison",
+
+[TID_OtherText152] = "どく",
+
+[TID_OtherText153] = "Sleep",
+
+[TID_OtherText154] = "すいみん",
+
+[TID_OtherText155] = "Silence",
+
+[TID_OtherText156] = "ちんもく",
+
+[TID_OtherText157] = "Berserk",
+
+[TID_OtherText158] = "はっきょう",
+
+[TID_OtherText159] = "軍師なし",
+
+[TID_OtherText160] = "ー",
+
+[TID_OtherText161] = "ーーーー",
+
+[TID_OtherText162] = "残り",
+
+[TID_OtherText163] = "ーー",
+
+[TID_OtherText164] = "ーー",
+
+[TID_OtherText165] = "／",
+
+[TID_OtherText166] = "名　前",
+
+[TID_OtherText167] = "ーーーー",
+
+[TID_OtherText168] = "１",
+
+[TID_OtherText169] = "２",
+
+[TID_OtherText170] = "オフ",
+
+[TID_OtherText171] = "ーーー",
+
+[TID_OtherText172] = "相手",
+
+[TID_OtherText173] = "状態",
+
+[TID_OtherText174] = "同行",
+
+[TID_OtherText175] = "救出",
+
+[TID_OtherText176] = "体格",
+
+[TID_OtherText177] = "移動",
+
+[TID_OtherText178] = "回避",
+
+[TID_OtherText179] = "命中",
+
+[TID_OtherText180] = "攻撃",
+
+[TID_OtherText181] = "属性",
+
+[TID_OtherText182] = "魔防",
+
+[TID_OtherText183] = "守備",
+
+[TID_OtherText184] = "幸運",
+
+[TID_OtherText185] = "速さ",
+
+[TID_OtherText186] = "技",
+
+[TID_OtherText187] = "力／魔",
+
+[TID_OtherText188] = "ＭＨＰ",
+
+[TID_OtherText189] = "ＨＰ",
+
+[TID_OtherText190] = "ＥＸ",
+
+[TID_OtherText191] = "ＬＶ",
+
+[TID_OtherText192] = "アニメ",
+
+[TID_OtherText193] = "装備",
+
+[TID_OtherText194] = "クラス",
+
+[TID_OtherText195] = "名前",
+
+[TID_OtherText196] = "所持金",
+
+[TID_OtherText197] = "輸送隊",
+
+[TID_OtherText198] = "全預け",
+
+[TID_OtherText199] = "キャラクターを",
+
+[TID_OtherText200] = "選んでください",
+
+[TID_OtherText201] = "交換",
+
+[TID_OtherText202] = "リスト",
+
+[TID_OtherText203] = "使う",
+
+[TID_OtherText204] = "売る",
+
+[TID_OtherText205] = "あと",
+
+[TID_OtherText206] = "人えらべます",
+
+[TID_OtherText207] = "ＨＰ",
+
+[TID_OtherText208] = "魔力",
+
+[TID_OtherText209] = "力",
+
+[TID_OtherText210] = "技",
+
+[TID_OtherText211] = "速さ",
+
+[TID_OtherText212] = "幸運",
+
+[TID_OtherText213] = "守備",
+
+[TID_OtherText214] = "魔防",
+
+[TID_OtherText215] = "体格",
+
+[TID_OtherText216] = "ほんとうに使いますか？",
+
+[TID_OtherText217] = "はい",
+
+[TID_OtherText218] = "いいえ",
+
+[TID_OtherText219] = "おわたししますぞ",
+
+[TID_OtherText220] = "あずかりますぞ",
+
+[TID_OtherText221] = "何をいたしますか？",
+
+[TID_OtherText222] = "何もありません",
+
+[TID_OtherText223] = "あずける",
+
+[TID_OtherText224] = "輸送隊",
+
+[TID_OtherText225] = "在庫",
+
+[TID_OtherText226] = "所持者：",
+
+[TID_OtherText227] = "ーーー",
+
+[TID_OtherText228] = "輸送隊",
+
+[TID_OtherText229] = "それでよろしいですか？",
+
+[TID_OtherText230] = "不要なアイテムを買い取ります",
+
+[TID_OtherText231] = "売る",
+
+[TID_OtherText232] = "やめる",
+
+[TID_OtherText233] = "売りますか？",
+
+[TID_OtherText234] = "買取金額",
+
+[TID_OtherText235] = "所持金",
+
+[TID_OtherText236] = "輸送隊",
+
+[TID_OtherText237] = "ヘクトル編",
+
+[TID_OtherText238] = "ヘクトル編",
+
+[TID_OtherText239] = "ヘクトル編",
+
+[TID_OtherText240] = "総資産",
+
+[TID_OtherText241] = "タイム",
+
+[TID_OtherText242] = "総合",
+
+[TID_OtherText243] = "ノーマル",
+
+[TID_OtherText244] = "ハード",
+
+[TID_OtherText245] = "全",
+
+[TID_OtherText246] = "面",
+
+[TID_OtherText247] = "軍師",
+
+[TID_OtherText248] = "達成率",
+
+[TID_OtherText249] = "％",
+
+[TID_OtherText250] = "残り会話数",
+
+[TID_OtherText251] = "回",
+
+[TID_OtherText252] = "メッセージテスト１",
+
+[TID_OtherText253] = "あいうえおかきくけこさしす",
+
+[TID_OtherText254] = "メッセージテスト３",
+
+[TID_OtherText255] = "AGB-FE7",
