@@ -24713,7 +24713,7 @@ const struct Glyph blackFontGbADA1 = { // …
 		0x0, // 5
 		0x0, // 6
 		0x0, // 7
-		0x1c0f034, // 8
+		0x3c0f03c, // 8
 		0x3c0f03c, // 9
 		0x0, // 10
 		0x0, // 11
@@ -178683,4 +178683,3 @@ const struct Glyph blackFontGbFEA3 = { // ￣
 		0x0, // 15
 	},
 };
-
