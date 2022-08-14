@@ -74,7 +74,7 @@
 #define TEXT_MAX_GOLD_AMOUNT "999999"
 #define TEXT_LONGEST_ITEM_NAME "Excalibur Excalibur"
 
-extern u32 maxTextId;
+extern cu32 maxTextId;
 extern const char * const textsJP[];
 extern const char * const textsCN[];
 extern const char * const textsEN[];

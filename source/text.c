@@ -7,6 +7,8 @@
 #include "text.h"
 #include "option.h"
 
+u8 lastLanguage;
+
 const struct Glyph *getAsciiGlyph(char a)
 {
     if (getCurrentLanguage() == LANGUAGE_ENGLISH_NARROW)
@@ -274,8 +276,12 @@ const char *getTextByIdCore(u32 textId)
     u32 fontWidth = 0;
     u32 textWidth = 0;
 
-    if (textId != LastTextId)
+    enum LANGUAGE language = getCurrentLanguage();
+
+    if (language != lastLanguage || textId != LastTextId)
     {
+        lastLanguage = language;
+
         if (textId <= maxTextId)
         {
             text = textsJP[textId];

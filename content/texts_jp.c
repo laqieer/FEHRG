@@ -16,4 +16,4 @@ const char * const textsJP[] = {
     #include "../locale/JPJA/other.txt"
 };
 
-u32 maxTextId = sizeof(textsJP) / sizeof(textsJP[0]);
+cu32 maxTextId = sizeof(textsJP) / sizeof(textsJP[0]);
