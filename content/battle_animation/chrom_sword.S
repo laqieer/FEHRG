@@ -526,7 +526,6 @@ chrom_sword_mode_12:
 	@3 p- 025.png
 	.word ANINS_SHOW_FRAME(14, chrom_sword_sheet_1, chrom_sword_frame_r_14 - chrom_sword_frames_r, 3)
 	.word ANINS_COMMAND_85(0x04)
-	.word ANINS_COMMAND_85(0x1F)
 	@2 p- 026.png
 	.word ANINS_SHOW_FRAME(15, chrom_sword_sheet_0, chrom_sword_frame_r_15 - chrom_sword_frames_r, 2)
 	@2 p- 027.png
