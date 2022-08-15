@@ -508,5 +508,5 @@
 .rodata.textIdOtherText253 : {*(.rodata.textIdOtherText253)}
 . = 0x809d338;
 .rodata.textIdOtherText254 : {*(.rodata.textIdOtherText254)}
-. = 0x809ef70;
-.rodata.textIdOtherText255 : {*(.rodata.textIdOtherText255)}
+/*. = 0x809ef70;
+.rodata.textIdOtherText255 : {*(.rodata.textIdOtherText255)}*/
