@@ -79,65 +79,64 @@ const char *getCharTextWidthCore(const char *str, u32 *pWidth)
     char byte1;
     char byte2;
 
+    *pWidth = 0;
+
     byte1 = *str++;
 
     if (byte1 < 0x20) // Text control code (single byte)
     {
-        *pWidth = 0;
+        return str;
     }
-    else
+
+    if (byte1 < 0x80) // Ascii (single byte)
     {
-        if (byte1 < 0x80) // Ascii (single byte)
-        {
-            glyph = getAsciiGlyph(byte1);
+        glyph = getAsciiGlyph(byte1);
 
-            if (glyph != NULL)
-            {
-                *pWidth = glyph->width;
-            }
-        }
-        else
+        if (glyph != NULL)
         {
-            byte2 = *str++;
-
-            if (byte1 == 0x80) // Text control code (double bytes)
-            {
-                switch (byte2)
-                {
-                    case 5: // TEXT_GOLD_AMOUNT
-                        *pWidth = getStringTextWidthCore(TEXT_MAX_GOLD_AMOUNT);
-                        break;
-                    case 0x20: // TEXT_TACTICIAN_NAME
-                        *pWidth = getStringTextWidthCore(GetTacticianNameString());
-                        break;
-                    case 0x22: // TEXT_ITEM_NAME
-                        *pWidth = getStringTextWidthCore(TEXT_LONGEST_ITEM_NAME);
-                        break;
-                    default:
-                        *pWidth = 0;
-                }
-            }
-            else
-            {
-                if (byte1 == 0xff) // Invalid encoding (portrait id)
-                {
-                    *pWidth = 0;
-                }
-                else // Shift-jis / GB2312 (double bytes)
-                {
-                    glyph = CurrentFont->glyphs[byte2 - 0x40];
-                    while (glyph != NULL)
-                    {
-                        if (glyph->sjisByte1 == byte1)
-                        {
-                            *pWidth = glyph->width;
-                            break;
-                        }
-                        glyph = glyph->sjisNext;
-                    }
-                }
-            }
+            *pWidth = glyph->width;
         }
+
+        return str;
+    }
+
+    byte2 = *str++;
+
+    if (byte1 == 0x80) // Text control code (double bytes)
+    {
+        switch (byte2)
+        {
+            case 5: // TEXT_GOLD_AMOUNT
+                *pWidth = getStringTextWidthCore(TEXT_MAX_GOLD_AMOUNT);
+                break;
+            case 0x20: // TEXT_TACTICIAN_NAME
+                *pWidth = getStringTextWidthCore(GetTacticianNameString());
+                break;
+            case 0x22: // TEXT_ITEM_NAME
+                *pWidth = getStringTextWidthCore(TEXT_LONGEST_ITEM_NAME);
+                break;
+            default:
+                break;
+        }
+
+        return str;
+    }
+
+    if (byte1 == 0xff) // Invalid encoding (portrait id)
+    {
+        return str;
+    }
+
+    // Shift-jis / GB2312 (double bytes)
+    glyph = CurrentFont->glyphs[byte2 - 0x40];
+    while (glyph != NULL)
+    {
+        if (glyph->sjisByte1 == byte1)
+        {
+            *pWidth = glyph->width;
+            break;
+        }
+        glyph = glyph->sjisNext;
     }
 
     return str;
