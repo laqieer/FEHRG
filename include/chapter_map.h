@@ -12,6 +12,8 @@ extern cu16 * const ChapterMaps[];
 
 extern cu8 XX001Terrain[];
 extern cu8 X0001Terrain[];
+extern cu8 X0002Terrain[];
 
 extern cu16 XX001TileMap[];
 extern cu16 X0001TileMap[];
+extern cu16 X0002TileMap[];
