@@ -7,4 +7,5 @@ cu8 * const ChapterEvents[] = {
     XX001Event,
     X0001Event,
     X0002Event,
+    X0003Event,
 };
