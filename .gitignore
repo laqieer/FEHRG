@@ -22,6 +22,8 @@ FEHRG-*.png
 # Debug
 debug_image_*.png
 
+# Merged vba-m movie
+chapters.vm?
 
 # Created by https://www.toptal.com/developers/gitignore/api/c++,vim,macos,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,vim,macos,python
