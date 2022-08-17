@@ -3,15 +3,15 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "XX001.tmj",
+    "activeFile": "X0003.tmj",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
         "X0001.tmj": {
             "expandedObjectLayers": [
-                3,
-                4
+                4,
+                3
             ],
             "scale": 2.17,
             "selectedLayer": 2,
@@ -26,16 +26,27 @@
         "X0002.tsj": {
             "scaleInEditor": 2
         },
+        "X0003.tmj": {
+            "scale": 2.173125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 65.11360368133447,
+                "y": 90.882945067587
+            }
+        },
+        "X0003.tsj": {
+            "scaleInDock": 1
+        },
         "XX001.tmj": {
             "expandedObjectLayers": [
-                3,
-                2
+                2,
+                3
             ],
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 120.75,
-                "y": 146.25
+                "x": 180.25,
+                "y": 195.25
             }
         },
         "XX001.tsj": {
@@ -55,12 +66,12 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "XX001.tmj",
-        "X0001.tmj"
+        "X0003.tmj"
     ],
     "project": "chapters.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "X0003.tmj",
         "X0001.tmj",
         "XX001.tmj",
         "X0002.tsj"
