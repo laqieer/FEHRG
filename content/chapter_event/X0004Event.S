@@ -42,7 +42,7 @@ EndingScene:
 AllyUnits:
 	ALLY_UNIT_JOINED(アンナ, 1, 1)
 	ALLY_UNIT_JOINED(アルフォンス, 0, 1)
-	ALLY_UNIT_JOINED(シャロン, 2, 2)
+	ALLY_UNIT_JOINED(シャロン, 2, 1)
 	END_UNIT
 EnemyUnits:
 	ENEMY_UNIT(クレイン, 24, 2, AUTO_LEVEL, 10, 11, 铁弓, 0, 0, 0, 0, DoNotMove, 0, 0)
