@@ -5,6 +5,8 @@ import enum
 import math
 import pytiled_parser
 
+import characters
+
 from util import *
 from pathlib import Path
 from pytiled_parser.tiled_object import TiledObject
@@ -744,8 +746,8 @@ print('\t#include "class_id.h"')
 print('\t#include "item_id.h"')
 print('\t#include "AI.h"')
 print('\t#include "background_id.h"')
-print('\t#include "music_id.h"\n')
-print('\t#include "event_text_id.h"')
+print('\t#include "music_id.h"')
+print('\t#include "event_text_id.h"\n')
 
 # header
 print('\t.section .rodata')
@@ -756,9 +758,6 @@ print('\tDefineEvents')
 
 print('TurnBasedEvents:')
 print('\tLoadBeginningScene')
-print('\tEND_MAIN')
-
-print('CharacterBasedEvents:')
 print('\tEND_MAIN')
 
 print('LocationBasedEvents:')
@@ -800,12 +799,23 @@ if layer is not None:
         load_unit(object, UnitSide.ENEMY)
 print('\tEND_UNIT')
 
+heroes = []
+
 print('NPCUnits:')
 layer = layers.get('友军')
 if layer is not None:
     for object in layer.tiled_objects:
         load_unit(object, UnitSide.NPC)
+        heroes.append(characters.romans[object.name])
 print('\tEND_UNIT')
+
+print('CharacterBasedEvents:')
+for hero in heroes:
+    print('\tSelectHero({})'.format(hero))
+print('\tEND_MAIN')
+
+for hero in heroes:
+    print('Select({})'.format(hero))
 
 print('Traps:')
 print('\tEND_TRAP')

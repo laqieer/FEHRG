@@ -126,6 +126,15 @@
 #define ChangeUnitSide(character, side) CUSI character, side
 #define CharacterJoin(character) ChangeUnitSide(character, 0)
 
+// Select heroes.
+#define SelectHero(character) CharacterEvent(Anna, CHARA_ID_##character, 10, Select_##character, 0)
+#define Select(character) Select_##character: \
+    MUSC BGM_JOIN_US; \
+    TEXT EvTx_MID_##character##_JOIN; \
+    REMA; \
+    CharacterJoin(CHARA_ID_##character); \
+    ENDA
+
 // Move to chapter
 #define MNCH .hword 0x7f,
 

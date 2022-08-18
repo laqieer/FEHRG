@@ -6,8 +6,8 @@
 	#include "AI.h"
 	#include "background_id.h"
 	#include "music_id.h"
-
 	#include "event_text_id.h"
+
 	.section .rodata
 	.align 2
 	.global X0004Event
@@ -15,8 +15,6 @@ X0004Event:
 	DefineEvents
 TurnBasedEvents:
 	LoadBeginningScene
-	END_MAIN
-CharacterBasedEvents:
 	END_MAIN
 LocationBasedEvents:
 	END_MAIN
@@ -58,5 +56,15 @@ NPCUnits:
 	NPC_UNIT(セリス, 1, 2, AUTO_LEVEL, 2, 0, 钢剑, 0, 0, 0, 0, DoNotMove, 0, GuardTile)
 	NPC_UNIT(ユリア, 33, 2, AUTO_LEVEL, 3, 0, 闪光, 0, 0, 0, 0, DoNotMove, 0, GuardTile)
 	END_UNIT
+CharacterBasedEvents:
+	SelectHero(EPHRAIM)
+	SelectHero(EIRIK)
+	SelectHero(CELICE)
+	SelectHero(YURIA)
+	END_MAIN
+Select(EPHRAIM)
+Select(EIRIK)
+Select(CELICE)
+Select(YURIA)
 Traps:
 	END_TRAP

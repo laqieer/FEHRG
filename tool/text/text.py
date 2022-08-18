@@ -59,9 +59,9 @@ def make_source(table, locale, where):
         for k, v in db.get_data("SELECT key, value FROM {} WHERE locale = '{}' AND {} ORDER BY key".format(table, locale, where)):
             text = convert_text(v, locale)
             print(locale, k, ' | ', text)
-            f.write(format_text(k, text))
             if table == "scenario":
-                f.write('TEXT_CLEAR_FACE')
+                text += 'TEXT_CLEAR_FACE'
+            f.write(format_text(k, text))
 
 
 def make_source_by_key_file(table, key, locale):

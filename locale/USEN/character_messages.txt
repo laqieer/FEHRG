@@ -1,0 +1,1777 @@
+[MID_ALFONS_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_01_Alfons_MF_Pair
+"Happy New Year! This year, Sharena" TEXT_NEWLINE
+"and I welcome this new beginning on" TEXT_NEWLINE
+"behalf of all Askr." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ALFONS_SPRING02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_01_Alfons_M_SpringFes18
+"I am Alfonse, Prince of Askr. Please..." TEXT_NEWLINE
+"Let's talk about something besides" TEXT_NEWLINE
+"this costume. What do you say?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_AMELIA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_04_Amelia_F_Normal
+"Oh... Hello there! I'm a soldier in the" TEXT_NEWLINE
+"service of Grado. I'm a hard worker!" TEXT_NEWLINE
+"My name? Oh, right! It's Amelia." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ANNA_NEWYEAR03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_03_Anna_F_NewYear20
+"The new year is a time for new starts" TEXT_NEWLINE
+"and new sales! Watch, and I'll show" TEXT_NEWLINE
+"you the power of my business sense!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_AQUA_DANCE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_07_Aqua_F_dance17
+"I'm a songstress from another world..." TEXT_NEWLINE
+"Who I am doesn't matter. Just know" TEXT_NEWLINE
+"that I'll fulfill my role." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_AQUA_NEWYEAR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_07_Aqua_F_NewYear18
+"Happy New Year! I'm Azura. I was" TEXT_NEWLINE
+"heading out for my first shrine visit" TEXT_NEWLINE
+"of the new year, but..." TEXT_NEWLINE TEXT_PUSH_A
+"Somehow I wound up here, instead." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ARDEN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_05_Arden_M_Normal
+"My name is Arden! I'm one of Lord" TEXT_NEWLINE
+"Sigurd of Chalphy's men. Good to" TEXT_NEWLINE
+"meet you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ARUM_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_00_Arum_M_Normal
+"I'm Alm, leader of the Deliverance." TEXT_NEWLINE
+"You can count on me to take up" TEXT_NEWLINE
+"my sword for your cause." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ARUM_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_00_Arum_MF_Pair
+"Happy Day of Devotion! I'm Alm, and" TEXT_NEWLINE
+"this pretty lady is Celica. We're here" TEXT_NEWLINE
+"to enjoy the festivities together!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ARUM_POPULARITY05_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_00_Arum_M_ELECTION01
+"Was it you who called me here?" TEXT_NEWLINE
+"If you're in a bind, I can lend a hand." TEXT_NEWLINE
+"I'm Alm. Happy to be of service." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ATHENA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_26_Athena_F_Normal
+"You call Athena? We are warrior," TEXT_NEWLINE
+"not little child to come running." TEXT_NEWLINE
+"Still, you are nice. We stay." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_AZUR_DANCE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_19_Azur_M_dance17
+"I am Inigo. I've long dreamed of being" TEXT_NEWLINE
+"a dancer, and I'll dance my heart out" TEXT_NEWLINE
+"on this stage you've provided me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_BARTR_SPRING04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_02_Bartr_M_SpringFes20
+"The name's Bartre and I'm a fighter." TEXT_NEWLINE
+"Let's celebrate being all decked out" TEXT_NEWLINE
+"in spring festival gear! Gahaha!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_BELETH_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_01_Beleth_FF_Pair
+"I am Rhea, Archbishop of the Church" TEXT_NEWLINE
+"of Seiros. Byleth and I hope to take" TEXT_NEWLINE
+"our ease on the beach together." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_BERKUT_DANCE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_14_Berkut_M_Dance19
+"Berkut is my name. You've got some" TEXT_NEWLINE
+"nerve, dragging me here today! You" TEXT_NEWLINE
+"had better entertain me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_BRIGID_PIRATE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_25_Brigid_F_Pirate20
+"My name is Brigid from the" TEXT_NEWLINE
+"chivalrous Orgahil Pirates." TEXT_NEWLINE
+"Let's raise the sail and take off!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_BRUNO_SPRING03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_05_Bruno_M_SpringFes19
+"I shall stop myself before I reveal" TEXT_NEWLINE
+"my name. Pay me no mind. I am" TEXT_NEWLINE
+"merely attending the spring festival." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_DREAM01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_Dreaming18
+"I'm Camilla, princess of Nohr. Have I" TEXT_NEWLINE
+"found my way to a different world?" TEXT_NEWLINE
+"Perhaps I am dreaming..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_Normal
+"I'm Camilla, eldest princess from the" TEXT_NEWLINE
+"Kingdom of Nohr. Need my protection," TEXT_NEWLINE
+"sweetie? Consider me yours." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_NEWYEAR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_NewYear18
+"I'm Camilla, Princess of Nohr. But this" TEXT_NEWLINE
+"year we're celebrating New Year's" TEXT_NEWLINE
+"with some Hoshidan flair!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_ONSEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_Spa19
+"Ready for a dip in a hot spring?" TEXT_NEWLINE
+"Come with me! Don't be shy!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_POPULARITY05_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_ELECTION01
+"I'm Camilla, Nohr's new queen." TEXT_NEWLINE
+"No need to be too formal with me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_SPRING01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_SpringFes17
+"I'm Camilla, eldest princess of Nohr," TEXT_NEWLINE
+"come dressed for the spring fest. But" TEXT_NEWLINE
+"it's rather tight, don't you think?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CAMILLA_SUMMER04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_28_Camilla_F_Swim18
+"I'm Camilla, eldest princess of the" TEXT_NEWLINE
+"kingdom of Nohr. I'm not a big fan of" TEXT_NEWLINE
+"the heat, so maybe..." TEXT_NEWLINE TEXT_PUSH_A
+"Try to find some oceanfront" TEXT_NEWLINE
+"battlefields so we can cool off" TEXT_NEWLINE
+"after each fight?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CECILIA_WINTER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_09_Secilia_F_WinterFes18
+"I am Cecilia, Mage General of Etruria." TEXT_NEWLINE
+"If you want to know all about the" TEXT_NEWLINE
+"winter festival, I'll teach you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CELICE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_00_Celice_M_Normal
+"I am Seliph, a son pledged to fulfilling" TEXT_NEWLINE
+"the wish my father made as he died" TEXT_NEWLINE
+"a bitter death-to battle darkness." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CELINA_SUMMER07_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_19_Celina_F_Swim20
+"I am General Selena, Fluorspar of the" TEXT_NEWLINE
+"Grado Empire. Many battles await me." TEXT_NEWLINE
+"Beach battles, I've been told." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CELLICA_POPULARITY03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_08_Cellica_F_ELECTION01
+"I am Celica, a warrior priestess in" TEXT_NEWLINE
+"service to the goddess Mila. I heard a" TEXT_NEWLINE
+"voice calling out to me... Was it you?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CERISE_NEWYEAR02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_10_Cerise_F_NewYear19
+"I am Gunnthra, eldest princess of Nifl." TEXT_NEWLINE
+"I've come to visit and to offer a" TEXT_NEWLINE
+"blessing for the new year." TEXT_NEWLINE TEXT_PUSH_A
+"May all your dreams come true." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CERISE_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_10_Cerise_F_Swim19
+"I am Gunnthra, first princess of Nifl." TEXT_NEWLINE
+"I am not used to hot places, but...I'm" TEXT_NEWLINE
+"happy to spend time here with you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CHARLOTTE_BRIDE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_37_Charlotte_F_Wedding17
+"I'm Charlotte. Everyone says I'm just" TEXT_NEWLINE
+"a sweet, gentle little thing, so please" TEXT_NEWLINE
+"watch over me. Tee-hee!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CHROM_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_00_Chrom_M_Normal
+"I'm Chrom, leader of the Shepherds" TEXT_NEWLINE
+"and Prince of the Halidom of Ylisse." TEXT_NEWLINE
+"For my friends...for peace...I'll fight." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CHROM_SPRING01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_00_Chrom_M_SpringFes17
+"I'm Chrom, Prince of the Halidom of" TEXT_NEWLINE
+"Ylisse. Enjoying the spring festival?" TEXT_NEWLINE
+"I've dressed for the occasion!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CHROM_WINTER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_00_Chrom_M_WinterFes17
+"Season's greetings! I'm Prince Chrom" TEXT_NEWLINE
+"of the Halidom of Ylisse. Naughty or" TEXT_NEWLINE
+"nice-which is it? Speak up!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CONRAD_VALENTINE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_24_Conrad_M_Valentine20
+"Hello there! My name is Conrad, and I" TEXT_NEWLINE
+"come bearing gifts. You'll do me the" TEXT_NEWLINE
+"honor of accepting them, won't you?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CREA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_03_Crea_F_Normal
+"My name is Clair. I battle alongside" TEXT_NEWLINE
+"my dear brother in the Deliverance" TEXT_NEWLINE
+"forces that fight for Zofia." TEXT_NEWLINE TEXT_PUSH_A
+"What fortune that you should" TEXT_NEWLINE
+"meet me like this!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_CUAN_DANCE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_14_Cuan_M_Dance20
+"I am Quan, Prince of Leonster." TEXT_NEWLINE
+"It would be my honor to join you" TEXT_NEWLINE
+"for tonight's ball." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DAROS_PIRATE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_42_Daros_M_Pirate20
+"I be Darros, a simple man o' the sea." TEXT_NEWLINE
+"My pirating days are behind me, but" TEXT_NEWLINE
+"just this once... Aye, I'll join in!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DIADORA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_07_Diadora_F_Normal
+"My name is Deirdre. My memories..." TEXT_NEWLINE
+"They're mostly gone, now. I am sorry." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DORCAS_HALLOWEEN02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_17_Dorcas_M_Halloween18
+"I'm Dorcas. I'm not usually one for" TEXT_NEWLINE
+"festivals, but...figured if I'm going, I" TEXT_NEWLINE
+"might as well go as a monster." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DORCAS_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_17_Dorcas_M_Normal
+"The name's Dorcas. I used to fight as" TEXT_NEWLINE
+"a mercenary in Bern, but... Well," TEXT_NEWLINE
+"that's all in the past now." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DOROTHEA_SUMMER08_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_11_Dorothea_F_Swim20
+"Dorothea Arnault, at your service." TEXT_NEWLINE
+"I'm a member of the Black Eagles" TEXT_NEWLINE
+"at Garreg Mach Monastery." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_DOZZLA_HALLOWEEN03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_13_Dozzla_M_Halloween19
+"Gwah ha ha! The name's Dozla, and" TEXT_NEWLINE
+"I'll make this a harvest festival to" TEXT_NEWLINE
+"remember-for Princess L'Arachel!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EFI_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_06_Efi_F_Normal
+"I'm Faye. Glad to help. I've trained" TEXT_NEWLINE
+"a bit with the Deliverance, you know," TEXT_NEWLINE
+"for Alm and all my friends." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EFI_VALENTINE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_06_Efi_F_Valentine20
+"Hi! I'm Faye. I've got some important" TEXT_NEWLINE
+"deliveries here for Alm! Have you" TEXT_NEWLINE
+"seen him around at all?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EIRIK_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_01_Eirik_F_Normal
+"My name is Eirika. I'm not fond of" TEXT_NEWLINE
+"fighting, but I'll do my best to support" TEXT_NEWLINE
+"your cause." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EIRIK_WINTER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_01_Eirik_F_WinterFes18
+"I'm Princess Eirika of Renais. My" TEXT_NEWLINE
+"brother Ephraim and I have come" TEXT_NEWLINE
+"to the winter festival this year." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EIR_NEWYEAR03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_20_Eir_F_NewYear20
+"I am Eir-princess of the kingdom of" TEXT_NEWLINE
+"death. I am...to wish you well for" TEXT_NEWLINE
+"the new year, am I not?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELEONORA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch12_02_Eleonora_F_Normal
+"I'm Eleonora Yumizuru, a star in the" TEXT_NEWLINE
+"making. Having me on your side" TEXT_NEWLINE
+"assures wins worthy of Hollywood!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELISE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_25_Elise_F_Normal
+"Hi, I'm Elise-a princess from the" TEXT_NEWLINE
+"Kingdom of Nohr! I bet we're" TEXT_NEWLINE
+"going to be the best of friends!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELISE_ONSEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_25_Elise_F_Spa19
+"I'm Elise, the youngest princess of" TEXT_NEWLINE
+"the Kingdom of Nohr! I hear there's a" TEXT_NEWLINE
+"lovely hot spring here, and I'm ready!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELISE_SUMMER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_25_Elise_F_Swim17
+"I'm Princess Elise of Nohr! I was" TEXT_NEWLINE
+"playing on a tropical island, but...this" TEXT_NEWLINE
+"place looks pretty fun, too!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELIWOD_POPULARITY05_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_06_Eliwod_M_ELECTION01
+"Are you...? No, of course not..." TEXT_NEWLINE
+"I am Eliwood, Marquess of Pherae." TEXT_NEWLINE
+"I'm new to this, but I learn quickly." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELIWOD_VALENTINE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_06_Eliwod_M_Valentine18
+"I am Eliwood of Pherae. If you have" TEXT_NEWLINE
+"the time, would you accompany me" TEXT_NEWLINE
+"to the Day of Devotion celebration?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELTSHAN_DANCE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_01_Eltshan_M_Dance20
+"I am Eldigan, present in response" TEXT_NEWLINE
+"to your invitation. Do not think my" TEXT_NEWLINE
+"talent lies in swordsmanship alone." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ELTSHAN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_01_Eltshan_M_Normal
+"I am Eldigan. Those who defy my lord" TEXT_NEWLINE
+"will meet my blade. But I trust that" TEXT_NEWLINE
+"you and I will have no such problem." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EPHRAIM_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_00_Ephraim_M_Normal
+"I am Ephraim of Renais, a prince" TEXT_NEWLINE
+"and skilled spearman. So, point me" TEXT_NEWLINE
+"at my enemy. I'll get to work." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EPHRAM_POPULARITY03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_00_Ephraim_M_ELECTION01
+"I am Prince Ephraim of Renais." TEXT_NEWLINE TEXT_PUSH_A
+"My father, Fado, met an untimely" TEXT_NEWLINE
+"death... In his place, I vow to protect" TEXT_NEWLINE
+"the people. Every last one." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EPHRAM_WINTER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_00_Ephraim_M_WinterFes18
+"I am Prince Ephraim of Renais, and" TEXT_NEWLINE
+"I'm ready for the winter festival. I'll" TEXT_NEWLINE
+"give the tournament all I've got!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ERASE_HALLOWEEN03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_14_Erase_F_Halloween19
+"My name is Ilyana... I know we've" TEXT_NEWLINE
+"only just met, but can you spare" TEXT_NEWLINE
+"any food? I'm famished..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ERINCIA_BON01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_06_Erincia_F_dance18
+"I am Elincia, daughter of King Ramon" TEXT_NEWLINE
+"of Crimea. Hm? My outfit comes as a" TEXT_NEWLINE
+"surprise to you?" TEXT_NEWLINE TEXT_PUSH_A
+"This is actually sacred garb for a" TEXT_NEWLINE
+"festival." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EST_SPRING04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_20_Est_F_SpringFes20
+"I'm Est! My two older sisters already" TEXT_NEWLINE
+"got to enjoy the spring festival. Now" TEXT_NEWLINE
+"it's my turn. You can't stop me!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ETHLIN_DANCE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_15_Ethlin_F_Dance20
+"My name is Ethlyn. My husband," TEXT_NEWLINE
+"Quan, and I both look forward to" TEXT_NEWLINE
+"enjoying this evening's festivities." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_EUDES_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_20_Eudes_M_Normal
+"Chosen warrior of hope from a dire" TEXT_NEWLINE
+"future...I am Owain Dark! And with" TEXT_NEWLINE
+"the full force of my power, I-" TEXT_NEWLINE TEXT_PUSH_A
+"Er, huh? No time for that? Oh, um..." TEXT_NEWLINE
+"I'm Lissa's son from the future. Nice" TEXT_NEWLINE
+"to meet you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FA_WINTER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_06_Fa_F_WinterFes18
+"Can I join in the festival? I've been" TEXT_NEWLINE
+"very good, so give me a LOT of" TEXT_NEWLINE
+"presents!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FERICIA_PICNIC01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_15_Felicia_F_Picnic19
+"I-I'm Felicia! Nice to meet you. I'm" TEXT_NEWLINE
+"a properly trained maid, so leave" TEXT_NEWLINE
+"the lunches to me!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FIORA_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_24_Fiora_F_Swim19
+"I am Fiora, Pegasus Knight of Ilia." TEXT_NEWLINE
+"If my subordinates saw me like this..." TEXT_NEWLINE
+"they wouldn't know what to think." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FIR_SPRING04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_01_Fir_F_SpringFes20
+"My name is Fir and I study the sword." TEXT_NEWLINE
+"Father kept shouting about the spring" TEXT_NEWLINE
+"festival so I had to go see it for myself!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FJORM_BRIDE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_06_Fjorm_F_Wedding19
+"I am Fjorm, second princess of Nifl," TEXT_NEWLINE
+"the Kingdom of Ice. W-would this" TEXT_NEWLINE
+"suit me...if I were getting married?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FJORM_NEWYEAR02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_06_Fjorm_F_NewYear19
+"I am Fjorm, second princess of Nifl. I" TEXT_NEWLINE
+"hear that some people plan their" TEXT_NEWLINE
+"entire year on New Year's Day." TEXT_NEWLINE TEXT_PUSH_A
+"Let's set our goals together, shall we?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FLORA_PICNIC01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_41_Flora_F_Picnic19
+"I am a maid. My name is Flora. I will" TEXT_NEWLINE
+"do my best to serve you, so please" TEXT_NEWLINE
+"don't hesitate to give me orders." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FREDERIK_SUMMER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_16_Frederik_M_Swim17
+"I am Frederick. I was on the beach" TEXT_NEWLINE
+"protecting Lord Chrom. Tell me..." TEXT_NEWLINE
+"Where am I now?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_FREEZE_NEWYEAR02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_16_Freeze_M_NewYear19
+"My name is Hrid. As the new" TEXT_NEWLINE
+"year rises, let us celebrate" TEXT_NEWLINE
+"the sunset of the last." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_GEESE_PIRATE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_26_Geese_M_Pirate20
+"I'm Geese. I was never a pirate by" TEXT_NEWLINE
+"choice, but if it's for a festival then I" TEXT_NEWLINE
+"guess that's all right..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_GREIL_VALENTINE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_10_Greil_M_Valentine19
+"The name's Greil. I used to be a" TEXT_NEWLINE
+"mercenary commander. I hear that" TEXT_NEWLINE
+"Ike and Mist are here. That true?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_GUIRE_SUMMER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_06_Guire_M_Swim17
+"I'm Gaius. I don't turn down jobs," TEXT_NEWLINE
+"even when I'm on vacation. You got" TEXT_NEWLINE
+"one for me?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HEANIUS_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_03_Heanius_M_Normal
+"I am Prince Innes of Frelia." TEXT_NEWLINE TEXT_PUSH_A
+"Not that I care, but...is a man" TEXT_NEWLINE
+"called Ephraim here?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HEANIUS_SUMMER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_03_Heanius_M_Swim18
+"Please excuse my casual dress... I" TEXT_NEWLINE
+"am Innes, prince of Frelia." TEXT_NEWLINE TEXT_PUSH_A
+"You'll have to allow me to make an" TEXT_NEWLINE
+"official introduction at another time..." TEXT_NEWLINE
+"When I am attired appropriately." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HECTOR_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_05_Hector_M_Normal
+"I'm Hector, from a realm called Ostia." TEXT_NEWLINE
+"But I'm not its ruler. My brother," TEXT_NEWLINE
+"Uther, is marquess at the moment." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HECTOR_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_05_Hector_MF_Pair
+"So this is where they're holding" TEXT_NEWLINE
+"the harvest festival this year?" TEXT_NEWLINE
+"Count me in-for Lilina's sake!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HECTOR_POPULARITY03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_05_Hector_M_ELECTION01
+"I'm Hector, Marquess of Ostia. I was" TEXT_NEWLINE
+"wondering why I was called here," TEXT_NEWLINE
+"but..." TEXT_NEWLINE TEXT_PUSH_A
+"Well, if you have some foes that need" TEXT_NEWLINE
+"routing, I have just the lance for the" TEXT_NEWLINE
+"job." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HECTOR_VALENTINE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_05_Hector_M_Valentine18
+"I'm Hector. Huh? You didn't summon" TEXT_NEWLINE
+"me here hoping for a gift, did you?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HELBINDI_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_12_Helbindi_M_Swim19
+"I'm Helbindi. Next to the dirt hole" TEXT_NEWLINE
+"I crawled out of, this beach is like" TEXT_NEWLINE
+"some kind of damn paradise." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HENRI_HALLOWEEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_09_Henri_M_halloween17
+"I'm Henry! I want candy...but blood is" TEXT_NEWLINE
+"good, too! Send your enemies my" TEXT_NEWLINE
+"way, so I can play my tricks on them." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HINATA_BRIDE04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_03_Hinata_M_Wedding20
+"Name's Hinata! I'm a samurai from" TEXT_NEWLINE
+"Hoshido. Keep your trap shut about" TEXT_NEWLINE
+"the outfit-they made me put it on." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_HINOKA_ONSEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_26_Hinoka_F_Spa19
+"Who's there? I'm bathing in here!" TEXT_NEWLINE
+"Don't you have any manners?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IDENN_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_14_Idenn_FF_Pair
+"I am Idunn, and this child is Fae. She" TEXT_NEWLINE
+"desires to see the spring festival...and" TEXT_NEWLINE
+"I am bound to her by duty." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IKE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_00_Ike_M_Normal
+"I'm Ike of the Greil Mercenaries." TEXT_NEWLINE
+"You the one hiring me? Fine. I'm" TEXT_NEWLINE
+"ready to get to work." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IKE_LEGEND01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_00_Ike_M_Legend01
+"I'm Ike, of the Greil Mercenaries. I'm" TEXT_NEWLINE
+"not so sure about this \"Legendary" TEXT_NEWLINE
+"Hero\" business, but I'll help you out." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IKE_POPULARITY01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_00_Ike_M_ELECTION01
+"I'm Ike of the Greil Mercenaries. And" TEXT_NEWLINE
+"this axe is Urvan. You might call it my" TEXT_NEWLINE
+"current partner." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IKE_VALENTINE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_00_Ike_M_Valentine19
+"I'm Ike from the Greil Mercenaries." TEXT_NEWLINE
+"I've come to offer my thanks for" TEXT_NEWLINE
+"all the help I get." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_INGRID_SUMMER08_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_19_Ingrid_F_Swim20
+"My name is Ingrid Brandl Galatea." TEXT_NEWLINE
+"I aim to become a gallant and noble" TEXT_NEWLINE
+"knight. No sunny beach will distract me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_INVERSE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_31_Inverse_F_Normal
+"Please, call me Aversa. My, you're" TEXT_NEWLINE
+"adorable. If you don't watch out, I'll" TEXT_NEWLINE
+"tease you mercilessly." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_IRA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_06_Ira_F_Normal
+"I am Princess Ayra of Isaach-a" TEXT_NEWLINE
+"descendant of the crusader Od." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ISHTAR_DANCE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_11_Ishtar_F_Dance19
+"I am Ishtar, of Friege. I have some" TEXT_NEWLINE
+"small mastery of dancing. You are" TEXT_NEWLINE
+"welcome to confirm that." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ITSUKI_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch12_00_Itsuki_M_Normal
+"My name's Itsuki Aoi. Nice to meet" TEXT_NEWLINE
+"you! I'm not really sure how I can" TEXT_NEWLINE
+"help, but...I'll give it my best shot!" TEXT_NEWLINE TEXT_PUSH_A
+"Looking forward to working with you." TEXT_NEWLINE
+"" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JAFFAR_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_12_Jaffar_M_Normal
+"I am Jaffar. Known also as the" TEXT_NEWLINE
+"Angel of Death. But only by those" TEXT_NEWLINE
+"in Black Fang-and now, you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JAFFAR_WINTER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_12_Jaffar_M_WinterFes19
+"I am the Angel of Death, Jaffar. This..." TEXT_NEWLINE
+"is a winter festival? It looks a bit..." TEXT_NEWLINE
+"lively...for me..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JENNY_PICNIC01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_13_Jenny_F_Picnic19
+"I'm Genny. Is this where we'll be" TEXT_NEWLINE
+"picnicking? It's...beautiful!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JHOSUA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_07_Jhosua_M_Normal
+"I'm Joshua, a mercenary. Did a coin" TEXT_NEWLINE
+"flip bring me here? Well, either way..." TEXT_NEWLINE
+"I guess you're my new boss." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JHOSUA_SUMMER07_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_07_Jhosua_M_Swim20
+"Beautiful weather and crystal-clear" TEXT_NEWLINE
+"water... In a place like this, Lady Luck" TEXT_NEWLINE
+"will surely shine her blessings on me." TEXT_NEWLINE TEXT_PUSH_A
+"What's that? Oh, the name's Joshua." TEXT_NEWLINE
+"I'm just a mercenary." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_JOKER_HALLOWEEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_14_Joker_M_halloween17
+"Happy harvest festival! I am Jakob, a" TEXT_NEWLINE
+"butler from Nohr. For my liege, I'll don" TEXT_NEWLINE
+"any costume that's required." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAGEROU_HALLOWEEN02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_13_Kagerou_F_Halloween18
+"Kagero, ninja of Hoshido, making an" TEXT_NEWLINE
+"unannounced visit. Trick or treat?" TEXT_NEWLINE
+"Please promptly choose your fate." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAGEROU_SPRING02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_13_Kagerou_F_SpringFes18
+"You sensed my presence, didn't you?" TEXT_NEWLINE
+"The spring breeze makes it difficult to" TEXT_NEWLINE
+"remain concealed." TEXT_NEWLINE TEXT_PUSH_A
+"I am Kagero, a ninja. I am pleased to" TEXT_NEWLINE
+"make your acquaintance." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAMUI_F_DREAM01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_19_Kamui_F_Dreaming18
+"My name is Corrin. Now that I'm" TEXT_NEWLINE
+"with you, you'll never have to cry" TEXT_NEWLINE
+"anymore." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAMUI_F_SUMMER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_19_Kamui_F_Swim17
+"Hello. I'm Corrin. I was resting on a" TEXT_NEWLINE
+"beach when I heard someone calling" TEXT_NEWLINE
+"my name. Was that you?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAMUI_M_DREAM01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_00_Kamui_M_Dreaming18
+"My name is Corrin. I am here to see" TEXT_NEWLINE
+"that Azura is smiling once again." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAMUI_M_NEWYEAR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_00_Kamui_M_NewYear18
+"Happy New Year! My name's Corrin," TEXT_NEWLINE
+"and I've decided to spend this year" TEXT_NEWLINE
+"with you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KAREL_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_14_Karel_M_Normal
+"I am Karel. Care to meet my blade?" TEXT_NEWLINE
+"Oh, let me withdraw the offer." TEXT_NEWLINE
+"You are not ready...yet." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KATARINA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_27_Katarina_F_Normal
+"Please, call me Katarina. I once" TEXT_NEWLINE
+"planned to be a tactician, but that..." TEXT_NEWLINE
+"didn't work out. I have magic though!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KATUA_SPRING02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_19_Katua_F_SpringFes18
+"I'm Catria of the Whitewings. These" TEXT_NEWLINE
+"clothes... They're part of my mission." TEXT_NEWLINE
+"Just...try to forget about them." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KILROY_SUMMER07_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_16_Kilroy_M_Swim20
+"I am Rhys. I may appear frail, but I'm" TEXT_NEWLINE
+"one of the Greil Mercenaries. I heard" TEXT_NEWLINE
+"we'll be fighting on the beach?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KINU_NEWYEAR03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_47_Kinu_F_NewYear20
+"Hi! I'm Selkie and I'm a kitsune! Wait," TEXT_NEWLINE
+"I was supposed to tell you something" TEXT_NEWLINE
+"else. Oh yeah! Happy New Year!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KIRIA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch12_04_Kiria_F_Normal
+"I'm Kiria Kurono-also known as Kiria." TEXT_NEWLINE
+"THE Kiria. I can't wait to hear the" TEXT_NEWLINE
+"sounds of our sessions together!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KLEINE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_28_Kleine_F_Normal
+"I'm Clarisse. I'm a cut above all the" TEXT_NEWLINE
+"other rubbish you probably see" TEXT_NEWLINE
+"around here." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_KLEIN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_13_Klein_M_Normal
+"I am Klein, son of Count Reglay" TEXT_NEWLINE
+"of Etruria. I'll be happy to" TEXT_NEWLINE
+"accompany you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LAEGJARN_NEWYEAR02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_11_Laegjarn_F_NewYear19
+"My name is Laegjarn. I have come" TEXT_NEWLINE
+"with my sister in this foreign garb" TEXT_NEWLINE
+"to participate in a New Year's rite." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LAEGJARN_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_11_Laegjarn_F_Swim19
+"I am Laegjarn. I wore something" TEXT_NEWLINE
+"I thought would be fitting for the" TEXT_NEWLINE
+"season, but...I grow tired of it." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LAEVATEIN_NEWYEAR02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_09_Laevatain_F_NewYear19
+"I am Laevatein. Is my sister Laegjarn" TEXT_NEWLINE
+"here? We're... We're supposed to" TEXT_NEWLINE
+"visit a shrine together." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LAEVATEIN_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_09_Laevatain_F_Swim19
+"I am Laevatein. I have come to swim" TEXT_NEWLINE
+"with my sister. But...I must improve" TEXT_NEWLINE
+"my swimming technique a bit first." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LARCHEL_HALLOWEEN03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_10_Larchel_F_Halloween19
+"I am L'Arachel, the harvest festival" TEXT_NEWLINE
+"princess of peerless beauty. Surely" TEXT_NEWLINE
+"that much is obvious!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LEON_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_24_Leon_M_Normal
+"I am Leo, a prince of Nohr. I hold the" TEXT_NEWLINE
+"divine tome Brynhildr, which grants" TEXT_NEWLINE
+"me mastery over gravity." TEXT_NEWLINE TEXT_PUSH_A
+"With less than a gesture, I have" TEXT_NEWLINE
+"blasted many a fool to ashes." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LEON_PICNIC01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_24_Leon_M_Picnic19
+"I am Leo, prince of Nohr. Today is" TEXT_NEWLINE
+"a rare chance to rest, so let's not" TEXT_NEWLINE
+"get too rowdy, hmm?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LEON_SUMMER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_24_Leon_M_Swim17
+"I'm Leo, Prince of Nohr. And you" TEXT_NEWLINE
+"pulled me off a tropical island. Do you" TEXT_NEWLINE
+"expect me to fight in this outfit?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LEYVAN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_09_Leyvan_M_Normal
+"I'm Raven. Just a mercenary." TEXT_NEWLINE
+"Nothing more to it." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LILINA_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_03_Lilina_F_Swim19
+"My name's Lilina. I was just out for" TEXT_NEWLINE
+"a swim when suddenly...I was here!" TEXT_NEWLINE
+"I hope you were expecting me..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LILINA_VALENTINE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_03_Lilina_F_Valentine18
+"I'm Lilina, daughter of the Marquess" TEXT_NEWLINE
+"Ostia. Will you be giving a gift to" TEXT_NEWLINE
+"somebody as well?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LINNEA_DANCE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_19_Linnea_F_Dance19
+"Hello! I am called Rinea. Shall" TEXT_NEWLINE
+"we head to the festival together" TEXT_NEWLINE
+"and, perhaps, dance?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIN_BRIDE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_00_Lin_F_Wedding17
+"My name is Lyn, and I swear there's" TEXT_NEWLINE
+"a reason I'm in this getup, but..." TEXT_NEWLINE
+"Let's not focus on the dress, OK?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_00_Lin_F_Normal
+"I'm Lyndis of the House of Caelin." TEXT_NEWLINE
+"Yet I truly belong to the open" TEXT_NEWLINE
+"plains. Just call me Lyn, all right?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIN_POPULARITY01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_00_Lin_F_ELECTION01
+"My name is Lyndis. Allow me to put" TEXT_NEWLINE
+"this legendary Sacaen bow to use by" TEXT_NEWLINE
+"assisting you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIN_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_00_Lin_F_Swim19
+"Hi, I'm Lyn. I knew we were headed" TEXT_NEWLINE
+"to the tropics, but no one mentioned" TEXT_NEWLINE
+"we were leaving our armor behind!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIN_VALENTINE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_00_Lin_F_Valentine18
+"I'm Lyn. I was told this outfit is" TEXT_NEWLINE
+"appropriate for a festival of love, but..." TEXT_NEWLINE
+"It's awfully difficult to move around in." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LIZ_WINTER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_11_Liz_F_WinterFes17
+"Happy winter festival! My name's" TEXT_NEWLINE
+"Lissa. What do you think of this" TEXT_NEWLINE
+"dress? It's bright red-for the festival." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LOFA_HALLOWEEN03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_13_Lofa_M_Halloween19
+"I'm Rolf, a member of the Greil Mer-" TEXT_NEWLINE
+"er, no...a spooooky ghost! You better" TEXT_NEWLINE
+"get yourself ready for some tricks!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LOKI_MIKATA01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_08_Loki_F_Normal
+"Did you call for me? To think you'd" TEXT_NEWLINE
+"try and make me yours... What a" TEXT_NEWLINE
+"scamp you are!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LOKI_SPRING03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_08_Loki_F_SpringFes19
+"I am Loki, a harmless rabbit." TEXT_NEWLINE
+"I wanted to go to the spring festival" TEXT_NEWLINE
+"with you, dear. So here I am!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LORENZ_SUMMER08_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_20_Lorenz_M_Swim20
+"I am Lorenz Hellman Gloucester." TEXT_NEWLINE
+"By the time your summer is over, that" TEXT_NEWLINE
+"noble name will be unforgettable." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUCINA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_01_Lucina_F_Normal
+"I am Lucina of Ylisse, daughter of" TEXT_NEWLINE
+"Chrom. I believe that we can fight" TEXT_NEWLINE
+"to change our fates." TEXT_NEWLINE TEXT_PUSH_A
+"I traveled back from my bleak" TEXT_NEWLINE
+"future to make a difference in my" TEXT_NEWLINE
+"father's past. Now...I am here." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUCINA_POPULARITY01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_01_Lucina_F_ELECTION01
+"I am Lucina of Ylisse. With Geirskogul" TEXT_NEWLINE
+"in hand, I pledge my strength to you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUCINA_SPRING01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_01_Lucina_F_SpringFes17
+"I am Lucina, future Exalt of Ylisse." TEXT_NEWLINE
+"The spring festival is such a breath" TEXT_NEWLINE
+"of fresh air, don't you think?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUISE_BRIDE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_22_Luise_F_Wedding19
+"I am Louise. I have given my heart to" TEXT_NEWLINE
+"my husband, Lord Pent, and pledged" TEXT_NEWLINE
+"my eternal love to him alone." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUKA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_15_Luka_M_Normal
+"My name is Lukas. I'm among those" TEXT_NEWLINE
+"who fight for the Deliverance. While" TEXT_NEWLINE
+"here, I pledge myself to your cause." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUKA_PICNIC01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_15_Luka_M_Picnic19
+"Whoa... I've arrived at an unexpected" TEXT_NEWLINE
+"place, haven't I? My name is Lukas." TEXT_NEWLINE
+"Let's have a good time today." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUTE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_08_Lute_F_Normal
+"I'm Lute, a mage of profound genius." TEXT_NEWLINE
+"If it's ultimate battle power you wished" TEXT_NEWLINE
+"for, consider your wish granted." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_LUTE_SUMMER07_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_08_Lute_F_Swim20
+"I'm Lute, genius mage extraordinaire," TEXT_NEWLINE
+"currently investigating how swimsuits" TEXT_NEWLINE
+"impact one's magical abilities." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MAMORI_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch12_03_Mamori_F_Normal
+"I'm Mamori Minamoto! You may have" TEXT_NEWLINE
+"heard of me from Microwavin' with" TEXT_NEWLINE
+"Mamorin. I'm here to help how I can!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARICA_SPRING03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_11_Marica_F_SpringFes19
+"I am Marisa. Yes, that's right." TEXT_NEWLINE
+"I am a rabbit." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARICH_BEFORE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_06_Marich_M_Before01
+"My name's Merric, and I'm a student" TEXT_NEWLINE
+"of magic hailing from Altea. I hope to" TEXT_NEWLINE
+"befriend everyone here." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARKS_BON01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_21_Marks_M_summer18
+"I am Xander, Crown Prince of Nohr." TEXT_NEWLINE
+"I've long heard rumors of the dances" TEXT_NEWLINE
+"of the Hoshidan summer festival." TEXT_NEWLINE TEXT_PUSH_A
+"If I may, allow me to join in." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARKS_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_21_Marks_M_Normal
+"I am Xander, Crown Prince of Nohr," TEXT_NEWLINE
+"and wielder of the divine Siegfried." TEXT_NEWLINE
+"I hope to see you mete out justice." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARKS_SPRING01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_21_Marks_M_SpringFes17
+"I am Xander, Crown Prince of Nohr." TEXT_NEWLINE
+"Is this outfit correct for the" TEXT_NEWLINE
+"occasion? I ought to look festive." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARKS_SUMMER02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_21_Marks_M_Swim17
+"I am Xander, Crown Prince of Nohr." TEXT_NEWLINE
+"I was at a beach practicing my" TEXT_NEWLINE
+"swimming technique, so..." TEXT_NEWLINE TEXT_PUSH_A
+"Well, I'm afraid your sudden" TEXT_NEWLINE
+"summoning caught me off guard." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARTH_BEFORE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_00_Marth_M_Before01
+"I'm Marth, Prince of Altea." TEXT_NEWLINE
+"I hope the two of us get along" TEXT_NEWLINE
+"well together!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARTH_BRIDE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_00_Marth_M_Wedding18
+"Greetings. I am Prince Marth of Altea." TEXT_NEWLINE
+"This outfit? It's a traditional groom's" TEXT_NEWLINE
+"outfit for a bridal festival, in which..." TEXT_NEWLINE TEXT_PUSH_A
+"Well... It's a bit hard to explain," TEXT_NEWLINE
+"you see..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MARTH_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_00_Marth_MF_Pair
+"It is very nice to meet you. I am Elice." TEXT_NEWLINE
+"Thank you for all you've done for my" TEXT_NEWLINE
+"younger brother Marth." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MICAIAH_BON01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_01_Micaiah_F_dance18
+"I'm Micaiah of the Dawn Brigade." TEXT_NEWLINE
+"Thank you for inviting me to the" TEXT_NEWLINE
+"summer festival." TEXT_NEWLINE TEXT_PUSH_A
+"Hmm... I sense quite a bit of fun" TEXT_NEWLINE
+"waiting for me..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MICAIAH_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_01_Micaiah_FM_Pair
+"I am Micaiah and this is Sothe. We're" TEXT_NEWLINE
+"honored to have been invited to this" TEXT_NEWLINE
+"banquet. So let's have some fun, hm?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MICAIAH_POPULARITY05_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_01_Micaiah_F_ELECTION01
+"I am Micaiah. I hope to lead Daein as" TEXT_NEWLINE
+"best I can. Any support you can offer" TEXT_NEWLINE
+"is appreciated." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MIKOTO_DREAM01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_46_Mikoto_F_Dreaming18
+"I am Mikoto, queen of Hoshido." TEXT_NEWLINE
+"I hastened to follow a familiar voice" TEXT_NEWLINE
+"and found myself in this realm." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MINERBA_BEFORE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_21_Minerba_F_Before01
+"I am Minerva of Macedon. No need" TEXT_NEWLINE
+"to coddle me simply because I'm" TEXT_NEWLINE
+"a princess." TEXT_NEWLINE TEXT_PUSH_A
+"In fact...allow me to demonstrate" TEXT_NEWLINE
+"some combat techniques I learned" TEXT_NEWLINE
+"from my brother, Michalis." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MISHEIL_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_22_Misheil_M_Normal
+"I am Michalis, King of Macedon." TEXT_NEWLINE
+"That is all you need know of me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MIST_VALENTINE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_03_Mist_F_Valentine19
+"Did I make it to the festival? My name" TEXT_NEWLINE
+"is Mist, and I want to let everyone" TEXT_NEWLINE
+"know how much they mean to me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MYRRH_HALLOWEEN02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_09_Myrrh_F_Halloween18
+"Trick or treat! I'm Myrrh! Are you" TEXT_NEWLINE
+"going to the harvest festival too?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_MYRRH_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_09_Myrrh_F_Normal
+"I'm Myrrh, from Darkling Woods." TEXT_NEWLINE
+"What? It's impolite to ask a woman" TEXT_NEWLINE
+"her age. That's what Ephraim says." TEXT_NEWLINE TEXT_PUSH_A
+"I think you're being rude." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NACIEN_SPRING04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_12_Nacien_M_SpringFes20
+"I am Narcian-a Wyvern General of" TEXT_NEWLINE
+"Bern, and the guest of honor at this" TEXT_NEWLINE
+"spring festival. Bow your head!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NEPENEE_DANCE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_07_Nepenee_F_Dance19
+"I'm, uh... I'm Nephenee. Just a gal" TEXT_NEWLINE
+"born and bred in Crimea's" TEXT_NEWLINE
+"countryside. I'll dance my heart out." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NIKE_BRIDE04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_09_Nike_F_Wedding20
+"I am Nailah, ruler of the desert" TEXT_NEWLINE
+"kingdom Hatari." TEXT_NEWLINE TEXT_PUSH_A
+"This bridal festival will provide" TEXT_NEWLINE
+"some respite so I can celebrate" TEXT_NEWLINE
+"the future of me and my partner." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NINIAN_BRIDE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_16_Ninian_F_Wedding18
+"Before you ask, I'm dressed for a" TEXT_NEWLINE
+"bridal festival. And, um... My name is" TEXT_NEWLINE
+"Ninian... Pleased to meet you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NINIAN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_16_Ninian_F_Normal
+"I am Ninian-quite simply, a traveling" TEXT_NEWLINE
+"performer, glad to put on a show." TEXT_NEWLINE
+"It's nothing much, really." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NINO_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_03_Nino_F_Normal
+"I'm Nino, a member of the Black" TEXT_NEWLINE
+"Fang! Oh, well...I guess these days" TEXT_NEWLINE
+"I'm just a regular ol' mage." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NINO_WINTER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_03_Nino_F_WinterFes19
+"I'm Nino! I'm here for the winter" TEXT_NEWLINE
+"festival! Is this the right place?" TEXT_NEWLINE
+"I've got plenty of smiles to give!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NOIR_SUMMER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_26_Noir_F_Swim18
+"My name is Noire, and... W-wait a" TEXT_NEWLINE
+"minute... Where are we going?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_NONO_HALLOWEEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_13_Nono_F_halloween17
+"Ta-da! It's Nowi the witch! I'll use my" TEXT_NEWLINE
+"magic to celebrate the harvest and" TEXT_NEWLINE
+"get lots and lots of candy!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_OBORO_BRIDE04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_06_Oboro_F_Wedding20
+"I'm Oboro of Hoshido, and I'm" TEXT_NEWLINE
+"dressed as a bride for the festival!" TEXT_NEWLINE
+"Do you think I pull off the look?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_OLIVIE_DANCE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_03_Olivie_F_dance17
+"Hi there... I'm Olivia. I was performing" TEXT_NEWLINE
+"my dance at an arts festival. Where" TEXT_NEWLINE
+"am I now?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_OLWEN_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch07_00_Olwen_F_Normal
+"My name is Olwen. Would you mind" TEXT_NEWLINE
+"if I join you? I would appreciate it" TEXT_NEWLINE
+"more than you could ever know." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_PANT_BRIDE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_23_Pant_F_Wedding19
+"I am Pent, Mage General of Etruria." TEXT_NEWLINE
+"This outfit...makes me a bit anxious." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_PAORA_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_18_Paora_FF_Pair
+"I'm Palla of Macedon, and these are" TEXT_NEWLINE
+"my younger sisters, Catria and Est." TEXT_NEWLINE
+"How can we be of service?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_PAORA_SPRING03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_18_Paora_F_SpringFes19
+"I am Palla, of the Macedonian" TEXT_NEWLINE
+"Whitewings. I am pleased to" TEXT_NEWLINE
+"greet you dressed as a rabbit." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_PRISCILLA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_15_Priscilla_F_Normal
+"My name is Priscilla. If it's not too" TEXT_NEWLINE
+"much trouble, could I stay with you" TEXT_NEWLINE
+"for a while?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_QULYF_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_17_Qulyf_M_Normal
+"My name is Kliff. Hmm... This place" TEXT_NEWLINE
+"looks like it could be a lot of fun." TEXT_NEWLINE
+"Don't let me get bored." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RACKESIS_DANCE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_02_Rackesis_F_Dance20
+"I am Lachesis, sister to Lord Eldigan." TEXT_NEWLINE
+"Since the ball will begin soon, would" TEXT_NEWLINE
+"you mind escorting me?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RACKESIS_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_02_Rackesis_F_Normal
+"One wonders-who are you? Not to" TEXT_NEWLINE
+"mention, what are your intentions?" TEXT_NEWLINE
+"And what is this curious place?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RAPHAEL_BRIDE04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_17_Raphael_M_Wedding20
+"My name is Rafiel, a heron and" TEXT_NEWLINE
+"survivor of the Serenes kingdom." TEXT_NEWLINE TEXT_PUSH_A
+"I came here at behest of the one I" TEXT_NEWLINE
+"love and owe my life to." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_REBACCA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_13_Rebacca_F_Normal
+"I'm Rebecca-a pretty decent hunter," TEXT_NEWLINE
+"if you ask me. And I'm a real quick" TEXT_NEWLINE
+"shot with a bow!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_REFLET_F_SUMMER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_08_Reflet_F_Swim17
+"Hi, I'm Robin. I may have been on" TEXT_NEWLINE
+"vacation in the Outrealms..." TEXT_NEWLINE TEXT_PUSH_A
+"But I can't turn my back on anyone" TEXT_NEWLINE
+"who needs a sound battle strategy!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_REFLET_M_WINTER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_07_Reflet_M_WinterFes17
+"My name is Robin. If you want" TEXT_NEWLINE
+"someone to plan winter festivities," TEXT_NEWLINE
+"you're in luck. Leave it all to me." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_REINHARDT_DANCE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch07_01_Reinhardt_M_Dance19
+"I am Reinhardt, a knight of Friege." TEXT_NEWLINE
+"I will demonstrate my dancing skill" TEXT_NEWLINE
+"here, if you'd do me the honor." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_REINHARDT_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch07_01_Reinhardt_M_Normal
+"I am Reinhardt of Friege. Allow" TEXT_NEWLINE
+"me to unleash havoc on your" TEXT_NEWLINE
+"enemies with my thunder magic." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RETHE_NEWYEAR03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_11_Rethe_F_NewYear20
+"I am Lethe, warrior of Gallia. This is" TEXT_NEWLINE
+"some kind of beorc New Year ritual," TEXT_NEWLINE
+"I take it? I'll join in...for a bit." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RINDA_SUMMER04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_07_Rinda_F_Swim18
+"I am Linde, daughter of Pontifex" TEXT_NEWLINE
+"Miloah. My duty as a mage in your" TEXT_NEWLINE
+"ranks will always come first, but..." TEXT_NEWLINE TEXT_PUSH_A
+"I am hoping to find some time to" TEXT_NEWLINE
+"enjoy the summer weather as well." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RODY_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_24_Rody_M_Normal
+"My name is Roderick, a knight in" TEXT_NEWLINE
+"training for Altea. I will do my best to" TEXT_NEWLINE
+"prove my use." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RORO_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_25_Roro_M_Normal
+"Whuh? Whoses are youses? We are" TEXT_NEWLINE
+"Legion...and we are Legion too." TEXT_NEWLINE
+"Uwe hee hee!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ROY_POPULARITY01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_00_Roy_M_ELECTION01
+"I'm Roy. With this sword Durandal in" TEXT_NEWLINE
+"hand, I will aid your army in place of" TEXT_NEWLINE
+"my father." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ROY_VALENTINE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_00_Roy_M_Valentine18
+"I'm Roy. I was just celebrating the Day" TEXT_NEWLINE
+"of Devotion with everyone. Is there" TEXT_NEWLINE
+"someone you want to give a gift to?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RUDLF_VALENTINE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_26_Rudlf_M_Valentine20
+"I am Rudolf, Emperor of Rigel. I have" TEXT_NEWLINE
+"come from another world. Was it you" TEXT_NEWLINE
+"who summoned me to this one?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RUKE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_23_Ruke_M_Normal
+"Call for your bards! They will want" TEXT_NEWLINE
+"to write songs about me, Luke," TEXT_NEWLINE
+"the finest knight of Altea!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RUTHEA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_11_Ruthea_M_Normal
+"My name is Lucius. I can tend to your" TEXT_NEWLINE
+"wounded. So I beg you-please put" TEXT_NEWLINE
+"me to work immediately." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RYOUMA_BON01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_01_Ryouma_M_summer18
+"I am Ryoma, High Prince of Hoshido." TEXT_NEWLINE
+"The long-awaited season of summer" TEXT_NEWLINE
+"festivals is upon us. Come..." TEXT_NEWLINE TEXT_PUSH_A
+"Dance with me!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_RYOUMA_ONSEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_01_Ryouma_M_Spa19
+"I am Ryoma, High Prince of Hoshido." TEXT_NEWLINE
+"I have heard talk of a secluded spring" TEXT_NEWLINE
+"nearby. Would you show me the way?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SAKURA_HALLOWEEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_18_Sakura_F_halloween17
+"My name is Sakura. I'm a princess of" TEXT_NEWLINE
+"Hoshido. I'm d-dressed as a cat spirit" TEXT_NEWLINE
+"called a nekomata. How do I look?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SAKURA_ONSEN01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_18_Sakura_F_Spa19
+"I'm Princess Sakura of Hoshido. I had" TEXT_NEWLINE
+"just found a hidden hot spring when I" TEXT_NEWLINE
+"was summoned here!" TEXT_NEWLINE TEXT_PUSH_A
+"Oh, b-but, I'm glad to be here... And" TEXT_NEWLINE
+"it's good to meet you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SALLYA_BRIDE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_10_Sallya_F_Wedding18
+"I'm Tharja-just a typical spring bride!" TEXT_NEWLINE
+"So, point me in the direction of my" TEXT_NEWLINE
+"fated one, and I'll handle the rest." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SALLYA_WINTER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_10_Sallya_F_WinterFes17
+"Oh-ho and huzzah! I'm Tharja, just a" TEXT_NEWLINE
+"typically normally plain girl! Have a" TEXT_NEWLINE
+"happy winter festival!" TEXT_NEWLINE TEXT_PUSH_A
+"Do you think Robin heard me" TEXT_NEWLINE
+"being normal?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SANAKI_BRIDE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_01_Sanaki_F_Wedding18
+"You stand in the presence of Sanaki," TEXT_NEWLINE
+"37th Empress of Begnion. I am the" TEXT_NEWLINE
+"Apos- M-my dress?" TEXT_NEWLINE TEXT_PUSH_A
+"It is nothing you should concern" TEXT_NEWLINE
+"yourself with. Do not interrupt me!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SANAKI_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_01_Sanaki_F_Normal
+"You stand in the presence of Sanaki," TEXT_NEWLINE
+"Empress of Begnion! I am the" TEXT_NEWLINE
+"Apostle-the voice of the goddess!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SENERIO_VALENTINE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_02_Senerio_M_Valentine19
+"I am Soren of the Greil Mercenaries." TEXT_NEWLINE
+"Festivals are all well and good, but" TEXT_NEWLINE
+"I'd appreciate being given work to do." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SETH_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_02_Seth_M_Normal
+"I am Seth, a knight of Renais. I must" TEXT_NEWLINE
+"beg your pardon, but...are Princess" TEXT_NEWLINE
+"Eirika and Prince Ephraim here?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SHARON_SPRING02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_02_Sharon_F_SpringFes18
+"Hi there! I'm Princess Sharena of" TEXT_NEWLINE
+"Askr! I'm ready to hop-hop-hop my" TEXT_NEWLINE
+"way through the spring festival!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SHEEDA_BEFORE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_17_Sheeda_F_Before01
+"My name is Caeda, and I come from" TEXT_NEWLINE
+"Talys. I may have my fair share to" TEXT_NEWLINE
+"learn, but I will put in the work!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SHEEDA_BRIDE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_17_Sheeda_F_Wedding17
+"I am Princess Caeda of Talys. I was" TEXT_NEWLINE
+"daydreaming about wearing a bridal" TEXT_NEWLINE
+"gown just like this one...and then..." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SHIGURE_DANCE_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_32_Shigure_M_dance17
+"I'm Shigure. My songs hold" TEXT_NEWLINE
+"mysterious power. Would you like me" TEXT_NEWLINE
+"to sing one for you?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SIGLUD_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_04_Siglud_M_Normal
+"I am Sigurd. I am the heir to the" TEXT_NEWLINE
+"duchy of Chalphy and descend from" TEXT_NEWLINE
+"the crusader Baldr." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SIGLUD_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_04_Siglud_MF_Pair
+"This is the ball we were told of, yes?" TEXT_NEWLINE
+"I am Sigurd, and this is Deirdre, my" TEXT_NEWLINE
+"lovely wife. The pleasure is ours." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SIGRUN_BRIDE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_11_Sigurun_F_Wedding19
+"I am Sigrun, commander of the Holy" TEXT_NEWLINE
+"Guard of Begnion. I had to rush to" TEXT_NEWLINE
+"put this wedding attire on in time." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SILQUE_VALENTINE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch10_23_Silque_F_Valentine20
+"I am Silque! I have been eagerly" TEXT_NEWLINE
+"waiting to celebrate the Day of" TEXT_NEWLINE
+"Devotion with you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SOTHIS_WINTER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_05_Sothis_F_WinterFes19
+"My name is Sothis. I'm also known" TEXT_NEWLINE
+"as... Hm? My form has changed, it" TEXT_NEWLINE
+"seems. I feel a bit more...festive now." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_SYLVAIN_SUMMER08_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch17_16_Sylvain_M_Swim20
+"Sylvain Jose Gautier, the next" TEXT_NEWLINE
+"Margrave Gautier, at your service." TEXT_NEWLINE
+"Let's go have some fun in the sun." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TAILTO_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_08_Tailto_F_Normal
+"I'm Tailtiu! I'm a descendant of the" TEXT_NEWLINE
+"crusader Thrud. Well...why don't we" TEXT_NEWLINE
+"forget about that-tell me about you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TAKUMI_NEWYEAR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_09_Takumi_M_NewYear18
+"Happy New Year. I'm Takumi, Prince" TEXT_NEWLINE
+"of Hoshido. Are we...exchanging" TEXT_NEWLINE
+"new-year gifts?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TAKUMI_SUMMER04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_09_Takumi_M_Swim18
+"Cannonbaaaall- Waah! Wh-where'd" TEXT_NEWLINE
+"the water go?! And where did I go?!" TEXT_NEWLINE
+"And who are you?!" TEXT_NEWLINE TEXT_PUSH_A
+"Me? I'm Takumi, of Hoshido! Are you" TEXT_NEWLINE
+"the one who interrupted my vacation?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TANIS_BRIDE03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_12_Tanis_F_Wedding19
+"I am Tanith, deputy commander of" TEXT_NEWLINE
+"the Begnion Holy Guard. This outfit is" TEXT_NEWLINE
+"due to...unforeseen circumstances." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIAMAT_VALENTINE02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_04_Tiamat_F_Valentine19
+"I am Titania, deputy commander of" TEXT_NEWLINE
+"the Greil Mercenaries. Tell me...is" TEXT_NEWLINE
+"Commander Greil really here?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIAMO_BRIDE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_17_Tiamo_F_Wedding17
+"I am Cordelia. I know, I know! But" TEXT_NEWLINE
+"don't worry. I can fight just fine in this." TEXT_NEWLINE
+"It's not a wedding dress!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIAMO_SUMMER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_17_Tiamo_F_Swim18
+"My name is Cordelia. I pledge to aid" TEXT_NEWLINE
+"you however I can, so long as I am" TEXT_NEWLINE
+"here." TEXT_NEWLINE TEXT_PUSH_A
+"A knight in a swimsuit... Unusual, I" TEXT_NEWLINE
+"know." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIBARN_PIRATE01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch11_05_Tibarn_M_Pirate20
+"I'm King Tibarn of Phoenicis." TEXT_NEWLINE
+"A pirate...festival? Beorc sure" TEXT_NEWLINE
+"do have a lot of strange holidays." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIKI_A_SUMMER01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch04_12_Tiki_F_Swim17
+"I'm Tiki, a descendant of the divine" TEXT_NEWLINE
+"dragon tribe. I can take the form of a" TEXT_NEWLINE
+"dragon, of course..." TEXT_NEWLINE TEXT_PUSH_A
+"But for the summer, I'm liking the" TEXT_NEWLINE
+"look of this swimsuit a little bit better!" TEXT_NEWLINE
+"" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIKI_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_10_Tiki_F_Normal
+"I don't have to sleep anymore?" TEXT_NEWLINE
+"I can stay with everyone? Yay!" TEXT_NEWLINE
+"Wait, what about vegetables?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TIKI_SUMMER04_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch01_10_Tiki_F_Swim18
+"Hi, I'm Tiki! Want to go play on the" TEXT_NEWLINE
+"beach? I'm not a great swimmer..." TEXT_NEWLINE
+"But I'm really good at floating!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TSUBASA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch12_01_Tsubasa_F_Normal
+"I'm Tsubasa Oribe, age 18! I will sing" TEXT_NEWLINE
+"and fight with all my heart. A-and I'm" TEXT_NEWLINE
+"wooking forward to lorking with you!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TURNER_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_05_Turner_F_Normal
+"My name is Tana, and I'm a pegasus" TEXT_NEWLINE
+"knight." TEXT_NEWLINE TEXT_PUSH_A
+"Oh, and I'm also the princess of" TEXT_NEWLINE
+"Frelia. I hope you won't let that get" TEXT_NEWLINE
+"in the way of us being friends, though!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_TURNER_SUMMER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch08_05_Turner_F_Swim18
+"Nice to meet you. I'm Tana! The" TEXT_NEWLINE
+"ocean is so inviting this summer-are" TEXT_NEWLINE
+"you ready to dive in?" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_URSULA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_07_Ursula_F_Normal
+"I am the feared Blue Crow. You may" TEXT_NEWLINE
+"call me Ursula. I...sense perfection" TEXT_NEWLINE
+"in you. You have my loyalty." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_URSULA_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_07_Ursula_F_Swim19
+"I am Ursula, one of the elite Four" TEXT_NEWLINE
+"Fangs. I selected this outfit in order" TEXT_NEWLINE
+"to lower my target's guard." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_VERONICA_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_04_Veronica_FM_Pair
+"I am Veronica, Princess of Embla." TEXT_NEWLINE
+"Xander here will explain why we" TEXT_NEWLINE
+"are dressed as pirates." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_VERONICA_POPULARITY03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_04_Veronica_F_ELECTION01
+"I am Veronica. I take it that it was" TEXT_NEWLINE
+"your voice I heard calling me here..." TEXT_NEWLINE
+"That is fine. I will help you." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_VERONICA_SPRING03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_04_Veronica_F_SpringFes19
+"Hippity-hop. I'm Veronica. I hear" TEXT_NEWLINE
+"there's some kind of festival here..." TEXT_NEWLINE
+"I'll join in." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_WALT_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_19_Walt_M_Swim19
+"I'm Wolt! I serve with the Knights of" TEXT_NEWLINE
+"Pherae. I'm hoping to help Lord Roy" TEXT_NEWLINE
+"make some good summer memories." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_WAYU_HALLOWEEN02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_09_Wayu_F_Halloween18
+"Is it a trick or a treat? Only you can" TEXT_NEWLINE
+"determine your fate! Oh, I'm Mia, by" TEXT_NEWLINE
+"the way. I'm a mercenary." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_WAYU_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_09_Wayu_F_Normal
+"I'm Mia, from the Greil Mercenaries." TEXT_NEWLINE
+"I'm a graceful whirlwind of singing" TEXT_NEWLINE
+"steel! And I'll prove it, too!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_WAYU_PAIR01_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch09_09_Wayu_FF_Pair
+"Hi, I'm Mia-and this is Marth! Seems" TEXT_NEWLINE
+"we share a connection... Our love of" TEXT_NEWLINE
+"the beach in summer!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_YURG_SUMMER06_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch00_15_Yurg_F_Swim19
+"I'm Ylgr, and I'm from Nifl. Since this" TEXT_NEWLINE
+"is my first time at the beach, I wanna" TEXT_NEWLINE
+"play as much as I can!" TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_YURIA_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch06_03_Yuria_F_Normal
+"My name is Julia-she who inherited" TEXT_NEWLINE
+"the ability to use the book of the" TEXT_NEWLINE
+"Divine Dragon, Naga." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ZEFHYR_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch02_08_Zefhyr_M_Normal
+"I am Zephiel, King of Bern. I hope you" TEXT_NEWLINE
+"aren't one of those types who spouts" TEXT_NEWLINE
+"nonsense about hope for humanity." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ZEFHYR_WINTER03_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch03_25_Zefhyr_M_WinterFes19
+"I am Zephiel, Prince of Bern. I hope" TEXT_NEWLINE
+"to take in the winter festival. I am" TEXT_NEWLINE
+"most interested in foreign customs." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
+[MID_ZERO_HALLOWEEN02_JOIN] = TEXT_OPEN_FAR_FAR_LEFT TEXT_CLEAR_FACE TEXT_LOAD_FACE ch05_11_Zero_M_Halloween18
+"The name's Niles... Is it a trick you" TEXT_NEWLINE
+"want or a treat? Whichever it is your" TEXT_NEWLINE
+"heart desires...I'll see it done." TEXT_NEWLINE TEXT_PUSH_A
+""
+TEXT_CLEAR_FACE,
+
