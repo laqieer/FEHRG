@@ -34,6 +34,7 @@
 #define UNIT(side, character, job, level, autoLevel, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4) .byte character, job, 0, UNIT_LEVEL(level, side, autoLevel), x, y, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4
 #define ALLY_UNIT(character, job, level, autoLevel, x, y, item1, item2, item3, item4) UNIT(SIDE_ALLY, character, job, level, autoLevel, x, y, item1, item2, item3, item4, 0, 0, 0, 0)
 #define ENEMY_UNIT(character, job, level, autoLevel, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4) UNIT(SIDE_ENEMY, character, job, level, autoLevel, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4)
+#define NPC_UNIT(character, job, level, autoLevel, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4) UNIT(SIDE_NPC, character, job, level, autoLevel, x, y, item1, item2, item3, item4, AI1, AI2, AI3, AI4)
 #define ALLY_UNIT_JOINED(character, x, y) ALLY_UNIT(character, 0, 0, 0, x, y, 0, 0, 0, 0)
 
 // Area event

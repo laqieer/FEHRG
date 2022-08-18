@@ -667,6 +667,7 @@ dragons = {
 class UnitSide(enum.Enum):
     ALLY = 1
     ENEMY = 2
+    NPC = 3
 
 class Scenario(enum.Enum):
     OPENING = 1
@@ -692,6 +693,8 @@ def load_unit(object: TiledObject, side: UnitSide):
         job -= tilesets['ally'].firstgid
     if side == UnitSide.ENEMY:
         job -= tilesets['enemy'].firstgid
+    if side == UnitSide.NPC:
+        job -= tilesets['npc'].firstgid
     job += 1
     unit = object.properties.get('unit')
     items = unit['items'].split(',')
@@ -772,6 +775,8 @@ print('\tLOU1 EnemyUnits')
 print('\tENUN')
 print('\tLOU1 AllyUnits')
 print('\tENUN')
+print('\tLOU1 NPCUnits')
+print('\tENUN')
 load_scenario(Scenario.MAP_BEGIN)
 print('\tENDA')
 
@@ -793,6 +798,13 @@ layer = layers.get('敌军')
 if layer is not None:
     for object in layer.tiled_objects:
         load_unit(object, UnitSide.ENEMY)
+print('\tEND_UNIT')
+
+print('NPCUnits:')
+layer = layers.get('友军')
+if layer is not None:
+    for object in layer.tiled_objects:
+        load_unit(object, UnitSide.NPC)
 print('\tEND_UNIT')
 
 print('Traps:')
