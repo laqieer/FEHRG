@@ -42,3 +42,5 @@ cu32 * const * const pChapterTilesetTiles = ChapterTilesetTiles;
 cu16 * const * const pChapterTilesetPals = ChapterTilesetPals;
 
 cu16 * const * const pChapterMaps = ChapterMaps;
+
+const struct MapChange * const * const pChapterMapChanges = ChapterMapChanges;

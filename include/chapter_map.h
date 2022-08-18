@@ -4,11 +4,24 @@
 #define TILES_PER_MAP_TILE 4 
 #define TILES_PER_CHAPTER TILES_PER_MAP_TILE * MAP_TILES_PER_CHAPTER
 
+struct MapChange {
+    s8 id;
+    s8 x;
+    s8 y;
+    s8 w;
+    s8 h;
+    // s8 pads[3];
+    cu16 *tiles;
+};
+
+#define MAP_CHANGE_END {-1, -1, -1, -1, 0, NULL}
+
 extern cu32 * const ChapterTilesetTiles[];
 extern cu16 * const ChapterTilesetMaps[];
 extern cu16 * const ChapterTilesetPals[];
 extern cu8 * const ChapterTerrains[];
 extern cu16 * const ChapterMaps[];
+extern const struct MapChange * const ChapterMapChanges[];
 
 extern cu8 XX001Terrain[];
 extern cu8 X0001Terrain[];
@@ -319,3 +332,5 @@ extern cu16 X0483TileMap[];
 extern cu16 X0491TileMap[];
 extern cu16 X0492TileMap[];
 extern cu16 X0493TileMap[];
+
+extern const struct MapChange X0004MapChanges[];

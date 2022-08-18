@@ -4,6 +4,8 @@
 .rodata.pChapterTilesetPals : {*(.rodata.pChapterTilesetPals)}
 . = 0x8031ABC;
 .rodata.pChapterMaps : {*(.rodata.pChapterMaps)}
+. = 0x8031AE8;
+.rodata.pChapterMapChanges : {*(.rodata.pChapterMapChanges)}
 . = 0x801955C;
 .text.LoadChapterMap : {*(.text.LoadChapterMap)}
 . = 0x80195BC;

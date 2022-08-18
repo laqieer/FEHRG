@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "X0003.tmj",
+    "activeFile": "X0004.tmj",
     "expandedProjectPaths": [
+        "unit",
         "."
     ],
     "fileStates": {
@@ -27,15 +28,39 @@
             "scaleInEditor": 2
         },
         "X0003.tmj": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
             "scale": 2.173125,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 65.11360368133447,
-                "y": 90.882945067587
+                "x": 120.33362093758986,
+                "y": 137.35979292493528
             }
         },
         "X0003.tsj": {
             "scaleInDock": 1
+        },
+        "X0004.tmj": {
+            "expandedGroupLayers": [
+                2
+            ],
+            "expandedObjectLayers": [
+                8,
+                9,
+                7
+            ],
+            "scale": 2.17,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 64.74654377880184,
+                "y": 91.01382488479263
+            }
+        },
+        "X0004.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
         },
         "XX001.tmj": {
             "expandedObjectLayers": [
@@ -57,6 +82,14 @@
         },
         "unit/enemy.tsx": {
             "scaleInDock": 1
+        },
+        "unit/npc.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "unit/npc.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
         }
     },
     "last.imagePath": "/Users/laqieer/Projects/FEHRG/chapter",
@@ -66,12 +99,16 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "X0003.tmj"
+        "X0004.tmj"
     ],
     "project": "chapters.tiled-project",
     "property.type": "Unit",
     "recentFiles": [
+        "X0004.tmj",
+        "X0004.tsj",
+        "unit/npc.tsx",
         "X0003.tmj",
+        "unit/npc.tsj",
         "X0001.tmj",
         "XX001.tmj",
         "X0002.tsj"
