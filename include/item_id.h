@@ -416,9 +416,9 @@
 #define 诺斯费拉特 0x48
 #define 格丝潘斯特 0x49
 #define 回复之杖 0x4A
-#define 治愈之杖 0x4B
+#define 治疗之杖 0x4B
 #define 痊愈之杖 0x4C
-#define 治疗之杖 0x4D
+#define 治愈之杖 0x4D
 #define 生命之杖 0x4E
 #define 复原之杖 0x4F
 #define 沉默之杖 0x50
