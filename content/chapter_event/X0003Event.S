@@ -6,8 +6,8 @@
 	#include "AI.h"
 	#include "background_id.h"
 	#include "music_id.h"
-
 	#include "event_text_id.h"
+
 	.section .rodata
 	.align 2
 	.global X0003Event
@@ -15,8 +15,6 @@ X0003Event:
 	DefineEvents
 TurnBasedEvents:
 	LoadBeginningScene
-	END_MAIN
-CharacterBasedEvents:
 	END_MAIN
 LocationBasedEvents:
 	END_MAIN
@@ -28,6 +26,8 @@ BeginningScene:
 	LOU1 EnemyUnits
 	ENUN
 	LOU1 AllyUnits
+	ENUN
+	LOU1 NPCUnits
 	ENUN
 	MUSC BGM_EVENT_PLAIN_03_2
 	TEX1 EvTx_X0003_MID_SCENARIO_MAP_BEGIN
@@ -49,5 +49,9 @@ EnemyUnits:
 	ENEMY_UNIT(セリス, 1, 2, AUTO_LEVEL, 10, 13, 钢剑, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(ユリア, 33, 2, AUTO_LEVEL, 10, 14, 闪光, 0, 0, 0, 0, 0, 0, 0)
 	END_UNIT
+NPCUnits:
+	END_UNIT
+CharacterBasedEvents:
+	END_MAIN
 Traps:
 	END_TRAP

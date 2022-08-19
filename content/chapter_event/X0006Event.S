@@ -10,8 +10,8 @@
 
 	.section .rodata
 	.align 2
-	.global X0002Event
-X0002Event:
+	.global X0006Event
+X0006Event:
 	DefineEvents
 TurnBasedEvents:
 	LoadBeginningScene
@@ -29,25 +29,25 @@ BeginningScene:
 	ENUN
 	LOU1 NPCUnits
 	ENUN
-	MUSC BGM_EVENT_PLAIN_01
-	TEX1 EvTx_X0002_MID_SCENARIO_MAP_BEGIN
+	MUSC BGM_EVENT_PLAIN_03_2
+	TEX1 EvTx_X0006_MID_SCENARIO_MAP_BEGIN
 	REMA
 	ENDA
 EndingScene:
-	TEX1 EvTx_X0002_MID_SCENARIO_MAP_END
+	TEX1 EvTx_X0006_MID_SCENARIO_MAP_END
 	REMA
-	MNCH X0002Next
+	MNCH X0006Next
 	ENDA
 AllyUnits:
-	ALLY_UNIT_JOINED(アルフォンス, 6, 16)
-	ALLY_UNIT_JOINED(シャロン, 7, 16)
-	ALLY_UNIT_JOINED(アンナ, 8, 16)
+	ALLY_UNIT_JOINED(アルフォンス, 14, 14)
+	ALLY_UNIT_JOINED(シャロン, 12, 16)
+	ALLY_UNIT_JOINED(アンナ, 12, 10)
 	END_UNIT
 EnemyUnits:
-	ENEMY_UNIT(セリス, 1, 1, AUTO_LEVEL, 3, 4, 铁剑, 0, 0, 0, 0, 0, 0, 0)
-	ENEMY_UNIT(ユリア, 33, 1, AUTO_LEVEL, 14, 4, 闪光, 0, 0, 0, 0, 0, 0, 0)
-	ENEMY_UNIT(杂兵, 29, 1, AUTO_LEVEL, 3, 0, 回复之杖, 0, 0, 0, HealAllies, 0, 0, 0)
-	ENEMY_UNIT(杂兵, 40, 1, AUTO_LEVEL, 0, 8, 铁斧, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(エルトシャン, 40, 4, AUTO_LEVEL, 1, 3, 必杀刃, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(ラケシス, 29, 4, AUTO_LEVEL, 0, 2, 回复之杖, 0, 0, 0, HealAllies, 0, 0, 0)
+	ENEMY_UNIT(杂兵, 40, 4, AUTO_LEVEL, 1, 2, 铁枪, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(杂兵, 40, 4, AUTO_LEVEL, 0, 3, 铁斧, 0, 0, 0, 0, 0, 0, 0)
 	END_UNIT
 NPCUnits:
 	END_UNIT
