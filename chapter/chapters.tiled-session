@@ -5,8 +5,8 @@
     },
     "activeFile": "X0005.tmj",
     "expandedProjectPaths": [
-        ".",
-        "unit"
+        "unit",
+        "."
     ],
     "fileStates": {
         "X0001.tmj": {
@@ -67,10 +67,10 @@
                 2
             ],
             "scale": 2.173125,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
                 "x": 65.11360368133447,
-                "y": 91.3431118780558
+                "y": 91.80327868852457
             }
         },
         "X0005.tsj": {

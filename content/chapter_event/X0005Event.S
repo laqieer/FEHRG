@@ -44,10 +44,10 @@ AllyUnits:
 	ALLY_UNIT_JOINED(アンナ, 2, 16)
 	END_UNIT
 EnemyUnits:
-	ENEMY_UNIT(ラインハルト, 44, 2, AUTO_LEVEL, 14, 2, 闪电, 0, 0, 0, 0, 0, 0, 0)
-	ENEMY_UNIT(杂兵, 36, 2, AUTO_LEVEL, 13, 6, 熔流, 0, 0, 0, 0, 0, 0, 0)
-	ENEMY_UNIT(オルエン, 44, 2, AUTO_LEVEL, 14, 16, 闪电, 0, 0, 0, 0, 0, 0, 0)
-	ENEMY_UNIT(杂兵, 40, 2, AUTO_LEVEL, 8, 8, 铁斧, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(ラインハルト, 44, 3, AUTO_LEVEL, 14, 2, 闪电, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(杂兵, 36, 3, AUTO_LEVEL, 13, 6, 熔流, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(オルエン, 44, 3, AUTO_LEVEL, 14, 16, 闪电, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(杂兵, 40, 3, AUTO_LEVEL, 8, 8, 铁斧, 0, 0, 0, 0, 0, 0, 0)
 	END_UNIT
 NPCUnits:
 	END_UNIT
