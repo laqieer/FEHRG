@@ -768,6 +768,10 @@ BattleAnimConf_FallenIceDragon = 0x8d61200;
 BattleAnimConf_TransporterHorse = 0x8d6120c;
 BattleAnimConf_UberSage = 0x8d61214;
 
+/* Battle Animation Palette. */
+
+cavalier_vanilla_basic_pal = 0x8eac0cc;
+
 /* Background. */
 
 Backgrounds = 0x8c00798;
