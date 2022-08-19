@@ -443,3 +443,37 @@ const struct BattleAnimationConfig VanguardAnimations[] = {
     },
     ANCFG_END
 };
+
+const struct BattleAnimationConfig CavalierAnimations[] = {
+    {
+        ITYPE_SWORD,
+        true,
+        ANID_CAVALIER_SWORD
+    },
+    {
+        ITYPE_LANCE,
+        true,
+        ANID_CAVALIER_SPEAR
+    },
+    {
+        ITYPE_AXE,
+        true,
+        ANID_CAVALIER_AXE
+    },
+    {
+        HandAxe,
+        false,
+        ANID_CAVALIER_HAND_AXE
+    },
+    {
+        Tomahawk,
+        false,
+        ANID_CAVALIER_HAND_AXE
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_CAVALIER_DISARMED
+    },
+    ANCFG_END
+};

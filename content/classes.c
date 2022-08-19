@@ -2677,7 +2677,7 @@ const struct Class Classes[] = {
 			WPN_EXP_0, // Light
 			WPN_EXP_0, // Dark
 		},
-		BattleAnimConf_Cavalier, // pBattleAnimConf
+		CavalierAnimations, // pBattleAnimConf
 		// pMovCostTable
 		{
 			(const s8*)0x8c52e1e, // standard
@@ -2744,7 +2744,7 @@ const struct Class Classes[] = {
 			WPN_EXP_0, // Light
 			WPN_EXP_0, // Dark
 		},
-		BattleAnimConf_Cavalier_F, // pBattleAnimConf
+		CavalierAnimations, // pBattleAnimConf
 		// pMovCostTable
 		{
 			(const s8*)0x8c52e1e, // standard

@@ -1,0 +1,139 @@
+/// - Mode 1
+C03
+C07
+1 p- 000.png
+4 p- 001.png
+C22
+12 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+C05
+1 p- 006.png
+C01
+10 p- 002.png
+3 p- 001.png
+3 p- 000.png
+C06
+~~~
+/// - Mode 3
+C03
+C07
+1 p- 000.png
+4 p- 001.png
+C22
+12 p- 002.png
+2 p- 003.png
+2 p- 004.png
+2 p- 005.png
+C05
+1 p- 006.png
+C01
+10 p- 002.png
+3 p- 001.png
+3 p- 000.png
+C06
+~~~
+/// - Mode 5
+C03
+C07
+1 p- 000.png
+2 p- 003.png
+2 p- 004.png
+18 p- 005.png
+C22
+2 p- 006.png
+C05
+2 p- 007.png
+C13
+3 p- 008.png
+3 p- 009.png
+3 p- 005.png
+C01
+3 p- 003.png
+3 p- 000.png
+C06
+C0D
+~~~
+/// - Mode 6
+C03
+C07
+1 p- 000.png
+2 p- 003.png
+2 p- 004.png
+18 p- 005.png
+2 p- 010.png
+C38
+2 p- 011.png
+2 p- 012.png
+20 p- 005.png
+C22
+2 p- 006.png
+C05
+2 p- 007.png
+C13
+3 p- 008.png
+3 p- 009.png
+3 p- 005.png
+C01
+2 p- 005.png
+3 p- 003.png
+3 p- 000.png
+C06
+C0D
+~~~
+/// - Mode 7
+C02
+1 p- 000.png
+C0E
+1 p- 013.png
+1 p- 014.png
+C01
+1 p- 013.png
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- 000.png
+C0E
+3 p- 013.png
+1 p- 014.png
+C01
+3 p- 013.png
+C0D
+~~~
+/// - Mode 9
+1 p- 000.png
+C01
+~~~
+/// - Mode 10
+1 p- 000.png
+C01
+~~~
+/// - Mode 11
+1 p- 000.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- 000.png
+4 p- 001.png
+C22
+12 p- 002.png
+2 p- 003.png
+2 p- 004.png
+C05
+28 p- 004.png
+C23
+2 p- 005.png
+1 p- 006.png
+C01
+8 p- 006.png
+3 p- 002.png
+3 p- 001.png
+3 p- 000.png
+C06
+C0D
+~~~
+/// - End of animation

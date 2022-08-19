@@ -36,24 +36,24 @@ def automake_palette_group(palette: list):
     # output red palette
     for color in pal_blue.color_list:
         color_blue = color.to_short()
-        if color_blue in color_table:
-            s += '0x%04X,' % color_table[color_blue][0]
+        if str(color_blue) in color_table:
+            s += '0x%04X,' % color_table[str(color_blue)][0]
         else:
             s += '0x%04X,' % color_blue
     s += '\n\t'
     # output green palette
     for color in pal_blue.color_list:
         color_blue = color.to_short()
-        if color_blue in color_table:
-            s += '0x%04X,' % color_table[color_blue][1]
+        if str(color_blue) in color_table:
+            s += '0x%04X,' % color_table[str(color_blue)][1]
         else:
             s += '0x%04X,' % color_blue
     s += '\n\t'
     # output purple palette
     for color in pal_blue.color_list:
         color_blue = color.to_short()
-        if color_blue in color_table:
-            s += '0x%04X,' % color_table[color_blue][2]
+        if str(color_blue) in color_table:
+            s += '0x%04X,' % color_table[str(color_blue)][2]
         else:
             s += '0x%04X,' % color_blue
     s += '\n\t' + pal_blue.tostring_raw() + '\n'
