@@ -34,7 +34,7 @@ if '变换' in layers:
         for y in range(y1, y2 + 1):
             print('\t{},'.format(','.join(['4 * ' + str(tileId - tileset.firstgid + 1) for tileId in layer.data[y][x1: x2 + 1]])))
         print('};\n')
-print('const struct MapChange {}MapChanges[] = {{'.format(map_name))
-print(s)
-print('\tMAP_CHANGE_END')
-print('};')
+    print('const struct MapChange {}MapChanges[] = {{'.format(map_name))
+    print(s)
+    print('\tMAP_CHANGE_END')
+    print('};')
