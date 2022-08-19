@@ -68,8 +68,20 @@
                  "rotation":0,
                  "visible":true,
                  "width":16,
-                 "x":192.71,
+                 "x":224.71,
                  "y":174.84
+                }, 
+                {
+                 "class":"",
+                 "gid":359,
+                 "height":32,
+                 "id":8,
+                 "name":"\u30a8\u30d5\u30e9\u30e0",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":192,
+                 "y":207.244239631336
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -182,8 +194,14 @@
          "y":0
         }],
  "nextlayerid":4,
- "nextobjectid":8,
+ "nextobjectid":9,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"hasPrepScreen",
+         "type":"bool",
+         "value":true
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.9.0",
  "tileheight":16,

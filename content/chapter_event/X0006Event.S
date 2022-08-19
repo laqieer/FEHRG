@@ -14,7 +14,7 @@
 X0006Event:
 	DefineEvents
 TurnBasedEvents:
-	LoadBeginningScene
+	LoadMapBeginScene
 	END_MAIN
 LocationBasedEvents:
 	END_MAIN
@@ -23,12 +23,9 @@ MiscBasedEvents:
 	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
-	LOU1 EnemyUnits
-	ENUN
-	LOU1 AllyUnits
-	ENUN
-	LOU1 NPCUnits
-	ENUN
+	ENDB
+MapBeginScene:
+	OOBB
 	MUSC BGM_EVENT_PLAIN_03_2
 	TEX1 EvTx_X0006_MID_SCENARIO_MAP_BEGIN
 	REMA
@@ -41,15 +38,14 @@ EndingScene:
 AllyUnits:
 	ALLY_UNIT_JOINED(アルフォンス, 14, 14)
 	ALLY_UNIT_JOINED(シャロン, 12, 16)
-	ALLY_UNIT_JOINED(アンナ, 12, 10)
+	ALLY_UNIT_JOINED(アンナ, 14, 10)
+	ALLY_UNIT_JOINED(エフラム, 12, 12)
 	END_UNIT
 EnemyUnits:
 	ENEMY_UNIT(エルトシャン, 40, 4, AUTO_LEVEL, 1, 3, 必杀刃, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(ラケシス, 29, 4, AUTO_LEVEL, 0, 2, 回复之杖, 0, 0, 0, HealAllies, 0, 0, 0)
 	ENEMY_UNIT(杂兵, 40, 4, AUTO_LEVEL, 1, 2, 铁枪, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(杂兵, 40, 4, AUTO_LEVEL, 0, 3, 铁斧, 0, 0, 0, 0, 0, 0, 0)
-	END_UNIT
-NPCUnits:
 	END_UNIT
 CharacterBasedEvents:
 	END_MAIN

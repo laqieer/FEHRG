@@ -112,6 +112,10 @@
 #define TURN_MOMENT_NPC_PHASE 1
 #define TURN_MOMENT_ENEMY_PHASE 2
 #define LoadBeginningScene .word 2, BeginningScene, 1, 0
+#define LoadMapBeginScene .word 2, MapBeginScene, 1, 0
+
+// Remove chapter openning black.
+#define OOBB .word 0xc
 
 // Character (chat) events
 #define CHAR .hword 3,

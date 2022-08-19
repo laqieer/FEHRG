@@ -1,4 +1,5 @@
 enum {
     MAP_CHANGE_ID_NONE = 0,
     MAP_CHANGE_ID_X0004,
+    MAP_CHANGE_ID_X0021,
 };

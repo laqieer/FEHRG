@@ -738,6 +738,8 @@ map = pytiled_parser.parse_map(map_file)
 tilesets = get_tilesets(map)
 layers = get_layers(map)
 
+hasPrepScreen = map.properties.get('hasPrepScreen') == True
+
 # definitions
 print('\t#include "event.h"')
 print('\t#include "chapter_id.h"')
@@ -757,7 +759,10 @@ print(map_name + 'Event:')
 print('\tDefineEvents')
 
 print('TurnBasedEvents:')
-print('\tLoadBeginningScene')
+if hasPrepScreen:
+    print('\tLoadMapBeginScene')
+else:
+    print('\tLoadBeginningScene')
 print('\tEND_MAIN')
 
 print('LocationBasedEvents:')
@@ -770,12 +775,18 @@ print('\tEND_MAIN')
 
 print('BeginningScene:')
 load_scenario(Scenario.OPENING)
-print('\tLOU1 EnemyUnits')
-print('\tENUN')
-print('\tLOU1 AllyUnits')
-print('\tENUN')
-print('\tLOU1 NPCUnits')
-print('\tENUN')
+if hasPrepScreen:
+    print('\tENDB')
+    print('MapBeginScene:')
+else:
+    print('\tLOU1 EnemyUnits')
+    print('\tENUN')
+    print('\tLOU1 AllyUnits')
+    print('\tENUN')
+if '友军' in layers:
+    print('\tLOU1 NPCUnits')
+    print('\tENUN')
+print('\tOOBB')
 load_scenario(Scenario.MAP_BEGIN)
 print('\tENDA')
 
@@ -801,13 +812,13 @@ print('\tEND_UNIT')
 
 heroes = []
 
-print('NPCUnits:')
 layer = layers.get('友军')
 if layer is not None:
+    print('NPCUnits:')
     for object in layer.tiled_objects:
         load_unit(object, UnitSide.NPC)
         heroes.append(characters.romans[object.name])
-print('\tEND_UNIT')
+    print('\tEND_UNIT')
 
 print('CharacterBasedEvents:')
 for hero in heroes:
