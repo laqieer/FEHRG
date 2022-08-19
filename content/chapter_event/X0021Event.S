@@ -45,7 +45,7 @@ AllyUnits:
 	ALLY_UNIT_JOINED(エフラム, 7, 15)
 	END_UNIT
 EnemyUnits:
-	ENEMY_UNIT(レイヴァン, 86, 4, AUTO_LEVEL, 2, 0, 铁的大剑, 0, 0, 0, 0, 0, 0, 0)
+	ENEMY_UNIT(レイヴァン, 10, 4, AUTO_LEVEL, 2, 0, 铁的大剑, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(ルセア, 28, 4, AUTO_LEVEL, 14, 2, 闪光, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(プリシラ, 44, 4, AUTO_LEVEL, 0, 5, 治疗之杖, 0, 0, 0, HealAllies, 0, 0, 0)
 	ENEMY_UNIT(杂兵, 56, 4, AUTO_LEVEL, 8, 5, 铁枪, 0, 0, 0, 0, 0, 0, 0)
