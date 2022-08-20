@@ -25,3 +25,4 @@ INCLUDE ../linkerscript/chapter_event.lds
 INCLUDE ../linkerscript/unit.lds
 INCLUDE ../linkerscript/other_texts.lds
 INCLUDE ../linkerscript/menu.lds
+INCLUDE ../linkerscript/storage.lds
