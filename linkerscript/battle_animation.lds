@@ -2,7 +2,10 @@
 .rodata.fireDragonDetection1 : {*(.rodata.fireDragonDetection1)}
 . = 0x8052f6e;
 .rodata.fireDragonDetection2 : {*(.rodata.fireDragonDetection2)}
-
+. = 0x8052f54;
+.rodata.merlinusDetection1 : {*(.rodata.merlinusDetection1)}
+. = 0x8052f5e;
+.rodata.merlinusDetection2 : {*(.rodata.merlinusDetection2)}
 . = 0x8054850;
 .rodata.battleAnimationCompressionType1 : {*(.rodata.battleAnimationCompressionType1)}
 . = 0x80548ec;

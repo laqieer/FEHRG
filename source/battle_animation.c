@@ -7,6 +7,11 @@
 cu16 fireDragonDetection1 = 0;
 cu16 fireDragonDetection2 = 0;
 
+// Remove force real animation off for Merlinus.
+
+cu16 merlinusDetection1 = 0;
+cu16 merlinusDetection2 = 0;
+
 // Support more data compression types.
 
 cu32 battleAnimationCompressionType1 = 0xFF1AF7BE;
