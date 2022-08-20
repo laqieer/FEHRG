@@ -232,6 +232,15 @@ cu32 removeTargetPortraitInTradeMenu = 0;
 cu32 removePortraitInLevelUpAndClassChange = 0;
 cu32 removePortraitInLevelUpOnMap = 0;
 
+cu16 removePortraitInPrepScreenItemArrangementLowHword = 0;
+cu16 removePortraitInPrepScreenItemArrangementHighHword = 0;
+cu16 removePortraitInPrepScreenItemTradeLeftLowHword = 0;
+cu16 removePortraitInPrepScreenItemTradeLeftHighHword = 0;
+cu16 removePortraitInPrepScreenItemTradeRightLowHword = 0;
+cu16 removePortraitInPrepScreenItemTradeRightHighHword = 0;
+cu16 removePortraitInPrepScreenItemListLowHword = 0;
+cu16 removePortraitInPrepScreenItemListHighHword = 0;
+
 // Move item menu panel position to avoid overriding portrait
 
 // Force pos_x = 1
