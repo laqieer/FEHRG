@@ -27,8 +27,7 @@ BeginningScene:
 	ENUN
 	LOU1 AllyUnits
 	ENUN
-	LOU1 NPCUnits
-	ENUN
+	OOBB
 	MUSC BGM_EVENT_PLAIN_01
 	TEX1 EvTx_X0002_MID_SCENARIO_MAP_BEGIN
 	REMA
@@ -48,8 +47,6 @@ EnemyUnits:
 	ENEMY_UNIT(ユリア, 33, 1, AUTO_LEVEL, 14, 4, 闪光, 0, 0, 0, 0, 0, 0, 0)
 	ENEMY_UNIT(杂兵, 29, 1, AUTO_LEVEL, 3, 0, 回复之杖, 0, 0, 0, HealAllies, 0, 0, 0)
 	ENEMY_UNIT(杂兵, 40, 1, AUTO_LEVEL, 0, 8, 铁斧, 0, 0, 0, 0, 0, 0, 0)
-	END_UNIT
-NPCUnits:
 	END_UNIT
 CharacterBasedEvents:
 	END_MAIN

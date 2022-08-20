@@ -738,7 +738,7 @@ map = pytiled_parser.parse_map(map_file)
 tilesets = get_tilesets(map)
 layers = get_layers(map)
 
-hasPrepScreen = map.properties.get('hasPrepScreen') == True
+hasPrepScreen = map.properties is not None and map.properties.get('hasPrepScreen') == True
 
 # definitions
 print('\t#include "event.h"')

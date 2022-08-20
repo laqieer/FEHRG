@@ -17,9 +17,10 @@ print('const unsigned short {}TileMap[] = {{'.format(map_name))
 print('\t{} + ({} << 8), // width + (height << 8)'.format(map.map_size.width, map.map_size.height))
 for i, data in enumerate(layer.data):
     print('\t{}, // {}'.format(', '.join('4 * ' + str(tileId - tileset.firstgid + 1) for tileId in data), i))
-print('};\n')
+print('};')
 s = ''
 if '变换' in layers:
+    print('')
     print('#include <tonc.h>')
     print('#include "chapter_map.h"')
     print('')
