@@ -103,7 +103,7 @@ enum {
 
 extern const struct Chapter Chapters[];
 
-#define CHAPTER_WITH_MAP_CHANGE(id, name, title, bgm, hasPrepScreen, mapChangeId) { name, id + 1, id + 1, id + 1, id + 1, id, 0, 0, mapChangeId, 0, hasPrepScreen, id, id, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, title, title, id + 1, 0, 0, 0, 0, 0, 0, 0, id, id, 0xff, 0xff, 0, 0, 1, TRUE, TID_DEFEAT_ALL, TID_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
+#define CHAPTER_WITH_MAP_CHANGE(id, name, title, bgm, hasPrepScreen, mapChangeId) { name, id + 1, id + 1, id + 1, id + 1, id, 0, 0, mapChangeId, 0, hasPrepScreen, id, id, 1, 0, 0, 4, 3, 0, bgm, bgm, bgm, bgm, bgm, bgm, 0xffff, 0xffff, 0x25, 0xffff, 0xffff, 30, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 100, 100, 100, 100, 80, 80, 80, 80, 60, 60, 60, 60, 40, 40, 40, 40, 1060, 1060, 1060, 1060, title, title, id + 1, 0, 0, 0, 0, 0, 0, 0, 2 * id, 2 * id, 0xff, 0xff, 0, 0, 1, TRUE, TID_DEFEAT_ALL, TID_GOAL_DEFEAT_ALL, 1, 0, 0, 0xff, 0, 14},
 #define SIMPLE_CHAPTER(id, name, title, bgm, hasPrepScreen) CHAPTER_WITH_MAP_CHANGE(id, name, title, bgm, hasPrepScreen, 0)
 
 struct Chapter *GetChapter(int chapterId);
