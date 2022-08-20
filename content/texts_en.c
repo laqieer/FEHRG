@@ -15,4 +15,5 @@ const char * const textsEN[] = {
     #include "../locale/USEN/music.txt"
     #include "../locale/USEN/terrain.txt"
     #include "../locale/USEN/other.txt"
+    #include "../locale/USEN/summoner.txt"
 };

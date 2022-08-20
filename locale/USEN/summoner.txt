@@ -1,0 +1,50 @@
+[0x305] = TEXT_TACTICIAN_NAME"'s scroll. Gives" TEXT_NEWLINE
+            "its carrier an advantage.",
+
+[0x30F] = "A summoner's sword.",
+
+[0x310] = "A summoner's lance.",
+
+[0x311] = "A summoner's axe.",
+
+[0x312] = "A summoner's bow.",
+
+[0x380] = "Check your summoner's rating" TEXT_NEWLINE
+            "and character data.",
+
+[0x3E4] = "Summoner's name",
+
+[0x3E5] = "Summoner's blood type",
+
+[0x3E6] = "Month of summoner's birth",
+
+[0x3E7] = "Summoner's gender",
+
+[0x552] = "Summoner",
+
+[0x569] = "Kiran",
+
+[0x79D] = "Kiran",
+
+[0x79E] = "You are a summoner with the special" TEXT_NEWLINE
+            "ability to call upon legendary Heroes" TEXT_PUSH_A TEXT_NEWLINE
+            "from different Fire Emblem worlds." TEXT_NEWLINE
+            "In order to save the Kingdom of Askr" TEXT_PUSH_A TEXT_NEWLINE
+            "from destruction, join the Order of" TEXT_NEWLINE
+            "Heroes and face never-ending challenge." TEXT_PUSH_A TEXT_NEWLINE
+            "Set your "TEXT_TOGGLE_RED"name"TEXT_TOGGLE_RED", "TEXT_TOGGLE_RED"blood" TEXT_NEWLINE
+            "type"TEXT_TOGGLE_RED", "TEXT_TOGGLE_RED"birth month"TEXT_TOGGLE_RED", and "TEXT_TOGGLE_RED"gender"TEXT_TOGGLE_RED"." TEXT_PUSH_A TEXT_NEWLINE2
+            "Use the + Control Pad and" TEXT_NEWLINE
+            "the A Button to enter info." TEXT_PUSH_A TEXT_NEWLINE2
+            "To start with the default" TEXT_NEWLINE
+            "settings, simply select No." TEXT_PUSH_A TEXT_NEWLINE,
+
+[0x79F] = "Enter information?" TEXT_NEWLINE TEXT_NEWLINE
+            TEXT_YES,
+
+[0x7A0] = "Are these the settings" TEXT_NEWLINE
+            "you want to use?" TEXT_NEWLINE
+            TEXT_YES,
+
+[0x7A1] = "Create a new summoner?" TEXT_NEWLINE TEXT_NEWLINE
+            TEXT_YES,

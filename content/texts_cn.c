@@ -15,4 +15,5 @@ const char * const textsCN[] = {
     #include "../locale/CNZH/music.txt"
     #include "../locale/CNZH/terrain.txt"
     #include "../locale/CNZH/other.txt"
+    #include "../locale/CNZH/summoner.txt"
 };

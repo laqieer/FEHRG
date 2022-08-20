@@ -1,0 +1,54 @@
+[0x305] = "召唤师"TEXT_TACTICIAN_NAME"所著的书籍" TEXT_NEWLINE
+            "拿着它会对战斗有利",
+
+[0x30F] = "召唤师"TEXT_TACTICIAN_NAME"之剑",
+
+[0x310] = "召唤师"TEXT_TACTICIAN_NAME"之枪",
+
+[0x311] = "召唤师"TEXT_TACTICIAN_NAME"之斧",
+
+[0x312] = "召唤师"TEXT_TACTICIAN_NAME"之弓",
+
+[0x380] = "对召唤师自己的事" TEXT_NEWLINE
+            "进行占卜",
+
+[0x3E4] = "召唤师的名字",
+
+[0x3E5] = "召唤师的血型",
+
+[0x3E6] = "召唤师的出生月份",
+
+[0x3E7] = "召唤师的性别",
+
+[0x552] = "召唤师",
+
+[0x569] = "艾克拉",
+
+[0x79D] = "艾克拉",
+
+[0x79E] = "你是拥有特殊力量的" TEXT_NEWLINE
+            "「召唤师」，可以借用身经百战" TEXT_PUSH_A TEXT_NEWLINE
+            "的英雄们之力。" TEXT_NEWLINE
+            "为了拯救濒临灭亡危机" TEXT_PUSH_A TEXT_NEWLINE
+            "的亚斯克王国，成为特务机关" TEXT_NEWLINE
+            "「纯白义勇队」的一员" TEXT_NEWLINE
+            "面临永无止尽的战斗。" TEXT_PUSH_A TEXT_NEWLINE
+            "首先"TEXT_TOGGLE_RED"名字"TEXT_TOGGLE_RED"和" TEXT_NEWLINE
+            TEXT_TOGGLE_RED"血型"TEXT_TOGGLE_RED"、"TEXT_TOGGLE_RED"出生月份"TEXT_TOGGLE_RED"、"TEXT_TOGGLE_RED"性别"TEXT_TOGGLE_RED TEXT_NEWLINE
+            "可以进行设定" TEXT_PUSH_A TEXT_NEWLINE2
+            "请按十字键和A键对" TEXT_NEWLINE
+            "各项进行设定。" TEXT_PUSH_A TEXT_NEWLINE2
+            "如果觉得输入太麻烦" TEXT_NEWLINE
+            "就请选择「否」。" TEXT_PUSH_A TEXT_NEWLINE
+            "将使用系统设定" TEXT_NEWLINE
+            "进行游戏。" TEXT_PUSH_A TEXT_NEWLINE,
+
+[0x79F] = "进行设定吗？" TEXT_NEWLINE TEXT_NEWLINE
+            TEXT_YES,
+
+[0x7A0] = "召唤师这样设定" TEXT_NEWLINE
+            "可以吗？" TEXT_NEWLINE
+            TEXT_YES,
+
+[0x7A1] = "召唤师是否参加？" TEXT_NEWLINE TEXT_NEWLINE
+            TEXT_YES,
