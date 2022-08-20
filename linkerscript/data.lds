@@ -767,6 +767,18 @@ BattleAnimConf_Corsair = 0x8d611ec;
 BattleAnimConf_FallenIceDragon = 0x8d61200;
 BattleAnimConf_TransporterHorse = 0x8d6120c;
 BattleAnimConf_UberSage = 0x8d61214;
+LuciusT1Animations = 0x8d6122c;
+LuciusT2Animations = 0x8d61240;
+LinusAnimations = 0x8d61258;
+LloydAnimations = 0x8d612a0;
+IsadoraAnimations = 0x8d612c4;
+NinoI2Animations = 0x8d612e0;
+LegaultT1Animations = 0x8d612f8;
+LegaultT2Animations = 0x8d61304;
+RavenT2Animations = 0x8d61310;
+GuyT1Animations = 0x8d61328;
+GuyT2Animations = 0x8d61334;
+HawkeyeAnimations = 0x8d61340;
 
 /* Battle Animation Palette. */
 

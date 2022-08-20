@@ -99,3 +99,16 @@ extern const struct BattleAnimationConfig HalberdierAnimations[];
 extern const struct BattleAnimationConfig RangerIkeAnimations[];
 extern const struct BattleAnimationConfig VanguardAnimations[];
 extern const struct BattleAnimationConfig CavalierAnimations[];
+
+extern const struct BattleAnimationConfig LuciusT1Animations[];
+extern const struct BattleAnimationConfig LuciusT2Animations[];
+extern const struct BattleAnimationConfig LinusAnimations[];
+extern const struct BattleAnimationConfig LloydAnimations[];
+extern const struct BattleAnimationConfig IsadoraAnimations[];
+extern const struct BattleAnimationConfig NinoI2Animations[];
+extern const struct BattleAnimationConfig LegaultT1Animations[];
+extern const struct BattleAnimationConfig LegaultT2Animations[];
+extern const struct BattleAnimationConfig RavenT2Animations[];
+extern const struct BattleAnimationConfig GuyT1Animations[];
+extern const struct BattleAnimationConfig GuyT2Animations[];
+extern const struct BattleAnimationConfig HawkeyeAnimations[];

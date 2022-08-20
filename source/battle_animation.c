@@ -192,4 +192,3 @@ bool interpretAnimation(struct Animation* anim)
 }
 
 const struct BattleAnimationConfig * const * const pCharacterAnimations = CharacterAnimations;
-
