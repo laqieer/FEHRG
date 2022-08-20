@@ -36,6 +36,7 @@ BattleAnimations:
     .word 0, 0, 0, vanguard_sword_modes, vanguard_sword_script_header, vanguard_sword_frames_r_header, vanguard_sword_frames_l_header, vanguard_sword_basic_pal
     .word 0, 0, 0, cavalier_axe_modes, cavalier_axe_script_header, cavalier_axe_frames_r_header, cavalier_axe_frames_l_header, cavalier_vanilla_basic_pal
     .word 0, 0, 0, cavalier_handaxe_modes, cavalier_handaxe_script_header, cavalier_handaxe_frames_r_header, cavalier_handaxe_frames_l_header, cavalier_vanilla_basic_pal
+    .word 0, 0, 0, troubadour_magic_modes, troubadour_magic_script_header, troubadour_magic_frames_r_header, troubadour_magic_frames_l_header, troubadour_vanilla_basic_pal
 
     .word 0, 0, 0, roy_sword_modes, roy_sword_script_header, roy_sword_frames_r_header, roy_sword_frames_l_header, roy_sword_basic_pal
     .word 0, 0, 0, roy_legendary_modes, roy_legendary_script_header, roy_legendary_frames_r_header, roy_legendary_frames_l_header, roy_legendary_basic_pal

@@ -783,6 +783,7 @@ HawkeyeAnimations = 0x8d61340;
 /* Battle Animation Palette. */
 
 cavalier_vanilla_basic_pal = 0x8eac0cc;
+troubadour_vanilla_basic_pal = 0x8f24490;
 
 /* Background. */
 

@@ -477,3 +477,32 @@ const struct BattleAnimationConfig CavalierAnimations[] = {
     },
     ANCFG_END
 };
+
+const struct BattleAnimationConfig TroubadourAnimations[] = {
+    {
+        ITYPE_STAFF,
+        true,
+        ANID_TROUBADOUR_STAFF
+    },
+    {
+        ITYPE_ANIMA,
+        true,
+        ANID_TROUBADOUR_MAGIC
+    },
+    {
+        ITYPE_LIGHT,
+        true,
+        ANID_TROUBADOUR_MAGIC
+    },
+    {
+        ITYPE_DARK,
+        true,
+        ANID_TROUBADOUR_MAGIC
+    },
+    {
+        ITYPE_ITEM,
+        true,
+        ANID_TROUBADOUR_STAFF
+    },
+    ANCFG_END
+};
