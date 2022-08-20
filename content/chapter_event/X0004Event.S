@@ -23,7 +23,6 @@ MiscBasedEvents:
 	DefeatAll(EndingScene)
 	END_MAIN
 BeginningScene:
-	ShowBG(BG001_Brave)
 	LOU1 EnemyUnits
 	ENUN
 	LOU1 AllyUnits

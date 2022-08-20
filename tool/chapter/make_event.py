@@ -718,6 +718,8 @@ def load_unit(object: TiledObject, side: UnitSide):
 
 def load_scenario(scenario: Scenario):
     text = '{}_MID_SCENARIO_{}'.format(map_name, scenario.name)
+    if text not in texts:
+        return
     bgm = text + '_BGM'
     bg = text + '_IMAGE'
     if bg in bgs:
@@ -728,9 +730,8 @@ def load_scenario(scenario: Scenario):
     if bgm in bgms:
         bgm = bgms[bgm]
         print('\tMUSC ' + bgm)
-    if text in texts:
-        print('\tTEX1 EvTx_' + text)
-        print('\tREMA')
+    print('\tTEX1 EvTx_' + text)
+    print('\tREMA')
 
 map_name = get_filename(sys.argv[1])
 map_file = Path(sys.argv[1])
