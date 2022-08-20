@@ -97,7 +97,8 @@
                             {
                              "guard":true,
                              "items":"\u706b\u708e",
-                             "level":4
+                             "level":4,
+                             "pursue":false
                             }
                         }],
                  "rotation":0,
@@ -121,7 +122,8 @@
                             {
                              "guard":true,
                              "items":"\u94c1\u5f13",
-                             "level":4
+                             "level":4,
+                             "pursue":false
                             }
                         }],
                  "rotation":0,
@@ -145,7 +147,8 @@
                             {
                              "guard":true,
                              "items":"\u95ea\u7535",
-                             "level":4
+                             "level":4,
+                             "pursue":false
                             }
                         }],
                  "rotation":0,

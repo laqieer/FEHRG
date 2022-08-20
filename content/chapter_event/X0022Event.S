@@ -49,9 +49,9 @@ EnemyUnits:
 	ENEMY_UNIT(杂兵, 36, 5, AUTO_LEVEL, 11, 7, 熔流, 0, 0, 0, 0, DoNotMove, 0, 0)
 	END_UNIT
 NPCUnits:
-	NPC_UNIT(サナキ, 33, 4, AUTO_LEVEL, 3, 16, 火炎, 0, 0, 0, 0, 0, 0, GuardTile)
-	NPC_UNIT(クレイン, 24, 4, AUTO_LEVEL, 4, 16, 铁弓, 0, 0, 0, 0, 0, 0, GuardTile)
-	NPC_UNIT(ラインハルト, 44, 4, AUTO_LEVEL, 5, 16, 闪电, 0, 0, 0, 0, 0, 0, GuardTile)
+	NPC_UNIT(サナキ, 33, 4, AUTO_LEVEL, 3, 16, 火炎, 0, 0, 0, 0, DoNotMove, 0, GuardTile)
+	NPC_UNIT(クレイン, 24, 4, AUTO_LEVEL, 4, 16, 铁弓, 0, 0, 0, 0, DoNotMove, 0, GuardTile)
+	NPC_UNIT(ラインハルト, 44, 4, AUTO_LEVEL, 5, 16, 闪电, 0, 0, 0, 0, DoNotMove, 0, GuardTile)
 	END_UNIT
 CharacterBasedEvents:
 	SelectHero(SANAKI)
