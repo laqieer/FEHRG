@@ -335,3 +335,4 @@ extern cu16 X0493TileMap[];
 
 extern const struct MapChange X0004MapChanges[];
 extern const struct MapChange X0021MapChanges[];
+extern const struct MapChange X0023MapChanges[];

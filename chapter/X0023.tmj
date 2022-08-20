@@ -1,0 +1,344 @@
+{ "compressionlevel":-1,
+ "height":17,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+            16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+            31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45,
+            46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
+            61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75,
+            76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
+            91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105,
+            106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120,
+            121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135,
+            136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150,
+            151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165,
+            166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180,
+            181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195,
+            196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210,
+            211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225,
+            226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240,
+            241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255],
+         "height":17,
+         "id":1,
+         "name":"\u5730\u56fe",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":15,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":2,
+         "layers":[
+                {
+                 "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    4, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    12, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                 "height":17,
+                 "id":3,
+                 "name":"1",
+                 "opacity":1,
+                 "type":"tilelayer",
+                 "visible":true,
+                 "width":15,
+                 "x":0,
+                 "y":0
+                }],
+         "name":"\u53d8\u6362",
+         "opacity":1,
+         "type":"group",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":4,
+         "name":"\u6211\u519b",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":256,
+                 "height":32,
+                 "id":1,
+                 "name":"\u30a2\u30eb\u30d5\u30a9\u30f3\u30b9",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":144.77538107564,
+                 "y":31.645671555939
+                }, 
+                {
+                 "class":"",
+                 "gid":359,
+                 "height":32,
+                 "id":2,
+                 "name":"\u30b7\u30e3\u30ed\u30f3",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":128.13,
+                 "y":31.1855047454702
+                }, 
+                {
+                 "class":"",
+                 "gid":378,
+                 "height":32,
+                 "id":3,
+                 "name":"\u30a2\u30f3\u30ca",
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":112.103537532355,
+                 "y":31.73
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"\u53cb\u519b",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":434,
+                 "height":32,
+                 "id":4,
+                 "name":"\u30aa\u30eb\u30a8\u30f3",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "guard":true,
+                             "items":"\u95ea\u7535",
+                             "level":5,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":112.82,
+                 "y":15.24
+                }, 
+                {
+                 "class":"",
+                 "gid":430,
+                 "height":32,
+                 "id":5,
+                 "name":"\u30a8\u30eb\u30c8\u30b7\u30e3\u30f3",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "guard":true,
+                             "items":"\u5fc5\u6740\u5203",
+                             "level":5,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":128.94,
+                 "y":15.0783410138249
+                }, 
+                {
+                 "class":"",
+                 "gid":419,
+                 "height":32,
+                 "id":6,
+                 "name":"\u30e9\u30b1\u30b7\u30b9",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "guard":true,
+                             "items":"\u56de\u590d\u4e4b\u6756",
+                             "level":5,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":145.456221198157,
+                 "y":15
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":6,
+         "name":"\u654c\u519b",
+         "objects":[
+                {
+                 "class":"",
+                 "gid":585,
+                 "height":32,
+                 "id":7,
+                 "name":"\u30b8\u30e3\u30d5\u30a1\u30eb",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "items":"\u5fc5\u6740\u5203",
+                             "level":6,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":0.17,
+                 "y":143.73
+                }, 
+                {
+                 "class":"",
+                 "gid":558,
+                 "height":32,
+                 "id":8,
+                 "name":"\u30cb\u30ce",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "items":"\u95ea\u7535",
+                             "level":6,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":128.94,
+                 "y":175.37
+                }, 
+                {
+                 "class":"",
+                 "gid":565,
+                 "height":32,
+                 "id":9,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "items":"\u94a2\u5251",
+                             "level":6,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":80.0184331797235,
+                 "y":239.502304147465
+                }, 
+                {
+                 "class":"",
+                 "gid":569,
+                 "height":32,
+                 "id":10,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"unit",
+                         "propertytype":"Unit",
+                         "type":"class",
+                         "value":
+                            {
+                             "items":"\u95ea\u7535",
+                             "level":6,
+                             "pursue":false
+                            }
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":16,
+                 "x":0.294930875576037,
+                 "y":238.58064516129
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":7,
+ "nextobjectid":11,
+ "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"hasPrepScreen",
+         "type":"bool",
+         "value":true
+        }],
+ "renderorder":"right-down",
+ "tiledversion":"1.9.0",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "source":"X0023.tsj"
+        }, 
+        {
+         "firstgid":256,
+         "source":"unit\/ally.tsx"
+        }, 
+        {
+         "firstgid":391,
+         "source":"unit\/npc.tsx"
+        }, 
+        {
+         "firstgid":526,
+         "source":"unit\/enemy.tsx"
+        }],
+ "tilewidth":16,
+ "type":"map",
+ "version":"1.9",
+ "width":15
+}

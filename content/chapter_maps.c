@@ -14,6 +14,7 @@ cu32 * const ChapterTilesetTiles[] = {
     X0006Tiles,
     X0021Tiles,
     X0022Tiles,
+    X0023Tiles,
 };
 
 cu16 * const ChapterTilesetMaps[] = {
@@ -27,6 +28,7 @@ cu16 * const ChapterTilesetMaps[] = {
     X0006Map,
     X0021Map,
     X0022Map,
+    X0023Map,
 };
 
 cu16 * const ChapterTilesetPals[] = {
@@ -40,6 +42,7 @@ cu16 * const ChapterTilesetPals[] = {
     X0006Pal,
     X0021Pal,
     X0022Pal,
+    X0023Pal,
 };
 
 cu8 * const ChapterTerrains[] = {
@@ -53,6 +56,7 @@ cu8 * const ChapterTerrains[] = {
     X0006Terrain,
     X0021Terrain,
     X0022Terrain,
+    X0023Terrain,
 };
 
 cu16 * const ChapterMaps[] = {
@@ -65,10 +69,12 @@ cu16 * const ChapterMaps[] = {
     X0006TileMap,
     X0021TileMap,
     X0022TileMap,
+    X0023TileMap,
 };
 
 const struct MapChange * const ChapterMapChanges[] = {
     NULL,
     X0004MapChanges,
     X0021MapChanges,
+    X0023MapChanges,
 };
