@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "X0021.tmj",
+    "activeFile": "X0022.tmj",
     "expandedProjectPaths": [
-        ".",
-        "unit"
+        "unit",
+        "."
     ],
     "fileStates": {
         "X0001.tmj": {
@@ -107,13 +107,28 @@
                 6
             ],
             "scale": 2.17,
-            "selectedLayer": 6,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 64.74654377880184,
-                "y": 91.01382488479263
+                "x": 120.04608294930875,
+                "y": 136.63594470046084
             }
         },
         "X0021.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "X0022.tmj": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 2.173125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 65.11360368133447,
+                "y": 90.882945067587
+            }
+        },
+        "X0022.tsj": {
             "scaleInDock": 1,
             "scaleInEditor": 2
         },
@@ -154,12 +169,15 @@
     "map.tileWidth": 16,
     "map.width": 15,
     "openFiles": [
-        "X0021.tmj"
+        "X0022.tmj"
     ],
     "project": "chapters.tiled-project",
-    "property.type": "bool",
+    "property.type": "Unit",
     "recentFiles": [
+        "X0022.tmj",
         "X0021.tmj",
+        "X0022.tsj",
+        "unit/npc.tsx",
         "X0006.tmj",
         "X0021.tsj",
         "X0006.tsj",
@@ -167,10 +185,7 @@
         "XX001.tmj",
         "X0001.tmj",
         "X0002.tmj",
-        "X0003.tmj",
-        "X0004.tmj",
-        "X0005.tsj",
-        "X0004.tsj"
+        "X0003.tmj"
     ],
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {
