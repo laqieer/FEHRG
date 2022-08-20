@@ -396,9 +396,9 @@
 
 [TID_OtherText198] = "Give All",
 
-[TID_OtherText199] = "Choose ",
+[TID_OtherText199] = "Choose unit",
 
-[TID_OtherText200] = "unit",
+[TID_OtherText200] = "",
 
 [TID_OtherText201] = "Trd",
 
@@ -408,9 +408,9 @@
 
 [TID_OtherText204] = "Sell",
 
-[TID_OtherText205] = "Choose unit ",
+[TID_OtherText205] = "Pick",
 
-[TID_OtherText206] = "to trade with",
+[TID_OtherText206] = "more units",
 
 [TID_OtherText207] = "HP",
 
