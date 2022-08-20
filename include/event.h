@@ -69,6 +69,7 @@
 #define MUS1 .hword 0x76,
 #define MUSC .hword 0x76,
 #define MUS2 .hword 0x77,
+#define MUSS .hword 0x77,
 #define MURE .hword 0x78,
 #define MUS3 .hword 0x79,
 #define SOUN .hword 0x7d,
@@ -133,10 +134,11 @@
 // Select heroes.
 #define SelectHero(character) CharacterEvent(Anna, CHARA_ID_##character, 10, Select_##character, 0)
 #define Select(character) Select_##character: \
-    MUSC BGM_JOIN_US; \
+    MUSS BGM_JOIN_US; \
     TEXT EvTx_MID_##character##_JOIN; \
     REMA; \
     CharacterJoin(CHARA_ID_##character); \
+    MURE 5; \
     ENDA
 
 // Move to chapter
