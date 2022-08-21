@@ -240,6 +240,8 @@ cu16 removePortraitInPrepScreenItemTradeRightLowHword = 0;
 cu16 removePortraitInPrepScreenItemTradeRightHighHword = 0;
 cu16 removePortraitInPrepScreenItemListLowHword = 0;
 cu16 removePortraitInPrepScreenItemListHighHword = 0;
+cu16 removePortraitInPrepScreenItemSellLowHword = 0;
+cu16 removePortraitInPrepScreenItemSellHighHword = 0;
 
 // Move item menu panel position to avoid overriding portrait
 

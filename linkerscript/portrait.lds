@@ -57,6 +57,9 @@
 . = 0x80980f2;
 .rodata.removePortraitInPrepScreenItemListLowHword : {*(.rodata.removePortraitInPrepScreenItemListLowHword)}
 .rodata.removePortraitInPrepScreenItemListHighHword : {*(.rodata.removePortraitInPrepScreenItemListHighHword)}
+. = 0x80992b2;
+.rodata.removePortraitInPrepScreenItemSellLowHword : {*(.rodata.removePortraitInPrepScreenItemSellLowHword)}
+.rodata.removePortraitInPrepScreenItemSellHighHword : {*(.rodata.removePortraitInPrepScreenItemSellHighHword)}
 . = 0x801e2aa;
 .rodata.itemInfoPanelPosX : {*(.rodata.itemInfoPanelPosX)}
 . = 0x801e2cc;
