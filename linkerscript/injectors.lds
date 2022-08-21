@@ -26,3 +26,4 @@ INCLUDE ../linkerscript/unit.lds
 INCLUDE ../linkerscript/other_texts.lds
 INCLUDE ../linkerscript/menu.lds
 INCLUDE ../linkerscript/storage.lds
+INCLUDE ../linkerscript/chapter_op.lds
