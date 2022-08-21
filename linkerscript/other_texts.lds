@@ -220,7 +220,7 @@
 .rodata.textIdOtherText109 : {*(.rodata.textIdOtherText109)}
 . = 0x8c07e68;
 .rodata.textIdOtherText110 : {*(.rodata.textIdOtherText110)}
-. = 0x8c07ee8;
+/* . = 0x8c07ee8;
 .rodata.textIdOtherText111 : {*(.rodata.textIdOtherText111)}
 . = 0x8c07f48;
 .rodata.textIdOtherText112 : {*(.rodata.textIdOtherText112)}
@@ -235,7 +235,7 @@
 . = 0x803e494;
 .rodata.textIdOtherText117 : {*(.rodata.textIdOtherText117)}
 . = 0x803e874;
-.rodata.textIdOtherText118 : {*(.rodata.textIdOtherText118)}
+.rodata.textIdOtherText118 : {*(.rodata.textIdOtherText118)} */
 . = 0x803f44c;
 .rodata.textIdOtherText119 : {*(.rodata.textIdOtherText119)}
 . = 0x8040140;
