@@ -510,3 +510,5 @@
 .rodata.textIdOtherText254 : {*(.rodata.textIdOtherText254)}
 /*. = 0x809ef70;
 .rodata.textIdOtherText255 : {*(.rodata.textIdOtherText255)}*/
+. = 0x8096830;
+.rodata.textIdOtherText256 : {*(.rodata.textIdOtherText256)}

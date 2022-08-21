@@ -509,3 +509,5 @@
 [TID_OtherText254] = "メッセージテスト３",
 
 [TID_OtherText255] = "AGB-FE7",
+
+[TID_OtherText256] = "うけとる",

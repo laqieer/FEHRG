@@ -509,3 +509,5 @@
 [TID_OtherText254] = "Test Message 3",
 
 [TID_OtherText255] = "AGB-FE7",
+
+[TID_OtherText256] = "Take",

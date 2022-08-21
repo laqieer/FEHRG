@@ -258,3 +258,4 @@ cu32 textIdOtherText252 = TID_OtherText252;
 cu32 textIdOtherText253 = TID_OtherText253;
 cu32 textIdOtherText254 = TID_OtherText254;
 cu32 textIdOtherText255 = TID_OtherText255;
+cu32 textIdOtherText256 = TID_OtherText256;
