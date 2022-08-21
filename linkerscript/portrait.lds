@@ -72,3 +72,5 @@
 .text.startFaceFadeIn : {*(.text.startFaceFadeIn)}
 . = 0x80073f4;
 .text.startFaceFadeOut : {*(.text.startFaceFadeOut)}
+. = 0x8d5e23c + 28 * 0xdf;
+.rodata.FehPortrait : {*(.rodata.FehPortrait)}

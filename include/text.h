@@ -82,6 +82,8 @@ extern const char * const Texts[];
 
 /* Portraits. */
 
+#define Feh "\xdf\x1"
+
 #define ch00_01_Alfons_M_Normal "\x1\x2"
 #define ch00_01_Alfons_MF_Pair "\x2\x2"
 #define ch00_01_Alfons_M_SpringFes18 "\x3\x2"

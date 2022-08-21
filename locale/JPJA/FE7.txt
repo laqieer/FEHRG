@@ -1,0 +1,23 @@
+[0x004A] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "中断しますか？"TEXT_NEWLINE
+""TEXT_YES"",
+
+[0x004C] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "降伏しますか？"TEXT_NEWLINE
+""TEXT_YES"",
+
+[0x004D] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "ダメージが与えられません"TEXT_NEWLINE
+"終了しますか？ "TEXT_YES"",
+
+[0x004F] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "準備中です"TEXT_NEWLINE
+"しばらくお待ちください",
+
+[0x0054] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "セーブデータを全部消去します"TEXT_NEWLINE
+"よろしいですか？ "TEXT_NO"",
+
+[0x0057] =
+""TEXT_OPEN_LEFT""TEXT_LOAD_FACE Feh "あら　訓練を終了するのかしら？"TEXT_NEWLINE
+""TEXT_YES"",

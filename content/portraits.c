@@ -274,3 +274,17 @@ const struct Portrait newPortraits[] = {
     DEFINE_FACE(ch00_18_Srasir_F_Normal, 4, 2)
     DEFINE_FACE(ch00_17_Lif_M_Normal, 4, 0)
 };
+
+// Anna -> Feh
+const struct Portrait FehPortrait = {
+    FehTiles,
+    NULL,
+    FehPal,
+    NULL,
+    NULL,
+    0,
+    0,
+    0,
+    0,
+    NULL
+};
