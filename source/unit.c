@@ -25,3 +25,33 @@ cu32 unitStateCheckForCounting = US_UNAVAILABLE | US_HIDDEN;
 //      AddToUnitList(unit, proc);
 // unitStateCheckForListing: US_UNAVAILABLE -> US_UNAVAILABLE | US_HIDDEN
 cu32 unitStateCheckForListing = US_UNAVAILABLE | US_HIDDEN;
+
+void loadUnitStatsCore(struct Unit *unit, const struct Character *character)
+{
+    unit->maxHP = character->baseHP + unit->pClass->baseHP;
+    unit->pow   = character->basePow + unit->pClass->basePow;
+    unit->skl   = character->baseSkl + unit->pClass->baseSkl;
+    unit->spd   = character->baseSpd + unit->pClass->baseSpd;
+    unit->def   = character->baseDef + unit->pClass->baseDef;
+    unit->res   = character->baseRes + unit->pClass->baseRes;
+    unit->lck   = character->baseLck;
+
+    unit->conBonus = 0;
+
+    // for (int i = 0; i < 8; ++i) {
+    //     unit->ranks[i] = unit->pClass->baseRanks[i];
+
+    //     if (unit->pCharacter->baseRanks[i])
+    //         unit->ranks[i] = unit->pCharacter->baseRanks[i];
+    // }
+
+    if (UNIT_FACTION(unit) == FACTION_BLUE && (unit->level != UNIT_LEVEL_MAX))
+        unit->exp = 0;
+    else
+        unit->exp = UNIT_EXP_DISABLED;
+}
+
+void loadUnitStats(struct Unit *unit, const struct Character *character)
+{
+    loadUnitStatsCore(unit, character);
+}

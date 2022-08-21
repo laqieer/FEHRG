@@ -6,3 +6,5 @@
 .rodata.unitStateCheckForCounting : {*(.rodata.unitStateCheckForCounting)}
 . = 0x808a0f0;
 .rodata.unitStateCheckForListing : {*(.rodata.unitStateCheckForListing)}
+. = 0x8017d20;
+.text.loadUnitStats : {*(.text.loadUnitStats)}
