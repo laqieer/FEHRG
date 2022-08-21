@@ -436,12 +436,12 @@
 .rodata.textIdOtherText217 : {*(.rodata.textIdOtherText217)}
 . = 0x8095d18;
 .rodata.textIdOtherText218 : {*(.rodata.textIdOtherText218)}
-. = 0x8d8d114;
+/*. = 0x8d8d114;
 .rodata.textIdOtherText219 : {*(.rodata.textIdOtherText219)}
 . = 0x8d8d110;
 .rodata.textIdOtherText220 : {*(.rodata.textIdOtherText220)}
 . = 0x8d8d10c;
-.rodata.textIdOtherText221 : {*(.rodata.textIdOtherText221)}
+.rodata.textIdOtherText221 : {*(.rodata.textIdOtherText221)}*/
 . = 0x80964ec;
 .rodata.textIdOtherText222 : {*(.rodata.textIdOtherText222)}
 . = 0x8096828;
@@ -456,10 +456,10 @@
 .rodata.textIdOtherText227 : {*(.rodata.textIdOtherText227)}
 . = 0x8097da0;
 .rodata.textIdOtherText228 : {*(.rodata.textIdOtherText228)}
-. = 0x8d8d414;
+/*. = 0x8d8d414;
 .rodata.textIdOtherText229 : {*(.rodata.textIdOtherText229)}
 . = 0x8d8d410;
-.rodata.textIdOtherText230 : {*(.rodata.textIdOtherText230)}
+.rodata.textIdOtherText230 : {*(.rodata.textIdOtherText230)}*/
 . = 0x8098fc8;
 .rodata.textIdOtherText231 : {*(.rodata.textIdOtherText231)}
 . = 0x8098fcc;
