@@ -50,7 +50,7 @@ Options→Language→Eng.1/Eng.2
 
 `DPCM=disabled`: not to compress sound samples
 
-`SNR=no/?`: to control compressed sound quality (default: 5[dB])
+`SNR=no/?`: to control compressed sound quality (default: 15[dB])
 
 `SCR=no/?`: to control sound compression rate (default: 0.8)
 
