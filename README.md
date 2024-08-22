@@ -8,6 +8,8 @@
 
 [Mainline Story Remake](https://github.com/laqieer/fehr)
 
+[New Mainline Story Remake](https://github.com/laqieer/fehrr)
+
 ## Patch
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/laqieer/FEHRG)](https://github.com/laqieer/FEHRG/releases/latest)
 
